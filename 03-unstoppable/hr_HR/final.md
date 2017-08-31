@@ -29,7 +29,7 @@ Prvi način je deep packet inspection, ili dubinsko pregledavanje podataka koji 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Confirmed: Social media slowdown for many users detected in <a href="https://twitter.com/hashtag/Turkey?src=hash">#Turkey</a> after <a href="https://twitter.com/hashtag/Russia?src=hash">#Russia</a> ambassador shooting broadcast ban<a href="https://t.co/Fga9p84TIq">https://t.co/Fga9p84TIq</a> <a href="https://t.co/V8jyjWW6mS">pic.twitter.com/V8jyjWW6mS</a></p>&mdash; Turkey Blocks (@TurkeyBlocks) <a href="https://twitter.com/TurkeyBlocks/status/810916025189486592">December 19, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Iako se to ne čini kao veliki problem jer većinski dio mreže ostaje na životu, jedan koordinirani napad na razini, primjerice, cijele Europe bio bi koban za prosječnog korisnika koji je tek ušao u kripto vode. Još gore, sve IP adrese svih korisnika Bitcoin protokola su javne, te je bez tih metoda skrivanja trivijalno naći pravi identitet i lokaciju korisnika, a kao što smo vidjeli gore u slučaju Turske, i Tor promet je lako blokirati. Više o *pravoj* anonimnosti u svijetu kriptovaluta saznajte [ovdje][anonymous].
+Iako se to ne čini kao veliki problem jer većinski dio mreže ostaje na životu, jedan koordinirani napad na razini, primjerice, cijele Europe bio bi koban za prosječnog korisnika koji je tek ušao u kripto vode. Još gore, sve IP adrese svih korisnika Bitcoin protokola su javne, te je bez tih metoda skrivanja trivijalno naći pravi identitet i lokaciju korisnika, a kao što smo vidjeli gore u slučaju Turske, i Tor promet je lako blokirati. Više o *pravoj* anonimnosti u svijetu kriptovaluta saznati ćete uskoro u nadolazećem članku.
 
 Nadalje, skrivanje Bitcoin prometa Tor mrežom samo je donekle ostvarivo - Bitcoin, da bi ostao funckionalan, jednostavno **mora** imati barem nekoliko korisnika u javno dostupnom internet prostoru (dakle, ne-skriveno), pa stoga moramo računati na to da u barem jednoj zemlji Bitcoin mora ostati legalan i funckionalan ako želimo da globalno opstane. Tada nastupa novi problem - država, nakon što ih identificira, lako blokira promet prema tim ostalim Bitcoin čvorovima, i upadamo u tehnološku utrku s državom - tko će prije zaobići metode od onog drugog.
 
@@ -58,9 +58,7 @@ Dok nam je svima drago da se konačno borimo protiv banaka i lažno nametnutih v
 
 > Tek kad kriptovalute postanu _nezamijenjive_ postati će i _nezaustavljive_
 
-Kako bismo uistinu pobijedili i učinili kriptovalute zaista nezaustavljivima, potrebno je širenje znanja o kriptovalutama i njihovo prihvaćanje od strane šire javnosti. Tek kad kriptovalute postanu _nezamijenjive_ postati će i _nezaustavljive_. Zato ne čekajte - [pridružite nam se čim prije][buy-cc].
+Kako bismo uistinu pobijedili i učinili kriptovalute zaista nezaustavljivima, potrebno je širenje znanja o kriptovalutama i njihovo prihvaćanje od strane šire javnosti. Tek kad kriptovalute postanu _nezamijenjive_ postati će i _nezaustavljive_.
 
-[cryptocurrency]: /hr/2017/08/20/cryptocurrency/
-[anonymous]: anonymous
-[blockchain]: /hr/2017/08/20/blockchain-explained-blockchain-works/
-[buy-cc]: buycrypto
+[cryptocurrency]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/
+[blockchain]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/

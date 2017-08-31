@@ -1,4 +1,4 @@
-Because of the decentralized nature of Bitcoin (see [blockchain][blockchain-en]) and other [cryptocurrencies][cryptocurrency-en], many consider them unstoppable.
+Because of the decentralized nature of Bitcoin (see [blockchain][blockchain]) and other [cryptocurrencies][cryptocurrency], many consider them unstoppable.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EQO1AUuFnyg" frameborder="0" allowfullscreen></iframe>
 
@@ -14,7 +14,7 @@ Many see cryptocurrencies as next level torrents - the transfer of data over the
 
 In this system, a person with a given file lets others download it from them without an intermediary server. The person downloading the file is called a _leecher_ while the provider of the file is called the _seeder_. Multiple leechers can download from multiple seeders, so that if one seed disappears the file can still be downloaded from the others. The file remains alive and accessible so long as there is at least one seeder remaining. The only way to completely stop the spreading of a file is destroying all the seeds, but since the files are stored on individual users' computers and the torrent system is global, such an approach of media distribution is seen as unstoppable.
 
-Cryptocurrency works in much the same way, as we've already explained in the [blockchain][blockchain-en] post.
+Cryptocurrency works in much the same way, as we've already explained in the [blockchain][blockchain] post.
 
 But while torrents transfer mainly media (books, movies, TV shows, games), cryptocurrency deals in finance - and this is where we're stepping on the toes of some giants much more dangerous than the media conglomerates: the government.
 
@@ -29,7 +29,7 @@ The first approach is deep packet inspection - ISPs checking for easily identifi
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Confirmed: Social media slowdown for many users detected in <a href="https://twitter.com/hashtag/Turkey?src=hash">#Turkey</a> after <a href="https://twitter.com/hashtag/Russia?src=hash">#Russia</a> ambassador shooting broadcast ban<a href="https://t.co/Fga9p84TIq">https://t.co/Fga9p84TIq</a> <a href="https://t.co/V8jyjWW6mS">pic.twitter.com/V8jyjWW6mS</a></p>&mdash; Turkey Blocks (@TurkeyBlocks) <a href="https://twitter.com/TurkeyBlocks/status/810916025189486592">December 19, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Whereas that may not seem like a big problem because the majority of the network will stay operational, one coordinated attack on the level of, for example, all of Europe, would be fatal to the average user who just got into the crypto game. Even worse, all the IP addresses of Bitcoin users are public, so without hiding them via Tor or similar tools the users are susceptible to being tracked down and identified - and as we've seen in the case of Turkey above, even Tor traffic is blockable. More about *real* anonymity in cryptocurrency [here][anonymous-en].
+Whereas that may not seem like a big problem because the majority of the network will stay operational, one coordinated attack on the level of, for example, all of Europe, would be fatal to the average user who just got into the crypto game. Even worse, all the IP addresses of Bitcoin users are public, so without hiding them via Tor or similar tools the users are susceptible to being tracked down and identified - and as we've seen in the case of Turkey above, even Tor traffic is blockable. More about *real* anonymity in cryptocurrency in an upcoming post.
 
 Furthermore, hiding of Bitcoin traffic with something like Tor is only partially doable. Bitcoin needs the public internet to live - at least a part of it, at least one country needs to stay public with it (unhidden) for the global system to work. This makes another attack vector possible - the government can, once this one actor is identified, just block traffic towards those IPs because they *must* be public. At this point we basically enter into a race with the government, each trying to outwit the other and bypass the other's methods.
 
@@ -39,7 +39,7 @@ Another approach the government can take is making cryptocurrency illegal. Shoul
 
 ![No Bitcoin Here!](https://bitfalls.com/wp-content/uploads/2017/08/cryptocurrencies.png)
 
-Likewise, because transactions in the blockchain can have an arbitrary type of data attached, and the blockchain is immutable (unchangeable) - i.e. its complete history is preserved forever on every computer and cannot be altered, as explained in the [blockchain][blockchain-en] post, it is possible to send along information that's deemed illegal in certain countries - pedophilia, pirated material, government secrets... This would make the medium containing this illegal information (the blockchain itself) illegal to use. Indeed, the Bitcoin blockchain already contains an impressive amount of random oddities - from Nelson Mandela's picture and prayers to Valentine's Day messages - more info about that can be found [here](http://www.righto.com/2014/02/ascii-bernanke-wikileaks-photographs.html).
+Likewise, because transactions in the blockchain can have an arbitrary type of data attached, and the blockchain is immutable (unchangeable) - i.e. its complete history is preserved forever on every computer and cannot be altered, as explained in the [blockchain][blockchain] post, it is possible to send along information that's deemed illegal in certain countries - pedophilia, pirated material, government secrets... This would make the medium containing this illegal information (the blockchain itself) illegal to use. Indeed, the Bitcoin blockchain already contains an impressive amount of random oddities - from Nelson Mandela's picture and prayers to Valentine's Day messages - more info about that can be found [here](http://www.righto.com/2014/02/ascii-bernanke-wikileaks-photographs.html).
 
 ### Resources
 
@@ -57,9 +57,7 @@ While we're all glad to finally be fighting the banks and falsely imposed percep
 
 > Only once cryptocurrency becomes irreplaceable will it become truly unstoppable
 
-What's needed to truly win and make cryptocurrency unstoppable, is widespread adoption and _mainstreamiziation_. Only once cryptocurrencies have become irreplaceable will they have become unstoppable. So don't wait, stop hesitating - [join us by buying some, now][buy-cc-en].
+What's needed to truly win and make cryptocurrency unstoppable, is widespread adoption and _mainstreamiziation_. Only once cryptocurrencies have become irreplaceable will they have become unstoppable.
 
-[cryptocurrency-en]: 2017/08/20/cryptocurrency/
-[blockchain-en]: /2017/08/20/blockchain-explained-blockchain-works/
-[anonymous-en]: anonymous
-[buy-cc-en]: buycrypto
+[cryptocurrency]: https://bitfalls.com/2017/08/20/cryptocurrency/
+[blockchain]: https://bitfalls.com/2017/08/20/blockchain-explained-blockchain-works/
