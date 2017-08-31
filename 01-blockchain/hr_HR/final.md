@@ -1,4 +1,4 @@
-Što je to blockchain? 
+Što je to _blockchain_? 
 
 Kako funkcionira, zašto je popularan, i zašto će (prema nekima) revolucionizirati svijet? 
 
@@ -8,12 +8,12 @@ U ovom ćemo članku objasniti blockchain tehnologiju na relativno banalnom prim
 
 Mario treba poslati $100 svom bratu, Luigiju, jer Luigi kakav jest, opet je upao u dugove na drugom kraju svijeta.
 
-<img src="http://homestead.app/wp-content/uploads/2017/08/blockchain-01.png" alt="Luigi u dugovima" width="350">
+<img src="https://bitfalls.com/wp-content/uploads/2017/08/blockchain-01.png" alt="Luigi u dugovima" width="350">
 
 Mario ulazi u banku i kaže "Poslao bih $100, primatelj je Luigi." - na to mu službenik kaže "Bankovnu karticu, molim", "Osobnu, molim" i "Riješeno" - tim redom.
 
 
-<img src="http://homestead.app/wp-content/uploads/2017/08/blockchain-02.png" alt="Mario šalje novac bankom" width="350">
+<img src="https://bitfalls.com/wp-content/uploads/2017/08/blockchain-02.png" alt="Mario šalje novac bankom" width="350">
 
 U ovom *centraliziranom* scenariju, banka je **_centralni_** autoritet nad novcem kojim barataju Mario i Luigi. I Mario i Luigi vjeruju banci da je iznos koji oni vide na svom računu i prije i poslije transakcije istinit. 
 
@@ -21,7 +21,7 @@ Drugim riječima, kada Mario daje $100, a Luigi primi $100, oni vjeruju da se ta
 
 No, kada ovisimo o nekom centralnom autoritetu, dovoljno je da taj autoritert bude korumpiran (nestane zajedno s novcem, postane zao i ne ukuca vrijednost kod Luigija, ali smanji vrijednost kod Maria te zadrži iznos ili bude nespretan i ukuca krivu vrijednost...) i naše financije su ugrožene.
 
-<img src="http://homestead.app/wp-content/uploads/2017/08/blockchain-03.png" alt="Lopov krade novac iz banke" width="450">
+<img src="https://bitfalls.com/wp-content/uploads/2017/08/blockchain-03.png" alt="Lopov krade novac iz banke" width="450">
 
 Jedan način osiguranja od takvih situacija je da preskočimo banku i imamo sustav gdje sami upravljamo svojim financijama. 
 
@@ -31,13 +31,13 @@ Zamislite komad papira na kojem bilježimo stanje računa. No, ako se radi o sus
 
 Recimo da imamo 5 članova: Yoshi, Mario, Luigi, Wario, i Bowser, te svatko ima svoj komad papira.
 
-<img src="http://homestead.app/wp-content/uploads/2017/08/blockchain-04.png" alt="Svatko ima svoj komad papira" width="550">
+<img src="https://bitfalls.com/wp-content/uploads/2017/08/blockchain-04.png" alt="Svatko ima svoj komad papira" width="550">
 
 Mario želi poslati $100 Luigiju. Da bi to učinio, Mario svima objavi (glasno vičući): Šaljem $100 Luigiju, molim zabilježite!"
 
-<img src="http://homestead.app/wp-content/uploads/2017/08/blockchain-05.png" alt="Mario šalje novac Luigiju" width="550">
+<img src="https://bitfalls.com/wp-content/uploads/2017/08/blockchain-05.png" alt="Mario šalje novac Luigiju" width="550">
 
-U tom momentu svatko provjerava ima li Mario dovoljno novca na svom računu (da, stanje svakog računa je javno - više o anonimnosti [ovdje][anonymous]), i ako ima, na svoj komad papira zapišu taj prijenos. Ti se prijenosi (_transakcije_) nižu sve dok našim zapisničarima ne ponestane mjesta na papiru. Drugim riječima, **svaka** transakcija koja se obavi između **bilo koga** biva zapisana na **svačijem** papiru.
+U tom momentu svatko provjerava ima li Mario dovoljno novca na svom računu (da, stanje svakog računa je javno), i ako ima, na svoj komad papira zapišu taj prijenos. Ti se prijenosi (_transakcije_) nižu sve dok našim zapisničarima ne ponestane mjesta na papiru. Drugim riječima, **svaka** transakcija koja se obavi između **bilo koga** biva zapisana na **svačijem** papiru.
 
 Prije nego popunjeni papir stavimo u fascikl i uzmemo novi, treba ga potpisati posebnom šifrom - tj. zapečatiti. 
 
@@ -80,17 +80,17 @@ Recimo da je Yoshi našao kombinaciju 4000 + 5000. On svima kaže: "Imam desetku
 
 Svi papiri na kojima algoritam zaista daje 10000 smatraju se važećima, te se spremaju u fascikle. Ako na nečijem papiru dodavanje 4000 i 5000 originalnom zbroju ne daje 10000 (jer je, primjerice, Bowser napisao da je Yoshiju dao 400 a ne 200), znači da papir ima grešku - namjernu ili slučajnu. 
 
-<img src="http://homestead.app/wp-content/uploads/2017/08/blockchain-07.png" alt="Svi osim Bowsera daju potvrdni rezultat na provjeru" width="550">
+<img src="https://bitfalls.com/wp-content/uploads/2017/08/blockchain-07.png" alt="Svi osim Bowsera daju potvrdni rezultat na provjeru" width="550">
 
 U tom slučaju, Bowserov papir smatra se nevažećim, i ukoliko on želi i dalje koristiti ovaj sustav, mora baciti svoj papir, prepisati podatke s nečijeg kako bi i on imao zbroj od 10000, i obećati da će ubuduće biti pažljiviji. Yoshi, koji je našao dobitnu kombinaciju, dobiva nagradu u visini od npr. $5 od "sustava", tj. od nikoga - sustav proizvede novih $5 koji idu Yoshiju kao nagrada. 
 
-<img src="http://homestead.app/wp-content/uploads/2017/08/blockchain-08.png" alt="Yoshi prima nagradu, Bowser baca svoj papir" width="550">
+<img src="https://bitfalls.com/wp-content/uploads/2017/08/blockchain-08.png" alt="Yoshi prima nagradu, Bowser baca svoj papir" width="550">
 
 Ta *proizvodnja* se u svijetu kriptovaluta zove *mining* ili *rudarenje*.
 
 Ovo je bio drastično pojednostavljeni primjer, no jedino po čemu se stvarni sustav blockchaina razlikuje (osim toga da je u stvarnosti sve digitalno i automatizirano) je algoritam koji se koristi. Tu se radi o malo kompleksnijem algoritmu koji može primati i slova i ostale znakove, i izbacuje šifre poput sljedećih: `90bdaa79bbccacf8558edcbb30df48d7fc920eeb75a28f883de4100f58a99b49`. 
 
-<img src="http://homestead.app/wp-content/uploads/2017/08/blockchain-06.png" alt="Zapećaćen papir" width="350">
+<img src="https://bitfalls.com/wp-content/uploads/2017/08/blockchain-06.png" alt="Zapećaćen papir" width="350">
 
 Ovakve šifre zovu se *hash*-evi, i algoritmi koji ih proizvode, poput SHA256 algoritma, zovu se *hashing funkcije*. Probajte otvoriti [ovu poveznicu](http://www.xorbin.com/tools/sha256-hash-calculator) i unesite bilo koju količinu podataka u polje: bez obzira na to koliko podataka unesete (bila to jedna riječ ili cijeli sadržaj biblije), rezultat će uvijek biti *hash* od samo 64 znaka.
 
@@ -114,7 +114,7 @@ Računala koja pogađaju kombinacije kako bi otkrila hasheve zovu se _node_-ovi 
 
 Ovo pogađanje zove se *mining* ili *rudarenje*, jer "kopamo" nove kriptovalute iz "ničega", koristeći struju i vrijeme za pokretanje računala. Naši su likovi iz priče u vozilima upravo zato jer se utrkuju - onaj tko prvi otkrije dobitnu kombinaciju ujedno dobiva i nagradu od sustava za rješenje iste. Tako i u blockchain svijetu brže računalo (najčešće) znači i veće i češće profite.
 
-Samo postojanje nove važeće šifre smatra se **dokazom odrađenog posla** ili **proof of work**. Trenutno, većina kriptovaluta koristi **proof of work** kako bi učinile varanje i prelako pogađanje financijski neisplativim zbog visokih računa struje i utrošenog vremena. Neki protokoli poput Ethereuma prelaze na **proof of stake** (dokaz uloga), sustav u kojem se minimizira besmislena potrošnja struje, ali pojačava kazna za one ulagače koji rade protiv sustava. Više o tome u posebnom članku uskoro._
+Samo postojanje nove važeće šifre smatra se **dokazom odrađenog posla** ili **proof of work**. Trenutno, većina kriptovaluta koristi **proof of work** kako bi učinile varanje i prelako pogađanje financijski neisplativim zbog visokih računa struje i utrošenog vremena. Neki protokoli poput Ethereuma prelaze na **proof of stake** (dokaz uloga), sustav u kojem se minimizira besmislena potrošnja struje, ali pojačava kazna za one ulagače koji rade protiv sustava. Više o tome u posebnom članku uskoro.
 
 
 ## Zaključak
@@ -126,15 +126,10 @@ Blockchain omogućava distrubuiranu kontrolu nad financijama i izbjegavanje posr
 ## Kamo dalje?
 
 - [Što su kriptovalute][cryptocurrencies] da biste saznali o čemu se tu zapravo radi
-- [Što je Bitcoin][bitcoin] da biste naučili osnovne stvari o najpopularnijoj kriptovaluti
 - [Bitcoin nije nezaustavljiv][unstoppable] da biste saznali koliko je zapravo lako zaustaviti kriptovalute
-- [Bitcoin nije konačan][finite] da biste saznali zašto 21 miljun Bitcoina nije maksimum vrijednosti koju će ikada postići
-- [Bitcoin nije anoniman][anonymous] da biste saznali zašto se točno toliko često (netočno) govori da je Bitcoin anoniman i pogodan za "crno tržište".
-- [Što je Ethereum][ethereum] da biste naučili osnovne stvari o najmoćnijoj kriptovaluti
+- Bitcoin nije konačan - da biste saznali zašto 21 miljun Bitcoina nije maksimum vrijednosti koju će ikada postići (članak uskoro)
+- Bitcoin nije anoniman - da biste saznali zašto se točno toliko često (netočno) govori da je Bitcoin anoniman i pogodan za "crno tržište" (članak uskoro)
+- Što je Ethereum - da biste naučili osnovne stvari o najmoćnijoj kriptovaluti i sličnostima s Bitcoinom (članak uskoro)
 
-[cryptocurrencies]: /hr/cryptocurrencies
-[unstoppable]: /hr/unstoppable
-[finite]: /hr/finite
-[anonymous]: /hr/anonymous
-[bitcoin]: /hr/bitcoin
-[ethereum]: /hr/ethereum
+[cryptocurrencies]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/
+[unstoppable]: https://bitfalls.com/hr/2017/08/21/is-bitcoin-unstoppable/

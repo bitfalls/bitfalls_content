@@ -2,23 +2,23 @@ What is *the blockchain*?
 
 How does it work, why is it popular, and why do so many people claim it'll revolutionize the world?
 
-In this article, we'll explain blockchain technology on a banal example that's nonetheless valid for most cryptocurrencies currently in circulation. Not familiar with the concept of cryptocurrency? See [here][cryptocurrencies-en]!
+In this article, we'll explain blockchain technology on a banal example that's nonetheless valid for most cryptocurrencies currently in circulation. Not familiar with the concept of cryptocurrency? See [here][cryptocurrencies]!
 
 ## Mario and Luigi
 
 Mario needs to send $100 to his brother, Luigi, because Luigi being Luigi, he got into some debts at the other end of the world.
 
-<img src="http://homestead.app/wp-content/uploads/2017/08/blockchain-01.png" alt="Luigi in debt" width="350">
+<img src="https://bitfalls.com/wp-content/uploads/2017/08/blockchain-01.png" alt="Luigi in debt" width="350">
 
 Mario walks into the bank and says "I'd like to send $100 to Luigi". The teller says "Account card please.", "ID please", and "done", in that order.
 
-<img src="http://homestead.app/wp-content/uploads/2017/08/blockchain-02.png" alt="Mario sending money to Luigi through the bank" width="350">
+<img src="https://bitfalls.com/wp-content/uploads/2017/08/blockchain-02.png" alt="Mario sending money to Luigi through the bank" width="350">
 
 In this *centralized* scenario, the bank is the **_central_** authority over Mario's and Luigi's money. Both Mario and Luigi trust the bank to transfer the amount, and believe the numbers shown on their bank account statements. They trust the bank despite the fact that all the bank has to do is - change a number in a database. It's all digital, after all.
 
 However, when we're dependent on such a central authority, that authority poses a certain threat. It can disappear with our money, it can be evil and not increase Luigi's value while decreasing Mario's value, thereby keeping the difference, or it can just be clumsy and make a mistake. Our finances depend directly on their competence.
 
-<img src="http://homestead.app/wp-content/uploads/2017/08/blockchain-03.png" alt="A thief walking away with bank money behind the teller" width="450">
+<img src="https://bitfalls.com/wp-content/uploads/2017/08/blockchain-03.png" alt="A thief walking away with bank money behind the teller" width="450">
 
 One way of preventing such scenarios is skipping the bank entirely and having our own system of tracking value and the travel of value from one location to the next.
 
@@ -28,13 +28,13 @@ Imagine a piece of paper on which we're noting down the status of our bank accou
 
 Let's assume we have 5 participants: Yoshi, Mario, Luigi, Wario, and Bowser, and that each of them has their own piece of paper.
 
-<img src="http://homestead.app/wp-content/uploads/2017/08/blockchain-04.png" alt="Each participant has his own piece of paper" width="550">
+<img src="https://bitfalls.com/wp-content/uploads/2017/08/blockchain-04.png" alt="Each participant has his own piece of paper" width="550">
 
 Mario wants to send $100 to Luigi. To do this, he lets everyone know (by loudly proclaiming): "I'm sending $100 to Luigi! Please take a note, everyone!"
 
-<img src="http://homestead.app/wp-content/uploads/2017/08/blockchain-05.png" alt="Mario sending money to Luigi and yelling it out" width="550">
+<img src="https://bitfalls.com/wp-content/uploads/2017/08/blockchain-05.png" alt="Mario sending money to Luigi and yelling it out" width="550">
 
-At that moment, every participant checks Mario's account to make sure he's got enough value on it to send to Luigi (yes, every account's status is public - you can learn more about blockchain anonymity [here][anonymous-en]) and if so, writes this transaction down on their piece of paper. Transaction of this type are written down onto the participants' pieces of paper until they run out of room. In other words, **every** transaction between **any two people** is logged on **every participants paper**.
+At that moment, every participant checks Mario's account to make sure he's got enough value on it to send to Luigi (yes, every account's status is public) and if so, writes this transaction down on their piece of paper. Transaction of this type are written down onto the participants' pieces of paper until they run out of room. In other words, **every** transaction between **any two people** is logged on **every participants paper**.
 
 Before we file the filled up paper away into a folder or filing cabinet and grab a new, blank one, we need to seal the filled one with a special code.
 
@@ -79,17 +79,17 @@ Suppose that Yoshi found the combination 4000 + 5000. He tells everyone: "I've g
 
 If someone's paper does **not** produce 10000 when summed with 4000 and 5000, we have a problem. If, for example, Bowser either purposely or accidentally logged a different transaction - say, that Mario gave Luigi $200, and not $100 - then the sum will not match the requirements.
 
-<img src="http://homestead.app/wp-content/uploads/2017/08/blockchain-07.png" alt="Everyone except Bowser confirms the paper" width="550">
+<img src="https://bitfalls.com/wp-content/uploads/2017/08/blockchain-07.png" alt="Everyone except Bowser confirms the paper" width="550">
 
 Bowser's paper is thereby considered invalid, and if he wants to continue participating in this system, he'll have to discard his paper, copy someone else's valid paper, and promise to be more careful in the future. On the other hand, Yoshi, who was the one who found the winning combination, gets a reward of, for example, $5 from the system. The system *produces* the $5 out of thin air as a reward for the lucky participant.
 
-<img src="http://homestead.app/wp-content/uploads/2017/08/blockchain-08.png" alt="Yoshi gets a reward, Bowser throws his paper away" width="550">
+<img src="https://bitfalls.com/wp-content/uploads/2017/08/blockchain-08.png" alt="Yoshi gets a reward, Bowser throws his paper away" width="550">
 
 This *production* of money out of thin air is called *mining* in the cryptocurrency world.
 
 While this was a dramatically simplified example, the only real difference from the real blockchain (beside the fact that in reality it's all digital and automatic) is the fact that the algorithm being used to produce the *seal* is different - a more complex one which can accept both numbers and letters, and outputs code like `90bdaa79bbccacf8558edcbb30df48d7fc920eeb75a28f883de4100f58a99b49`.  
 
-<img src="http://homestead.app/wp-content/uploads/2017/08/blockchain-06.png" alt="A sealed paper" width="350">
+<img src="https://bitfalls.com/wp-content/uploads/2017/08/blockchain-06.png" alt="A sealed paper" width="350">
 
 The *seals* are called *hashes* and the algorithms producing them - like SHA256 which produced the above code - are called *hashing functions*. Try opening [this link](http://www.xorbin.com/tools/sha256-hash-calculator) and inputting any amount of text into the field. Whether you put in a single word or the entire bible, it'll always produce a hash of exactly 64 characters.
 
@@ -117,20 +117,15 @@ In blockchain parlance...
 
 All cryptocurrencies are based on _blockchain technology_. Blockchain is what makes it possible for them to be transparent, definitive (impossible to falsify or duplicate) and somewhat limited in maximum amount produced. Unlike fiat currency (USD, Euro, etc.), cryptocurrencies cannot simply be printed by their creators, except in the case of some scam currencies like Ripple (XRP) or OneCoin - more on those in another post.
 
-Blockchain technology allows for distributed control over the financial system of a society - local or global - and helps with avoiding middlemen. This is one of the main reasons why [cryptocurrencies][cryptocurrencies-en] have exploded in popularity so much. Due to the distributed nature of the blockchain and millions of users all around the world all of whom serve as "accountants" and validators, many  consider cryptocurrencies to be indestructible and unstoppable. Sadly, that's a different kind of delusion, one which we'll cover later (see links in the following section).
+Blockchain technology allows for distributed control over the financial system of a society - local or global - and helps with avoiding middlemen. This is one of the main reasons why [cryptocurrencies][cryptocurrencies] have exploded in popularity so much. Due to the distributed nature of the blockchain and millions of users all around the world all of whom serve as "accountants" and validators, many  consider cryptocurrencies to be indestructible and unstoppable. Sadly, that's a different kind of delusion, one which we'll cover later (see links in the following section).
 
 ## What next?
 
-- [What are cryptocurrencies][cryptocurrencies-en] to learn what it's all about and where the value is coming from
-- [What is Bitcoin][bitcoin-en] to learn the basics about the most popular cryptocurrency these days
-- [Bitcoin is not unstoppable][unstoppable-en] to find out how easy it is to actually stop and destroy a cryptocurrency
-- [Bitcoin is not finite][finite-en] to learn why the theoretical limit of 21 million Bitcoin ever produced simply isn't true, practically speaking
-- [Bitcoin is not anonymous][anonymous-en] to learn why people often (incorrectly) say that Bitcoin is anonymous and useful for the black market and criminal funding
-- [What is Ethereum][ethereum-en] to learn about the most powerful cryptocurrency today
+- [What are cryptocurrencies][cryptocurrencies] to learn what it's all about and where the value is coming from
+- [Bitcoin is not unstoppable][unstoppable] to find out how easy it is to actually stop and destroy a cryptocurrency
+- Bitcoin is not finite - to learn why the theoretical limit of 21 million Bitcoin ever produced simply isn't true, practically speaking (article coming soon)
+- Bitcoin is not anonymous - to learn why people often (incorrectly) say that Bitcoin is anonymous and useful for the black market and criminal funding (article coming soon)
+- What is Ethereum - to learn about the most powerful cryptocurrency today (article coming soon)
 
-[cryptocurrencies-en]: /en/cryptocurrencies
-[unstoppable-en]: /en/unstoppable
-[finite-en]: /en/finite
-[anonymous-en]: /en/anonymous
-[bitcoin-en]: /en/bitcoin
-[ethereum-en]: /en/ethereum
+[cryptocurrencies]: https://bitfalls.com/2017/08/20/cryptocurrency/
+[unstoppable]: https://bitfalls.com/2017/08/21/is-bitcoin-unstoppable/
