@@ -44,9 +44,9 @@ _"Hold on"_, you may be thinking. _"That sounds an awful lot like the above exam
 
 The key difference is this part: **_cannot be copied or produced at will_**. The coins in a game are a digital currency, and differ from cryptocurrency in the following ways:
 
-- the coins you're used to are __*centralized*__. In other words, their entire supply is controlled by a single corporation, the owner of the game, just like with fiat currency. With cryptocurrencies, the supply is controlled by the community of users (i.e. the [blockchain][blockchain-en], more about this later), and everyone can check and make sure how many "coins" a given account still has, and where and when a given amount was sent.
+- the coins you're used to are __*centralized*__. In other words, their entire supply is controlled by a single corporation, the owner of the game, just like with fiat currency. With cryptocurrencies, the supply is controlled by the community of users (i.e. the [blockchain][blockchain], more about this later), and everyone can check and make sure how many "coins" a given account still has, and where and when a given amount was sent.
 
-- the coins you're used to can be created out of nothing and are not unique, just like fiat currency which can be printed by the government whenever they need it. The amount of these regular coins is not finite, and changing the amount stored in one's account is done by simply changing a value in a database somewhere. There are no expenses involved in producing new coins of this type - they can be willed into existence by their maker. This is in stark contrast to cryptocurrency - a cryptocurrency coin has a finite amount, everyone knows how many there are in circulation at any given moment and how many there will be at a given moment in the future, and more coins cannot be added to someone's account without reducing the amount on someone else's, except in very special circumstances (explained in [blockchain][blockchain-en]).
+- the coins you're used to can be created out of nothing and are not unique, just like fiat currency which can be printed by the government whenever they need it. The amount of these regular coins is not finite, and changing the amount stored in one's account is done by simply changing a value in a database somewhere. There are no expenses involved in producing new coins of this type - they can be willed into existence by their maker. This is in stark contrast to cryptocurrency - a cryptocurrency coin has a finite amount, everyone knows how many there are in circulation at any given moment and how many there will be at a given moment in the future, and more coins cannot be added to someone's account without reducing the amount on someone else's, except in very special circumstances (explained in [blockchain][blockchain]).
 
 So... it's all just software?
 
@@ -58,7 +58,7 @@ Just like there's an app on your phone or computer for browsing the web, looking
 
 > Cryptocurrency is not falsifiable
 
-Whereas other applications, digital documents, even a bank account's status can be copied and moved to another location without deleting the original, with cryptocurrencies this is impossible because of a thing called _the blockchain_. The blockchain deserves [its own post][blockchain-en] - we recommend you dive into it immediately after this one to learn how exactly this security is guaranteed into perpetuity.
+Whereas other applications, digital documents, even a bank account's status can be copied and moved to another location without deleting the original, with cryptocurrencies this is impossible because of a thing called _the blockchain_. The blockchain deserves [its own post][blockchain] - we recommend you dive into it immediately after this one to learn how exactly this security is guaranteed into perpetuity.
 
 ## Cryptocurrency isn't currency
 
@@ -71,8 +71,6 @@ Bitcoin and Ethereum are protocols. They are ways of transferring data from one 
 Cryptocurrency is therefore the token of a given protocol, software, a set of data we send from one location to another in a way which forces us to let every other participant in that protocol know about our transaction. When we send a token from one electronic address (i.e. wallet) to another, we **publicly acknowledge our transaction and everyone witnesses and confirms it**. 
 
 > A cryptocurrency transaction is no more than a **publicly announced and verifiable** statement that we're sending an arbitrary amount of tokens of a given protocol to a user of said protocol.
-
-_Read more about privacy of transactions [here][anonymous-en]._
 
 The tokens we send have no value on their own. Their value was bestowed upon them by us, the users. In the case of the aforementioned "water protocol", water on its own has no _value_. But once we realized we can drink it, cook with it, wash with it, even generate power with it, we attached value to it.
 
@@ -89,18 +87,16 @@ While the price is indeed dictated mainly by supply and demand (if more people a
 - cryptocurrency is a "coin" (token) we send over a given protocol, and each protocol has its own token. Bitcoin has Bitcoin, Ethereum has Ether, Augur has REP, etc.
 - each protocol has a specific purpose: Bitcoin was invented to replace traditional currency, Ethereum's purpose is to be a platform on which other tokens can be built, Siacoin is there for storing files, Augur exists for predicting the future (yes, really), Zcash is supposed to be an anonymous Bitcoin, Onecoin is a Ponzi scheme, etc.
 - each individual token is unique and impossible to duplicate
-- each transaction on the protocols we mentioned (except with protocols like Zcash) is public (everyone can see everyone's transactions, but the addresses aren't necessarily bound to real people) [more info here][anonymous-en]
+- each transaction on the protocols we mentioned (except with protocols like Zcash, Monero, etc.) is public (everyone can see everyone's transactions, but the addresses aren't necessarily bound to real people)
 
 ## What next?
 
 Now that you have a general idea of what cryptocurrencies are, why not learn how they work and why they became so popular? We recommend the following posts:
 
-- [What is the blockchain?][blockchain-en] - to learn *how* they work
-- [What is Bitcoin?][bitcoin-en] - learn about the most popular cryptocurrency
-- [What is Ethereum?][ethereum-en] - learn about the most powerful cryptocurrency
-- [How anonymous are cryptocurrencies?][anonymous-en] - learn all about transactions and how public or private they are or aren't
+- [What is the blockchain?][blockchain] - to learn *how* they work
+- [What are cryptocurrency wallets and how do they work?][wallet] - to get your first wallet, and learn how to secure it
+- What is Ethereum? - learn about the most powerful cryptocurrency and about its similarities and differences to Bitcoin (article coming soon)
+- How anonymous are cryptocurrencies? - learn all about transactions and how public or private they are or aren't (article coming soon)
 
-[blockchain-en]: /en/blockchain
-[anonymous-en]: /en/anonymous
-[bitcoin-en]: /en/bitcoin
-[ethereum-en]: /en/ethereum
+[blockchain]: https://bitfalls.com/2017/08/20/blockchain-explained-blockchain-works/
+[wallet]: https://bitfalls.com/2017/08/31/what-cryptocurrency-wallet/

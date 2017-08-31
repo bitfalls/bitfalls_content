@@ -70,9 +70,6 @@ Bitcoin i Ethereum su protokoli - načini da se podaci prenesu s jedne elektroni
 Kriptovalute su dakle tokeni nekog protokola, softver, skupina podataka koju šaljemo s jedne lokacije na drugu na način da svim korisnicima sustava (korisnicima tog protokola) u kojem te podatke šaljemo to **istovremeno i najavimo**. Kada se token šalje s jedne adrese (tj. novčanika) na drugu, broj tokena se na početnoj adresi smanjuje, a na odredišnoj povećava, i svi korisnici tog protokola tome svjedoče i to potvrđuju.
 
 > Slanje kriptovaluta nije ništa drugo nego **javno objavljena i provjeriva informacija** da nekom korisniku nekog protokola šaljemo token tog protokola.
-
-_Više o javnom objavljivanju i provjerivosti informacija u [ovom članku][anonymous]._
-
 Podaci (tokeni) koji se šalju nemaju neku vrijednost sami po sebi. Tu vrijednost smo im dali mi: korisnici. U slučaju "vodenog protokola" gore, voda sami po sebi nema vrijednost. No jednom kada smo shvatili da je možemo koristiti za sve od pića i kuhanja do pranja i proizvodnje struje, tu vrijednost smo joj sami pripisali. Ponavljamo:
 
 > Kriptovalute imaju vrijednost jer smo mi tako odlučili, a ne neki centralni autoritet
@@ -88,18 +85,16 @@ Dok cijenu uglavnom diktira ponuda i potražnja (ako više ljudi zna za kriptova
 - kriptovalute su "novčići" (tokeni) koje šaljemo preko određenog protokola, i svaki protokol ima svoj token. Bitcoin ima Bitcoin, Ethereum ima Ether, Augur ima REP, itd.
 - svaki protokol ima svoju posebnu svrhu. Bitcoin je zamjena za tradicionalne valute, Ethereum je tu da se na njemu grade drugi tokeni, Siacoin je tu za spremanje datoteka, Augur služi za predviđanje budućnosti, Zcash bi trebao biti anonimni Bitcoin, Onecoin je piramidalna šema, itd.
 - svaki token je unikatan - nije ga moguće duplicirati
-- svaka transakcija na tim protokolima (osim u slučaju Zcash-a) je javna (vidi se tko kome što šalje) [više u ovom članku][anonymous]
+- svaka transakcija na tim protokolima (osim u slučaju Zcash-a, Monera, i slično) je javna (vidi se tko kome što šalje).
 
 ## Kamo dalje?
 
 Sada kada imate generalnu ideju o tome što su kriptovalute, naučite kako funkcioniraju i zašto su postale tako popularan pojam. Predlažemo sljedeće članke:
 
 - [Što je blockchain][blockchain] - da biste saznali *kako* kriptovalute funkcioniraju
-- [Što je Bitcoin?][bitcoin] - saznajte osnove o najpopularnijoj kriptovaluti
-- [Što je Ethereum?][ethereum] - saznajte osnove o najmoćnijoj kriptovaluti
-- [Koliko su kriptovalute anonimne?][anonymous] - saznajte sve o transakcijama i njihovoj anonimnosti
+- [Što su i kako funkcioniraju novčanici za kriptovalute][wallet] - saznajte kako do svog prvog novčanika, te kako ih osigurati
+- Što je Ethereum? - saznajte osnove o najmoćnijoj kriptovaluti (članak uskoro) i po čemu se razlikuje od Bitcoina (članak uskoro)
+- Koliko su kriptovalute anonimne? - saznajte sve o transakcijama i njihovoj anonimnosti (članak uskoro)
 
-[blockchain]: /hr/blockchain
-[anonymous]: /hr/anonymous
-[bitcoin]: /hr/bitcoin
-[ethereum]: /hr/ethereum
+[blockchain]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
+[wallet]: https://bitfalls.com/hr/2017/08/31/what-cryptocurrency-wallet/
