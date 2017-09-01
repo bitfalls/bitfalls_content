@@ -6,7 +6,7 @@ Mičite mišem do kad brojač ne pokaže 100% ili sami unesite neku frazu ili na
 
 Nakon što je brojač došao do 100%, vaša adresa biti će vidljiva na ekranu:
 
-![Generirana adresa](https://bitfalls.com/wp-content/uploads/2017/08/Screenshot-2017-08-23-17.51.44.png)
+![Generirana adresa](https://bitfalls.com/wp-content/uploads/2017/09/01.png)
 
 Zeleni dio (ovaj koji počinje s 195 na slici) je vaša adresa, i njeno stanje može se u bilo kojem momentu provjeriti [ovdje](https://blockexplorer.com/address/195sYZTRik2y3gidQZ3svoU7NexoLPJopr). Ta adresa je adresa koju unosite u polje primatelja kada na nju šaljete neki iznos Bitcoina.
 
@@ -26,15 +26,15 @@ Da biste poslali BTC s generirane adrese koja je primila neka sredstva a čiji j
 
 Na stranici [Blockchain.info](https://blockchain.info) kreirajte korisnički račun. Kada stignete na svoj _Dashboard_ (početnu stranicu računa), kliknite na "Settings", pa na "Addresses".
 
-<img src="https://bitfalls.com/wp-content/uploads/2017/09/01.png" alt="Addresses opcija" width="350">
+<img src="https://bitfalls.com/wp-content/uploads/2017/09/02.png" alt="Addresses opcija" width="350">
 
 Zatim, kliknite na "Import Bitcoin Address".
 
-![Import Bitcoin Address opcija](https://bitfalls.com/wp-content/uploads/2017/09/02.png)
+![Import Bitcoin Address opcija](https://bitfalls.com/wp-content/uploads/2017/09/03.png)
 
 Sljedeći ekran ponuditi će vam da skenirate QR kod ili ručno unesete privatni ključ walleta s kojeg želite slati sredstva.
 
-![Import Existing Bitcoin Address opcija](https://bitfalls.com/wp-content/uploads/2017/09/03.png)
+![Import Existing Bitcoin Address opcija](https://bitfalls.com/wp-content/uploads/2017/09/04.png)
 
 Nakon unosa, sredstva će biti spremna za slanje. Tada možete kliknuti na "Send" pri vrhu ekrana, i poslati neku količinu na neku drugu adresu.
 

@@ -4,7 +4,7 @@ One of the simplest ways to generate an address which can accept Bitcoin is by g
 
 Move your mouse or type in some random numbers and letters into the provided field until the counter says 100% (this is so that an element of randomness is introduced into the process, making things harder to guess for machines). The screen will then display something like this:
 
-![Generirana adresa](https://bitfalls.com/wp-content/uploads/2017/08/Screenshot-2017-08-23-17.51.44.png)
+![Generirana adresa](https://bitfalls.com/wp-content/uploads/2017/09/01.png)
 
 The green "Share" part starting with 195 is the public address of this wallet. You can check how many bitcoins it has at any moment, and who sent them where to/from by going [here](https://blockexplorer.com/address/195sYZTRik2y3gidQZ3svoU7NexoLPJopr). This is the address you give someone so they can send you bitcoins.
 
@@ -24,15 +24,15 @@ To send BTC from an address the private key of which you own, you need software 
   
 Create an account on the [Blockchain.info](https://blockchain.info) site, then click on Settings -> Addresses once you reach the dashboard screen.
 
-<img src="https://bitfalls.com/wp-content/uploads/2017/09/01.png" alt="Addresses option in the settings menu" width="350">
+<img src="https://bitfalls.com/wp-content/uploads/2017/09/02.png" alt="Addresses option in the settings menu" width="350">
 
 Click "Import Bitcoin Address".
 
-![Import Bitcoin Address option](https://bitfalls.com/wp-content/uploads/2017/09/02.png)
+![Import Bitcoin Address option](https://bitfalls.com/wp-content/uploads/2017/09/03.png)
 
 The following screen will let you either scan a QR code or manually input a private key by typing it in.
 
-![Import private key option](https://bitfalls.com/wp-content/uploads/2017/09/03.png)
+![Import private key option](https://bitfalls.com/wp-content/uploads/2017/09/04.png)
 
 Once the import is complete, your funds will be ready for sending. Click "Send" at the top of the screen to do so - you'll need the public address of another wallet as recipient.
 
