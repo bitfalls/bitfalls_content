@@ -1,0 +1,3 @@
+Bruno je profesor informatike te engleskog jezika i književnosti, rodom iz Čakovca. Kriptoentuzijast od ranog doba Ethereuma, Bruno je 2017. otvorio Bitfalls d.o.o. s svrhom da blockchain tehnologiju približi masama, i pomogne laicima razlikovati piramidalne šeme i prevare od pravih prilika - kako za investicije, tako i za unapređenje zanimljivih tehnologija.
+
+Često se buni protiv JavaScripta [na Twitteru](https://twitter.com/bitfalls), piše o PHP-u na [SitePoint](https://www.sitepoint.com/author/bskvorc)-u, i radi kao developer advocate za [Diffbot](https://diffbot.com). Kada ne šeće svog bigla ili igra društvene igre, naći ćete ga u virtualnoj stvarnosti - TheSwader na Oculusu.
