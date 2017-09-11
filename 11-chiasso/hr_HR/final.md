@@ -1,0 +1,8 @@
+Chiasso, Švicarski kanton i istoimeni grad na granici s Italijom, nedavno [je objavio](http://www.chiasso.ch/fileadmin/user_upload/Chiasso.ch/Comunicati_stampa/Documenti/Incontro_Municipio_con_imprenditori_e_esperti_sviluppatori_attivi_nel_mondo_Bitcoin_e_Blockchain.pdf) da će od siječnja 2018. početi primati bitcoin kao valutu uplate poreza. Početi će se s manjim iznosima - do 250 CHF (218 Eur, 261 USD).
+
+Švicarska već neko vrijeme predvodi svijet u prihvaćanju [kriptovaluta][cc] u svim gospodarskim i političkim sferama, pa je tako Švircarski Zug (pokrajina kod Zuricha) neformalno prozvan "kripto dolinom" po uzoru na Silicijsku dolinu u SAD koja je nekoć svijet predvodila u visokoj tehnologiji. Dok su u SAD kriptovalute praktički zabranjene kao metoda skupljanja početnog kapitala (tzv. ICO model), Zug već od srpnja 2016. prima uplate poreza u bitcoinu do 200 CHF protuvrijednosti i do sada je primio preko 40 uplata te vrste. Na državnoj razini posredovanje kriptovalutama oslobođeno je mnoštva poreza, a na automatima mreže javnog prijevoza SBB moguće je kupiti bitcoin direktno za franke u vrijednosti od 20 do 500 CHF.
+
+Ova najnovija odluka iz Chiassa samo učvršćuje Švicarsko vodstvo u prihvaćanju [blockchain][bc] tehnologije, i približava te koncepte široj javnosti. Chiasso - u kojem se već sada bazira 8 novih tvrtki orijentiranih na kriptovalute - se ovim potezom nada preuzeti titulu "kriptopolisa" od Zug-a, te privući isti kalibar novih start-upova i poduzetničkih avanturista na svoje područje. 
+
+[bc]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
+[cc]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/
