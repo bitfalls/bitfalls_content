@@ -17,13 +17,13 @@ If you're a crypto-enthusiast and/or interested in writing [news](https://bitfal
 
 If you'd like to be paid in another cryptocurrency, (BTC, DICE, OMG, NEO, Gas, XTZ...), we can work something out but keep in mind that the conversion fees might eat into the amount.
 
-We'll pay $20 to $150 value in Eth per language, depending on type, quality, and length of post, plus other factors (see Bonuses below). For example, a good bi-lingual Solidity programming guide will be worth 300 USD in Ether, while a smaller bit of news like [this](https://bitfalls.com/2017/09/11/switzerlands-chiasso-accept-bitcoin-tax-payments/) sent only in a single language will be worth $20.
+We'll pay $20 to $150 value in Eth per original language and up to $100 per translation, depending on type, quality, and length of post, plus other factors (see Bonuses below). For example, a good bi-lingual Solidity programming guide will be worth 250 USD in Ether, while a smaller bit of news like [this](https://bitfalls.com/2017/09/11/switzerlands-chiasso-accept-bitcoin-tax-payments/) sent only in a single language will be worth $20.
 
 The exact price of an article-to-be will be arranged as we discuss the topic and iron out the outline, but any price arranged at that time is honored until it is paid, which happens **only once the post is published, not written**.
 
-_Example: January 1st 2018, 1 ETH = $300. We agreed on $150 per language for a topic. The author delivers on January 7th, in one language. The post isn't published immediately - there are scheduling conflicts. It's published on the 12th, when 1 ETH fell to 235 USD. The original arrangement still applies - the author will now get ~0.64 ETH instead of 0.5. Same goes for movement in the other directon - if ETHUSD moves so that 1 ETH = $500 USD, then the author gets 0.3 ETH on publication of the post. In any case, the author gets the **current** value of 150 USD in Eth. If Eth rises in value to $5000 in the next month, the author has profited even more._
+_Example: January 1st 2018, 1 ETH = $300. We agreed on $150 for a topic. The author delivers on January 7th, in one language. The post isn't published immediately - there are scheduling conflicts. It's published on the 12th, when 1 ETH fell to 235 USD. The original arrangement still applies - the author will now get ~0.64 ETH instead of 0.5. Same goes for movement in the other directon - if ETHUSD moves so that 1 ETH = $500 USD, then the author gets 0.3 ETH on publication of the post. In any case, the author gets the **current** value of 150 USD in Eth. If Eth rises in value to $5000 in the next month, the author has profited even more._
 
-Note that you don't have to be the author of a post you'd like to translate. If a translation is missing, we'll pay a fixed $50 fee for translating it.
+Note that you don't have to be the author of a post you'd like to translate. If a translation is missing, we'll pay a fixed $20 to $100 fee for translating it.
 
 There is no limit to how much content per month you can produce. If you can write well, and often enough, you can turn this into a regular job.
 

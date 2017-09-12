@@ -17,15 +17,15 @@ Ako ste kripto-entuzijast i/ili zainteresirani za pisanje [novosti](https://bitf
 
 **Plaća se u ETH valuti.**
 
-Ako želite isplatu u nekoj drugoj (BTC, DICE, OMG, NEO, Gas, XTZ...), možemo se dogovoriti, no tada se od cijene odbijaju tržišne provizije mijenjanja jedne valute u drugu.
+Ako želite isplatu u nekoj drugoj (BTC, DICE, OMG, NEO, Gas, XTZ...) od cijene se odbijaju tržišne provizije mijenjanja jedne valute u drugu.
 
-Plaćamo u protuvrijednosti od $20 do $150 (USD) po jeziku. To znači da će npr. neki kvalitetni vodič kroz Solidity programiranje vrijediti 300 USD u ETH ako ga pošaljete na engleskom i hrvatskom, dok će manja vijest poslana samo na hrvatskom jeziku poput [ove](https://bitfalls.com/hr/2017/09/11/switzerlands-chiasso-accept-bitcoin-tax-payments/) vrijediti 20 USD u ETH.
+Plaćamo u protuvrijednosti od $20 do $150 (USD) na originalnom jeziku, i do $100 po prijevodu na drugi. To znači da će npr. neki kvalitetni vodič kroz Solidity programiranje vrijediti 250 USD u ETH ako ga pošaljete na engleskom i hrvatskom, dok će manja vijest poslana samo na hrvatskom jeziku poput [ove](https://bitfalls.com/hr/2017/09/11/switzerlands-chiasso-accept-bitcoin-tax-payments/) vrijediti 20 USD u ETH.
 
 Točnu cijenu neke ideje dobiti ćete je kada je predložite i predstavite u nekom sažetom obliku, no te se cijene tada držimo, a isplaćuje se na bazi konverzije **kada se članak objavljuje**.
 
-_Primjer: 1.1.2018. 1 ETH = $300. Dogovorena je cijena za $150 po jeziku. Autor isporuči članak 7.1.2018. na hrvatskom jeziku. Članak još ne izlazi, pa se stoga ne isplaćuje. Članak objavljujemo 12.1.2018., kada je 1 ETH pao na 235. Originalnog dogovora se držimo, i umjesto da autor primi samo 0.5 ETH, on prima ~0.64 ETH zbog pomaka tečaja. Isto se važi u drugom smjeru - ako se ETHUSD poveća tako da je 1 ETH = $500 USD, autor dobiva 0.3 ETH. U svakom slučaju dobiva **trenutnu** protuvrijednost 150 USD u ETH. Ako taj ETH kasnije naraste na 5000, autor je dugoročno profitirao još više._
+_Primjer: 1.1.2018. 1 ETH = $300. Dogovorena je cijena za $150. Autor isporuči članak 7.1.2018. na hrvatskom jeziku. Članak još ne izlazi, pa se stoga ne isplaćuje. Članak objavljujemo 12.1.2018., kada je 1 ETH pao na 235. Originalnog dogovora se držimo, i umjesto da autor primi samo 0.5 ETH, on prima ~0.64 ETH zbog pomaka tečaja. Isto se važi u drugom smjeru - ako se ETHUSD poveća tako da je 1 ETH = $500 USD, autor dobiva 0.3 ETH. U svakom slučaju dobiva **trenutnu** protuvrijednost 150 USD u ETH. Ako taj ETH kasnije naraste na 5000, autor je dugoročno profitirao još više._
 
-Ako je netko poslao članak na jednom jeziku, prijevod na drugi također plaćamo - $50. Ne morate biti autor članka kojeg prevodite.
+Ako je netko poslao članak na jednom jeziku, naknadni prijevod na drugi također plaćamo - $20 do $100. Ne morate biti autor članka kojeg prevodite.
 
 Nema limita na količinu sadržaja koju pojedini autor može izbaciti na mjesec. Ako dobro pišete, i dovoljno često proizvodite novi sadržaj, ovo vam lako može postati posao od punog radnog vremena.
 
