@@ -50,6 +50,18 @@ Slike se stavljaju u `images` mapu pored jezične mape članka, pa tako ako se p
           
 Slike treba imenovati brojčano prema poziciji u članku, radi lakšeg dodavanja u sustav prilikom publikacije. Glavna slika koja će služiti kao thumbnail i header treba se zvati `header` i imati ekstenziju `.jpg`, `.png`, ili `.gif`.
 
+## Duljina članka i članci od više nastavaka
+
+Optimalne su sljedeće duljine (moguće su iznimke):
+
+- novosti: 200 - 500 riječi
+- vodič: do 1200 riječi
+- tehnički vodič ili tutorial programiranja: do 2000 riječi
+
+Kod se ne broji.
+
+Ako je neki članak dovoljno opsežan da prelazi 2000 riječi, moguće je podijeliti ga u part 1 i part 2. Maksimalni broj dijelova koji će članak imati je 2. Ako se radi o više, pretvaramo ga u serijal u kojem svaki dio treba biti čim samostalniji - moderna publika gubi interes kada vidi previše povezanih dijelova koji ovise jedni o drugima. Ti pojedinačni dijelovi moraju biti čitljivi kao neovisni članci, ali mogu referencirati ostale.
+
 ## Povezivanje sadržaja
 
 Gdje je to moguće, obavezno povezati sadržaj s drugim člancima na stranici. Primjerice, ako neki članak spominje riječ blockchain, povezati tu riječ sa [ovim člankom][blockchain]. Ako se spominje pucanje bitcoin mjehura, povezati s [ovim člankom][bubble], itd. Bitno je pritom paziti na jezik povezanog članka - primjetite `/hr/` u URLu ovih članaka - povezujte članke na one koji su na istom jeziku kao taj kojeg pišete.

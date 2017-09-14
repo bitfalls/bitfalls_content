@@ -48,6 +48,18 @@ If a post needs images, please make sure they're public domain (usable for any p
           
 Images should be named numerically and sequentially based on their position in the post, for easier adding into the article during publication. The main image which will serve as the thumbnail and header should be called `header` and end with one of the following: `.jpg`, `.png`, or `.gif`.
 
+## Article Length and Multi-Page Posts
+
+Optimal article length is (with possible exceptions):
+
+- news: 200 - 500 words
+- guide: up to 1200 words
+- technical guide or programming tutorial: up to 2000 words
+
+Source code doesn't count.
+
+If an article is exhaustive enough to surpass 2000 words, it's possible to split it into 2 parts. The maximum number of parts an article will ever have is 2. If more is needed, the article will be turned into a series in which every part **must** be as standalone as possible - the modern audiences lose interest when they see too many interdependent articles. These individual articles should then reference others, but not depend on them.
+
 ## Linking to Content
 
 Where possible, the author should link to other Bitfalls posts. For example, if an article mentions the blockchain, the author should link to [this post][blockchain]. If an article mentions the bitcoin bubble popping, the author should link to [this post][bubble], etc. It's important to keep the language in mind - link to the language of the post in which you're writing your current post, so English to English, Croatian to Croatian, etc.
