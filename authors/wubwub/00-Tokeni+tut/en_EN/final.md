@@ -64,7 +64,7 @@ After the transaction is included in the block, by clicking on our account we sh
 
 ![10](../Images/10.png)
 
-We can use our newly created token as like as you want.
+We can use our newly created token however we want.
 
 Tokens have countless uses and can alleviate and speed up the everyday life, also there is a good chance that in the future we will see more and more digitalized currencies and all with the help and security of the [blockchain] technology. 
 
