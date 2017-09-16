@@ -71,4 +71,4 @@ Tokens have countless uses and can alleviate and speed up the everyday life, als
 
 [source contract code]: https://github.com/wubwub/Eth-contract/blob/master/Token%20Contract
 [Ethereum Wallet or Mist]: https://github.com/ethereum/mist/releases
-[blockchain]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
+[blockchain]: https://bitfalls.com/2017/08/20/blockchain-explained-blockchain-works/
