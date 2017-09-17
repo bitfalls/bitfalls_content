@@ -3,7 +3,7 @@ Tokeni su vrlo važan dio Ethereum ekosustava, no zašto su korisni i zašto bi 
 
 ## Funkcije tokena
 
-Tokeni na Ethereum mreži mogu imati funkcije kao što su bodovi lojalnosti, vođenje radnih sati u tvrtki, mogućnost glasovanja, kuponi za popuste, digitaliziranje fiat valute kao što su USD, EUR, pa čak je moguće digitalizirati i zlato.
+Tokeni na Ethereum mreži mogu imati funkcije kao što su bodovi lojalnosti, ulaznice za događanja, vođenje radnih sati u tvrtki, mogućnost glasovanja, kuponi za popuste, digitaliziranje fiat valute kao što su USD, EUR, pa čak je moguće digitalizirati i zlato.
 
 ## Kako da napravim svoj token?
 

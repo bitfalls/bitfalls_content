@@ -3,11 +3,11 @@ Tokens are a very important part of Ethereum ecosystem, but why are they useful 
 
 ## What is it useful for?
 
-Tokens on Ethereum can have uses like loyalty points,  counting working hours in a company, voting rights, discount coupons, digitalizing fiat currencies like USD and EUR, it's even possible to digitalize gold.
+Tokens on Ethereum can have uses like loyalty points, event tickets, counting working hours in a company, voting rights, discount coupons, digitalizing fiat currencies like USD and EUR, it's even possible to digitalize gold.
 
 ## How do I make my own token?
 
-On the first glance, it looks very complicated,  even impossible to non-tech people. But it's up to us to demystify the process which is quite simple.
+On the first glance, it looks very complicated,  even impossible to non-tech people, but it's up to us to demystify the process which is quite simple.
 
 ### 1. Download the Ethereum client
 
@@ -19,12 +19,12 @@ On today's example, we'll use Mist.
 
 As we open the client, we'll be greeted by something like this.
 
- ![ 2](../Images/ 2.png)
+![ 2](../Images/ 2.png)
 
 We'll choose the network we want to use.
 
 ### 3. Creating an account
-  3.1 After we choose the network, we're going to have to create an account by typing a password of our choice that will give access to your account.
+  3.1 After we choose the network, we're going to have to create an account by typing a password of our choice that will give us access to the account later.
 
    ![3](../Images/3.png)
 
@@ -44,7 +44,7 @@ We'll choose the network we want to use.
 
    ![6](../Images/6.png)
 
-   5.3 Copy [source contract code]  in its entirety and paste it in the marked window.
+   5.3 Copy the [source contract code]  in its entirety and paste it in the marked window.
 
    ![7](../Images/7.png)
  
