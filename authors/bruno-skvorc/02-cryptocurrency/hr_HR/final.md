@@ -98,5 +98,5 @@ Sada kada imate generalnu ideju o tome što su kriptovalute, naučite kako funkc
 
 [blockchain]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
 [wallet]: https://bitfalls.com/hr/2017/08/31/what-cryptocurrency-wallet/
-[finite]: https://bitfalls.com/2017/09/17/bitcoin-finite-just-myth/
-[anon]: https://bitfalls.com/2017/09/18/anonymous-cryptocurrencies-like-bitcoin/
+[finite]: https://bitfalls.com/hr/2017/09/17/bitcoin-finite-just-myth/
+[anon]: https://bitfalls.com/hr/2017/09/18/anonymous-cryptocurrencies-like-bitcoin/
