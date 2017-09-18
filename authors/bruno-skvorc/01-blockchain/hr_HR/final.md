@@ -127,9 +127,11 @@ Blockchain omogućava distrubuiranu kontrolu nad financijama i izbjegavanje posr
 
 - [Što su kriptovalute][cryptocurrencies] da biste saznali o čemu se tu zapravo radi
 - [Bitcoin nije nezaustavljiv][unstoppable] da biste saznali koliko je zapravo lako zaustaviti kriptovalute
-- Bitcoin nije konačan - da biste saznali zašto 21 miljun Bitcoina nije maksimum vrijednosti koju će ikada postići (članak uskoro)
-- Bitcoin nije anoniman - da biste saznali zašto se točno toliko često (netočno) govori da je Bitcoin anoniman i pogodan za "crno tržište" (članak uskoro)
+- [Bitcoin nije konačan][finite] - da biste saznali zašto 21 miljun Bitcoina nije maksimum vrijednosti koju će ikada postići
+- [Bitcoin nije anoniman][anon] - da biste saznali zašto se točno toliko često (netočno) govori da je Bitcoin anoniman i pogodan za "crno tržište"
 - Što je Ethereum - da biste naučili osnovne stvari o najmoćnijoj kriptovaluti i sličnostima s Bitcoinom (članak uskoro)
 
 [cryptocurrencies]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/
 [unstoppable]: https://bitfalls.com/hr/2017/08/21/is-bitcoin-unstoppable/
+[finite]: https://bitfalls.com/hr/2017/09/17/bitcoin-finite-just-myth/
+[anon]: https://bitfalls.com/hr/2017/09/18/anonymous-cryptocurrencies-like-bitcoin/
