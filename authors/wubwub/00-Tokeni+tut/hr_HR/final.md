@@ -84,7 +84,7 @@ Uspješno ste stvorili svoj token!
 
 Nakon što se transakcija uključi u blok, klikom na račun, trebali bi vidjeti token.
 
- ![09](../Images/09.png)
+![09](../Images/09.png)
 
 Novostvoreni token možemo slati tako da na send obrascu umjesto Ethera odaberemo token, dok ostatak procesa ostaje isti.
 
