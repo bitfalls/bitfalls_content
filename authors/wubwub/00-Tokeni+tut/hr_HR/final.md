@@ -162,7 +162,8 @@ Pravi Ether možete kupiti na brojnim mjenjačnicama, a možete ga kupiti i [dir
 
 
 Objašnjenje koda:
- 
+
+``` solidity 
     pragma solidity ^0.4.11;  // Verzija kompajlera
    
     interface tokenRecipient { function receiveApproval(address _from, uint256 _value, address _token, bytes _extraData); } 
@@ -259,7 +260,7 @@ Objašnjenje koda:
           return true;
     }
     }
-
+```
 
 [blockchain]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
 
