@@ -278,7 +278,7 @@ Objašnjenje koda:
 
 [MetaMask]: https://metamask.io
 
-[Solidity online compiler]:https://remix.ethereum.org/#version=soljson-v0.4.11+commit.68ef5810.js
+[Solidity online compiler]:https://yann300.github.io/remix04/#version=soljson-v0.4.0+commit.acd334c9.js
 
 [My Ether Wallet]: https://www.myetherwallet.com
 
