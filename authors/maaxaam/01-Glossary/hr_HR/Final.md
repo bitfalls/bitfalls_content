@@ -1,422 +1,543 @@
-# Pojmovnik. Rječnik. Lingo Deskriptor poznat strancima kao Glossary
+Ovaj pojmovnik je put do razumijevanja kripto slenga. Pojašnjenja i pojmovi su sakupljeni kako bi vama, našim čitateljima, olakšali razumijevanje ovog novog tržišta ispunjenog prilikama.
 
-![BitFalls Logo](https://bitfalls.com/wp-content/uploads/2017/09/bitfalls-4096-wide-transparent.png)
+Ako imate ideje za nove pojmove ili ispravke za predložiti, molimo vas da to učinite preko [Githuba][github].
 
-Zdravo Čitatelju! Ja sam **Pojmovnik. Rječnik. Lingo Deskriptor**.
-> 	Pojasniti ćemo Vam pojmove s kojima ćete se sretati kada se uputite u svijet Crypto valuta.
-> 
-> Put do razumijevanja kada ekipa priča "Kripto" slengom po forumima, Telegramu i sličnim zakutcima interneta počinje tu sa nama točnije [ovdje](https://bitfalls.com/hr/category/news/). Pojašnjenja i pojmovi su sakupljeni kako bi Vama našim čitateljima olakšali razumijevanje ovog novog tržišta ispunjenog prilikama.
-Da se predstavim:
+[[toc]]
 
 ## A
-###	**51% Napad**
-* Koncept je sličan nasilnom preuzimanju tvrtke kada se otkupi 51% dionica i stekne se upravljački dio. Moguć je u načelu ali isto tako nije vrlo vjerojatan. Naime da bi napad te vrste bio moguć – potrebno je izrazito mnogo računalne snage jer je potrebno kontrolirati preko 51% cijelog mining poola. Proces rudarenja [*blokova*](https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/) je razjašnjen na linku. Moguće je da jedan miner ili cijeli mining pool stekne dovoljno resursa potrebnih da se stavi pod kontrolu više od 50% cjelokupne snage unutar mreže jedne kripto valute. Ako se uspije uspostaviti kontrola najveća šteta bi bila u poništenim trenutačnim ili novim transakcijama te u zaustavljanju stvaranja nove valute - ***ali ne bi bili u mogućnosti ukrasti ili hakirati račune investitora***.
 
-### **ADDY** 
-* Ovo se odnosi na kripto valutu i njenu javnu adresu ili javni  ključ. Obično vas netko traži da mu date vaš ADDY  tako da vam može poslati sredstva. Više detalja o primanju i slanju pogledajte [ovdje](https://bitfalls.com/hr/2017/08/31/what-cryptocurrency-wallet/).
+### 51% napad
 
-### **Alt Coins** 
-* *Bilo koji* drugi Coin koji nije Bitcoin se smatra alt coinom. Nema nekog druge  definicije ovog pojma. Doduše postoji rasprava o nazivima coina koji potječu od originalnog [blockchaina](https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/) nakon što se taj blokchain podijeli ili fork-a u dva dijela. Na primjer BTC i BCH ili ETH i ETC  koji su stvoreni od istog blokchaina. Nakon podjele razvoj svakog pojedinačnog coina nastavlja u svom smjeru.  Zamislite deblo stabla. Do jedne točke je cijelo deblo skupa onda grane nastavljaju svaka svojim smjerom. Neke nastavljaju rasti a neke se osuše i nestanu.  
+Koncept je sličan nasilnom preuzimanju tvrtke kada se otkupi 51% dionica i stekne se upravljački dio. Moguć je u načelu, ali isto tako nije vjerojatan. 
 
-### **ASIC** 
-* Application Specific Integrated Circuit (ASIC) - Jest kompjuterski čip stvoren sa samo jednom jedinom funkcijom. Kako je mining izrazito intenzivan te zahtjeva mnogo resursa neki mineri odlučuju miningu posvetiti kompletne strojeve ili dijelove jednoga da bude ili budu posvećeni isključivo rudarenju ili miningu. ASIC izgleda kao MicroPC kućište koje možete vidjeti [ovdje](www.bitmain.com) te ga ukopčate u utičnicu i Internet da bi mogli  početi se baviti rudarenjem i kod kuće. Naravno da nije  baš toliko jednostavno ali u svrhu ovog opisa dovoljno.  
+Naime, da bi napad te vrste bio moguć potrebno je izrazito mnogo računalne snage jer je potrebno kontrolirati preko 51% moći [rudarenja](#mining). Moguće je da jedan rudar (_miner_) ili grupa istih ([_mining pool_](#mining-pool)) stekne dovoljno resursa potrebnih da se stavi pod kontrolu više od 50% cjelokupne snage mreže neke kriptovalute. Najveća šteta bi pritom bila u poništenim trenutačnim ili novim transakcijama te u zaustavljanju stvaranja nove valute *ali ne bi bili u mogućnosti ukrasti ili hakirati račune investitora*.
+
+### ADDY
+
+Ovo se odnosi na javnu adresu ili [javni ključ](#public-key) nekog kripto [novčanika][wallet]. Obično vas netko traži da mu date vaš ADDY tako da vam može poslati sredstva. Više detalja o adresama, primanju i slanju pogledajte [ovdje][wallet].
+
+### Alt Coins
+
+*Bilo koji* drugi _coin_ koji nije bitcoin se smatra alt coinom, uključujući [Ethereum tokene][eth]. Postoji rasprava o terminologiji coina koji potječe od dijeljenja ili _forkanja_ nekog blockchaina u dva dijela, npr. BTC i BCH ili ETH i ETC. Takva dijeljenja zovu se _contientous forks_, i o njima možete više saznati u [ovom članku][forks].
+
+Nakon takve podjele, razvoj svakog pojedinačnog coina nastavlja se u svom smjeru.  Zamislite deblo stabla. Do jedne točke je cijelo deblo jedna jedinica, pa tada grane nastavljaju svaka svojim smjerom. Neke nastavljaju rasti, a neke se osuše i nestanu.
+
+### ASIC
+
+Application Specific Integrated Circuit (ASIC) - kompjuterski čip stvoren sa samo jednom jedinom funkcijom na umu. Kako je [mining](#mining) izrazito računalno intenzivan te zahtjeva mnogo resursa, neki mineri odlučuju miningu posvetiti kompletne strojeve ili dijelove strojeva. 
+
+ASIC izgleda kao MicroPC kućište koje možete vidjeti [ovdje](https://www.bitmain.com). Uređaju je potrebna struja i internet, dalje sve obavlja sam - uz poneke postavke i optimiziranje, ovisno o valuti koja se rudari i o samom uređaju.
 
 
-### **ASA** 
-* Asymmetric Key Algorithm - To je algoritam koji se koristi se generiranje javnih i privatnih ključeva te jedinstvenih kodova koji su esencijalni za vršenje kripto transakcija. Više o tome [ovdje](https://bitfalls.com/hr/2017/08/31/what-cryptocurrency-wallet/).
+### ASA
 
-### **ATH** 
-* All time high. Vrijeme kada tržište podsjeća na Zrće usred ljeta puno komada  što muških što ženskih -  svi plešu,  sunce piči a vrijednosti rastu.  To znači da je određena valuta postigla najvišu dosad zabilježenu vrijednost i da se trenutno trguje na toj vrijednosti. Ta se vrijednost se obično ne zadržava dugo već se korigira na neku prethodnu razinu, no kroz vrijeme te uz pozitivne vijesti i opći trend ta vrijednost se postigne ponovno.
+Asymmetric Key Algorithm - algoritam koji se koristi se generiranje [javnih](#public-key) i [privatnih ključeva](#private-key), te jedinstvenih kodova koji su esencijalni za vršenje kripto transakcija. Asymmetric (asimetričan) u ovome znači da je moguće iz jednog izračunati drugi, ali ne i obrnuto. Stoga, ako nekome date svoj javni ključ, on njime može lako potvrditi da je transakcija validna, ali samo privatni ključ može generirati samu transakciju koju potom treba validirati.
+
+### ATH
+
+All time high. Moment u kojem je pojedina valuta postigla najvišu dosad zabilježenu protuvrijednost u fiat valuti.
 
 ## B
 
-### **Bagholder** 
-* *Jedna riječ*.  Opisuje što se dogodi  ukoliko podlegnete FOMOu i kupite ono za što mislite da će biti idući Bitcoin. Ukoliko se stalno nadate da dobijete barem pola uloženog natrag vjerojatno ste postali Bagholder. Otprilike kao da ste kupili stado konja kada je auto postao glavno prevozno sredstvo.  I što sad? :)
+### Bagholder
 
-### **Bear Trap**
-* Tržišna manipulacija od strane grupe ili pojedinca koji prodaju valutu dok to ne zavara druge investitore da pomisle kako vrijednost stagnira ili pada.  Tada kreće prodaja portfelja u strahu od daljnjeg pada vrijednosti. Inicijatori trenda kupuju po nižoj od tržišne cijene te kada kupe dovoljnu količinu prestanu sa kupnjom. Nakon završene manipulacije tržište nastavlja u obično pozitivnom trendu, koji je bio i prije nego je manipulacija započeta.
+U domeni kriptovaluta, opisuje što se dogodi ukoliko [podlegnete FOMOu][bubble] i kupite ono za što mislite da će biti idući Bitcoin. Bagholder (netko tko drži vreću) je neformalni termin iz tradicionalnih krugova brokera dionica. Ukoliko se stalno nadate da ćete dobiti barem pola uloženog natrag, vjerojatno ste postali Bagholder. Otprilike kao da ste kupili stado konja kada je auto postao glavno prijevozno sredstvo.
 
-### **Bitcoin Maximalist** 
-* Ekipa koja previdjela budućnost dok je Bitcoin još bio mali. Ali njihova ljubav prema Bitcoinu je toliko jaka da smatraju da su svi ostali coini nedovoljno dobri.
+### Bear Trap
 
-### **BPI** 
-* Bitcoin Price Index - Ukoliko želite znati koliko vaš Bitcoin vrijedi u *"pravom novcu"* potrebno vam je mjerilo reda veličine i nešto čime možete vršiti usporedbu. [Coinbase](www.coinbase.com) je u 2013. odlučio promijeniti situaciju i stvoriti mjerilo koje poznato kao BPI ili indeks cijene Bitcoina. BPI prati vrijednost na svim exchangeovima ili burzama te stvara mjerilo slično središnjem tečaju kako bi cijena bila ista na svim tržištima. 
+Medvjeđa zamka. Tržišna manipulacija od strane grupe ili pojedinca koji prodaju valutu dok to ne zavara druge investitore da pomisle kako vrijednost stagnira ili pada.  Tada kreće prodaja portfelja u [strahu][tweets] od daljnjeg pada vrijednosti. Inicijatori trenda tako kupuju po cijeni nižoj od tržišne, te kada kupe dovoljnu količinu prestanu sa kupnjom. Nakon završene manipulacije, tržište nastavlja u obično pozitivnom trendu, koji je bio u toku i prije nego je manipulacija započeta. Suprotno od [Bull Trap](#bull-trap).
 
-### **Block - Blok** 
-* Set transakcijskih informacija i jedan od temeljnih elemenata kriptovaluta. Nakon što su blokovi stvoreni u najkraćem mogućem vremenu bivaju obrađeni u svrhu verifikacije ili potvrde transakcija. Ovaj proces je znan kao rudarenje ili mining.  Pogledajte više na ovom [linku](https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/).
+### Bitcoin Maximalist
 
-### **Blockchain** 
-* Transakcijski blokovi kripto valuta ne postoje sami za sebe već kako su stvarani i obrađivani, postaju međusobno povezani sa drugim blokovima informacija koji su nastali prije njih. Nanizani blokovi u cjelini sačinjavaju block+chain=blockchain. Pogledajte više na [linku](https://bitfalls.com/2017/08/20/blockchain-explained-blockchain-works/).
+Ljudi koji su predvidjeli budućnost dok je Bitcoin još bio mali, ali njihova ljubav prema Bitcoinu je toliko jaka da smatraju da su sve ostale kriptovalute nedovoljne dobre. Generalno, maximalisti odbijaju prihvatiti negativne strane bitcoina jer su previše investirani u njega.
 
-### **Block Reward - nagrada za obrađeni blok** 
-* Ovo je nagrada  koja se izdaje rudaru (mineru) ili mining poolu koji je uspješno izračunao HASH u nekom bloku tijekom procesa mininga. Taj proces stvara nove Coine. Dio njih ide za nagradu mineru iliti ga rudaru. Za nove coine može se čuti naziv -  Virgin (djevičanski) jer su potpuno novi i nisu još neiskorišteni u svrhu obrade transakcija.
+### BPI
 
-### **Blockchain Expert - Blockchain stručnjak** 
-* Ljudi koji razumiju i rade sa Blockchain tehnologijama su eksperti – developeri, mineri i sl. Velika većina publike uči i pokušava pohvatati sveukupnost novog pojma. Ako ne znate što znači “multi sig parity client” – vjerojatno je da niste niti Vi na ekspert strani zasada.
+Bitcoin Price Index - kada želite znati koliko Bitcoin vrijedi u "pravom novcu" potrebno vam je mjerilo reda veličine i nešto čime možete vršiti usporedbu. [Coinbase] je u 2013. odlučio ponuditi odgovor na to pitanje i stvoriti mjerilo koje poznato kao BPI ili indeks cijene Bitcoina. BPI prati vrijednost na svim burzama te stvara mjerilo slično središnjem tečaju.
 
-### **Bot Trading** 
-* Postoje programi koji su dostupni investitorima, a čija svrha je olakšanje i povećanje preciznosti uz dozu automatizacije.  S obzirom da kriptotržište nema radno vrijeme postoji potreba za stalnom prisutnošću. Botovi će odraditi transakcije prema prethodno zadanim kriterijima investitora, ukoliko se poklope sa tržišnom situacijom.
+### Block
 
-### **Bubble - Mjehur** 
-* Bubble ili Mjehur se događa kada je tržište u usponu; slična situacija je bila sa dot.com i  tržištem nekretnina u posljednjem desetljeću.  Što više novca ulazi u tržište mjehur postaje veći. Zamislite kao da pušete balon, ali ne pušete ga samo vi već i mnogi drugi u isto vrijeme.
-Tržište ima  svoje normalno kretanje, kao i vi između udisaja izdisaja, što se vidi na grafovima. Kada balon postane prevelik a probušiti ga mogu razne vijesti i događaji te zrak počinje curiti, samo je pitanje koliko brzo. Ako je rupa prevelika ili ih ima previše zrak brže curi. Ako pratite razvoj situacija i vijesti o tržištima možete djelomično predvidjeti potencijalan događaj to će vam dati dovoljno vremena da udahnete svoj dio zraka prije nego iscuri i pričekate dok se situacija ne popravi. Tada nanovo investirati. Ali poanta je da je uvijek balon, bio mali ili veliki.
+Set transakcijskih informacija i jedan od temeljnih elemenata kriptovaluta. Nakon što su blokovi stvoreni, u najkraćem mogućem vremenu bivaju obrađeni u svrhu verifikacije ili potvrde transakcija. Ovaj proces je poznat kao rudarenje ili [mining](#mining).  Za malo opširnije objašnjenje istog, pogledajte [ovdje][blockchain].
 
-### **Bull Trap** 
-* Je manipulacija od strane investitora ili grupe koja kupuje velike veličine valute tako bi umjetno stvorili dojam povećanja vrijednosti. U tom trenu drugi investitori su skloni pomisliti kako će trend biti nastavljen u pozitivnom smjeru te se pridružuju kupnji. Dok drugi investitori kupuju po novoj cijeni, rupa koja je izazvala ovu situaciju prodaje svoju poziciju drugima po znatno višoj cijeni od stvarne. Kada prodaju svoju zalihu manipulacija je završena i tržište se normalizira a vrijednost čak i padne izazivajući gubitke kod ljudi koji su kupili unutar manipulacije. (pogledati Pump'n'Dump)
+### Blockchain
 
-### **Butthurt** 
-* Osjećaj koji imate kada vaš shitcoin padne na nulu.
+Transakcijski blokovi kripto valuta ne postoje sami za sebe već, kako su stvarani i obrađivani, postaju međusobno povezani sa drugim blokovima informacija koji su nastali prije njih. Nanizani blokovi u cjelini sačinjavaju lanac blokova: block+chain = blockchain. Detaljnije o tome svemu u našem [uvodu u blockchain][blockchain].
 
-### **Buy Order - Nalog za kupnju** 
-* Kada želite kupiti kripto valutu otvorite narudžbu u kojoj kažete koliko ste spremni platiti i koju količinu želite kupiti. Na primjer spreman sam platiti x količinu novca za y količinu Bitcoina. To ne znači da će vaša narudžba biti ispunjena jer ukoliko je vaša ponuda preniska neće naići na prodavaoca i može biti poništena prije ispunjenja ukoliko je ne prilagodite tržišnoj situaciji.
+### Block Reward
+
+Block reward je nagrada koja se izdaje rudaru (mineru) ili [mining poolu](#mining-pool) koji je uspješno izračunao [hash](#hash) u nekom [bloku](#block) tijekom procesa [mininga](#mining). Taj proces stvara nove jedinice te valute (npr. nove bitcoine). Takvi tokeni kolokvijalno se zovu virgin coins (djevičanski novčići) jer su potpuno novi i nisu još iskorišteni u nijednoj transakciji.
+
+### Bot Trading
+
+Programi koji su dostupni investitorima, a čija svrha je olakšanje i povećanje preciznosti uz dozu automatizacije.  S obzirom da kriptotržište nema radno vrijeme, postoji potreba za stalnom prisutnošću. Botovi će odraditi transakcije prema prethodno zadanim kriterijima investitora, ukoliko se poklope sa tržišnom situacijom.
+
+### Bubble
+
+Bubble ili mjehur/balon se događa kada je tržište u naglom usponu; slična situacija je bila sa dot-com mjehurom i tržištem nekretnina u posljednjem desetljeću.  Što više novca ulazi u tržište, mjehur postaje veći. Zamislite da pušete balon, ali ne pušete ga samo vi već i mnogi drugi u isto vrijeme.
+
+Tržište ima svoje normalno kretanje, kao i vi između udisaja i izdisaja kod napuhavanja balona, što se i vidi na grafovima. Kada balon postane prevelik, probušiti ga mogu razne vijesti i događaji te zrak počinje curiti, samo je pitanje koliko brzo. Ako je rupa prevelika ili ih ima previše zrak brže curi. Ako pratite razvoj situacije i vijesti o tržištima možete djelomično predvidjeti potencijalno puknuće i to će vam dati dovoljno vremena da udahnete svoj dio zraka prije nego iscuri i pričekate dok se situacija ne popravi. Tada treba nanovo investirati. Ali poanta je da je uvijek balon, bio mali ili veliki.
+
+Za primjer takvog balona u kripto svijetu i njegovog djelomičnog puknuća pogledajte [ovaj članak][bubble].
+
+### Bull Trap
+
+Zamka za bikove. Manipulacija od strane investitora ili grupe koja kupuje velike veličine valute kako bi umjetno stvorili dojam povećanja vrijednosti. U tom trenu drugi investitori su skloni pomisliti kako će trend biti nastavljen u pozitivnom smjeru te se pridružuju kupnji. Dok drugi investitori kupuju po novoj cijeni, grupa koja je izazvala ovu situaciju prodaje svoju poziciju drugima po znatno višoj cijeni od stvarne. Kada prodaju svoju zalihu, manipulacija je završena i tržište se normalizira, a vrijednost čak i padne izazivajući gubitke kod ljudi koji su kupili za vrijeme manipulacije. Pogledati [Pump'n'Dump](#pumpndump). Obrnuta strategija zove se [Bear Trap](#beartrap).
+
+### Buy Order
+
+Nalog za kupnju. Kada želite kupiti kriptovalutu, otvarate narudžbu na [burzi](#exchange) u kojoj kažete koliko ste spremni platiti i koju količinu želite kupiti. Na primjer "spreman sam platiti x količinu novca za y količinu Bitcoina". To ne znači da će vaša narudžba biti ispunjena, jer ukoliko je vaša ponuda preniska neće naići na prodavaoca i može biti poništena prije ispunjenja ukoliko je ne prilagodite tržišnoj situaciji. Bitno je napomenuti da se u svijetu [kriptovaluta][cc] uvijek kupuje *od* nekoga i prodaje *nekome*, pa tako ako nitko ne kupuje, nikakva cijena vam neće omogućiti da prodate svoje valute, i obrnuto.
 
 ## C
 
-### **Candlestick Chart - Graf u obliku svijeće** 
-* Popularan oblik grafa koji pokazuje dnevni obim trgovanja u preciznom i razumljivom obliku uz prikaz punog raspona aktivnosti za taj period. 
+### Candlestick Chart
+
+Graf svijeća. Popularan oblik grafa koji pokazuje dnevni obim trgovanja u preciznom i razumljivom obliku uz prikaz punog raspona aktivnosti za taj period. 
 
 ![Candlestick Graf](https://upload.wikimedia.org/wikipedia/commons/e/ea/Candlestick_chart_scheme_03-en.svg)
 
-### **Choyna**
-* Sleng izraz za Kinu, zemlju izrazito utjecajnu u Bitcoin svijetu zato jer se tamo odvija velika količina trgovanja i najveća količina mininga.
+### Cloud Mining
 
-### **Classic - Klasik** 
-* Uobičajeno ime za nešto što je starije od dvije godine. ETC ili Ethereum Classic, Bitcoin Classic i slično… u ovom slučaju developeri imaju naviku nazvati coine koji su doživjeli fork (podijelili se) klasičnom verzijom. Ideja iza toga naziva je u načinu nastanka. Kako su oba coina nastala od originalnog [blockchaina](https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/) nastavkom razvoja zadržale su se originalne vrijednosti s kojima je započet razvoj originalnog lanca te se radi na unapređenju istog bez promjena centralnih odlika.
+Rudarenje u oblaku. Ako imate mnogo mjesta i zvučne izolacije te vlastiti izvor struje, možete pokušati [rudariti](#mining) na vlastitom terenu. 
 
-### **Cloud Mining - Rudarenje u oblacima(vidite kako nema smisla sve prevoditi)**
-* Pitate li se – ''Mogu li ja ovo raditi bez oblaka?'' - Teoretski da. Ako imate mnogo mjesta i zvučne izolacije te vlastiti izvor struje. Ukoliko ipak kao i većina niste u mogućnosti imati svoj vlastiti mining, a svejedno se želite baviti tim dijelom kripto svijeta možete kupiti ugovor od stranih tvrtki koji se bave isključivo tom uslugom. Oni već imaju postavljena računala gdje vi od njih iznajmljujete procesorsku snagu a oni zauzvrat vrše operaciju mininga i vama na vaš račun šalju kripto valutu za koju imate ugovor.
+Ukoliko kao i većina niste u mogućnosti imati svoj vlastiti mining, a svejedno se želite baviti tim dijelom kripto svijeta, možete sklopiti ugovor s tvrtkama koje se bave isključivo tom uslugom. Oni već imaju postavljena računala gdje vi od njih iznajmljujete procesorsku snagu a oni zauzvrat vrše operaciju mininga i vama na vaš račun šalju kripto valutu za koju imate ugovor.
 
-### **Potvrda - Confirmation**
-* Kada je blok transakcija uspješno obrađen i kada su sve transakcije unutar tog bloka podataka potvrđene dolazi do potvrde bloka. Ovisno o tipu kriptovaluta vrijeme potvrde za transakcije može biti od 30 sekundi do nekoliko minuta. Duže vrijeme potvrde, iako može biti gnjavaža, generalno se smatra sigurnijim procesom. U većini slučajeva, transakcija se smatra “službenom” već nakon prve potvrde, ali postoje određeni exchangevi i trgovci koji će čekati dok ne prime nekoliko razina potvrda prije nego odluče poslati sredstva kako bi se zaštitili od potencijalnog dvostrukog trošenja digitalne valute.
+Sličan koncept je [mining pool](#mining-pool).
 
-### **Continuation Graph Pattern**
-* Pogledom na graf i liniju trenda, moći ćete zamijetiti da li je isti uzlazan(bull market) ili silazan(bear market). Naime, povremeno moguće je primijetiti uzorke koji pokazuju fluktuacije a koji vode trend liniju u suprotnom smjeru od trenutačnog kretanja tržišta, samo kako bi nastavile u istom prethodnom smjeru nakon zamijećene fluktuacije. Taj tip grafikona nazivamo continuation grafikonom.  Naime, to znači da unatoč postojanju trenutačnih fluktuacija iz makro perspektive trend nije promijenio smjer, već pokazuje investitorima kako je trenutačna pozicija testirana i nastavlja u pozitivnom smjeru. Ovaj generalni naziv pokriva cijelu skupinu grafova. Pogledati više [ovdje](http://stockcharts.com/school/doku.php?id=chart_school:chart_analysis:chart_patterns) (Engleski jezik korišten za opis)
+### Confirmation
 
-### **Crypto Anarhist** 
-* netko tko je potpuno protiv vlade i kontrole koju vlada postavlja, dok ga netko ne prevari za novac. Tada zove FINU, FIMU, Ministarstvo pravosuđa...
+Potvrda. Kada je blok transakcija uspješno obrađen i kada su sve transakcije unutar tog bloka podataka potvrđene dolazi do potvrde bloka. Ovisno o tipu kriptovalute vrijeme potvrde za transakcije može biti od 30 sekundi do nekoliko minuta ili čak sati. Duže vrijeme potvrde, iako može biti gnjavaža, generalno se smatra sigurnijim procesom.  
 
-### **Cryptocurrency - Kriptovaluta**
-* Crypto kao riječ proističe iz starogrčkog naziva koji znači skriveno ili skrivati se; naime kriptografija je proces kodiranja pisanih poruka.
-[Kriptovaluta](https://bitfalls.com/hr/2017/08/20/cryptocurrency/) je financijski instrument u obliku dugačkih blokova alfanumeričkog koda. To valutom investitori trguju, te se može koristiti kao sredstvo plaćanja kod trgovaca koji je primaju. Za razliku od tradicionalnih valuta koje su vezane za vlade ili bankarske sustave, crypto valute obično su kompletno decentralizirane i nisu podložne sličnim utjecajima kao tradicionalne valute. To ne znači da je tržište kriptovaluta [stabilno](https://bitfalls.com/hr/2017/09/12/tweets-destroy-markets-fud-chinese-bitcoin-bans/). Kriptovalute su relativno novi pojam;  gdje je prva bio Bitcoin predstavljen u 2009.-te godine. Kriptovalute su poznate pod nazivom “digitalne valute” ili “alternativne valute”.
+U većini slučajeva, transakcija se smatra “službenom” već nakon prve potvrde, ali postoje određene [burze](#exchange), mjenjačnice i trgovci koji će čekati dok ne prime nekoliko razina potvrda prije nego odluče otključati sredstva kako bi se zaštitili od potencijalnog [dvostrukog trošenja](#double-spending) digitalne valute.
 
-### **Cup and Handle Pattern - graf u obliku šalice**
-* Ovaj se trend može vidjeti na grafu trgovanja kada investitori testiraju kretanje pozitivnog rasta vrijednosti. Pozitivan trend će biti vidljiv kroz tijekom kupnje i prodaje te će formirati oblik slova ‘U’ zbog razlike u vrijednostima trgovanja. Nakon formiranja tzv. šalice i tog prvog uspona, investitori će ponovno testirati tržište prodajem po nižoj vrijednosti te to formira oblik drške šalice. Nakon toga, s obzirom da je ovo graf pozitivnog rasta trend će nastaviti rasti. Više možete vidjeti [ovdje](http://stockcharts.com/school/doku.php?id=chart_school:chart_analysis:chart_patterns:cup_with_handle_continuation) (ENG)
+### Continuation Graph Pattern
+
+Pogledom na graf i liniju trenda vrijednosti neke valute, moći ćete zamijetiti da li je isti uzlazan (bull market) ili silazan (bear market). Naime, povremeno je moguće primijetiti uzorke koji pokazuju fluktuacije a koji vode trend liniju u suprotnom smjeru od trenutačnog kretanja tržišta, samo kako bi nastavile u istom prethodnom smjeru nakon zamijećene fluktuacije. Taj tip grafa nazivamo _continuation_ grafom (grafom nastavka).  To znači da unatoč postojanju trenutačnih fluktuacija iz makro perspektive trend nije promijenio smjer, već pokazuje investitorima kako je trenutačna pozicija testirana i nastavlja u očekivanom smjeru. Ovaj generalni naziv pokriva cijelu skupinu grafova. Pogledati više [ovdje](http://stockcharts.com/school/doku.php?id=chart_school:chart_analysis:chart_patterns) (na engleskom).
+
+### Cryptocurrency
+
+Kriptovaluta. Digitalna valuta koju je nemoguće falsificirati. Kriptovaluta je bez centralnog autoriteta koji njome upravlja. Više informacija [u uvodu u kriptovalute][cc].
+
+### Cup and Handle Pattern
+
+Graf u obliku šalice. Ovaj se trend može vidjeti na grafu trgovanja kada investitori testiraju kretanje pozitivnog rasta vrijednosti. Pozitivan trend će biti vidljiv tijekom kupnje i prodaje te će formirati oblik slova ‘U’ zbog razlike u vrijednostima trgovanja. Nakon formiranja tzv. šalice i tog prvog uspona, investitori će ponovno testirati tržište prodajem po nižoj vrijednosti te to formira oblik drške šalice. Nakon toga, s obzirom da je ovo graf pozitivnog rasta, trend će nastaviti rasti. Više možete vidjeti [ovdje](http://stockcharts.com/school/doku.php?id=chart_school:chart_analysis:chart_patterns:cup_with_handle_continuation) (stranica na engleskom jeziku).
 
 
 ## D
 
-### **Day Trading - Dnevno trgovanje**
-* Ovo je praksa trgovanja koji se odvija unutar istog kalendarskog dana. Investitori prate male pokrete valuta i pokušavaju to najbolje iskoristiti za ostvarivanje zarade. Dnevno trgovanje se temelji na mikro trendovima sa uzlaznim ili silaznim vrijednostima te volumenom koji može činiti pozitivnu razliku u isplativosti trgovanja zbog malih pokreta u cijeni. 
+### Day Trading
 
-### **Dead Cat Bounce**
-* Ova fraza se odnosi na trenutačan oporavak u inače padajućem tržišnom trendu. Postoje dvije različite vrste oporavka: jedna je kada se negativan trend tijekom vremena pretvori U pozitivan uzlazni trend pa drugi je ovaj iz naziva. Unutar negativnog trenda dogodi se kratki period optimizma te se nakon toga negativan trend nastavlja. To znači da je pozitivan trend negativno prikazan i da nije stvaran. Izraz potiče iz starije izreke da i mrtva mačka može poskočiti ako padne s dovoljne visine.
+Dnevno trgovanje. Ovo je praksa trgovanja koji se odvija unutar istog kalendarskog dana. Investitori prate male pokrete valuta i pokušavaju to najbolje iskoristiti za ostvarivanje zarade. Dnevno trgovanje se temelji na mikro trendovima sa uzlaznim ili silaznim vrijednostima te volumenom koji može činiti pozitivnu razliku u isplativosti trgovanja zbog malih pokreta u cijeni. Dnevno trgovanje može voditi do [nebrojenih bogatstava][zhedge], ali i velikih gubitaka.
 
-### **Decentralized - decentralizirana**
-* Ovo je izraz koji ćete često čuti kada se govori o kriptovalutama. U ovom kontekstu znači da ta valuta nije kontrolirana od nekog centraliziranog entiteta kao što su primjerice banke ili vlade. Dok to znači da kriptovalute nisu podložne državnim regulativama to također znači kako investitori na svojim leđima nose daleko veću odgovornost. Investitori bi trebali biti spremni na visoke [rizike](https://bitfalls.com/2017/09/12/tweets-destroy-markets-fud-chinese-bitcoin-bans/) koji dolaze u trgovanju sa kripto valutama kao i visoke nagrade. Također treba napomenuti kako ne postoje institucionalne zaštite koje bi spriječile krađe i prevare. Ukoliko izgubite svoju digitalnu valutu velike su šanse da je više nikada nećete vidjeti.
+### Dead Cat Bounce
 
-### **Deflation - Deflacija**
-* U financijskom smislu deflacija predstavlja opadajuću cijenu potrošačkih dobara. Na površini ovo se može činiti kao dobra stvar, jer što je loše u činjenici da imate manje troškove? Naime produženi period deflacije može imati negativan utjecaj na ekonomsko stanje, jer predstavlja smanjenu mogućnost potrošnje širokog sloja ljudi. Vlade i banke će često imati ekonomske mjere kojima će izazvati trenutačnu inflaciju ili rast cijena kako bi smanjili negativne utjecaje dugoročne deflacije. Te mjere, kroz povijest, imale su različitu razinu uspješnosti. Deflacija se također može odnositi napad vrijednosti nekretnina, pokretnina i investicija kao što su kripto valute. Znatna deflacija može uzrokovati situaciju gdje vam je ''voda preko glave'' a to bi značilo da primjerice vaš stan danas se vrijedi manje nego što ste vi za njega platili. Kada se to dogodi u vašem portfelju kripto valuta znajte da će se u većini slučajeva trend okrenuti na bolje te ako ishitreno prodate valute na kojima ste u gubitku, u mnogo slučajeva prolazite loše na dugoročnom planu.
+Odskok mrtve mačke. Ova fraza se odnosi na trenutačan oporavak u inače padajućem tržišnom trendu. Postoje dvije različite vrste oporavka: jedna je kada se negativan trend tijekom vremena pretvori u pozitivan uzlazni trend, a drugi je ovaj iz naziva. Prepoznaje se na sljedeći način. Unutar negativnog trenda dogodi se kratki period optimizma te se nakon toga negativan trend nastavlja. To znači da je pozitivan trend negativno prikazan i da nije stvaran. Izraz potiče iz starije izreke da i mrtva mačka može poskočiti ako padne s dovoljne visine.
 
-### **Demurrage - prekoračenje roka ali u principu kazna za HODL-anje**
-* Ovo je naplata penala prema onim računima investitora koji ne koriste svoje digitalne valute za transakcije već ih samo drže na računu kao dugoročnu investiciju. Neke kripto valute koriste ovaj pristup kako bi osigurale cirkulaciju i tok kapitala te kako bi spriječili sakupljače i potencijalne manipulacije cijenama. Trenutačno postoji samo jedna kripto valuta koja ima ovu vrstu penala – Freicoin - ali to ne znači da se nove neće pojaviti stoga pratite njihove opise.
+### Decentralized
 
-### **Difficulty - Razina težine**
-* Izraz težina se ovdje odnosi na lakoću kojom možemo obaviti mining jednog bloka transakcijskih informacija. Svaka kripto valuta ima algoritme (kao što su SHA-265 ili Scrypt) koji određuju težinu mininga za valutu na koju se odnose. Određivanje težine nije jednostavan zadatak i mora biti uravnoteženo. Ukoliko je prejednostavno tržište će biti preplavljeno novom valutom i to će izazvati pad cijene. U koliko je preteško ljudi koji obavljaju mining će izgubiti interes za sudjelovanjem u procesu. Težina je trenutačno jedan od najvećih izazova što se tiče mininga samog Bitcoina jer je porasla do te mjere da individualnim minerima postaje neisplativa. 
- 
-### **Distributed Denial of Service (DDoS)**
-* Bilo kojem pojedincu koji se brine za neki tip online prisutnosti ovaj pojam predstavlja potencijalnu noćnu moru. DDoS kao kratica obično je praćena riječju napad koji počinje kada napadač okupi stotine ili tisuće zombi računala koje je prethodno zarazio trojancima ili virusima te ih usmjeri na jedan web site, email server ili mrežu te ih preplavi zadacima ili upitima. Dobro koordiniran napad može ih kompletno srušiti tj. onemogućiti u pružanju usluga. Nekoliko crypto exchangeva su bili žrtvom DDoS napada koji su obično politički ili osobno motivirani. Ovi napadi se mogu spriječiti sa moćnim sigurnosnim mjerama kao što su firewallovi ali većina utjecaja pada na leđa krajnjih korisnika i njihove brige o vlastitim računalima.
+Decentralizacija. Izraz koji ćete često čuti kada se govori o [kriptovalutama][cc]. U ovom kontekstu znači da ta valuta nije kontrolirana od nekog centraliziranog entiteta kao što su primjerice banke ili vlade. Dok to znači da kriptovalute nisu podložne državnim regulativama to također znači da investitori na svojim leđima nose daleko veću odgovornost. Investitori bi trebali biti spremni na visoke [rizike](https://bitfalls.com/2017/09/12/tweets-destroy-markets-fud-chinese-bitcoin-bans/) koji dolaze u trgovanju sa kriptovalutama, kao i visoke nagrade. Također treba napomenuti kako ne postoje institucionalne zaštite koje bi spriječile krađe i prevare. Ukoliko izgubite svoju digitalnu valutu velike su šanse da je više nikada nećete vidjeti.
 
-### **Double Bottom Pattern - Dvostruko dno**
-* Uzorak dvostrukog dna se formira kada investitori kupuju i prodaju kako bi testirali negativan trend vrijednosti. Kupnja i prodaja će se odvijati kroz vrijeme te će se prikazati na grafu kao dvije gotovo identične doline. Ukoliko tijekom rasta iz druge doline bude vidljiv izlaz koji je viši od razine početka prethodnog pada može se smatrati ta tržište ima potencijal nastanka rasta. Dvostruko dno obično može biti smatrano prijelazom iz negativnog u pozitivan trend.
+### Deflation
+
+Deflacija. U financijskom smislu deflacija predstavlja opadajuću cijenu potrošačkih dobara. Na površini ovo se može činiti kao dobra stvar, jer što može biti loše u činjenici da imate manje troškove? Naime, produženi period deflacije može imati negativan utjecaj na ekonomsko stanje, jer predstavlja smanjenu mogućnost trošenja širokog sloja ljudi. Vlade i banke će često imati ekonomske mjere kojima će izazvati trenutačnu inflaciju ili rast cijena kako bi smanjili negativne utjecaje dugoročne deflacije. Te mjere su kroz povijest imale različitu razinu uspješnosti. 
+
+Deflacija se također može odnositi na pad vrijednosti nekretnina, pokretnina i investicija kao što su kriptovalute. Znatna deflacija može uzrokovati situaciju gdje vam je ''voda preko glave'' a to bi značilo da primjerice vaš stan danas vrijedi manje nego koliko je vrijedio kada ste ga kupili. Kada se to dogodi u vašem portfelju kriptovaluta, znajte da će se u većini slučajeva trend okrenuti na bolje te ako ishitreno prodate valute na kojima ste u gubitku, u mnogo slučajeva prolazite loše na dugoročnom planu.
+
+### Demurrage
+
+Kazna za [HODL](#hodl)anje. Ovo je naplata penala prema onim računima investitora koji ne koriste svoje digitalne valute za transakcije već ih samo drže na računu kao dugoročnu investiciju. Neke kriptovalute koriste ovaj pristup kako bi osigurale cirkulaciju i tok kapitala te kako bi spriječili sakupljače i potencijalne manipulacije cijenama. Trenutačno postoji samo jedna kripto valuta koja ima ovu vrstu penala – Freicoin - ali to ne znači da se nove neće pojaviti. Direktna suprotnost je Insanity coin koji uništi 10% iznosa neke transakcije pri svakoj transakciji, i time aktivno podržava [HODL](#hodl).
+
+### Difficulty
+
+Težina. Opisuje lakoću kojom možemo obaviti [mining](#mining) jednog [bloka](#block) transakcijskih informacija. Svaka [kriptovaluta][cc] ima algoritme (kao što su [SHA-265](#sha-256) ili [SCrypt](#scrypt)) koji određuju težinu mininga. Određivanje težine nije jednostavan zadatak i mora biti uravnoteženo. Ukoliko je prejednostavno, tržište će biti preplavljeno novom valutom i to će izazvati pad cijene. U koliko je preteško ljudi koji obavljaju mining će izgubiti interes za sudjelovanje u procesu. Težina je trenutačno jedan od najvećih izazova što se tiče mininga samog Bitcoina jer je porasla do te mjere da individualnim minerima postaje neisplativa.
+
+### Double Bottom Pattern
+
+Uzorak dvostrukog dna se formira kada investitori kupuju i prodaju kako bi testirali negativan trend vrijednosti. Kupnja i prodaja će se prikazati na grafu kao dvije gotovo identične doline. Ukoliko tijekom rasta iz druge doline bude vidljiv izlaz koji je viši od razine početka prethodnog pada može se smatrati ta tržište ima potencijal nastanka rasta. Dvostruko dno obično može biti smatrano prijelazom iz negativnog u pozitivan trend.
 
 ![Dvostruko dno](https://upload.wikimedia.org/wikipedia/en/5/59/Double_bottom_confirmation.jpg)
 
-### **Double Spending - Dvostruko trošenje**
-* Skeptici koji promatraju kripto industriju inzistiraju kako je dvostruka potrošnja najveći problem. Kako je digitalna valuta 100% elektronička teško je pratiti da li je isti novac potrošen na više mjesta u isto vrijeme. Naime ovo je bilo pokušano u mnogo navrata ali funkcionira isključivo pod pretpostavkom kako ne postoje mehanizmi kojima se taj čin provjerava i sprečava.  Cijeli koncept kripto valuta se temelji na praćenju cijelog lanca i onemogućavanju dvostruke potrošnje - jer ukoliko pokušamo potrošiti na dva mjesta kod druge transakcije lanac će javiti kako je kod već potvrđen za prijašnju transakciju te transfer neće biti moguć.
+Suprotni trend je [Double Top Pattern](#double-top-pattern).
 
-### **Double Top Pattern - Dvostruki Vrhunac**
-* Dvostruki vrhunac se formira kada investitori kupuju i prodaju da bi potvrdili pozitivan rast u vrijednosti. Tijekom kupnje i prodaje formirati će se dva planinska vrhunca na uzorku trgovanja. Ukoliko se prilikom drugog pada u dolinu negativan trend nastavi dublje od pozicije gdje je prvi vrhunac započeo može se smatrati kako će se negativni trend nastaviti dalje te kako tržište prelazi iz pozitivnog u negativno.
+### Double Spending
 
-![Double Vrhunac](https://upload.wikimedia.org/wikipedia/en/8/81/Doubletop_confirmed.jpg)
+Skeptici koji promatraju kripto industriju inzistiraju kako je dvostruka potrošnja najveći problem. Kako je digitalna valuta 100% elektronička teško je pratiti da li je isti novac potrošen na više mjesta u isto vrijeme. To je bilo pokušano u mnogo navrata ali funkcionira isključivo pod pretpostavkom kako ne postoje mehanizmi kojima se taj čin provjerava i sprječava.  
 
+Cijeli koncept [kriptovaluta][cc] se temelji na praćenju cijelog [lanca](#blockchain) i onemogućavanju dvostruke potrošnje - jer ukoliko pokušamo potrošiti isto na dva mjesta, kod druge transakcije lanac će javiti kako je poslani kod već potvrđen za prijašnju transakciju te transfer neće biti moguć.
 
-## E 
-### **Ecosystem - Ekosistem**
-* Korištenje ovog izraza je sve više izraženo što se više bližite potencijalnom shitcoinu koji pokušava verbalno prikazati svoju sofisticiranost i dubinu. Pripazite jer može imati sofisticiranu i najbolju namjeru da vas razdvoji od vašeg novca. Riječ ekosistem se koristi primjerice kod korištenja Apple proizvoda jer su svi dizajnirani da funkcioniraju odlično unutar vlastitog sustava ali se nužno ne žele lijepo igrati sa drugima. Kada ste investirani u jedan ekosistem prijelaz biva teži iz jednog u drugi sa Apple na Windows, iOS na Android ili ne daj bože na Windows Phone. [(RIP)](https://www.forbes.com/sites/ewanspence/2017/07/12/microsoft-windows-phone-windows10-mobile-strategy/)
+### Double Top Pattern
 
-### **Escrow**
-* Posrednik koji će pohraniti sredstva za određenu transakciju na privremeni račun dok se detalji oko razmjene ne dogovore između dvije stranke. Exchangevi obično koriste escrow račune kada se razmjenjuju velike količine kripto ili bilo kojih drugih valuta. Ovo omogućuje provođenje temeljite procjene cijelog postupka tek kada su obje strane zadovoljene obavijeste voditelja računa da pošalje sredstva.
+Dvostruki vrhunac se formira kada investitori kupuju i prodaju da bi potvrdili pozitivan rast u vrijednosti. Tijekom kupnje i prodaje formirati će se dva planinska vrha na uzorku trgovanja. Ukoliko se prilikom drugog pada u dolinu negativan trend nastavi dublje od pozicije gdje je prvi vrhunac započeo, može se smatrati kako će se negativni trend nastaviti dalje te kako tržište prelazi iz pozitivnog u negativno.
 
-### **Exchange - Burza**
-* Exchange ili burza je usluga gdje se nalaze investitori kako bi kupili ili prodali Bitcoin ili druge kriptovalute. Neki od primjera uključuju [Bittrex](www.bittrex.com), [Coinbase](www.coinbase.com), [Kraken](www.kraken.com), [Poloniex](www.poloniex.com), [BTCC](https://www.btcchina.com), [OKCoin](https://www.okcoin.cn).
-* Ideja vodilja svake burze je biti sigurno mjesto susreta ponude i potražnje te razmjene sredstava. Doduše nisu sve burze iste. Neke direktno kupuju i prodaju valute od investitora dok su neke samo platforma gdje se investitori direktno susreću. Na stranicama burza investitori mogu pronaći sve potrebne informacije o trgovanju dok neke nude i mogućnost stvaranja online [walleta](https://bitfalls.com/2017/08/31/what-cryptocurrency-wallet/). Neke od burza također nose popis trgovaca koji spremno primaju kripto valute za svoje usluge.
+![Dupli Vrhunac](https://upload.wikimedia.org/wikipedia/en/8/81/Doubletop_confirmed.jpg)
 
-### **Exchange Rate - Tečaj po kojem se vrši razmjena**
-* Slično središnjem tečaju banke. Odnos koji pokazuje koliko kripto valuta vrijedi u *"stvarnim novcima"*. 
-* Kada gledamo klasičan novac ili FIAT, to je odnos gdje vidimo koliko jedinica jedne valute vrijedi u drugoj. Npr. USD Vs EUR kao jedan od klasičnih parova, ali ta usporedba se može primijeniti na svaku drugu FIAT valutu. 
-* Osim usporedbe sa BTC Vs FIAT, kripto se također može usporediti sa drugim Kriptom - Npr. BTC Vs ETH. 
+Suprotni obrazac je [Double Bottom Pattern](#double-bottom-pattern).
+
+## E
+
+### Escrow
+
+Posrednik koji će pohraniti sredstva za određenu transakciju na privremeni račun dok se detalji oko razmjene ne dogovore između dvije stranke. [Exchangevi](#exchange) obično koriste escrow račune kada se razmjenjuju velike količine kripto ili bilo kojih drugih valuta. Ovo omogućuje provođenje temeljite procjene cijelog postupka. Tek kada su obje strane zadovoljne, obavijeste voditelja računa da pošalje sredstva.
+
+### Exchange
+
+Exchange ili burza/mjenjačnica je usluga gdje investitori kupuju i prodaju kriptovalute. Neki od primjera uključuju [Bittrex][bittrex], [Coinbase], [Kraken][kraken], [Poloniex][poloniex], [BTCC], [OKCoin], [Litebit], itd.
+
+Ideja iza svake burze je biti sigurno mjesto susreta ponude i potražnje te razmjene sredstava, no nisu sve burze iste. Neke direktno kupuju i prodaju valute od investitora dok su neke samo platforma gdje se investitori direktno susreću. Na burzama investitori mogu pronaći sve potrebne informacije o trgovanju dok neke nude i mogućnost stvaranja online [walleta (novčanika)](https://bitfalls.com/2017/08/31/what-cryptocurrency-wallet/). Neke od burza također objavljuju popise trgovaca koji primaju kriptovalute za svoje usluge.
 
 ## F
 
-### **F.U.D.**
-* Fear, Uncertainty and Doubt ili po domaći - Strah, Nesigurnost i Sumnja - S.N.S.(sumnjam da ćete sresti ovaj akronim, ali ako ga i sretnete tu ste prvi puta čitali o njemu). Može potjecati o vijesti o tržištu ali može biti i manipulacijski alat koji tvrtke koriste međusobno kako bi stavile protivnike u nezavidnu poziciju te oslabile njihov utjecaj. Više o tome [ovdje](https://bitfalls.com/2017/09/12/tweets-destroy-markets-fud-chinese-bitcoin-bans/).
+### FUD
 
-### **Falling Wedge - Opadajući Klin**
-* Spada u rod trendova koji nagovješćuju moguću promjenu ka negativnom ili pozitivnom ovisno o situaciji. U načelu smatra se nagovještajem pozitivnog trenda koji je izgledno na pomolu. Mora nastati nakon negativnog trenda i obično naznačuje krajnje najniže trenutne vrijednosti. Zone donje i gornje vrijednosti otpora se smanjuju i kada potegnemo linije preko njih vidimo da te linije počinju ići prema istoj točci. Slikovni prikaz [ovdje](http://stockcharts.com/school/doku.php?id=chart_school:chart_analysis:chart_patterns:falling_wedge_reversal). 
+Fear, Uncertainty and Doubt ili Strah, Nesigurnost i Sumnja - S.N.S. (sumnjam da ćete sresti ovaj akronim, ali ako ga i sretnete tu ste prvi puta čitali o njemu). Može potjecati iz vijesti o tržištu ali može biti i manipulacijski alat koji tvrtke koriste međusobno kako bi stavile protivnike u nezavidnu poziciju te oslabile njihov utjecaj. Više o tome [ovdje](https://bitfalls.com/2017/09/12/tweets-destroy-markets-fud-chinese-bitcoin-bans/).
 
-### **Faucet - Špina, Pipa, Slavina, Česma...**
-* = sam naziv označava mogućnost otvaranja iste i dobivanje "besplatnih" kriptovaluta u mikro jedinicama. U zamjenu obično je potrebno otvoriti jednu centraliziranu adresu npr. [Faucethub](https://faucethub.io) te adresu koju generira registracijski proces koristiti na sajtovima koji ga podržavaju. Postoje i faucet sajtovi koji ne potrebuju centralnu adresu, već direktno šalju u vaš wallet. Potencijal leži u tome da privlače ljude dajući im male količine a zaradu ostvaruju putem oglasa koji se prikazuju na sajtu. Slavine mogu i presušiti ako izvor nestane(ako nema dovoljno prometa da se pokriva od oglašavanjem). Tada se kaže da su presušile ili da su *gone dry*.
+### Faucet
 
-### **FIAT Currency - FIAT Valuta**
-* FIAT potječe od Latinske rijči koja znači  - bit će. - tako da nam u ovom slučaju ne predstavlja bas neko objašnjenje. 
-* FIAT je financijski predmet čija vrijednost nije temeljena na protuvrijednosti u robi ili nekom drugom obliku fizički prisutne vrijednosti. Većina novca danas se smatra FIAT valutom jer nije vezana za zlato ili srebro kao sto je to bilo u povijesti - te postoji i napreduje jer ljudi i institucije imaju povjerenja u njegovu vrijednost i stabilnost zemalja koje izdaju tu valutu. Također treba spomenuti kako je po ovoj definiciji većina kriptovaluta također FIAT. Dodatno treba biti svjestan činjenice da **svaka** valuta može propasti ukoliko je izgubljeno povjerenje ili postoji neki drugi utjecaj. Samo se treba sjetiti naših Jugo milijardi. Zanimljivo je da je Vijetnam danas jedna od zemalja gdje je najlakše zaraditi svoj prvi [milion](https://c1.staticflickr.com/7/6192/6032133563_2c66cf8b8c_b.jpg)
+Faucet ili slavina: sam naziv označava mogućnost otvaranja iste i dobivanje "besplatnih" kriptovaluta u mikro jedinicama. U zamjenu je obično potrebno otvoriti jednu centraliziranu adresu npr. [Faucethub](https://faucethub.io), te adresu koju generira registracijski proces koristiti na sajtovima koji ga podržavaju. 
 
-### **Fib Retracement Levels**
-* Sistem analiziranja tržišta koji sa određenom vjerojatnošću može predvidjeti promjene u vrijednosti kriptovaluta. Mogućnost gubitaka se također može mjeriti u proporcijama koje prate [Fibonaccijevu spiralu](https://upload.wikimedia.org/wikipedia/commons/2/2e/FibonacciSpiral.svg).
+Postoje i faucet sajtovi koji ne zahtjevaju centralnu adresu, već direktno šalju u vaš wallet. Potencijal leži u tome da privlače ljude dajući im male količine, a zaradu ostvaruju putem oglasa koji se prikazuju na sajtu. Slavine mogu i presušiti (_gone dry_) ako izvor nestane (ako nema dovoljno prometa da se pokriva od oglašavanja).
 
-###	**Fill or Kill**
-* Kada vidite ovaj izraz on pokazuje jednostavnu narudžbu za kupnju. Vi kažete koliko ste spremni platiti i koju količinu želite. Ako se vaša ponuda susretne sa ponuđačem - ispuni se. Ako se u zadanom roku ne ispuni tada se automatski gasi i ostaje neispunjena. 
+Poznat primjer je [Bitcoin faucet iz 2009](https://clickforafrica.org/2016/12/the-first-free-bitcoin-faucet/) koju je napravio Gavin Andresen da pospješi adopciju tehnologije. Na toj je stranici bilo potrebno kliknuti na gumb, ispuniti nasumičnu riječ, i dobilo bi se 5 bitcoina - u današnjoj protuvrijednosti preko $20,000.
 
-### **Flag Pattern - Formiranje uzorka zastave**
-* Ovaj se oblik pojavljuje na grafu vrijednosti kada investitori žele testirati trenutnu cijenu. Kupnja i prodaja se na tradicionalnim tržištima formira kroz nekoliko tjedana i kroz razlike koje se pojavljuju na grafu mogu se povući paralelne linije između support i resistance razina promatranog perioda te one formiraju zastavu dok je pad ili rast smatran jarbolom zastave. Sto se kriptotržišta tiče, nekoliko tjedana je mnogo, a dobro je imati na umu da je ovo Wall Street na steroidima. 
-* Ovi uzorci se mogu pojavljivati u bilo kojoj tržišnoj situaciji i ne nagovješćuju promjenu kretanja trenda već mogu služiti za potvrdu nastavka ovisno o smjeru koji je formiran.
+### FIAT
+
+Fiat u "Fiat valuta" potječe od Latinskog  "bit će". Fiat je financijski predmet čija vrijednost nije temeljena na protuvrijednosti u robi ili nekom drugom obliku fizički prisutne vrijednosti. Većina novca danas se smatra FIAT valutom jer nije vezana za zlato ili srebro kao što je to bilo u povijesti - te postoji i napreduje jer ljudi i institucije imaju povjerenja u njegovu vrijednost i stabilnost zemalja koje izdaju tu valutu ("bit će" vrijedno jer tako kažu i vjerujemo im). 
+
+Treba biti svjestan činjenice da **svaka** valuta može propasti ukoliko je izgubljeno povjerenje ili postoji neki drugi utjecaj. Samo se treba sjetiti naših Jugo milijardi. Zanimljivo je da je Vijetnam danas jedna od zemalja gdje je najlakše zaraditi svoj prvi miljun.
+
+![milion](https://c1.staticflickr.com/7/6192/6032133563_2c66cf8b8c_b.jpg)
+
+Više o povijesti valuta i financija saznajte [ovdje][cc].
+
+### Fib Retracement Levels
+
+Sistem analiziranja tržišta koji sa određenom vjerojatnošću može predvidjeti promjene u vrijednosti kriptovaluta. Mogućnost gubitaka se također može mjeriti u proporcijama koje prate [Fibonaccijevu spiralu](https://upload.wikimedia.org/wikipedia/commons/2/2e/FibonacciSpiral.svg).
+
+![Fibonaccijevu spiralu](https://upload.wikimedia.org/wikipedia/commons/2/2e/FibonacciSpiral.svg)
+
+### Fill or Kill
+
+Kada vidite ovaj izraz, on pokazuje jednostavnu [narudžbu za kupnju](#buy-order). Vi kažete koliko ste spremni platiti i koju količinu valute želite. Ako se vaša ponuda susretne sa ponuđačem - ispuni se. Ako se u zadanom roku ne ispuni tada se automatski gasi i ostaje neispunjena. 
+
+### Flag Pattern
+
+Uzorak zastave se pojavljuje na grafu vrijednosti kada investitori žele testirati trenutnu cijenu. Kupnja i prodaja se na tradicionalnim tržištima formira kroz nekoliko tjedana i kroz razlike koje se pojavljuju na grafu mogu se povući paralelne linije između support i resistance (podrške i otpora) razina promatranog perioda te one formiraju zastavu dok je pad ili rast smatran jarbolom zastave. Sto se kriptotržišta tiče, nekoliko tjedana je mnogo, a dobro je imati na umu da je ovo Wall Street na steroidima.
+
+Ovi uzorci se mogu pojavljivati u bilo kojoj tržišnoj situaciji i ne nagovješćuju promjenu kretanja trenda već mogu služiti za potvrdu nastavka ovisno o smjeru koji je formiran.
 
 ![Bear(Medvjeđa) zastava](https://upload.wikimedia.org/wikipedia/commons/b/b4/Bear-flag-example.jpg)
 
 
-### **FOMO**
-* The fear of missing out ili Strah od propuštene prilike. Dogodi se u onom trenutku kada čitate kako su si ljudi riješili životne materijalne probleme sa par investicija i sada voze Ferrarije i kupuju vile. Također se dogodi kada vidite grafove koji samo rastu. Tada je najgore vrijeme za ulazak jer je vjerojatno da će cijene pasti a vi biti u gubitku. Kupujte u periodu - korekcija - ili pada vrijednosti a prodajte kada se oporavi tržište. 
+### FOMO
 
-### **Fontas**
-* Manje "što je" a više "tko su/je". Misteriozan investitor ili grupa investitora koja aktivno koristi Pump'n'Dump tehniku manipuliranja tržišnim vrijednostima. Kupuju velike količine po nižim cijenama. Tada počinju širiti neistinite informacije po grupama - kako sve izgleda super, kako dolazi novi release, kako je firma sklopila neki totalno cool ugovor zbog kojega će skočiti vrijednost. Ako ljudi pročitaju istu informaciju na nekoliko mjesta dobivaju lažnu potvrdu ionako iskrivljenih činjenica. Kako su potpadnu pod utjecaj počnu kupovati taj coin a grupa pomalo po višim cijenama rasprodaje što je kupila nisko.
+The fear of missing out ili _strah od propuštene prilike_. Dogodi se u onom trenutku kada čitate kako su si ljudi riješili životne materijalne probleme sa par investicija i sada voze Ferrarije i kupuju vile. Također se dogodi kada vidite [grafove koji samo rastu](#to-the-moon). Tada je najgore vrijeme za ulazak jer je vjerojatno da će cijene pasti a vi ćete biti u gubitku. Kupujte u periodu korekcija ili pada vrijednosti a prodajte kada se oporavi tržište. 
 
-### **Fork - Vilica**
-* Naziv potječe od engleskog *Fork in the road* ili kada se jedan put podijeli u dva. ![Fork](https://www.goodfreephotos.com/albums/united-states/tennessee/big-south-fork-national-river-and-recreation-area/aerial-view-of-big-south-fork-tennessee.jpg)
-* Da to još malo detaljnije prikažemo na primjeru kriptovaluta - Ponekad se isti lanac podijeli kao ameba. Znači u trenu podjele postoje dvije identične kopije originalnog lanca. To također znači da ako ste imali 10 coina lanca X, trebali biste dobiti i 10 coina novog lanca Y. Od točke podjele nadalje svaki se nastavlja razvijati nezavisno jedan od drugoga. Da bi Fork bio uspješan, ovisi o mnogo faktora, a obično postoji i pitanje hoće li oba lanca preživjeti. Primjeri uključuju ETH i ETC te BTC i BCH što je novijeg datuma i gdje su oba lanca i coina preživjela podjelu. 
+### Fontas
+
+Misteriozni investitor ili grupa investitora koja aktivno koristi [Pump'n'Dump](#pump-and-dump) tehniku manipuliranja tržišnim vrijednostima. Kupuju velike količine po nižim cijenama. Tada počinju širiti neistinite informacije po grupama ili [na twitteru][fontas] - kako sve izgleda super, kako dolazi novi release, kako je firma sklopila neki totalno cool ugovor zbog kojega će skočiti vrijednost. Ako ljudi pročitaju istu informaciju na nekoliko mjesta dobivaju lažnu potvrdu ionako iskrivljenih činjenica. Pod utjecajem počnu kupovati taj coin, a grupa pomalo po višim cijenama rasprodaje što je kupila nisko.
+
+### Fork
+
+Naziv potječe od engleskog *Fork in the road* ili kada se jedan put podijeli u dva. 
+
+![Fork](https://www.goodfreephotos.com/albums/united-states/tennessee/big-south-fork-national-river-and-recreation-area/aerial-view-of-big-south-fork-tennessee.jpg)
+
+Ponekad se isti [lanac][blockchain] neke kriptovalute podijeli kao ameba. Znači u trenu podjele postoje dvije identične kopije originalnog lanca. To također znači da ako ste imali 10 coina lanca X, trebali biste dobiti i 10 coina novog lanca Y. Forking je inače sasvim normalan način nadogradnje sustava - vrste forkova opisali smo [ovdje][forks]. U slučaju [contientious forka][forks] (kad su forkovi u političkom sukobu), od točke podjele nadalje svaki se nastavlja razvijati nezavisno jedan od drugoga.
+
+Primjeri uključuju ETH i ETC te BTC i BCH, gdje su oba lanca obje valute preživjela podjelu. 
 
 ![The Split](https://upload.wikimedia.org/wikipedia/commons/f/f2/Neutrophil_with_anthrax_copy.jpg)
 
 
-### **Genesis Block - Izvorni Blok**
-* Tijekom mininga ili rudarenja kriptovaluta, blokovi podataka se procesiraju i potvrđuju jedan po jedan. Svi blokovi podataka su povezani serijski po kronološkom redu i tvore [blockchain](https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/). Svaki lanac treba imati svoju početnu kariku i ta prva karika se naziva Genesis blok ili Izvorni blok. Osnovna razlika Genesis Bloka koja ga dijeli od svih ostalih blokova jest da nosi sve nule u polju vrijednosti prethodnog HASH-a. To nam kazuje kako prije ovog bloka nije bio obrađen niti jedan drugi podatak, dok drugi blokovi imaju druge brojke u tom polju.
-* *Najpoznatiji i najpopularniji* Genesis blok ikada generiran je bio Block 0 - Bitcoin lanca, stvoren od strane njegova kreatora - Satoshi Nakamoto-a u siječnju 2009. godine. 
+### Genesis Block
 
-### **Graph Gaps - prazan prostor u grafovima**
-* Može se dogoditi da ponekad gledajući grafove na Exchangevima primijetite prazan prostor ili prekid između linija trenda koji se kasnije nastavlja niže ili više a ne potječe direktno ili isključivo od trgovanja na tržištu. To može biti rezultat zatvorenog trgovanja, izmjene statističkih analiza, izrazito jakih i utjecajnih vijesti. Postoje tri različita pristupa analizi tih [prostora](http://stockcharts.com/school/doku.php?id=chart_school:chart_analysis:gaps_and_gap_analysis):
+Tijekom [mininga](#mining) ili rudarenja kriptovaluta, blokovi podataka se procesuiraju i potvrđuju jedan po jedan. Svi blokovi podataka su povezani serijski po kronološkom redu i tvore [blockchain]. Svaki lanac treba imati svoju početnu kariku i ta prva karika se naziva genesis [block](#block) ili _izvorni blok_. Osnovna razlika GB-a koja ga dijeli od svih ostalih blokova jest da nosi sve nule u polju vrijednosti prethodnog HASH-a. To nam dokazuje da prije ovog bloka nije bio obrađen niti jedan drugi podatak.
 
->Breakaway Gap. - Pojavljuje se na ***početku*** snažnog pozitivnog ili negativnog trenda i specifičan je po izrazito visokom obimu trgovanja. To znaci da se pokušava *Odlomiti* od prethodnog djelovanja.
->
->Runaway Gap. - Pojavljuje se ***tijekom*** snažnog pozitivnog ili negativnog trenda te predstavlja trenutačnu pojačanu aktivnost tog trenda.
->
->Exhaustion Gap. - Pojavljuje se ***blizu kraja*** pozitivnog ili negativnog trenda i može biti naznaka kratkotrajnog trenda suprotnog smjera. Kada trend gubi svoj intenzitet i počne *gubiti moment*. Slično kao kada ispuhujete zrak iz pluća i onda dolazite do točke kada osjećate da ste na kraju snage. 
+Najpoznatiji i najpopularniji genesis block ikada generiran je bio Block 0 Bitcoin lanca, stvoren od strane njegova kreatora - Satoshi Nakamoto-a u siječnju 2009. godine. 
+
+### Graph Gaps
+
+Može se dogoditi da ponekad gledajući grafove na burzama primijetite prazan prostor ili prekid između linija trenda koji se kasnije nastavlja niže ili više a ne potječe direktno ili isključivo od trgovanja na tržištu (_graph gaps_ - rupe u grafu). To može biti rezultat zatvorenog trgovanja, izmjene statističkih analiza, izrazito jakih i utjecajnih vijesti. Postoje tri različita pristupa analizi tih [rupa](http://stockcharts.com/school/doku.php?id=chart_school:chart_analysis:gaps_and_gap_analysis):
+
+- Breakaway Gap. - Pojavljuje se na ***početku*** snažnog pozitivnog ili negativnog trenda i specifičan je po izrazito visokom obimu trgovanja. To znači da se pokušava *odhrvati* od prethodnog djelovanja.
+
+- Runaway Gap. - Pojavljuje se ***tijekom*** snažnog pozitivnog ili negativnog trenda te predstavlja trenutačnu pojačanu aktivnost tog trenda.
+
+- Exhaustion Gap. - Pojavljuje se ***blizu kraja*** pozitivnog ili negativnog trenda i može biti naznaka kratkotrajnog trenda suprotnog smjera. Kada trend gubi svoj intenzitet i počne *gubiti moment*. Slično kao kada ispuhujete zrak iz pluća i onda dolazite do točke kada osjećate da ste na kraju snage. 
 
 
 ## H
 
-###	**Hash**
-* Nasumična i složena matematička formula [hash](https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/) koja se koristi prilikom potvrde transakcijskih blokova u procesu poznatom kao mining. Kada miner izračuna traženi HASH u bloku podataka, biva nagrađen u obliku coina i postotka naplaćenih transakcijskih pristrojbi koje se nalaze unutar bloka a naplaćene su pošiljateljima ili inicijatorima podataka. Izračun HASH-a je kompliciran proces za koji je često potrebno i nekoliko pokušaja, a uspjeh nužno i ne garantira isplatu. Uobičajena praksa je da je mining kompetitivan sport i rijetko će veliki igrači zajedno surađivati - ukoliko rade skupa i moraju i dijeliti profit. Ukoliko ne posjedujte nezavidnu količinu HASH procesorske snage, a želite se baviti miningom, onda se pridružite Mining poolu - gdje i Vi i ja možemo skupa doprinositi sa mnoštvom drugih izračunu tih formula i plemenski dijeliti uspjeh. 
+### Hash
+
+Nasumična i kompleksna kombinacija brojki i slova, [hash][blockchain] se koristi prilikom potvrde transakcijskih blokova u procesu poznatom kao [mining](#mining) (rudarenje). Kada miner izračuna traženi hash u bloku podataka, biva nagrađen coinovima i postotkom naplaćenih transakcijskih pristrojbi koje se nalaze unutar bloka, a naplaćene su pošiljateljima ili inicijatorima transakcije. Izračun hasha je kompliciran proces za koji je često potrebno i nekoliko miljuna pokušaja, a uspjeh nužno ne garantira isplatu.
+
+Mining je kompetitivan sport i rijetko će veliki igrači surađivati - ukoliko rade skupa i moraju i dijeliti profit. Ukoliko ne posjedujte zavidnu količinu hashing procesorske snage, a želite se baviti miningom, dobra je opcija pridružiti se [mining poolu](#mining-pool) - gdje i vi i ja možemo zajedno doprinositi sa mnoštvom drugih izračunu tih formula i plemenski dijeliti uspjeh. 
 
 
-### **Hash Rate**
-* je mjera brzine izračuna složenih matematičkih formula. Što je brojka viša, pokazuje veći broj mogućih izračuna. Sam HASH prolaskom vremena postaje kompliciraniji za izračun kako bi se spriječila inflacija i zadržala održivost kriptovalute. Mjere koje se koriste: 
+### Hash Rate
 
->KH/s: Kilohashes po sekundi, 1000 hash izračuna/s (10^3)
->
->MH/s: Megahashes per second, milion hash izračuna/s (10^6)
->
->GH/s: Gigahashes per second, milijarda hash izračuna/s (10^9)
->
->TH/s: Terrahashes per second, 1 bilijun hash izračuna/s (10^12)
->
->PH/s: Petahashes per second, 1 kvadrilion hash izračuna/s (10^15)
+Mjera brzine izračuna [hasheva](#hash). Što je brojka veća, tim je veći broj mogućih izračuna. Sam hash prolaskom vremena postaje kompliciraniji kako bi se spriječila inflacija i zadržala rijetkost kriptovalute. Mjere koje se koriste: 
 
-### **Head and Shoulders pattern - Uzorak u obliku ramena i glave**
-* Stvara se kada imamo dvije manje fluktuacije u vrijednosti koje okružuju jednu veću središnju. ![Head and Shoulders Graph](https://upload.wikimedia.org/wikipedia/en/2/2c/H_and_s_top_new.jpg)
+- KH/s: Kilohashes po sekundi, 1000 hash izračuna/s (10^3)
+
+- MH/s: Megahashes per second, miljun hash izračuna/s (10^6)
+
+- GH/s: Gigahashes per second, milijarda hash izračuna/s (10^9)
+
+- TH/s: Terrahashes per second, 1 triljun hash izračuna/s (10^12)
+
+- PH/s: Petahashes per second, 1 kvadriljun hash izračuna/s (10^15)
+
+### Head and Shoulders pattern
+
+Uzorak u obliku ramena i glave stvara se kada imamo dvije manje fluktuacije u vrijednosti koje okružuju jednu veću središnju. 
+![Head and Shoulders Graph](https://upload.wikimedia.org/wikipedia/en/2/2c/H_and_s_top_new.jpg)
 
 
-### **HODLing**
-* Ponekad Vas nespretni post na popularnom [forumu](https://bitcointalk.org/index.php?topic=375643.0) može proslaviti. Engleska riječ HOLD jer bila trapavo napisana nakon jednog izlaska i proširila se medu korisnicima. HODL - Hold on for dear life. Po forumima i ostalim izvorima 3rd party informacija vidjeti ćete ovaj pojam u vremenima korekcije tržišta - upozorenje da ne prodajete u gubitku. Samo nemojte HODLati Shitcoine.
+### HODL
 
-###	**Hybrid Wallet**
-* Sustav [wallet](https://bitfalls.com/hr/2017/08/31/what-cryptocurrency-wallet/) koji je djelomično software koji je pohranjen na Vašem računalu a dijelom na remote serveru. Većina digitalne valute je spremljena na host računalu wallet pružatelja usluge osim jednog važnog detalja. Vaš privatni ključ  je spremljen samo na Vašem uredaju. Kada vršite transakcije vaš ključ je kriptiran na putu do servera gdje se razmjena odvija na način da server nikada ne posjeduje informacije o Vašem ključu. Ovo je impresivna razina sigurnosti koja ovisi o vama i gdje je korisnik obično najslabija karika. Zaboravljen password ili passphrase key = zaključali ste sami sebe od vlastitih sredstava.
+Ponekad vas nespretni post na popularnom [forumu](https://bitcointalk.org/index.php?topic=375643.0) može proslaviti. Engleska riječ HOLD jer bila trapavo napisana nakon jednog izlaska i proširila se među korisnicima. Postala je HODL - Hold on for dear life - drži za ime života. Po forumima i ostalim izvorima informacija vidjeti ćete ovaj pojam u vremenima korekcije tržišta - upozorenje da ne prodajete u gubitku. Samo nemojte HODLati [shitcoine](#shitcoins).
+
+### Hybrid Wallet
+
+Sustav za [wallet] koji je djelomično softver koji je pohranjen na vašem računalu a dijelom na udaljenom serveru. Vaš [privatni ključ](#private-key) je spremljen samo na vašem uređaju. Kada vršite transakcije, vaš ključ je kriptiran na putu do servera gdje se razmjena odvija na način da server nikada ne posjeduje informacije o njemu. Ovo je impresivna razina sigurnosti koja ovisi o vama i gdje je korisnik obično najslabija karika. Zaboravljena lozinka može značiti trajno izgubljena sredstva.
 
 ## I
 
-### **ICO**
-* ICO je u svojoj naravi praktički identičan koncept IPO-u. ICO je initial coin offering a IPO je initial public offering. ICO se odnosi na kriptovalute i tokene a IPO se odnosi na kompanije koje po prvi puta nude svoje dionice na prodaju investitorima.
+### ICO
 
-### **Inflation - Inflacija**
-* Termin u financijskom smislu pokazuje generalni trend rasta cijena roba i usluga. Ukoliko inflacija rasta placa ne prati inflaciju cijena, to je pokazatelj smanjene platežne moći kako cijene rastu. Banke i vlade generalno pokušavaju zaustaviti dugotrajne periode izrazite inflacije isto kao sto pokušavaju kontrolirati deflaciju. Inflacija je prirodan financijski proces, gdje zemlje žele imati stabilan trend rasta inflacije od 2-3% godišnje, što mogućuje ljudima da se lakše prilagode tom rastu.
+ICO je u svojoj naravi praktički identičan koncept IPO-u. ICO je _initial coin offering_ (ponuda prvih tokena) a IPO je _initial public offering_ (ponuda prvih dionica). ICO se odnosi na kriptovalute i tokene a IPO se odnosi na tvrtke koje po prvi puta nude svoje dionice na burzi.
 
-## L 
+### Inflation
 
-### **Litecoin**
-* Prvi puta predstavljen javnosti u Listopadu 2011, te se smatra prvim velikim igraćem  među kriptovalutama nakon Bitcoina. Iako postoje brojne druge kriptovalute, Litecoin drži drugo mjesto iza Bitcoina u redosljedu nastanka velikih valuta. Ovo se ne treba miješati sa pojmom tržišne kapitalizacije. Litecoinu raste popularnost kroz njegov razvoj te samom činjenicom da postaje alternativa Bitcoinu koji svojim rastom izlazi i dosega pojedinih investitora. Litecoin koristi Scrypt algoritam te nastaje metodom Proof-of-Work.
+Inflacija je termin koji u financijskom smislu pokazuje generalni trend rasta cijena roba i usluga. Ukoliko inflacija rasta plaća ne prati inflaciju cijena, to je pokazatelj smanjenja platežne moći. Banke i vlade generalno pokušavaju zaustaviti dugotrajne periode izrazite inflacije isto kao što pokušavaju kontrolirati [deflaciju](#deflation). Inflacija je prirodan financijski proces, gdje vlade žele imati stabilan trend rasta od 2-3% godišnje, što mogućuje ljudima da se lakše prilagode tim promjenama.
 
 ## M
 
-### **Mining - Rudarenje**
-* Set transakcija kod kriptovaluta je pakiran te podjeljen u [blokove](https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/). Pravovremena obrada tih blokova je osnova za zdravo funkcioniranje svake kriptovalute, a kako ne postoji centralizirani organ koji bi vršio te izračune - to čine sami investitori. Taj proces se naziva mining, a minerima ili rudarima se nude poticaji kako bi preuzeli taj zadatak na sebe. Kada se pravilno izračuna HASH određenog bloka, miner koji ga je izračunao dobiva određenu količinu coina kao nagradu, kao i dio  transakcijske pristojbe naplaćene inicijatoru transakcije. Naravno da možete sudjelovati na kriptotržištu i bez da se bavite miningom, ali dobro je znati da je i ta opcija otvorena. Sam mining ima dvije svrhe - jedna je potvrda transakcija a druga je stvarenje nove valute. 
+### Mining
 
-### **Mining Pools**
-* Mining je proces koji zahtjeva ozbiljnu količinu kompjutorske snage, struje te tolerancije na buku. Kako mnogi nemaju mogućnosti uložiti u stvaranje vlastite mining mašinerije a da bi sa istom mogli konkurirati velikim igračima na tržištu onda se stvore udruženja minera koja skupa rade ne rješavanju matematičkih problema kako bi bili grupno konkurentniji. Ako uspješno izračunaju HASH za dati blok, dijele nagradu. 
+Set transakcija kod [kriptovaluta][cc] je pakiran u [blokove](#block). Pravovremena obrada tih blokova je osnova za zdravo funkcioniranje svake kriptovalute, a kako ne postoji centralizirani organ koji bi vršio te izračune - to čine sami investitori. Taj proces se naziva mining (rudarenje), a minerima ili rudarima se nude [poticaji](#mining-reward) kako bi preuzeli taj zadatak na sebe. 
 
-### **Mintage Cap - Konačna količina**
-* Većina kriptovaluta je u svojem začetku ograničena krajnjom količinom koja će biti stvorena. To znaci da je nema neograničeno mnogo. Primjer toga je Bitcoin sa svojih 21.000.000 komada koji bi do 2140 trebali biti svi u cirkulaciji. Članak je [tu](https://bitfalls.com/hr/2017/09/17/bitcoin-finite-just-myth/). I to je to. Samo 21 milion. I nema više. To je jedan od razloga rasta cijene, taj faktor gdje računamo na to da ga nema više nego je određeno prvotnim programiranjem. Treba napomenuti da je Peercoin relativno izolirana varijanta koja nema određenu krajnju količinu ili mintage cap. 
+Kada se pravilno izračuna [hash](#hash) određenog bloka, miner koji ga je izračunao dobiva određenu količinu coina kao nagradu, kao i dio transakcijske pristojbe naplaćene inicijatoru transakcije. Naravno da možete sudjelovati na kriptotržištu i bez da se bavite miningom, ali dobro je znati da je i ta opcija otvorena. Sam mining ima dvije svrhe - jedna je potvrda transakcija a druga je stvarenje nove valute.
+
+Više o miningu u našem [uvodu u blockchain][blockchain].
+
+### Mining Pool
+
+Grupa rudara. [Mining](#mining) je proces koji zahtjeva ozbiljnu količinu kompjutorske snage, struje, te tolerancije na buku. Kako mnogi nemaju mogućnosti uložiti u stvaranje vlastite mining mašinerije a da bi sa istom mogli konkurirati velikim igračima na tržištu,  stvore se udruženja minera koja zajedno rade na rješavanju matematičkih problema kako bi bili grupno konkurentniji. Ako uspješno izračunaju [hash](#hash) za dati blok, dijele nagradu. 
+
+Slično [rudarenju u oblaku](#cloud-mining), no u ovom slučaju se ne plaća najam opreme, nego se šalje svoje pokušaje rješenja matematičkih jednadžbi u skup svih ostalih kojem pridonose i drugi mineri iz poola.
+
+### Mintage Cap
+
+Većina kriptovaluta je u svojem začetku ograničena krajnjom količinom koja će biti stvorena, što znači da je nema neograničeno mnogo. Ta granica definirana je u samom softveru koji pogoni tu kriptovalutu. Primjer toga je Bitcoin sa svojih 21.000.000 komada koji bi do 2140 trebali biti potpuno "izrudareni", no to je tako samo [za sada][finite]. To je jedan od razloga rasta cijene, taj faktor gdje računamo na to da ga nema više nego je određeno prvotnim programiranjem.
 
 ## N
 
-### **Noob Trap - Klopka za novajlije**
-* “N00b” je kratica termina "New Blood" i postoji u više varijanti - Noob, Newb, Noob... i odnosi se na bilo koju osobu koja je nova u nekom krugu - a u ovom slučaju u okružju kriptovaluta. Kao i u online igrama postoje ljudi koji će vam pomoći da prelazite levele i stasate, ali ima i onih koji će vas napadati i htjeti vam oteti novac za užinu. Noobovi su obično lake mete jer su lakovjerni i jako podložni reaktivnom djelovanju zbog ograničenog znanja i razumijevanja. Vise detalja o raznim klopkama pročitati u Bear Trap, Bull Trap, Pump'n'Dump.
+### Noob Trap
+
+Zamka za noobove. “N00b” je pogrdni termin za "New Blood" i postoji u više varijanti - Noob, Newb, Noob... odnosi se na bilo koju osobu koja je nova u nekom krugu - a u ovom slučaju u okružju kriptovaluta. 
+
+Kao i u online igrama, postoje ljudi koji će vam pomoći da prelazite levele i stasate, ali ima i onih koji će vas napadati i htjeti vam oteti novac za užinu. Noobovi su obično lake mete jer su lakovjerni i jako podložni reaktivnom djelovanju zbog ograničenog znanja i razumijevanja. Vise detalja o raznim klopkama pročitati u [Bear Trap](#bear-trap), [Bull Trap](#bull-trap), [Pump'n'Dump](#pump-and-dump), [Fontas](#fontas).
 
 ## O
 
-## **Offline Storage - Offline pohrana**
-* Također se zove - Hladna pohrana ili Cold storage. Direktno se odnosi na način na koji je spremljena. Offline znači točno to. Spremljena na uređaju ili računalu koje nije spojeno na web što znači da ne može biti ukradena digitalnim putem. Najsigurniji način je da niti jedna treća strana nije vas cold storage već vi sami. Na svu sreću mi vas imamo pokrivene sa ovim [uređajem](https://bitfalls.com/hr/shop/ledger-nano-s-bitfalls-consultation/)
+### Offline Storage
+
+Također se zove hladna pohrana ili cold storage. Direktno se odnosi na način na koji je neki [wallet] spremljen. Offline znači točno to: spremanje na predmetu, uređaju ili računalu koje nije spojeno na web, što znači da wallet ne može biti ukraden digitalnim putem.
+
+Najsigurniji način je da niti jedna treća strana nije vaš cold storage već vi sami. Kako najbolje osigurati svoj wallet pročitajte [ovdje][wallsec], a da saznate kako radi [hardverski novčanik][ledgershop] za kriptovalute, uvod je [ovdje][ledger].
 
 ## P
  
-### **Paper Wallet - Papirnati novčanik**
-* Konačno ćete moći tiskati vlastiti novac bez da završite u zatvoru. Kada pričamo o kriptovalutama vas [novčanik](https://bitfalls.com/hr/2017/08/31/what-cryptocurrency-wallet/) je 2D QR kod isprintan na papiru, koji možete sigurno pohraniti. Taj QR kod može biti skeniran i novci mogu biti položeni na račun po izboru. Ako nije plastificiran, izbjegavajte vodu i mašine za rublje da ne izgubite pristup, a bar kod čuvajte da vaša sredstva netko drugi ne iskoristi, jer kada jednom odu, u većini slučajeva nema povratka.
+### Paper Wallet
 
-### **Peer-to-Peer**
-* Naziv populariziran u vrijeme generacije koja je aktivno koristila Napster ili skraćeno P2P - je središnji koncept kripto valuta. Transakcije se obavljaju između pojedinaca bez prekida ili utjecaja središnjeg tijela koje bi moglo kontrolirati proces. 
+Konačno ćete moći tiskati vlastiti novac bez da završite u zatvoru. 
 
-### **Pennant Pattern - Uzorak Zastavice**
-* Uzorak Zastave Vs. Uzorak Zastavice. Spadaju u istu grupu uzoraka ali imaju drugačiji oblik koji formiraju na liniji trenda. Pogledati vise na [linku](http://www.investopedia.com/university/charts/charts6.asp)
+Kada pričamo o kriptovalutama vaš [novčanik][wallet] je par QR kodova isprintanih na papiru - vaš [javni](#public-key) i [privatni ključ](#private-key). Taj QR kod može biti skeniran i novci mogu biti položeni na račun po izboru. Ako nije plastificiran, izbjegavajte vodu i strojeve za rublje da ne izgubite pristup, a papir čuvajte da vaša sredstva netko drugi ne iskoristi, jer kada jednom odu, u većini slučajeva nema povratka.
 
-### **Phone-to-Phone Transfer**
-* Obično je ovo mobilna aplikacija koja omogući instant transfer informacija sa jednog na drugi uređaj. Ukoliko dva korisnika hoće razmijeniti informacije  a oboje imaju isti app taj prijenos podataka obavljaju sa jednog na drugi telefon. Već postoje brojne aplikacije koje omogućuju ovakav vid transfera iz walleta u [wallet](https://bitfalls.com/2017/08/31/what-cryptocurrency-wallet/).
+Ako želite naučiti kako osigurati vaše kriptovalute do paranoične razine, pročitajte [ovaj članak][wallsec], a da naučite razliku između sweepanja i unošenja privatnog ključa u softver za novčanike, pogledajte [ovdje][startbtc].
 
-### **Platform Exchange**
-* Tip burze ili posredovanja gdje je *ograničena* uloga koju sam exchange igra prilikom transakcija među investitorima. Većina exchangeova su posrednici transakcijama i olakšavaju proces ponuđača da nadu kupce. Imaju set algoritama koji čine trgovanje lakšim te koji čine trgovanje pravednim i sigurnim. Osim toga, nemaju drugog utjecaja na tijek razmjena. Doduše postoje i tipovi burza koje imaju ponudu Escrow opcija posredništva.
+### Peer-to-Peer
 
-### **PoS vs. PoW** 
-* Proof of Stake Vs Proof of Work - Oba imaju svoje prednosti i mane. Jedan omogućuje skalabilnost ali je relativno nesiguran protokol dok je drugi sigurniji ali nije skalabilan. Kontinuiranim radom na poboljšanjima individualnih [blockchainova](https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/) pokušavaju se otkloniti mane jednog Vs. drugog ili barem umanjiti.
+Skraćeno P2P, naziv populariziran u vrijeme generacije koja je aktivno koristila Napster. Središnji koncept [kriptovaluta][cc]. Transakcije se obavljaju između pojedinaca bez prekida ili utjecaja središnjeg tijela koje bi moglo kontrolirati proces. 
 
-### **Private Key - Privatni ključ**
-* Jedinstveni kod koji je izdan investitoru a koristi se u svrhu digitalnog potpisa tijekom transakcija. U usporedbi sa javnim ključem koji je javno dostupan, privatni ključ je sušta suprotnost i treba biti čuvan potpuno tajno. Privatni ključ se koristi kada se primi transfer od investitora koji taj transfer kodira javnim ključem koji je Vas pristanak na taj transfer. Vas privatni ključ ima veću težinu nego vas novčanik u ovisnosti o vašoj investiciji.
+### Platform Exchange
 
-### **Proof-of-Stake Mining**
-* Nagrade za ovaj tip mininga se temelje na količini koju ste već investirali u navedenu kriptovalutu. Što više neke valute posjedujete, to su vam više potencijalne nagrade koje možete ostvariti. Ovaj tip za sada nije samostalna metoda mininga ali se koristi kod nekih kriptovaluta u sprezi sa Proof-Of-Work metodom.
+Tip burze ili posredovanja gdje je ograničena uloga koju sam [exchange](#exchange) igra prilikom transakcija. Većina exchangeova su posrednici transakcijama i olakšavaju proces ponuđačima da nađu kupce. 
 
-### **Proof-of-Work Mining**
-* Nagrade za ovaj tip mininga su recipročne radu koji vas stroj ili farma strojeva odrade. Dobijete onoliko coina i nagrada od obrade transakcija u ovisnosti koliko ih prođe kroz vaš stroj i koliko ih je on uspješno odradio. Sa velikim kriptovalutama kao Litecoin i Bitcoin, ovo je jedina metodologija mininga. 
+Imaju set algoritama koji čine trgovanje lakšim i koji čine trgovanje pravednim i sigurnim. Osim toga, nemaju drugog utjecaja na tijek razmjena. Postoje i tipovi burza koje imaju ponudu [escrow](#escrow) opcija posredništva, kao [LocalBitcoins](https://localbitcoins.com).
 
-### **Public Key - Javni ključ**
-* Jedinstven ključ koji je izdan Vama kao investitoru. Kada Vam netko kao primatelju šalje sredstva koristi taj ključ kao oznaku Vas kao stranke koja prima sredstva. Privatni ključ kao suprotnost javnom se ne izdaje nikome. 
+### Private Key
 
-### **Pump and Dump**
-* Tržišna strategija gdje dovoljno jak individualac ili grupa manipulira tržištem na način da izrazito podigne volumen trgovanja nekom manje vrijednom valutom te direktnim i agresivnim marketingom po forumima i drugim grupama sa pričom koja prikazuje tu valutu u izrazito povoljnom svijetlu. Naivni investitori povjeruju u tu strategiju i nasjednu te obično kupe shitcoin po previsokoj cijeni te nakon sto grupa završi sa strategijom obično ti individualci ostanu u izrazito nepovoljnoj poziciji.(Bagholder)
+Privatni ključ je jedinstveni kod koji je izdan vlasniku iznosa neke kriptovalute, a koristi se u svrhu digitalnog potpisa tijekom transakcija. U usporedbi sa [javnim ključem](#public-key) koji je javno dostupan i služi kao "adresa" na koju vam se šalje kriptovaluta, privatni ključ treba biti čuvan potpuno tajno. Više informacija o ključevima [ovdje][wallet].
+
+### Proof of Stake
+
+[Rudarenje](#mining) dokazom uloga. Nagrade za ovaj tip mininga se temelje na količini koju ste već investirali u navedenu kriptovalutu. Čim više neke valute posjedujete, to su vam veće potencijalne nagrade koje možete ostvariti. Ulažete iznos koji trenutno imate i njime garantirate da ćete potvrđivati transakcije drugih sudionika blockchaina. Ulog se gubi ako vas ostatak mreže identificira kao nekoga tko sabotira verifikacije ili daje krive informacije. Više o tome u našem PoW vs. PoS članku.
+
+### Proof of Work
+
+Nagrade za ovaj tip [mininga](#mining) su recipročne radu koji vaš stroj ili farma strojeva odrade. Dobijete onoliko coina i nagrada od obrade transakcija koliko ih prođe kroz vaš stroj i koliko ih je on uspješno odradio u usporedbi s drugim rudarima s kojima se natječete. Sa velikim kriptovalutama kao Litecoin i Bitcoin, ovo je trenutno jedina metoda mininga. Detaljno ali pojednostavljeno objašnjenje cijelog procesa možete vidjeti [ovdje][blockchain].
+
+### Public Key
+
+Jedinstven ključ koji je izdan vlasniku [walleta][wallet]. Kada vam netko kao primatelju šalje sredstva, koristi taj ključ kao oznaku vas kao stranke koja prima sredstva. [Privatni ključ](#private-key), kao suprotnost javnom, se ne izdaje nikome i služi za odobrenje prijenosa sredstava s vašeg walleta na tuđi. Više o tome u uvodu u kripto novčanike [ovdje][wallet]. 
+
+### Pump and Dump
+
+Tržišna strategija gdje dovoljno jak individualac ili grupa manipulira tržištem na način da izrazito podigne volumen trgovanja nekom manje vrijednom valutom direktnim kupovanjem u velikim količinama, te agresivnim marketingom po forumima i drugim grupama sa pričom koja prikazuje tu valutu u izrazito povoljnom svjetlu (_pump_). Naivni investitori često povjeruju u tu strategiju, te obično kupe [shitcoin](#shitcoin) po previsokoj cijeni. Nakon što grupa završi sa strategijom i rasproda sada svoje skuplje valute (_dump_), novi investitori budu [bagholders](#bagholder).
 
 
 ## Q
 
-### **QR Code**
-* Slični u naravi tradicionalnom barkodu ali su kvadratnog oblika i mogu sadržavati znatno više informacija nego tradicionalni barkod. 
-* Trgovci koji primaju kriptovalute i bez-kontaktna plaćanja imaju prikazane barkodove preko kojih se povezuju platitelj i trgovac. Obično se skeniraju telefonom i uplata se vrši preko neke od mobilnih aplikacija koje to podržavaju - kao naprimjer AliPay ili WeChat Pay u Kini. Primjer QR koda: 
-<a rel='nofollow' href='http://www.qrcode-generator.de' border='0' style='cursor:default'><img src='https://chart.googleapis.com/chart?cht=qr&chl=www.bitfalls.com&chs=180x180&choe=UTF-8&chld=L|2' alt=''></a>
+### QR Code
 
+Slični u naravi tradicionalnom barkodu ali su kvadratnog oblika i mogu sadržavati znatno više informacija nego tradicionalni barkod. 
+
+Trgovci koji primaju kriptovalute i bez-kontaktna plaćanja imaju prikazane barkodove preko kojih se povezuju platitelj i trgovac. Obično se skeniraju pametnim telefonom i uplata se vrši preko neke od mobilnih aplikacija koje to podržavaju - kao naprimjer AliPay ili WeChat Pay u Kini. Primjer QR koda: 
+
+![](https://chart.googleapis.com/chart?cht=qr&chl=www.bitfalls.com&chs=180x180&choe=UTF-8&chld=L|2)
+
+QR kodovi se nerijetko koriste u svijetu kriptovaluta za printanje [papirnatih novčanika](#paper-wallet).
 
 ## R
 
-### **Rekt**
-* Osjećaj koji imate kada ste posljednji u redu kupili shitcoin po izrazito visokoj cijeni ili kada mu vrijednost naglo padne.
+### Rekt
 
-### **Reversal Graph Pattern - Uzorak Grafa koji nagovještava promjenu trenda**
-* Ovo je uzorak koji se formira na liniji trenda te prikazuje izglednu promjenu sa pozitivnog na negativni trend ili obrnuto. To nam pokazuje kako su investitori testirali trenutne razine te zaključili kako za njih nema pokrića te se smjer mijenja. 
+Izraz koji se koristi kada je nečiji [buy order](#buy-order) ili [sell order](#sell-order) neslavno propao i uzrokovao gubitak. Primjerice, okladili ste se na rast bitcoina na platformi poput Bitmexa. Platforma vam je sama odredila limit od 80% vaše ulazne cijene kada će sama zatvoriti tu narudžbu (tako burzovno trgovanje funkcionira), i bitcoin pada na 79% originalne cijene. Vaša narudžba sada je _rekt_.
+
+### Reversal Graph Pattern
+
+Ovo je uzorak grafa koji prikazuje izglednu promjenu sa pozitivnog na negativni trend ili obrnuto. To nam pokazuje kako su investitori testirali trenutne razine te zaključili kako za njih nema pokrića te se smjer mijenja.
 	
-
 ## S
 
-### **Satoshi**
-* Najmanji dio Bitcoina kojim je omogućeno trgovanje. Točnije to je 0.00000001 Bitcoina te nosi ime prema autoru i osobi koja je stvorila Bitcoin u 2009.-oj - Satoshi Nakamotu. Studiju je napisao 2008. a Bitcoin je zaživio već iduće godine. 
+### Satoshi
 
-### **Scrypt**
-* Scrypt je jedan od dva tip algoritama koji se koriste za mining a koriste ga primjerice Litecoin i Novacoin. Ima jednu veliku prednost nad SHA-256 algoritmom a to je da je brzi i jednostavniji za uporabu. Također ne potrebuje izrazito veliku količinu kompjutorske snage za obradu [blokova](https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/) stoga je relativno povoljan ulaz za mlade minere.
+Najmanji dio Bitcoina kojim je omogućeno trgovanje. Točnije to je 0.000000001 Bitcoina te nosi ime prema autoru bitcoina - Satoshi Nakamotu. Studiju je napisao 2008. a Bitcoin je zaživio već iduće godine. Više o dijeljenju bitcoina na manje dijelove saznajte [ovdje][finite].
 
-### **Sell Order - Nalog za prodaju**
-* Nalog za prodaju se stvara u onom trenu kada investitor odluci prodati svoje kriptovalute te na nekom od exchageva gdje ima svoj račun ponudi svoju valutu na prodaju. Određenu količinu za određenu cijenu. Ukoliko njegova ponuda pronađe kupca, ponuda se ispuni, a ako ne nade čeka dok se ne ispuni ukoliko nema vremenskog ograničenja.
+### SCrypt
 
-### **SHA-256**
-* Drugi od dva mining algoritma koji su trenutno u uporabi. Koriste ga primjerice Bitcoin i Peercoin da nabrojimo samo neke. Iako je vrlo popularan, zahtjeva izrazitu kompjutersku moć i zbog toga je relativno ograničavajuć za nove minere sa slabijom opremom bez udruživanja u pool sa drugim minerima.
+SCrypt je jedan od algoritama koji se koriste za [mining](#mining), a koriste ga primjerice Litecoin i Novacoin. Ima jednu veliku prednost nad [SHA-256](#sha-256) algoritmom a to je da je brži i jednostavniji za uporabu i time ne zahtjeva izrazito veliku količinu kompjutorske snage za obradu [blokova](#block), što ga čini pogodnim izborom za nove minere.
 
-### **Shitcoin**
-* ovo nije uvijek los termin. Investitori ne izbjegavaju shitcoin zato jer je shitcoin. I na njemu postoji ROI. Samo se nemojte zanositi i početi vjerovati da je to iduća velika stvar jer bi ste se mogli opeći. (Kao Dodgecoin).
+### Sell Order
 
-### **Silk Road**
-* Website and darkwebu na kojem su se regularno sretale ponuda i potražnja za drogom te pranjem novca. Mnoge transakcije na toj stranici koristile su kriptovalute što je imalo negativan utjecaj na cijelu industriju. Nakon duge FBI istrage, 2013. uhićen je vlasnik stranice te je cijela operacija zatvorena. Nažalost kada se jedna zatvori mnoge druge niknu. Inače [Monero](https://bitfalls.com/hr/2017/09/20/moneros-secret-project-fundraiser-high-profile-merchants/) je kao jedna od najanonimnijih valuta korišten u svrhe tih razmjena.
+Suprotno od [buy order](#buy-order), nalog za prodaju se stvara u onom trenu kada investitor odluči prodati svoje kriptovalute, te na nekoj od burzi gdje ima svoj račun ponudi svoju valutu na prodaju: određenu količinu za određenu cijenu. Ukoliko njegova ponuda pronađe kupca, ponuda se ispuni. U suprotnom se čeka dok se ne ispuni ukoliko nema vremenskog ograničenja, ili [limita gubitka](#rekt).
 
-### **Stale Block - Ustajao Blok**
-* Kada je [blok](https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/) kriptovalute uspješno obrađen od strane minera ili mining poola, taj se blok smatra obrađenim ili ustajalim. Iskusni mineri znaju kako zaobići takve blokove jer njihovom obradom ne dobivamo ništa već su samo gubitak resursa.
+### SHA-256
+
+Kompliciran i spor algoritam za [mining](#mining) kojeg koriste npr. Bitcoin i Peercoin. Iako je vrlo popularan, zahtjeva izrazitu kompjutersku moć i zbog toga je relativno ograničavajuć za nove minere sa slabijom opremom - često im je zato jedina opcija udruživanje u [pool](#mining-pool) sa drugim minerima ili [rudarenje u oblaku](#cloud-mining).
+
+### Shitcoin
+
+Coin bez budućnosti - tehnološke ili financijske. To ne znači da se na njemu ne može zaraditi - nekad se tržište lako uspinje čak i na takvim ponudama. Bitno je samo ne pomisliti da shitcoin ima budućnost - npr. weedcoin, dogecoin, itd.
+
+### Silk Road
+
+Notorno crno tržište na kojem su se regularno sretale ponuda i potražnja za drogom te pranjem novca. Mnoge transakcije na toj stranici koristile su kriptovalute što je imalo negativan utjecaj na cijelu industriju. Nakon duge FBI istrage, 2013. uhićen je vlasnik stranice te je cijela operacija zatvorena. Vlasnik stranice nađen je tehnikama opisanim u [ovom članku][anon].
+
+### Stale Block
+
+Kada je [blok](#block) [kriptovalute][cc] uspješno obrađen od strane [minera](#mining) ili [mining poola](#mining-pool), taj se blok smatra obrađenim ili ustajalim. Iskusni mineri znaju kako zaobići takve blokove jer njihovom obradom ne dobivamo ništa već su samo gubitak resursa.
 
 
-### **Stop-Loss Order/Nalog**
-* Ovo možemo smatrati - U slučaju nužde razbij staklo - dugmetom koje mi sami programiramo. S obzirom da ne možemo biti prisutni 24h na tržištu koje nikada ne spava, a da bi spriječili gubitke, postavimo stop loss order na nasu investiciju, te ukoliko cijene padnu naglo do određene razine, nalog se automatski aktivira i proda po postavljenoj cijeni kako bismo potencijalni gubitak sveli na minimum. Različiti exchangevi imaju različite aktivatore i različito aktiviraju ove naloge. Neke to ispunjavaju odmah a neke promatraju tržište i pokušavaju dokučiti da li je to bila samo kratkotrajna manja korekcija prije nego rasprodaju i aktiviraju nalog. Doduše ovo nije uvijek najbolja opcija kako možemo vidjeti [tu](http://fortune.com/2017/06/22/ethereum-crash/), ali u mnogo slučajeva Vam mogu spasiti barem dio uloženoga. Sto se tiče članka i pogreške, Coinbase je isplatio ljude koji su izgubili novac zbog njihovog glitcha.
+### Stop-Loss Order
+
+Ovo možemo smatrati "U slučaju nužde razbij staklo" dugmetom koje mi sami programiramo. 
+
+S obzirom da ne možemo biti prisutni 24h na tržištu koje nikada ne spava, da bi spriječili gubitke postavimo stop loss order na našu investiciju, te ukoliko cijene padnu naglo do određene razine, nalog se automatski aktivira i proda po postavljenoj cijeni kako bismo potencijalni gubitak sveli na minimum. 
+
+Različiti exchangevi imaju različite aktivatore. Neke to ispunjavaju odmah, a neke promatraju tržište i pokušavaju dokučiti da li je to bila samo kratkotrajna manja korekcija prije nego rasprodaju i aktiviraju nalog. Iako zvuči super, ovo nije uvijek najbolja opcija kako možemo vidjeti [u ovom incidentu](http://fortune.com/2017/06/22/ethereum-crash/), ali u mnogo slučajeva vam mogu spasiti barem dio uloženoga. Srećom, u gornjem slučaju, Coinbase je isplatio ljude koji su izgubili novac zbog njihove greške.
 
 
 ## T
 
-### **To the moon!**
-* Do mjeseca! - Obično je usklik koji će se cesto citati sto u upitnom obliku sto u izjavnom. To je nada rasta cijena sa izrazitim skokom unaprijed. 
+### To the moon!
 
-### **Trading Wall**
-* Generalno govoreći to je linija trenda na grafu koja se je praktički ravna crta. Ponekad je razbije nagla vertikalna crta koja prikazuje nagli trenutni rast/pad interesa za nekom valutom, ali to je samo trenutačno. Ako se taj skok stvori nalogom prodaje onda se zove Sell Wall, a ukoliko je stvoren nalogom kupnje onda je Buy Wall. 
+Do mjeseca! - Obično je usklik koji će se često čuti što u upitnom obliku, što u izjavnom. To je nada rasta cijena sa izrazitim naglim skokom u visinu.
+
+### Trading Wall
+
+Ponekad generalno ravnu ili blago dijagonalnu liniju trenda na grafu razbije nagla vertikalna crta (zid - wall) koja prikazuje nagli trenutni rast/pad interesa za nekom valutom, ali to je samo privremeno. Ako se taj skok stvori nalogom prodaje onda se zove Sell Wall, a ukoliko je stvoren nalogom kupnje onda je Buy Wall. 
 
 
-### **Transaction Fee - Transakcijska naknada**
-* Većina prodaja/kupnji koje se vrše kriptovalutama uključuju malu naknadu za vršenje transakcije koja se uključuje u [blok](https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/) koji se sastoji od transakcijskih informacija te naknade koja služi kao nagrada na minera ili mining pool koji je obradi.
+### Transaction Fee
 
-### **Triangle Pattern - Uzorak trokuta**
-* Generalno govoreći ti se uzorci stvaraju kada investitori kupuju i prodaju kriptovalute kako bi testirali trenutni trend. Vrhovi i doline grafova mogu se ograditi ravnim crtama te se uzimaju da razine koje definiraju trenutne visoke i niske vrijednosti. Te povezane linije imaju oblik trokuta.
-* Postoje tri vrste trokutastih uzoraka:
+Većina prodaja/kupnji koje se vrše kriptovalutama uključuju malu naknadu za vršenje transakcije koja se uključuje u [blok](#block). Blok se sastoji od transakcijskih informacija te naknade koje služe kao nagrada za [minera](#mining) ili [mining pool](#mining-pool) koji taj block obradi.
 
->Opadajući trokut - Stvara se kada donja linija trokuta je horizontalna linija a gornja linija se pregiba u donjem smjeru sa lijeva na desno. Opadajući trokut najavljuje negativan trend.
->
->Rastući trokut - Obrnut u nastanku od Opadajućeg, sa nagibom spram gore, sa prelazom lijeve na desnu stranu, gdje je donja linija kosa, a horizontalna linija na gornjem dijelu. Najavljuje pozitivan trend.
->
->Simetrični trokut - Posebno je spomenut jer su obje linije koje stvaraju trokut pod kutom. Ovaj je uzorak teže vidjeti jer ovisno o situaciji može nagovijestiti bilo koji od trendova.
+### Triangle Pattern
 
-### **Trollbox** 
-* To je chatbox koji neki siteovi imaju na rubovima ekrana. To je jedno od mjesta gdje se obavlja marketing za Pump'n'Dump trading. Što god da se piše tamo treba uzeti sa velikom dozom skepse. Pazite da ne ispadnete N00b. 
+Uzorak trokuta. Ti se uzorci stvaraju kada investitori kupuju i prodaju kriptovalute kako bi testirali trenutni trend. Vrhovi i doline grafova mogu se ograditi ravnim crtama te se uzima da definiraju trenutne visoke i niske vrijednosti. Te povezane linije imaju oblik trokuta.
+
+Postoje tri vrste trokutastih uzoraka:
+
+- Opadajući trokut - Stvara se kada je donja linija trokuta horizontalna linija a gornja linija se pregiba u donjem smjeru sa lijeva na desno. Opadajući trokut najavljuje negativan trend.
+
+- Rastući trokut - Suprotno od opadajućeg sa nagibom prema gore od lijeva na desno, gdje je donja linija kosa, a horizontalna linija na gornjem dijelu. Najavljuje pozitivan trend.
+
+- Simetrični trokut - Posebno je spomenut jer su obje linije koje stvaraju trokut pod kutom. Ovaj je uzorak teže vidjeti jer ovisno o situaciji može nagovijestiti bilo koji od trendova.
+
+### Trollbox
+
+Prozorčić za chat kojeg neke burze (Poloniex, Bitmex) imaju na rubovima ekrana. To je jedno od mjesta gdje se obavlja marketing za [Pump'n'Dump](#pump-and-dump). Što god da se piše tamo treba uzeti sa velikom dozom skepse. Pazite da ne ispadnete [n00b](#noob). 
 
 ## W
 
-### **Wallet - Novcanik**
-* Ima istu svrhu kao vas regularni džepni novčanik samo sto ovaj čuva vaše digitalne vrijednosti. Postoje 4 vrste [walleta](https://bitfalls.com/hr/2017/08/31/what-cryptocurrency-wallet/):
+### Wallet
 
->
->Software Wallet - Programi koje imate na desktop računalu ili laptop uređaju.
->
->Mobile Wallet - Dolaze i obliku aplikacija koje instalirate na telefon ili
->tablet. Obično uključuju i QR kod za skeniranje kod On-The-Go transfera.
->
->Internet Wallet: Obično je usluga online walleta pružana od strane exchangeva.
->Preporučamo oprez. 
->
->Papiranti Wallet: Vas digitalni novac se može isprintati u obliku QR koda, the
->se te kopije mogu čuvati u fizičkoj formi kao i tradicionalni novac.
+Novčanik. Ima istu svrhu kao vaš tipični džepni novčanik samo što ovaj čuva vaše digitalne vrijednosti. Objasnili smo ih detaljno [ovdje][wallet].
 
-### **Wedge Pattern - Klinasti uzorak**
-* Uvi uzorci se smatraju tipom kontinuiranih uzoraka što znači da iako pokazuju trenutnu promjenu na tržištu, bilo pozitivnu ili negativnu u principu imaju tendenciju zadržavanja generalnog smjer u kojem se kretalo tržište prije formiranja uzorka. Obično ih se uoči kao dvije paralelne linije koje nemaju zajedničke dodirne točke, koje okružuju linije grafa čije se vrijednosti kreću između različitih gornjih i donjih vrijednosti - a koje su rezultat testiranja trenda od strane investitora. Postoje tri vrste:
+### Wedge Pattern
 
->
->Rastuć Klin - Trend koji se formira u rastućem smjeru dok je generalni smjer cijelog tržišta opadajući. Samo je trenutan pozitivan učinak nakon kojeg tržište nastavlja negativno.
->
->Opadajući Klin - Trend koji se formira u pozitivnom tržišnom okruženju iako je usmjeren prema dolje. Prikazuje trenutni negativni učinak, ali nakon njega pozitivni trend se nastavlja. 
->
->Ravan Klin - Pojavljuje se u vise manje ravnom obliku. Prikazuje samo predah u trenutnom trendu koji nastavlja u svojem smjeru u kratkom vremenu nakon pojavljivanja ovog oblika. 
+Ovi uzorci se smatraju tipom kontinuiranih uzoraka što znači da iako pokazuju trenutnu promjenu na tržištu, bilo pozitivnu ili negativnu, u principu imaju tendenciju zadržavanja generalnog smjera u kojem se kretalo tržište prije formiranja uzorka. Obično ih se uoči kao dvije paralelne linije koje nemaju zajedničke dodirne točke, koje okružuju linije grafa čije se vrijednosti kreću između različitih gornjih i donjih vrijednosti - a koje su rezultat testiranja trenda od strane investitora. Postoje tri vrste:
 
-### **Whale - Kit**
-* U financijskom svijetu obično vrlo bogat investitor ili institucija. U kripto svijetu to može biti i član vaše familije kojem ste posudili $2000 da kupi prve coine. 
+- Rastuć Klin - Trend koji se formira u rastućem smjeru dok je generalni smjer cijelog tržišta opadajući. Samo je trenutan pozitivan učinak nakon kojeg tržište nastavlja negativno.
 
-### **Whitepaper**
-* Whitepaper je centralni dio ICO za svakog investitora. To je dokument u kojem tvrtka koja radi ICO opisuje svoj projekt u detalje. Obvezno štivo koje ne treba propustiti.
+- Opadajući Klin - Trend koji se formira u pozitivnom tržišnom okruženju iako je usmjeren prema dolje. Prikazuje trenutni negativni učinak, ali nakon njega pozitivni trend se nastavlja. 
+
+- Ravan Klin - Pojavljuje se u više manje ravnom obliku. Prikazuje samo predah u trenutnom trendu koji nastavlja u svojem smjeru u kratkom vremenu nakon pojavljivanja ovog oblika. 
+
+### Whale
+
+U financijskom svijetu obično vrlo bogat investitor ili institucija. U kripto svijetu to je netko tko je dovoljno rano ušao u kriptovalutu s dovoljno velikim iznosom da je sada ima u neproporcionalno velikoj količini u usporedbi s drugima.
+
+### Whitepaper
+
+Whitepaper je centralni dio [ICO-a](#ICO) za svakog investitora. To je dokument u kojem tvrtka koja radi ICO opisuje svoj projekt u detalje. Obvezno štivo koje se ne smije propustiti.
 
 ## Z
 
-### **Zero Confirmation Transaction**
-* Procesiranje transakcija kriptovalutama može potrajati bilo gdje od nekoliko desetaka sekundi pa sve do nekoliko minuta. Iako je ovaj proces potreban kako bi se pravilno potvrdile transakcije te kako bi se onemogucilo dvostruko trošenje iste valute može biti predug za neke potrebe. (Npr. Da u Konzumu cekate 10 min na kasi dok se ne potvrdi da imate dovoljno sredstava na kartici). Zbog ovoga neki trgovci ili Exchagevi koji rade sa kriptovalutama ponekad nude - zero confirmation - koje su gotovo instant potvrđene bez prethodnog čekanja na minere da obrade [blok](https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/).
+### Zero Confirmation Transaction
+
+Procesiranje transakcija može potrajati od nekoliko desetaka sekundi pa sve do pola sata. Iako je ovaj proces potreban kako bi se pravilno potvrdile transakcije te kako bi se onemogućilo dvostruko trošenje iste valute, može biti predug za neke potrebe. (Npr. Zamislite da u Konzumu čekate 10 min na blagajni dok se ne potvrdi da imate dovoljno sredstava na kartici). Zbog ovoga neki trgovci ili burze koji rade sa kriptovalutama ponekad nude _zero confirmation_ transakcije (nula potvrde) koje su gotovo trenutno potvrđene bez prethodnog čekanja na [minere](#mining) da obrade [blok](#block).
    
+   ---
+   
+Ako imate ideje za nove pojmove, ili ispravke za predložiti, molimo vas da to učinite preko [Githuba][github].
 
  
+[wallet]: https://bitfalls.com/hr/2017/08/31/what-cryptocurrency-wallet/
+[blockchain]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
+[forks]: https://bitfalls.com/hr/2017/09/27/hard-fork-vs-soft-fork
+[eth]: https://bitfalls.com/hr/2017/09/19/what-ethereum-compare-to-bitcoin/
+[bubble]: https://bitfalls.com/hr/2017/09/06/bitcoin-bubble/
+[tweets]: https://bitfalls.com/hr/2017/09/12/tweets-destroy-markets-fud-chinese-bitcoin-bans/
+[github]: https://github.com/bitfalls/bitfalls_content
+[coinbase]: https://www.coinbase.com/join/542b0423734ab06764000001
+[bittrex]: https://bittrex.com
+[kraken]: https://kraken.com
+[poloniex]: https://poloniex.com
+[okcoin]: https://okcoin.cn
+[btcc]: https://www.btcc.com/
+[litebit]: https://www.litebit.eu?referrer=111550
+[fontas]: https://twitter.com/Fontase
+[spoofy]: https://medium.com/@bitfinexed/meet-spoofy-how-a-single-entity-dominates-the-price-of-bitcoin-39c711d28eb4
+[finite]: https://bitfalls.com/hr/2017/09/17/bitcoin-finite-just-myth/
+[ledger]: https://bitfalls.com/hr/2017/09/08/hardware-wallets-like-ledger-nano-s-work/
+[ledgershop]: https://bitfalls.com/hr/shop/ledger-nano-s-bitfalls/
+[wallsec]: https://bitfalls.com/hr/2017/09/08/best-ways-protect-cryptocurrency-wallet/
+[anon]: https://bitfalls.com/hr/2017/09/18/anonymous-cryptocurrencies-like-bitcoin/
+[cc]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/
+[zhedge]: http://www.zerohedge.com/news/2017-09-28/meet-worlds-no1-bitcoin-derivatives-trader-its-pure-unlicensed-capitalism
+[startbtc]: https://bitfalls.com/hr/2017/09/01/send-receive-bitcoin/
