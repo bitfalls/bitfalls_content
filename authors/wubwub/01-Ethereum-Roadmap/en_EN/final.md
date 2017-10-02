@@ -40,7 +40,7 @@ With _Metropolis_, the beginning of the _ice age_ is postponed by 18 months, and
 
 ZK-Snarks (Zero-Knowledge proof) is the technology behind a cryptocurrency called Zcash. It enables validators to verify the transaction without processing it, so they don't need to know what is in the transaction, only whether it's valid or not. In other words, ZK-Snarks enable anonymous transactions on Ethereum. In particular, the principle of  _zero knowledge_ is described as "I know something happened, I can prove that something happened, but I don't know what happened."
 
- ![Eth_Zcash](../images/Eth_Zcash.png)
+ ![Ethereum and ZCash logo](https://bitfalls.com/wp-content/uploads/2017/10/Eth_Zcash-2.png)
 
 Since Ethereum is a public blockchain, the companies who want to implement the Ethereum blockchain in their business are afraid to put potentially sensitive and confidential data onto the blockchain. In this case, the ZK-Snarks would allow for privacy of sensitive data.
 
@@ -59,8 +59,6 @@ Byzantium is currently in its testing period on the Ropsten testnet. The testing
 ### Casper Proof of Stake
                                 
 The last phase of Ethereum's development - _Serenity_ - will bring us the long-awaited Proof of Stake consensus. The main difference between PoW and PoS is that PoW uses powerful hardware which calculates the  [block hashes][hash] and validates blocks and transactions. As the name says: in Proof of Work, the machines invest time and work to get the right hash.
-
- ![casper](../images/casper.jpg)
 
 In Proof of Stake, the mining is virtual. The validator (the one who confirms validity of transactions by [sealing the blocks][blockchain]) sends a special transaction into the blockchain which will lock up their Ether for a certain time. It can be considered a bank deposit on which you earn interest.
 

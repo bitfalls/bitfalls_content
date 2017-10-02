@@ -43,7 +43,7 @@ S _metropolisom_ se početak _Ledenog doba_ odgađa za 18 mjeseci, te se nagrada
 ZK-Snarks (Zero Knowledge proof) je tehnologija preuzeta s kriptovalute Zcash.
 Ta tehnologija omogućava da verificiramo točnost transakcije bez da je mi sami obradimo, tako da ne znamo što je točno u toj transakciji, ali znamo da je transakcija točna, to jest legitimna. Drugim riječima, ZK-Snarks nam omogućuju anonimne transakcije na Ethereumu. Konkretno, princip _zero knowledge_ (nula znanja) se opisuje kao "Znam da se nešto desilo, i mogu dokazati da se nešto desilo, ali ne znam što."
 
- ![Eth_Zcash](../images/Eth_Zcash.png)
+ ![Eth_Zcash](https://bitfalls.com/wp-content/uploads/2017/10/Eth_Zcash-2.png)
 
 Budući da je Ethereum javno dostupan blockchain, tvrtke koje žele implementirati Ethereum blockchain u svoje poslovanje se boje na blockchain plasirati potencijalne osjetljive i povjerljive podatke. U ovom slučaju, ZK-Snarks olakšavaju održavanje tajnosti povjerljivih podataka.
 
@@ -62,8 +62,6 @@ Byzantium se trenutno testira na Ropsten testnoj mreži, smatra se da će testni
 ### Casper Proof of Stake
                                 
 Zadnja planirana Ethereum nadogradnja _Serenity_ nam donosi dugo očekivani Proof of Stake konsenzus. Glavna razlika između PoW i PoS algoritma je u tome što PoW algoritam koristi moćan hardver  koji računa [hash blokova][hash] i tako validiraju blokove i transakcije. Kao što ime kaže, Proof of Work (Dokaz Rada), strojevi ulože vrijeme i rad da bi došli do pravog hasha.
-
- ![casper](../images/casper.jpg)
 
 U Proof of Stake je rudarenje virtualno. Validator (onaj tko potvrđuje validnost transakcija [pečaćenjem blokova][blockchain]) na blockchain šalje posebnu transakciju koja će zaključati njegov Ether na određeno vrijeme. Možemo to smatrati kao oročenje u banci, na koje validatori dobivaju dividende. 
 
