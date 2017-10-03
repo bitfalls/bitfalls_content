@@ -13,7 +13,7 @@ Tvrtka će početi s implementacijom POS uređaja u Indoneziji u rastućoj mrež
 
 "Demonstrirali smo da postoji zahtjev za bezgotovinske transakcije s našom Pundi-Pundi QR aplikacijom koja je postala jedna od najvećih u Indoneziji, sljedeći Alipay model," rekao je Zac Cheah, CEO Pundi X Labs-a. "Sada smo u položaju da dalje izgrađujemo našu bazu klijenata i veze s vodećim partnerima i dovedemo bezgotovinske transakcije na sljedeći nivo tako što približimo  kriptovalute prosječnom potrošaču".
 
-    "Manje od 1% globalne populacije posjeduje kriptovalute unatoč njihovom ogromnom potencijalu jer je proces kupnje previše kompliciran za čovjeka ili ženu na ulici. Misija Pundi X je učiniti kupnju kriptovalute jednostavnom kao kupnju boce vode - pružanjem univerzalnog pristupa, bilo kad, bilo gdje."
+   "Manje od 1% globalne populacije posjeduje kriptovalute unatoč njihovom ogromnom potencijalu jer je proces kupnje previše kompliciran za čovjeka ili ženu na ulici. Misija Pundi X je učiniti kupnju kriptovalute jednostavnom kao kupnju boce vode - pružanjem univerzalnog pristupa, bilo kad, bilo gdje."
 
 Da bi poticali rast, Pundi X cilja na velike trgovce, lance restorana i tvrtke koje već imaju veliku zajednicu korisnika.
 
