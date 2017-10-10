@@ -1,0 +1,1 @@
+The English version of this article can be found over at [CoinJournal](https://coinjournal.net/pundi-x-labs-unveils-retail-pos-cryptocurrencies). It's been translated and published here with the permission of the author, [Diana Ngo](https://coinjournal.net/author/diana/).
