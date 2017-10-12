@@ -1,4 +1,4 @@
-_We deal with cryptocurrencies every day, and yet we have no clear idea about where the "crypto" in the word comes from. Cryptography has a history much bloodier and murkier than one might think. This is an introduction into computer-based cryptography and its history, and possible future._
+_We deal with cryptocurrencies every day, and yet we have no clear idea about where the "crypto" in the word comes from. Cryptography has a history much bloodier and murkier than one might think. This is a part of an introduction into computer-based cryptography and its history, and possible future._
 
 ---
 
