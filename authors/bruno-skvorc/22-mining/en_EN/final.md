@@ -94,20 +94,20 @@ If you'd like to try mining anyway, [What To Mine][wtm] will be a priceless reso
 
 P.S. If you're already mining or are experienced with it, we'd like to know more. Get in touch in the comments below or write us an [email][mail] - we're interested in profitability, expenses, optimization tricks, and more.
 
-[bc]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
-[cc]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/
-[block]: https://bitfalls.com/hr/glossary/#block
-[blockex]: https://bitfalls.com/hr/2017/10/03/read-bitcoin-blockchain-data-blockexplorer/
-[hash]: https://bitfalls.com/hr/glossary/#hash
-[algo]: https://bitfalls.com/hr/glossary/#sha-256
-[bw]: https://bitfalls.com/hr/glossary/#block-reward
-[pos]: https://bitfalls.com/hr/glossary/#pos
-[pow]: https://bitfalls.com/hr/glossary/#pow
+[bc]: https://bitfalls.com/2017/08/20/blockchain-explained-blockchain-works/
+[cc]: https://bitfalls.com/2017/08/20/cryptocurrency/
+[block]: https://bitfalls.com/glossary/#block
+[blockex]: https://bitfalls.com/2017/10/03/read-bitcoin-blockchain-data-blockexplorer/
+[hash]: https://bitfalls.com/glossary/#hash
+[algo]: https://bitfalls.com/glossary/#sha-256
+[bw]: https://bitfalls.com/glossary/#block-reward
+[pos]: https://bitfalls.com/glossary/#pos
+[pow]: https://bitfalls.com/glossary/#pow
 [bd]: https://bitfalls.com/glossary/#difficulty
 [mail]: mailto:contact@bitfalls.com
 [wtm]: http://whattomine.com
-[asic]: https://bitfalls.com/hr/glossary/#asic
+[asic]: https://bitfalls.com/glossary/#asic
 [am]: https://www.bitmain.com/
-[tpb]: https://bitfalls.com/hr/2017/09/17/thepiratebay-steals-cpu-mine-cryptocurrency/
-[money]: https://bitfalls.com/hr/money/
+[tpb]: https://bitfalls.com/2017/09/17/thepiratebay-steals-cpu-mine-cryptocurrency/
+[money]: https://bitfalls.com/money/
 [nanopool]: https://xmr.nanopool.org

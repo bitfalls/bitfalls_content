@@ -103,7 +103,7 @@ P.S. Ako rudarite i imate iskustva s time, željeli bismo čuti vaše dojmove. J
 [bw]: https://bitfalls.com/hr/glossary/#block-reward
 [pos]: https://bitfalls.com/hr/glossary/#pos
 [pow]: https://bitfalls.com/hr/glossary/#pow
-[bd]: https://bitfalls.com/glossary/#difficulty
+[bd]: https://bitfalls.com/hr/glossary/#difficulty
 [mail]: mailto:contact@bitfalls.com
 [wtm]: http://whattomine.com
 [asic]: https://bitfalls.com/hr/glossary/#asic
