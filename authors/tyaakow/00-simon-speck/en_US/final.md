@@ -6,7 +6,7 @@ Since the time of [Ceasar](http://practicalcryptography.com/ciphers/caesar-ciphe
 
 Historians believe that WW2 was won largely by Allied cryptanalysts. In the years after WW2, ever since 1952, the NSA had operated largely under the radar of the general public. One of the joke interpretations of "NSA" was No Such Agency.
 
-![I smell a rat](../images/01.jpg)
+![I smell a rat](https://bitfalls.com/wp-content/uploads/2017/10/01-1.jpg)
 
 When, in the 70s, IBM came up with the symmetric-key encryption algorithm [DES](https://en.wikipedia.org/wiki/Data_Encryption_Standard), the agency pushed for adoption of a weakened version of the algorithm as the government-endorsed standard in 1977. This led to its adoption at an international level.
 
@@ -24,7 +24,7 @@ _The DES cracker, designed by EFF_
 
 Just a decade later, the internet [recalls](http://www.nytimes.com/1994/06/12/magazine/battle-of-the-clipper-chip.html) the battle over privacy that took place during the Clinton administration - the story of the Clipper chip.
 
-![MYK-78 Clipper chip](../images/03.jpg)
+![MYK-78 Clipper chip](https://bitfalls.com/wp-content/uploads/2017/10/03-1.jpg)
 
 _MYK-78 Clipper chip, photo by Travis Goodspeed (MYK-78 Package Markings) [<a href="http://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>], <a href="https://commons.wikimedia.org/wiki/File%3AMYK-78_Clipper_chip_markings.jpg">via Wikimedia Commons</a>_
 
@@ -45,7 +45,7 @@ And this is just the subversion of standards that has been published until now.
 
 There is more. According to Glenn Greenwald's [article in Guardian](https://www.theguardian.com/books/2014/may/12/glenn-greenwald-nsa-tampers-us-internet-routers-snowden) in 2014, quoting NSA's own report, it routinely intercepts network hardware for export - such as firewalls, servers, routers. "The agency then implants backdoor surveillance tools, repackages the devices with a factory seal and sends them on."
 
-![NSA photo of interception/repackaging of cisco routers](../images/04.jpg)
+![NSA photo of interception/repackaging of cisco routers](https://bitfalls.com/wp-content/uploads/2017/10/04.jpg)
 
 Leaked internal agency's newsletter quotes the manager: 
 
