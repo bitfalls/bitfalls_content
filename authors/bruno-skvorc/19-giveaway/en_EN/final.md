@@ -15,6 +15,21 @@ After that, to enter each individual draw pool do one (or both) of the following
 
 In 5 days we'll draw two random winners from the two pools, one each. Yes, it's possible to win both devices if you're super lucky. We'll send the devices anywhere in the world and we'll also pay for shipping costs.
 
+---
+
+The contest is over. Unfortunately, it seems many participants didn't read the requirements fully, and failed to sign up for our newsletter 😱
+
+Having disqualified those and drawn randomly from the leftover populace, here are the winners:
+
+- Facebook contest: [Sanja Moćan](https://www.facebook.com/sanja.mocan)
+- Twitter contest: [wgrizzlyx](https://twitter.com/wgrizzlyx)
+
+Congratulations! We hope you'll enjoy your Ledgers, guys!
+
+_The winners have been contacted and their Ledgers will be sent out momentarily._
+
+
+
 
 [ledger]: https://bitfalls.com/hr/2017/09/08/hardware-wallets-like-ledger-nano-s-work/
 [fb]: https://facebook.com/bitfalls
