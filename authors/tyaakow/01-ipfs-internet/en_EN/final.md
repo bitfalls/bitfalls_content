@@ -51,7 +51,7 @@ Under the current model, our content / resources / informations / knowledge is i
 
 One can argue that at present point of our civilization, we shouldn't allow single (or several) points of failure for access to internet, which has become a compendium of human knowledge.
 
-### In comes the IPFS
+## In comes the IPFS
 
 IPFS, or Inter Planetary File System is an open-source project by [Protocol Labs](https://protocol.ai/), started in 2014 by Juan Benet. IPFS concept is very innovative. Maybe closest thing we had before it came along was [Freenet](https://freenetproject.org/),  or Bittorent. IPFS is working to reinvent the internet, on protocol level.
 
