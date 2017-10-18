@@ -4,7 +4,7 @@ Because of the decentralized nature of Bitcoin (see [blockchain][blockchain]) an
 
 After all, if we're talking about a system with millions of participants all over the world, then it simply isn't possible to turn off everyone's computer at once to stop Bitcoin's existence, right?
 
-As with most questions about cryptocurrency, the answer to this one is - it's complicated.
+As with most questions about cryptocurrency, the answer to this one is - it's complicated..
 
 ## BitTorrent
 
