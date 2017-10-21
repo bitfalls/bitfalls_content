@@ -157,4 +157,4 @@ Trgujte sigurno.
 [margin-short]: https://bitfalls.com/hr/glossary/#margin-short
 [mt]: https://bitfalls.com/hr/glossary/#margin-trading
 [tether]: https://bitfalls.com/hr/glossary/#tether
-[curious]: https://medium.com/@bitfinexed/the-curious-tale-of-tethers-6b0031eead87
+[curious]: https://bitfalls.com/hr/2017/10/21/the-curious-tale-of-tethers/
