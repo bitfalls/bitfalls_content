@@ -1,5 +1,3 @@
-![Ledger Nano S](/wp-content/uploads/2017/10/IMG_4023.jpg)
-
 In [this article][hw wallets]  we have explained how hardware wallets like [Ledger][ledger], Trezor, and Keepkey work, but we still see some misconceptions surrounding them.
 
 Let's discuss the two most frequent ones. The text below references Bitcoin as the [cryptocurrency][cc] of choice, but the same applies to all cryptocurrencies.

@@ -1,5 +1,3 @@
-![Ledger Nano S](/wp-content/uploads/2017/10/IMG_4023.jpg)
-
 U [ovom članku][hw wallets] smo objasnili kako funkcioniraju hardverski novčanici  kao što su [Ledger][ledger], Trezor, i Keepkey , no i dalje se susrećemo s raznim zabludama u vezi ovakve vrste novčanika. 
 
 Objasnimo dvije najpopularnije. Donji tekst referencia Bitcoin kao [kriptovalutu][cc], ali isto se važi za sve kriptovalute.
