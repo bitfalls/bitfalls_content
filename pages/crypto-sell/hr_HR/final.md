@@ -1,3 +1,5 @@
+<p style="text-align: center"><img style="margin: auto" src="/wp-content/uploads/2017/10/BITCOIN11.jpg" alt="" class="size-full" /></p>
+
 Ako želite prodati svoje kriptovalute, bilo da spriječite daljnje gubitke ili da skupite profite na svojoj investiciji, postoje sljedeće opcije.
 
 ## Bitfalls
