@@ -1,0 +1,1 @@
+The English version of this article is available [here](https://hackernoon.com/the-curious-tale-of-tethers-6b0031eead87).
