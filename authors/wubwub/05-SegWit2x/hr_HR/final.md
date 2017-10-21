@@ -148,8 +148,10 @@ Bitcoin je dizajniran tako da isključi treće strane i omogući transakcije str
 
 [Ovdje][mastercard] možemo vidjeti kako MasterCard izjavljuje da su protiv Bitcoina i kriptovaluta općenito.
 
-Možemo li vjerovati DCG-u da je SegWit2x pravi put za Bitcoin?
+Možemo li vjerovati DCG-u da je SegWit2x pravi put za Bitcoin? 
+
 Možemo li vjerovati bankarima koji su uzrok financijskih kriza?
+
 Tim istim bankarima kojima su kriptovalute trn u oku, jer kriptovalute vraćaju moć narodu.
 
 Ako SegWit2x miče Core developere iz ove priče, koga stavlja na njihovo mjesto? MasterCard i bankare? 
