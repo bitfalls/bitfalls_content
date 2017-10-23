@@ -12,7 +12,7 @@ Feel free to peer-review any content and send corrections and tips via [PRs](htt
 
 # Bitfalls.com Sadržaj - Upute na hrvatskom jeziku 🇭🇷
 
-Ovaj repozitorij se repozitorij sadržaja objavljenog na Bitfalls.com.
+Ovaj repozitorij je repozitorij sadržaja objavljenog na Bitfalls.com.
 
 Ako želite pridonijeti, molimo vas da prvo pročitate [ovu stranicu](https://bitfalls.com/hr/write-for-us).
 

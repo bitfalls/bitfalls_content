@@ -36,7 +36,7 @@ Asymmetric Key Algorithm - the algorithm used to generate [public](#public-key) 
 
 ### ATH
 
-All time high. The moment at which the price of a certain cryptocurrency or coin has broken all of its past records and is trading at the highest price relative to a fiat currency it has ever achieved.
+All time high. The moment at which the price of a certain cryptocurrency or coin has broken all of its past records and is trading at the highest price relative to a [fiat](#fiat) currency it has ever achieved.
 
 ## B
 
@@ -252,6 +252,7 @@ During development, some [cryptocurrency][cc] chains may decide to split like an
 
 ![The Split](https://upload.wikimedia.org/wikipedia/commons/f/f2/Neutrophil_with_anthrax_copy.jpg)
 
+## G
 
 ### Genesis Block
 
@@ -323,6 +324,30 @@ ICO - initial coin offering - is just like an IPO - initial public offering, onl
 Inflation indicates the general trend of rising prices for consumer goods and services. As a result—unless consumer income matches the rate of inflation—it means consumers have a lower level of purchasing power as prices go up. Banks and governments often do whatever they can to stop long periods of excessive inflation, just as they do the same for its opposite, [deflation](#deflation)—or a sustained drop in prices. Though inflation is a natural financial process, most countries try to keep the rate of inflation at a more manageable level of 2-3% annually - the majority of consumers are able to adapt more readily to these rates. 
 
 ## M
+
+### Margin Long
+
+See [margin trading](#margin-trading) first.
+
+When someone is "long", they're invested in the growth of the asset or stock. Being long on X means buying X, and being margin long means buying X on a loan.
+
+### Margin Short
+
+See [margin trading](#margin-trading) first.
+
+When someone is "short", it means they're invested in the drop in value of a certain commodity or stock. Short means "selling", and a margin short means selling on a loan. Here's how it works:
+
+- let's assume we're talking Bitcoin
+- you borrow 10 BTC from someone
+- you sell the 10 BTC at current value in USD, because you're expecting the price to drop.
+- the price drops, and you buy back 10 BTC for less than you sold them for.
+- you return 10 BTC and pocket the rest.
+
+A margin short allows you to do this with BTC that isn't yours, by paying the commission to the person or entity who lent you the BTC.
+
+### Margin Trading
+
+The act of buying or selling with a loan. This entails borrowing assets or money from a broker who's executing the transaction. The loan is backed by the funds in the investor's account.
 
 ### Mining
 
@@ -464,6 +489,10 @@ Investors often establish a stop-loss order the minute they make a purchase. Thi
 
 ## T
 
+### Tether
+
+A currency created on the Omni layer of the Bitcoin [blockchain][blockchain]. Each Tether is supposed to have a 1:1 value relationship with the underlying fiat currency it represents, so 1 USDT is 1 USD. There's a lot of controversy surrounding the Tether company, most notably the fact that the company responsible for minting new Tethers, whose owner is also the owner of the Bitfinex exchange, seems to be printing unbacked Tethers into existence and buying Bitcoin from themselves. See [wash trading](#wash-trading).
+
 ### To the moon!
 
 A rallying cry for a currency's price to rise sky-high. It has sparked existential questions—”Can we please define ‘moon’?“
@@ -497,6 +526,10 @@ The chat box that sits on the edges of a trading screen at some [exchanges](#exc
 ### Wallet
 
 Serves the same purpose as a regular wallet - keeping currency safe. We've explained them in detail [here][wallet].
+
+### Wash Trading
+
+Buying or selling a good, asset, or stock from oneself - trading with yourself in order to create the illusion of demand and market liveliness.
 
 ### Wedge Pattern
 

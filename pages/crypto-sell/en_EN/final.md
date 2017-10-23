@@ -1,3 +1,5 @@
+<p style="text-align: center"><img style="margin: auto" src="/wp-content/uploads/2017/10/BITCOIN11.jpg" alt="" class="size-full" /></p>
+
 If you'd like to sell some cryptocurrency you own - whether to stop losses or collect profits on an investment, the following options are available.
 
 ## Bitfalls

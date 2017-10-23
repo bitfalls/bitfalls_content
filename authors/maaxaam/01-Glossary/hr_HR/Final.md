@@ -247,6 +247,7 @@ Primjeri uključuju ETH i ETC te BTC i BCH, gdje su oba lanca obje valute preži
 
 ![The Split](https://upload.wikimedia.org/wikipedia/commons/f/f2/Neutrophil_with_anthrax_copy.jpg)
 
+## G
 
 ### Genesis Block
 
@@ -313,6 +314,30 @@ ICO je u svojoj naravi praktički identičan koncept IPO-u. ICO je _initial coin
 Inflacija je termin koji u financijskom smislu pokazuje generalni trend rasta cijena roba i usluga. Ukoliko inflacija rasta plaća ne prati inflaciju cijena, to je pokazatelj smanjenja platežne moći. Banke i vlade generalno pokušavaju zaustaviti dugotrajne periode izrazite inflacije isto kao što pokušavaju kontrolirati [deflaciju](#deflation). Inflacija je prirodan financijski proces, gdje vlade žele imati stabilan trend rasta od 2-3% godišnje, što mogućuje ljudima da se lakše prilagode tim promjenama.
 
 ## M
+
+### Margin Long
+
+Prvo vidi [margin trading](#margin-trading).
+
+Kada je netko "long", znači da je uložio u rast vrijednosti nekog dobra, dionice, ili jedinice vrijednosti. Long znači da kupujete, a margin long znači da kupujete uz posudbu.
+
+### Margin Short
+
+Prvo vidi [margin trading](#margin-trading).
+
+Kada je netko "short", znači da je uložio u pad vrijednosti nekog dobra, dionice, ili jedinice vrijednosti. Short znači da prodajete, a margin short znači da prodajete uz posudbu. Specifično, short funckionira ovako:
+
+- recimo da se radi o Bitcoinu
+- vi posudite 10 BTC od nekoga
+- vi prodate 10 BTC po trenutnoj cijeni za USD jer očekujete da će vrijednost pasti
+- vrijednost padne, i vi kupite istu količinu BTC za manje USD nego ste prodali
+- razliku zadržite a posuđeni BTC vraćate
+
+Margin short omogućava da to radite s BTC koji nije vaš, uz proviziju onoga tko vam ga posuđuje.
+
+### Margin Trading
+
+Margin trgovanje. Metoda kupnje ili prodaje koja uključuje posudbu ukupne sume od brokera koji izvodi transakciju. Pokriće za posudbu su sredstva koja investitor ima na svojem računu.
 
 ### Mining
 
@@ -453,6 +478,10 @@ Različiti exchangevi imaju različite aktivatore. Neke to ispunjavaju odmah, a 
 
 ## T
 
+### Tether
+
+Digitalna valuta koja je stvorena na Omni sloju Bitcoin blockchaina. Svaki Tether bi trebao imati vrijednost temeljenu u tradicionalnoj FIAT valuti sa omjerom 1:1, koja je pohranjena u Tether Limited rezervi. Prema tome svaki USD₮ bi trebao imati vrijednost 1 USD. Oko tvrtke Tether koja je odgovorna za proizvodnju novih USDT tokena vrti se mnogo kontroverzi - najviše ta da Bitfinex, čiji je vlasnik ujedno i vlasnik Tether kompacnije, koristi Tethere proizvedene bez pokrića da kupuje Bitcoin sama od sebe i tako umjetno napuhava cijenu (vidi [wash trading](#wash-trading)).
+
 ### To the moon!
 
 Do mjeseca! - Obično je usklik koji će se često čuti što u upitnom obliku, što u izjavnom. To je nada rasta cijena sa izrazitim naglim skokom u visinu.
@@ -487,6 +516,10 @@ Prozorčić za chat kojeg neke burze (Poloniex, Bitmex) imaju na rubovima ekrana
 ### Wallet
 
 Novčanik. Ima istu svrhu kao vaš tipični džepni novčanik samo što ovaj čuva vaše digitalne vrijednosti. Objasnili smo ih detaljno [ovdje][wallet].
+
+### Wash Trading
+
+Kupovanje i prodavanje dobara ili jedinica vrijednosti od samog sebe / samom sebi, kako bi se kreirala iluzija potražnje i tržišne živosti.
 
 ### Wedge Pattern
 
