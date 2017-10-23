@@ -120,7 +120,7 @@ Zaštita ponavljanja je gotovo ne postojeća za SegWit2x, implementirana je zaš
 
 ### Zbunjuće je!
 
-Od 1.8. imamo Bitcoin i Bitcoin Cash, od 25.10. ćemo imati i[Bitcoin Gold]. 
+Od 1.8. imamo Bitcoin i Bitcoin Cash, od 23.10. ćemo imamo i[Bitcoin Gold]. 
 Ako dođe do novog forka u studenom i dobijemo Bitcoin2x, imat ćemo četiri Bitcoina.
 To će prouzročiti kaos na burzama i među ljudima koji su novi u kriptovalutama.
 Kao i gubitak sredstava zbog slučajnog slanja Bitcoina na Bitcoin2x adresu ili Bitcoin Cash na Bitcoin2x adresu.
