@@ -1,12 +1,12 @@
 ## Uvod
  
- Što je Ubiq? Otkud on pak sad dolazi? Zašto bi itko bio zainteresiran za njega? U ovome članku ukratko ćemo razraditi Ubiq platformu, njegovu [kriptovalutu] [https://bitfalls.com/hr/2017/08/20/cryptocurrency/], njegov začetak "davnog" 28. siječnja 2017. godine, te zašto bi netko potencijalno odabrao Ubiq pored giganta [Ethereuma] [https://bitfalls.com/hr/2017/09/19/what-ethereum-compare-to-bitcoin/]. Također vam preporučujemo da pročitate naš članak o [blockchainu] [https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/] na kojem je, naravno, bazirana Ubiq platforma, te zbog razumijevanja nekih pojmova koji se spominju u ovome članku. 
+ Što je Ubiq? Otkud on pak sad dolazi? Zašto bi itko bio zainteresiran za njega? U ovome članku ukratko ćemo razraditi Ubiq platformu, njegovu [kriptovalutu][cryptocurrency], njegov začetak "davnog" 28. siječnja 2017. godine, te zašto bi netko potencijalno odabrao Ubiq pored giganta [Ethereuma][Ethereum]. Također vam preporučujemo da pročitate naš članak o [blockchainu][blockchain] na kojem je, naravno, bazirana Ubiq platforma, a za pomoć u razumijevanju pojmova koji se spominju u ovome članku posjetite naš [pojmovnik][glossary]. 
 
 ##  Što je Ubiq?
 
- [Ubiq] [https://ubiqsmart.com/] je decentralizirana platforma djelom bazirana na Ethereumu i njegovom ERC-20 protokolu uz povećane razine sigurnosti i stabilnosti koje Ethereum trenutno nema. Glavna svrha Ubiq platforme je pisanje pametnih ugovora u Solidity jeziku, stvaranje **dAppova** na njegovom blockchainu (objasniti ćemo u članku), te ponuditi poslovnim korisnicima i start-upovima stabilnu i sigurnu opciju za korištenje blockchaina.
+ [Ubiq] je decentralizirana platforma djelom bazirana na Ethereumu i njegovom ERC-20 protokolu uz povećane razine sigurnosti i stabilnosti koje Ethereum trenutno nema. Glavna svrha Ubiq platforme je pisanje pametnih ugovora u Solidity jeziku, stvaranje **dAppova** na njegovom blockchainu (objasniti ćemo u članku), te ponuditi poslovnim korisnicima i start-upovima stabilnu i sigurnu opciju za korištenje blockchaina.
   
-Platforma je nastala „odcjepljenjem“ koda (engleski „fork“) od Ethereuma, što nije ilegalno niti zabranjeno (_čak je potaknuto radi decentraliziranosti cijeloga sustava_). „Hard fork“ se dogodi kada nova verzija protokola ne odgovara temeljima koda na kojem je bivša verzija bazirana, te kada nije moguće implementirati novu inačicu koda u bivšu verziju protokola. U tom slučaju se mogu desiti iduća dva slučaja:
+Platforma je nastala „odcjepljenjem“ koda (engleski [fork]) od Ethereuma, što nije ilegalno niti zabranjeno (_čak je potaknuto radi decentraliziranosti cijeloga sustava_). „Hard fork“ se dogodi kada nova verzija protokola ne odgovara temeljima koda na kojem je bivša verzija bazirana, te kada nije moguće implementirati novu inačicu koda u bivšu verziju protokola. U tom slučaju se mogu desiti iduća dva slučaja:
    
 1. Razvojni tim koji je predložio promjenu napravi novu kriptovalutu (kao u najsvježijem slučaju Bitcoin Core i Bitcoin Cash/Bitcoin Gold),
 
@@ -14,15 +14,15 @@ Platforma je nastala „odcjepljenjem“ koda (engleski „fork“) od Ethereuma
    
  „Soft fork“ je puno blaži oblik koji smo vidjeli kod Bitcoina i kod Ethereuma. „Soft fork“ se dogodi kada nadograđeni sustav proizvodi blokove koje stari sustav smatra ispravnim i obrnuto.   
 
- Ubiq (**UBQ**) je također ime [kriptovalute] [https://bitfalls.com/hr/2017/08/20/cryptocurrency/] koja je namijenjena kao sredstvo plaćanja u slučaju izvršenja Pametnog Ugovora. Prvo ime kriptovalute je bilo Coinmarketscoin, te je nastala 2.9.2014. Bila je bazirana na scrypt-PoW konsenzusu. Vrlo brzo poslije nastanka (23.10.2014.),  Coinmarketscoin je postala Jumbucks kriptovaluta. Jumbucks je bio baziran na Proof of Stake konsenzusu, te je u vrlo kratkom vremenu dobio podršku zajednice. Razni razvojni programeri su tada pridonosili svojim idejama, unaprjeđivali tadašnju platformu, te davali smisao  decentralizaciji cijelog sustava. 
+ Ubiq (**UBQ**) je također ime [kriptovalute][cryptocurrency] koja je namijenjena kao sredstvo plaćanja u slučaju izvršenja Pametnog Ugovora. Prvo ime kriptovalute je bilo Coinmarketscoin, te je nastala 2.9.2014. Bila je bazirana na scrypt-PoW konsenzusu. Vrlo brzo poslije nastanka (23.10.2014.),  Coinmarketscoin je postala Jumbucks kriptovaluta. Jumbucks je bio baziran na Proof of Stake konsenzusu, te je u vrlo kratkom vremenu dobio podršku zajednice. Razni razvojni programeri su tada pridonosili svojim idejama, unaprjeđivali tadašnju platformu, te davali smisao  decentralizaciji cijelog sustava. 
 
-Ona je postojala sve do 28.1.2017. godine kada je [nastao] [https://bitcointalk.org/index.php?topic=1763606.0] Ubiq  koji funkcionira na [PoW] [https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/] konsenzusu. Promijena se dogodila zato što je Jumbucks bio baziran na Shadowcoinu, koji je bio baziran na Blackcoinu, koji je pak bio baziran an Peercoinu... Problem je očit: previše karika rezultiralo je manjom stabilnošću i sigurnošću. Također, prelazak na PoW sustav omogućio je široj publici priliku da rudare umjesto da stakeaju svoju količinu kriptovalute. Svi koji su posjedovali Jumbucks kriptovalutu mogli su je (i još uvijek mogu) [zamijeniti] [https://medium.com/the-ubiq-report/nucleus-transparency-report-6496e444bd85] po omjeru 1:10. Tek s nastankom Ubiqa se dogodio prelazak na ERC-20 protokol što nije bio slučaj kod Coinmarketscoina i Jumbucksa. 
+Ona je postojala sve do 28.1.2017. godine kada je [nastao][born] Ubiq  koji funkcionira na [PoW] konsenzusu. Promijena se dogodila zato što je Jumbucks bio baziran na Shadowcoinu, koji je bio baziran na Blackcoinu, koji je pak bio baziran an Peercoinu... Problem je očit: previše karika rezultiralo je manjom stabilnošću i sigurnošću. Također, prelazak na PoW sustav omogućio je široj publici priliku da rudare umjesto da stakeaju svoju količinu kriptovalute. Svi koji su posjedovali Jumbucks kriptovalutu mogli su je (i još uvijek mogu) [zamijeniti][exchange] po omjeru 1:10. Tek s nastankom Ubiqa se dogodio prelazak na ERC-20 protokol što nije bio slučaj kod Coinmarketscoina i Jumbucksa. 
 
 Razlog prelaska na Ethereumov nadograđeni protokol je mogućnost stvaranja decentraliziranih aplikacija s vrlo visokom stabilnošću koje mogu međusobno komunicirati. To znači da u slučaju potrebe jedna dApp može koristiti (uz dozvolu) blockchain ostalih dApp-ova na Ubiqovoj platformi što pruža visoku interoperabilnost. Sad vas sigurno zanima što je dApp? 
 
 **Decentralizirana aplikacija**, ili dApp (čita se dee-app kao email) trenutno nema jedan termin koji bi ukratko objasnio što je to točno nego se svodi na par točaka:
 
-•	Mora biti potpuno autonoman, te se egzekucija logike treba dešavati decentralizirano na više nodeova. Sami protokol na kojem je bazirana dApp može biti mijenjan uz dogovor većine koja rudari ili "stakea" (PoS) taj token (naravno ovdje uzimamo u obzir većinu kriptovaluti što nije uvijek slučaj, neki tokeni se ne mogu rudariti).
+•	Mora biti potpuno autonoman, te se egzekucija logike treba dešavati decentralizirano na više nodeova. Sami protokol na kojem je bazirana dApp može biti mijenjan uz dogovor većine koja rudari ili "stakea" ([PoS]) taj token (naravno ovdje uzimamo u obzir većinu kriptovaluti što nije uvijek slučaj, neki tokeni se ne mogu rudariti).
 
 •	Svi podaci moraju biti kriptografski pohranjeni na javnom, decentraliziranom blockchainu kako bi se izbjeglo urušavanje sustava jer je sve ovisilo o jednom računalu.
 
@@ -34,7 +34,7 @@ U slučaju Ubiqa:
   
 •	Ubiqov sustav se, naravno, izvršava na više nodeova, sustav je autonoman.
   
-•	Svi podaci su javni, te se na [internet stranici] [https://ubiqscan.io/en] može vidjeti detalje transakcije (ne i imena iza računa, tj. ne može se otkriti "tko je s druge strane", samo se vidi iznos pojedinog računa, a više o tome pročitajte [ovdje][https://bitfalls.com/hr/2017/09/18/anonymous-cryptocurrencies-like-bitcoin/]), koliko vremena je potrebno da se block obradi itd. 
+•	Svi podaci su javni, te se na [internet stranici][wp] može vidjeti detalje transakcije (ne i imena iza računa, tj. ne može se otkriti "tko je s druge strane", samo se vidi iznos pojedinog računa, a više o tome pročitajte [ovdje][anonymous]), koliko vremena je potrebno da se block obradi itd. 
   
 •	Kriptografski token koji koristi Ubiq platforma je Ubiq (UBQ). S njime se izvršava plaćanje iznosa navedenog u Pametnom Ugovoru, te ga rudari dobiju nakon obrađenog i verificiranog bloka. Iznos koji rudari dobiju ovisi o težini kriptografskog problema kojeg računalo treba riješiti da bi se verificirao block. Pri rudarenju Ubiqa dobije se 8 UBQ po riješenom problemu. U siječnju ili veljači 2018. godine nagrada po verificiranom bloku pada na 7 UBQ zbog kontroliranja inflacije.
   
@@ -44,7 +44,7 @@ Da bi neka kriptovaluta bila izgrađena na Ubiqovoj platformi, ona mora zadovolj
   
 Ubiq kriptovaluta ima razvijenu monetarnu politiku s kojom kontrolira stopu inflacije s čime su osigurali da se ne razvije tržište rudara koji su plaćeni ekstremno malo, a samim time i osigurali zainteresiranost za rudarenjem. Ubiq koristi algoritam težine rudarenja koji prilagođava težinu kriptografskog zadatka da bi se dobilo vrijeme od 88 sekundi po bloku analizirajući vremenske oznake zadnjih 2 sata blokova. 
   
-Kriptovaluta je nastala bez ICO što znači da nije van zakonskih okvira (sjetimo se Kine koja je [obustavila ICO] [https://bitfalls.com/hr/2017/09/19/china-bans-cryptocurrency/]). Također nije bila rudarena prije ponude na tržištu što je zapravo relativno česti slučaj. Veliki broj razvojnih timova rudari kriptovalutu prije ponude na tržištu radi stvaranja brzog profita. Razvojni tim, isto kao svi ostali koji su zainteresirani za posjedovanje Ubiqa, mora rudariti kriptovalutu ili ju kupiti na stranicama koje ju nude ([Bittrex] [https://bittrex.com/],  [Cryptopia] [https://www.cryptopia.co.nz/], te [Litebit] [https://www.litebit.eu/] trenutno). 
+Kriptovaluta je nastala bez ICO što znači da nije van zakonskih okvira (sjetimo se Kine koja je [obustavila ICO][chban]). Također nije bila rudarena prije ponude na tržištu što je zapravo relativno česti slučaj. Veliki broj razvojnih timova rudari kriptovalutu prije ponude na tržištu radi stvaranja brzog profita. Razvojni tim, isto kao svi ostali koji su zainteresirani za posjedovanje Ubiqa, mora rudariti kriptovalutu ili ju kupiti na stranicama koje ju nude; [Bittrex], [Cryptopia], [Litebit], te [UpBit] trenutno. 
 
 ##   Razvojni tim
   
@@ -58,13 +58,13 @@ Luke Williams –programer, vrlo poznat u blockchain zajednici. Cijenjeni develo
   
 Kris Hansen – programer, tehnički direktor u tvrtki Koho. Ima i iskustva u financijskom sektoru gdje je radio za renomiranu tvrtku SAP.
   
-Alex Sterk – njegov zadatak je održavati Ubiqove službene stranice,[Youtube kanal] [https://www.youtube.com/channel/UCaKJfiYPY-gWC5932p23kyw], [Twitter] [https://twitter.com/ubiqsmart], [Medium] [https://medium.com/the-ubiq-report], te [Discord] [https://discordapp.com/invite/HF6vEGF] račun na kojemu se okupljaju svi zainteresirani za Ubiq i pričaju o svemu od sporta do Ubiqove cijene; prezentira Ubiq i njegovu ideju.
+Alex Sterk – njegov zadatak je održavati Ubiqove službene stranice,[Youtube kanal][yt], [Twitter], [Medium], te [Discord] račun na kojemu se okupljaju svi zainteresirani za Ubiq i pričaju o svemu od sporta do Ubiqove cijene; prezentira Ubiq i njegovu ideju.
 
 ##   Ubiq vs. Ethereum
   
 Vi koji znate nešto o kriptovalutama se sada vjerojatno već pitate: „Pa dobro koja je razlika između Ethereuma i Ubiqa? Zašto bih odabrao Ubiq pored Ethereuma?“
   
-Zamislite iduću situaciju: vlasnik ste velike tvrtke koja se bavi proizvodnjom i distribucijom raznih vrsta lijekova. Čitali te na našem portalu o [blockchainu] [https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/] i [Ethereumu] [https://bitfalls.com/hr/2017/09/19/what-ethereum-compare-to-bitcoin/] i svidio vam se koncept. Došli ste na ideju da biste mogli pohraniti sve podatke o svakome lijeku od trenutka narudžbe, procesu proizvodnje pa sve do ulaznih vrata ljekarni i bolnica. Svaki podatak bio bi vam poznat, kriptografski osiguran na blockchainu i imali biste pristup svim mogućim podacima vezanim uz svaki korak procesa. Koristili biste Pametne Ugovore za izvršenje plaćanja i Ethereumova platforma vam se čini kao najbolji izbor. Ili pak nije jedini izbor?
+Zamislite iduću situaciju: vlasnik ste velike tvrtke koja se bavi proizvodnjom i distribucijom raznih vrsta lijekova. Čitali te na našem portalu o [blockchainu][blockchain] i [Ethereumu][Ethereum] svidio vam se koncept. Došli ste na ideju da biste mogli pohraniti sve podatke o svakome lijeku od trenutka narudžbe, procesu proizvodnje pa sve do ulaznih vrata ljekarni i bolnica. Svaki podatak bio bi vam poznat, kriptografski osiguran na blockchainu i imali biste pristup svim mogućim podacima vezanim uz svaki korak procesa. Koristili biste Pametne Ugovore za izvršenje plaćanja i Ethereumova platforma vam se čini kao najbolji izbor. Ili pak nije jedini izbor?
   
 _Disclaimer: ovdje nije cilj staviti jednu kriptovalutu ispred druge, uprijeti prstom i reći jedna je bolja od druge, ova je loša, ova je kvalitetnija... Svrha decentraliziranog sustava je da svi imaju što više opcija, te da korisnik može pronaći onu koja odgovara njegovim potrebama. Ovdje ćemo samo pokazati razliku između Ubiqa i Ethereuma._
   
@@ -89,15 +89,16 @@ Kao što na Ethereumovoj platformi možemo vidjeti razne tokene, tako i na Ubiqo
 1.	Qwark
 2.	APX
 3.	GeoCoin
-4.	BitSeeds (u procesu)
-5.	Sphere (u procesu)
+4.	DotCoin 
+5. BitSeeds (u procesu)
+6.	Sphere (u procesu)
   
 Oni koriste Ubiqov blockchain radi stablinosti koje pruža što je neizmjerno bitno za tvrtke koje mogu imati potencijalne koristi od blockchaina. Također, profitabilnije im je koristiti Ubiqov blockchain nego održavati vlastiti.
   
 U slučaju Ubiqa stagnacija očito ne dolazi u obzir pa neki od projekata koji su obavljeni ili u procesu realizacije:
   
 -	Pyrus Internet novčanik s mogućnošću izrade papirnatih novčanika
--	[Ledger Nano S] [https://bitfalls.com/hr/2017/09/08/hardware-wallets-like-ledger-nano-s-work/] integracija 
+-	[Ledger Nano S] integracija 
 -	Sparrow; „fork“ MetaMaska, omogućuje pristup preko add-ona na Google Chromeu Ubiqovim dAppovima privatnim korisnicima i developerima
 -	Signum je ime uređaja na kojem razvojni tim radi u suradnji s tvrtkom Digital Payment Partners. Sama svrha uređaja je odobravanje plaćanja ili korištenje nekih podataka korištenjem otiska prsta, NFC tehnologije, ili RFID chipa koja je pohranjena na blockchainu. Artesia project je prvi beta tester ove tehnologije, njihova specijalizacija je prodaja nekretnina, te upravljanje kapitalom. Također, tvrtka radi na pokretanju decentralizirane trading stranice.
 -	Geno Genesis je ime sustava koji je namijenjen korištenju u opskrbnom lancu nabave i proizvodnje medicinske konoplje. Cilj mu je garantirati legalnost i integritet nabavnog lanca medicinske konoplje. Dokaz o legalnosti i svi vrijedni podaci će se pohranjivati na Ubiqovom blockchainu, a moći će mu se pristupiti preko Signuma
@@ -108,25 +109,26 @@ Ubiq nije kao svaki drugi "fork" Ethereuma, ima svoje prednosti u obliku sigurno
 
 
 
-[Kriptovalutu]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/
+[cryptocurrency]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/
 [Ethereum]: https://bitfalls.com/hr/2017/09/19/what-ethereum-compare-to-bitcoin/
 [Blockchain]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
+[glossary]: https://bitfalls.com/hr/glossary/
 [Ubiq]: https://ubiqsmart.com/
-[Kriptovalute]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/
-[Nastao]: https://bitcointalk.org/index.php?topic=1763606.0
+[fork]: https://bitfalls.com/hr/glossary/#fork
+[born]: https://bitcointalk.org/index.php?topic=1763606.0
 [PoW]:https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
-[zamijeniti]: https://medium.com/the-ubiq-report/nucleus-transparency-report-6496e444bd85
-[internet stranici]:https://ubiqscan.io/en 
-[ovdje]: https://bitfalls.com/hr/2017/09/18/anonymous-cryptocurrencies-like-bitcoin/
-[Ethereuma]: https://bitfalls.com/hr/2017/09/19/what-ethereum-compare-to-bitcoin/
-[obustavila ICO]:https://bitfalls.com/hr/2017/09/19/china-bans-cryptocurrency/
+[exchange]: https://medium.com/the-ubiq-report/nucleus-transparency-report-6496e444bd85
+[PoS]: https://bitfalls.com/hr/2017/10/23/whats-the-difference-between-proof-of-work-pow-proof-of-stake-pos-and-delegated-pos/
+[wp]:https://ubiqscan.io/en 
+[anonymous]: https://bitfalls.com/hr/2017/09/18/anonymous-cryptocurrencies-like-bitcoin/
+[chban]:https://bitfalls.com/hr/2017/09/19/china-bans-cryptocurrency/
 [Bittrex]: https://bittrex.com/
 [Cryptopia]: https://www.cryptopia.co.nz/
 [Litebit]: https://www.litebit.eu/
-[Youtube kanal]: https://www.youtube.com/channel/UCaKJfiYPY-gWC5932p23kyw
+[UpBit]: https://upbit.com/home
+[yt]: https://www.youtube.com/channel/UCaKJfiYPY-gWC5932p23kyw
 [Twitter]: https://twitter.com/ubiqsmart
 [Medium]:https://medium.com/the-ubiq-report
 [Discord]:https://discordapp.com/invite/HF6vEGF
-[Blockchainu]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
 [Ethereumu]: https://bitfalls.com/hr/2017/09/19/what-ethereum-compare-to-bitcoin/
 [Ledger Nano S]: https://bitfalls.com/hr/2017/09/08/hardware-wallets-like-ledger-nano-s-work/
