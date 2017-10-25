@@ -8,7 +8,7 @@
   
 Platforma je nastala „odcjepljenjem“ koda (engleski [fork]) od Ethereuma, što nije ilegalno niti zabranjeno (_čak je potaknuto radi decentraliziranosti cijeloga sustava_). „Hard fork“ se dogodi kada nova verzija protokola ne odgovara temeljima koda na kojem je bivša verzija bazirana, te kada nije moguće implementirati novu inačicu koda u bivšu verziju protokola. U tom slučaju se mogu desiti iduća dva slučaja:
    
-1. Razvojni tim koji je predložio promjenu napravi novu kriptovalutu (kao u najsvježijem slučaju Bitcoin Core i Bitcoin Cash/Bitcoin Gold),
+1. Razvojni tim koji je predložio promjenu napravi novu kriptovalutu (kao u najsvježijem slučaju Bitcoin Core i Bitcoin Cash/[Bitcoin Gold]),
 
 2. Nadograđeni sustav stare blokove smatra neispravnima te oni nisu prihvaćeni u blockchainu. 
    
@@ -116,7 +116,7 @@ Ubiq nije kao svaki drugi "fork" Ethereuma, ima svoje prednosti u obliku sigurno
 [Ubiq]: https://ubiqsmart.com/
 [fork]: https://bitfalls.com/hr/glossary/#fork
 [born]: https://bitcointalk.org/index.php?topic=1763606.0
-[PoW]:https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
+[PoW]: https://bitfalls.com/hr/2017/10/23/whats-the-difference-between-proof-of-work-pow-proof-of-stake-pos-and-delegated-pos/
 [exchange]: https://medium.com/the-ubiq-report/nucleus-transparency-report-6496e444bd85
 [PoS]: https://bitfalls.com/hr/2017/10/23/whats-the-difference-between-proof-of-work-pow-proof-of-stake-pos-and-delegated-pos/
 [wp]:https://ubiqscan.io/en 
@@ -132,3 +132,4 @@ Ubiq nije kao svaki drugi "fork" Ethereuma, ima svoje prednosti u obliku sigurno
 [Discord]:https://discordapp.com/invite/HF6vEGF
 [Ethereumu]: https://bitfalls.com/hr/2017/09/19/what-ethereum-compare-to-bitcoin/
 [Ledger Nano S]: https://bitfalls.com/hr/2017/09/08/hardware-wallets-like-ledger-nano-s-work/
+[Bitcoin Gold]: https://bitfalls.com/hr/2017/10/24/bitcoin-forks-bitcoin-gold-scam-stay-safe/
