@@ -156,6 +156,8 @@ Tim istim bankarima kojima su kriptovalute trn u oku, jer kriptovalute vraćaju 
 
 Ako SegWit2x miče Core developere iz ove priče, koga stavlja na njihovo mjesto? MasterCard i bankare? 
 
+No, kao i sve, ni ovo nije crno bijelo, [ovdje][blockstream] raspravljamo potencijalni napad s druge strane.
+
 Što Vi mislite? Napišite nam u komentare.
 
 
@@ -176,3 +178,4 @@ Ako SegWit2x miče Core developere iz ove priče, koga stavlja na njihovo mjesto
 [LawrenceSummers]: https://en.wikipedia.org/wiki/Lawrence_Summers
 [BitGo]: https://www.bitgo.com/solutions
 [mastercard]: https://www.youtube.com/watch?v=Tu2mofrhw58](https://youtu.be/Tu2mofrhw58?t=170
+[blockstream]: https://bitfalls.com/hr/2017/10/24/bitcoin-forks-bitcoin-gold-scam-stay-safe/#segwit2x
