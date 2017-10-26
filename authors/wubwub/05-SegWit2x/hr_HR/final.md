@@ -109,18 +109,18 @@ Uzmimo za primjer [Ethereum], nedavno je prošao kroz uspješan hard fork i impl
 
 SegWit2x je zamišljen da se aktivira šest mjeseci nakon potpisivanja NYA dogovora, što je očito premalo vremena, pogotovo kad uzmemo u obzir da je tim koji radi na razvoju i testiranju gotovo ne postojeći.
 
-### Zaštita ponavljanja
+### Replay protection
 
 Vrlo bitna stavka kad se blockchain forka je zaštita ponavljanja transakcija na oba lanca.
 Da pojasnimo, blockchain do trenutka forka dijeli istu povijest (adrese, transakcije, [privatne][privatekey] i [javne][publickey] ključeve). 
 
 Nakon forka, privatni i javni ključevi su isti na oba forka, zato i dobijemo isti broj coina na drugom forku (Primjer: Bitcoin Cash). No, kad pošaljemo transakciju na lancu A, ona je potpisana našim privatnim ključem i kompletna je. Pošto transakcija ima sve potrebne elemente, netko može uzeti transakciju na lancu A i odaslati je na lancu B, tako da bi u slučaju da želimo prodati Bitcoin2x coine, šaljući njih na neku adresu, netko bi mogao uzeti našu Bitcoin2x transakciju i odaslati ju na originalnom Bitcoin lancu i tako bi mogli ostati bez Bitcoina.
 
-Zaštita ponavljanja je gotovo ne postojeća za SegWit2x, implementirana je zaštita koja se ne podrazumijeva, drugim riječima korisnik sam mora "upaliti" zaštitu, što je komplicirano za običnog korisnika.
+Zaštita protiv ponavljanja transakcija za SegWit2x ne postoji.
 
-### Zbunjuće je!
+### Zbunjujuće je!
 
-Od 1.8. imamo Bitcoin i Bitcoin Cash, od 23.10. ćemo imamo i[Bitcoin Gold]. 
+Od 1.8. imamo Bitcoin i Bitcoin Cash, od 23.10. ćemo imati i[Bitcoin Gold]. 
 Ako dođe do novog forka u studenom i dobijemo Bitcoin2x, imat ćemo četiri Bitcoina.
 To će prouzročiti kaos na burzama i među ljudima koji su novi u kriptovalutama.
 Kao i gubitak sredstava zbog slučajnog slanja Bitcoina na Bitcoin2x adresu ili Bitcoin Cash na Bitcoin2x adresu.
