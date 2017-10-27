@@ -95,7 +95,7 @@ In the case of Ubiq, stagnation is not an option. Here are some projects being d
 - Signum; secure access device on the Ubiq blockchain; The system uses data points collected through NFC, RFID and 13 data points from a user’s fingerprint to assemble and broadcast a unique transaction. The Artesia project is the first beta tester of the technology, they are a real estate and equity management platform.
 - Geno Genesis is a supply chain management tool being developed for the medicinal marijuana industry. The goal for this tool is to ensure the integrity of legal and authorized supply chains. Signum devices will be used by growers and lab technicians with a mobile app for identity management further down the supply chain.
 
-## CONCLUSION
+## Conclusion
 
 Ubiq certainly isn't like any other fork of Ethereum. It offers security, stability, a dynamically adjustable [difficulty][bd] algorithm, and relatively simple contracts. The main goal of Ubiq is to be an enterprise-ready blockchain solution and to be that it still has to make its mark on the market. 
 
