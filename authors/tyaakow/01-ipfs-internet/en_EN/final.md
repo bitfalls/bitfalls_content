@@ -91,6 +91,9 @@ Bittorrent itself is a huge technological thing. It has avoided censorship and p
 
 For example - with Bittorrent content is packaged, and we download those packages in chunks. IPFS, being a file-system,  uses block-level addressing / deduplication of content, which is much more atomic, and allows for [big bandwidth savings](https://discuss.ipfs.io/t/ipfs-vs-webtorrent-what-the-value-of-using-ipfs-instead-of-torrent-files/64/6).
 
+Also, while Bittorrent requires separate layer for metadate / trackers, IPFS aims to solve all of this, and more.
+We could say that IPFS aims to solve much more, and is providing much more elaborate package of solutions.
+
 To quote the IPFS whitepaper, 
 
 > *node can acquire the blocks they need, regardless of what files those blocks are part of. The blocks could come from completely unrelated files in the filesystem. Nodes come together to barter in the marketplace*
