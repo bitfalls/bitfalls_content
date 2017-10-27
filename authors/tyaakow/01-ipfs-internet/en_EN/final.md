@@ -72,7 +72,7 @@ Content-addressing means that we can have CDN-level distribution and efficacy of
 In the existing internet model, if a file / piece of content is moved somewhere else, all links to it need to be updated.
 Content addressing means that same content - hosted anywhere - moved anywhere - copied, etc. - is still accessible under the same address. The ***HOW*** part is up to the protocol.
 
-(Disclaimer - we shouldn't mix data **permanence** - and data integrity / consistent addressing of content with **persistence**. [ipfs-cluster](https://github.com/ipfs/ipfs-cluster) - currently in alpha, with very active development, will be in charge with persisting - *pinning* - content across multiple nodes)
+(*Disclaimer - we shouldn't mix data **permanence** - and data integrity / consistent addressing of content with **persistence**. [ipfs-cluster](https://github.com/ipfs/ipfs-cluster) - currently in alpha, with very active development, will be in charge with persisting - **pinning** - content across multiple nodes*)
 
 ### It employs Kademlia DHT  *(among other things)*
 
