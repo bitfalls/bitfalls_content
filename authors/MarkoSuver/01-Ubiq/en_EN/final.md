@@ -12,19 +12,23 @@ We also recommend you read our article on [blockchain] technology for better und
 - creation of dApps on its blockchain (we'll explain later in the article),
 - to offer a stable and secure blockchain solution for enterprises and start-ups.
 
-The platform was created as a fork of Ethereum which isn't frowned upon (_it's even encouraged for the sake of decentralization of the crypto world as a whole_). A hard fork happens when a new version of the protocol can't work with the existing one. In that case, there are two solutions:
+The platform was created as a fork of Ethereum - an action which isn't frowned upon (_it's even encouraged for the sake of decentralization of the crypto world as a whole_). A hard fork happens when a new version of the protocol can't work with the existing one. In that case, there are two solutions:
 
-1. The developer team that suggested the change in the protocol creates a new cryptocurrency (as we saw with [Bitcoin Core and Bitcoin Cash / Gold][Bitcoin Cash])
+1. The development team that suggested the change in the protocol creates a new cryptocurrency (as we saw with [Bitcoin Core and Bitcoin Cash / Gold][Bitcoin Cash])
 
 2. The upgraded protocol considers old blocks invalid and they are simply not accepted by the blockchain
 
 Ubiq (*UBQ*) is also the name of the [cryptocurrency] which is a mean of payment in the case of execution of smart contracts. 
 
-The first name of the cryptocurrency was Coinmarketscoin which was created on September 2nd, 2014. It was based on the scrypt-PoW consensus. On October 23rd, 2014. it became Jumbucks, which was based on [Proof of Stake][powpos] and gained acceptance from the community shortly thereafter. Various developers contributed with their ideas, improved the platform, and made its decentralization possible. 
+The first name of the cryptocurrency was Coinmarketscoin which was created on September 2nd, 2014. It was based on the scrypt-PoW consensus. On October 23rd, 2014 it became Jumbucks, which was based on [Proof of Stake][powpos] and gained acceptance from the community shortly thereafter. Various developers contributed with their ideas, improved the platform, and made its decentralization possible. 
 
-Jumbucks had existed until January 28th, 2017 when it [evolved] into Ubiq, which uses the [PoW] consensus. The change happened because Jumbucks was based od Shadowcoin, which was based on Blackcoin, which was based on Peercoin... The problem was obvious: there were too many dependencies which resulted in lower stability and general safety. Also, the switch to PoW has enabled people to mine Ubiq instead of staking Jumbucks in PoS.  Everyone who owned any JBS had the opportunity (and still does) to [swap] them for Ubiq in the ratio of 1:10. Ubiq was the shift to Ethereum's protocol.
+![Jumbucks](https://bitfalls.com/wp-content/uploads/2017/10/01-5.png)
 
-The reason for moving was the ability to build decentralized apps with very high stability that can mutually communicate, which offers a great level of interoperability. A *decentralized application*, or dApp (pronounced dee-app, like e-mail) currently doesn't have one strict definition. In short, it all comes down to few basic points:
+Jumbucks had existed until January 28th, 2017 when it [evolved] into Ubiq, which uses the [PoW] consensus. The change happened because Jumbucks was based on Shadowcoin, which was based on Blackcoin, which was based on Peercoin... The problem was obvious: there were too many dependencies which resulted in lower stability and general safety. Also, the switch to PoW has enabled people to mine Ubiq instead of staking Jumbucks in PoS.  Everyone who owned any JBS had the opportunity (and still does) to [swap] them for Ubiq in the ratio of 1:10. Ubiq was the shift to Ethereum's protocol.
+
+The reason for moving was the ability to build decentralized apps with very high stability that can communicate with each other, which offers a great level of interoperability. 
+
+A *decentralized application*, or dApp (pronounced dee-app, like e-mail) currently doesn't have one strict definition. In short, it all comes down to a few basic points:
 
 - The application must be completely autonomous, and the execution of its logic needs to happen in a decentralized manner on multiple nodes simultaneously. The application may adapt its protocol in response to proposed improvements but all changes must be decided by consensus of its users/miners (in this case we do not take into consideration those tokens which can't be mined/staked). 
 
@@ -34,13 +38,17 @@ The reason for moving was the ability to build decentralized apps with very high
 
 In order to build a dApp on Ubiq's platform, it has to satisfy all of the above.
 
+![Decentralizirana aplikacija](https://bitfalls.com/wp-content/uploads/2017/10/02-4.png)
+
 Ubiq has a well-developed monetary policy which controls the rate of inflation with which they made sure that mining can never become a fee-only market. Ubiq uses a difficulty algorithm which adjusts itself depending on the hash rate by analyzing the timestamps of the previous 2 hours’ worth of blocks which leads to an average block time of 88 seconds.
 
-Ubiq was made without ICO which means that it's not outside of legal boundaries (let's recall to the [China ban]). Also, it wasn't premined. A lot of developers premine their cryptocurrency hoping for a fast profit. If Ubiq's developers want to get a hold of any Ubiq they have to go online and buy some on the exchanges or mine it like everyone else. It is currently available on [Bittrex], [Cryptopia], [UpBit], and [Litebit].
+### How to get Ubiq?
+
+Ubiq was made without an ICO which means that it's not outside of legal boundaries (let's recall the [China ban]). Also, it wasn't premined. A lot of developers premine their cryptocurrency hoping for a fast profit. If Ubiq's developers want to get a hold of any Ubiq they have to go online and buy some on the exchanges or mine it like everyone else. It is currently available on [Bittrex], [Cryptopia], [UpBit], and [Litebit], or you can [buy it from us](https://bitfalls.com/how-to-buy-cryptocurrency/).
 
 ## Development Team
 
-In order for everything to work smoothly, there are officially 3 developers and a community manager. Unofficially there are a lot of developers, enthusiasts, and hobbyists that contribute to the network with their unique skillset, sharp minds, and great will. 
+In order for everything to work smoothly, there are 3 developers and a community manager on the official team. Unofficially, there are a lot of developers, enthusiasts, and hobbyists that contribute to the network with their unique skillsets, sharp minds, and great will. 
 
 The official team:
 
@@ -56,9 +64,11 @@ The official team:
 
 For those already involved in the crypto world, you must be wondering what the difference between Ethereum and Ubiq is? Why would anyone choose Ubiq over Ethereum?
 
+![Ethereum vs Ubiq](https://bitfalls.com/wp-content/uploads/2017/10/03-3.jpg)
+
 Imagine the following: you are the owner of a big pharma company. You read about the [blockchain] and [Ethereum] on our site, and you liked the concept. You came upon the idea that you could store all your data about every drug from the moment of order, the product's manufacturing process, and all the way to the doors of drug stores and hospitals. Everything would be known, tamper-proof, and reliable. You would even use smart contracts for payments and Ethereum's platform looks like the best choice. Or is it?
 
-_Disclaimer: it's not in anyone's interest to put one cryptocurrency in front of the other. The whole point of decentralization is to give everyone as many options as they can have so that the user can find one that fits their exact needs. Here we will only show the difference between Ubiq and Ethereum._
+_Disclaimer: it's not in anyone's interest to put one cryptocurrency ahead of the other. The whole point of decentralization is to give everyone as many options as they can have so that the user can find one that fits their exact needs. Here we will only show the difference between Ubiq and Ethereum._
 
 In 2016, Ethereum had a bug in the code of a smart contract which resulted in a loss of funds. The case is known as the *DAO* (Decentralized Autonomous Organization) incident and the amount that was lost was a staggering ~$50 million. Slock.it is a German company that presented its whitepaper in 2016 and their main idea was to make a decentralized investment fund on the Ethereum network that could be accessed by anyone owning Ether which would then be exchanged for the DAO token. The community would vote on what projects to invest in, and the vote would have power in proportion to the number of tokens held.
 
@@ -71,6 +81,8 @@ This is one of the most well-known examples of instability which drove some ente
 Ethereum works in the way that developers first test the upgrade on the testnet, and then it gets deployed to the mainnet, but the true testing only happens once it's on the mainnet because it then becomes appealing to hackers - the value is real. 
 
 Ubiq guaranties stability, a bug-free environment and almost all upgrades from Ethereum after they've been made foolproof. Ethereum's network is in a constant alpha-stage which isn't the case with Ubiq. When an Ethereum upgrade goes to the mainnet and gets truly tested  by both good and bad parties, Ubiq can implement those upgrades into its own network.
+
+![Guy copying from a girl on an exam in school](https://bitfalls.com/wp-content/uploads/2017/10/04-2.jpg)
 
 It should be noted that Ubiq's developers don't just stand on the sidelines and wait for Ethereum to develop something new, they also work on very interesting solutions of their own.
 
@@ -97,7 +109,7 @@ In the case of Ubiq, stagnation is not an option. Here are some projects being d
 
 ## Conclusion
 
-Ubiq certainly isn't like any other fork of Ethereum. It offers security, stability, a dynamically adjustable [difficulty][bd] algorithm, and relatively simple contracts. The main goal of Ubiq is to be an enterprise-ready blockchain solution and to be that it still has to make its mark on the market. 
+Ubiq isn't like other forks of Ethereum. It offers security, stability, a dynamically adjustable [difficulty][bd] algorithm, and relatively simple contract writing. The main goal of Ubiq is to be an enterprise-ready blockchain solution, but to be that it still has to make its mark on the market. 
 
 Are you exposed to Ubiq? What are your thoughts about it? 
 
