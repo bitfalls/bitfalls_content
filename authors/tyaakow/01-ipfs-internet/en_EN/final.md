@@ -22,7 +22,7 @@ This is largely a centralization by convenience, not by compulsion. For this, we
 
 ***This image shows one of the first web servers,by Tim Berners-Lee, with a note: This machine is a server. Do not power down!!***
 
-![web server, T. Berners Lee](../images/01.jpg)
+![web server, T. Berners Lee](https://bitfalls.com/wp-content/uploads/2017/10/01-4.jpg)
 
 The internet has strayed. The Turkish government has blocked access to Wikipedia in April 2017 because Wikipedia wouldn't take down an article that claimed that Turkey was sponsoring Al Qaeda and ISIL. The ban is still active. The government of China has blocked around one fifth of the world's population from accessing websites like BBC, YouTube, Facebook, Twitter, Amnesty International and many, many others. It's using what's called "The Great Firewall of China". 
 
@@ -30,7 +30,7 @@ The internet has strayed. The Turkish government has blocked access to Wikipedia
 
 We rely on content stored in particular data centers in certain countries, behind specific internet backbones. These outages were possible due to the structure of the network. 
 
-![Wikipedia Turkey logo](../images/02.svg)
+![Wikipedia Turkey logo](https://bitfalls.com/wp-content/uploads/2017/10/02-5.png)
 
 Not to mention the censorship, server seizures, and similar obstacles.
 
@@ -48,7 +48,7 @@ Our content is stored on servers by hosting and server companies (cloud hosts ar
 
 Under the current model, our content / resources / information / knowledge is inherently censorable, extinguishable, and corruptible. Hackers alter and deface websites so often, it is hardly news anymore. Government censorship is also something we meet every day. [Archive.org](http://web.archive.org/) has built a kind of an internet museum for previous years of the internet, but we need an internet more resilient to all sorts of decay.
 
-![Burning of Alexandria, by Hermann Goll, 1876](../images/03.jpg)
+![Burning of Alexandria, by Hermann Goll, 1876](https://bitfalls.com/wp-content/uploads/2017/10/03-4.jpg)
 
 We shouldn't allow a single (or several) points of failure for access to the internet, especially because it's become a compendium of human knowledge.
 
@@ -122,7 +122,7 @@ From August to September this year, the [largest ICO so far took place](https://
 
 So the project might be onto something.
 
-![OpenBazaar repos on github](../images/04.jpg)
+![OpenBazaar repos on github](https://bitfalls.com/wp-content/uploads/2017/10/04-3.jpg)
 
 One more working product built on top of IPFS is [OpenBazaar](https://www.openbazaar.org/). OpenBazaar is a pioneer as far as the future of the internet and the internet's decentralization is concerned. It is a revolutionary p2p market which is well out of its idea stage (it is version 2.0 at the time of this writing). It works, and it works well. And it uses IPFS for storage.
 

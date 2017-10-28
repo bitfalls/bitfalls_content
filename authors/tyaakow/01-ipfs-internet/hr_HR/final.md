@@ -20,7 +20,7 @@ Ali stvari ipak nisu idealne. Sa masovnim širenjem interneta došao je krupniji
 
 ***Na ovoj slici - jedan od prvih web servera, vlasništvo Tim Berners-Lee-a, sa ceduljom "Ovaj stroj je server. Ne gasiti!!!"***
 
-![web server, T. Berners Lee](../images/01.jpg)
+![web server, T. Berners Lee](https://bitfalls.com/wp-content/uploads/2017/10/01-4.jpg)
 
 
 
@@ -32,7 +32,7 @@ Kao korisnici interneta, ovisimo o sadržaju pohranjenom u određenim data-centr
 
 
 
-![Wikipedia Turkey logo](../images/02.svg)
+![Wikipedia Turkey logo](https://bitfalls.com/wp-content/uploads/2017/10/02-5.png)
 
 A da ni ne spominjemo cenzuru, zapljene servera, itd.
 
@@ -51,7 +51,7 @@ Naš je sadržaj pohranjen na serverima hosting firmi (cloud provideri samo zama
 Pod trenutnim modelom, naš sadržaj / resursi / informacije / znanje su inherentno podložni cenzuri, ugasivi, i kvarljivi. 
 Hakeri mijenjaju i infiltriraju web stranice tako često, da to više i nije vijest. Državna cenzura je također nešto što se viđa često. [Archive.org](http://web.archive.org/) je napravio vrstu muzeja interneta za protekle internetske godine, ali potreban nam je internet otporan na sve vrste korupcije podataka.
 
-![Palež Aleksandrije, Hermann Goll, 1876](../images/03.jpg)
+![Palež Aleksandrije, Hermann Goll, 1876](https://bitfalls.com/wp-content/uploads/2017/10/03-4.jpg)
 
 Ne bismo trebali tolerirati jednu (ili nekoliko) kritičnih točki o kojima ovisi cjelokupan pristup internetu. Ipak je internet postao leksikon svog ljudskog znanja.
 
@@ -71,7 +71,7 @@ Svako računalo spojeno na mrežu može biti server. Pohrana je decentralizirana
 
 Sadržaj je adresiran po svom [kriptografskom hashu](https://bitfalls.com/hr/glossary/#hash) - šifri. Ta šifra je jedinstvena s obzirom na sadržaj (datoteke, web stranice, itd.) - za razliku od trenutnog modela, koji je vezan za IP adresu servera. Ako usporedimo trenutni model interneta sa adresiranjem knjiga po fizičkoj adresi knjižnice, i broju police na kojoj se knjiga nalazi, onda IPFS ide na to da knjigu adresira / imenuje i traži po njenom naslovu, ne njenoj lokaciji.
 
-Ovo adresiranje po sadržaju kriptografskim šiframa osigurava vjerodostojnost podataka, jer ako bi se i jedno slovo ili znak u datoteci promijenio, šifra odnosno hash za taj sadržaj je potpuno drukčiji. Ovo otvara mogućnost dohvaćanja različitih verzija sadržaja na način na koji to radi Git sa svojim commit sustavom. Vraćanje na prethodnu verziju, transparentnost izmjena, i nepromijenjivost postaju dostupni u ovom modelu.
+Ovo adresiranje po sadržaju kriptografskim šiframa osigurava vjerodostojnost podataka, jer ako bi se i jedno slovo ili znak u datoteci promijenio, šifra odnosno hash za taj sadržaj je potpuno drukčiji. Ovo otvara mogućnost dohvaćanja različitih verzija sadržaja na način na koji to radi Git sa svojim commit sustavom. Vraćanje na prethodnu verziju, transparentnost izmjena, i imutabilnost postaju dostupni u ovom modelu.
 
 Ovo također znači da možemo imati distribuciju sadržaja efikasnu kao kod CDN servisa, ako ne i bolju, jer se sadržaj može spremiti na stotinama ili tisućama petlji diljem interneta, osiguravajući visoku dostupnost. Možemo pristupati istom sadržaju sa istom oznakom bez obzira na to *odakle* ga dohvaćamo - čak i da je pola interneta izgubilo povezivost. Pod ovim modelom, zaobilaženje turske cenzure Wikipedije postaje dječja igra. Korisnici mogu lako dohvatiti isti sadržaj (sa istom adresom) sa njihovog lokalnog interneta unutar Turske, bez ijedne centralne lokacije. Svako računalo na mreži jednom kada dohvati / učita sadržaj poput web stranice, može keširati (spremiti za kasnije) isti i postati vjerodostojan izvor tog sadržaja.
 
@@ -120,7 +120,7 @@ Jedan od open-source "plodova" IPFS-a je [libp2p](https://libp2p.io/) - MIT-lice
 U kolovozu i rujnu ove godine [odvio se najveći ICO do sada](https://www.coindesk.com/257-million-filecoin-breaks-time-record-ico-funding/), projekt koji je skupio rekordnih 260 miljuna dolara. Radilo se o ICO prodaji Filecoina, tokena aplikacije koja se gradi na IPFS protokolu, od kompanije Protocol Labs. Vrijedi spomenuti da tih 260 milijuna nije u cijelosti prikupljeno javnom prodajom tokena neinformiranim masama, već je [52 milijuna prikupljeno od VC-a, u pretprodaji](https://www.coindesk.com/filecoin-presale-raises-52-million-ahead-ico-launch/), a za njih možemo pretpostaviti da su znali u što su se upuštali.
 
 
-![OpenBazaar repos on github](../images/04.jpg)
+![OpenBazaar repos on github](https://bitfalls.com/wp-content/uploads/2017/10/04-3.jpg)
 
 
 
