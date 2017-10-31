@@ -1,6 +1,6 @@
 {img: header.jpg} naslovna
 
-Nakon što shvatimo da su hardverski novčanici jedan od najsigurnijih načina za čuvanje kripto valuta, postavlja se pitanje koji od novčanika odabrati. U prethodnom članku možete provjeriti sve bitna značajke [Ladger nano S][https://bitfalls.com/hr/2017/09/08/hardware-wallets-like-ledger-nano-s-work/] a u ovom članku proučit ćemo [Trezor.][https://trezor.io]
+Nakon što shvatimo da su hardverski novčanici jedan od najsigurnijih načina za čuvanje kripto valuta, postavlja se pitanje koji od novčanika odabrati. U prethodnom članku možete provjeriti sve bitna značajke [Ledger nano S][https://bitfalls.com/hr/2017/09/08/hardware-wallets-like-ledger-nano-s-work/] a u ovom članku proučit ćemo [Trezor.][https://trezor.io]
 
 ## Što je Trezor i tko ga je dizajnirao ??
 
@@ -8,7 +8,7 @@ Trezor je prvi hardverski novčanik koji je napravljen 2013. godine. Minimalisti
 
 ## Gdje i kako kupiti Trezor ili neki drugi novčanik?
 
-Kada ste se odlučili za kupovinu novčanika nemojte raditi kompromise u cijeni. Na toj pločici koja je sakrivena s malo plastike i metala čuvat će te svoje digitalno blago. Pa budite pravi gusari, koristite najbolji kovčeg i najbolji lokot za svoje zlatnika i koristite samo on lokote za koje znate što se s njima događalo. Zato novčanike kupujte direktno od proizvođača ili preko službenih preprodavača čiji popis možete pronaći na njihovoj stranici. Nit pod koju cijenu uštede, ne kupujte rabljene novčanike od prijatelja ili iz oglasa. A o eBay i sličnim stranicama ni pomišljati. Vi morate biti sigurni da novčanik koji ste vi kupili stavljen  direktno u kutiju s proizvodne linije i da nisu vršene neovlaštene modifikacije.
+Kada ste se odlučili za kupovinu novčanika nemojte raditi kompromise u cijeni. Na toj pločici koja je sakrivena s malo plastike i metala čuvat će te svoje digitalno blago. Pa budite pravi gusari, koristite najbolji kovčeg i najbolji lokot za svoje zlatnika i koristite samo on lokote za koje znate što se s njima događalo. Zato novčanike kupujte direktno od proizvođača [<b>Trezor shop</b>][https://shop.trezor.io/?h=7472657a6f722e696f] ili preko službenih preprodavača čiji popis možete pronaći na njihovoj stranici. Nit pod koju cijenu uštede, ne kupujte rabljene novčanike od prijatelja ili iz oglasa. A o eBay i sličnim stranicama ni pomišljati. Vi morate biti sigurni da novčanik koji ste vi kupili stavljen  direktno u kutiju s proizvodne linije i da nisu vršene neovlaštene modifikacije.
 
 ## Otvaranje kutije - najbitniji korak?
 {img: 01.jpg}
@@ -36,7 +36,7 @@ I sada kada smo sve postavili možemo krenuti koristiti Trezor. Kontrolna ploča
 
 ### Druge kripto valute i MyEtherWallet
 
-S Trezorom možete koristiti nekoliko kripto valuta a njihovo korištenje vrlo je jednostavno samo u padajućem izborniku s lijeve strane odaberite kripto valutu koju želite i trezor će sve odraditi za Vas. A sada za primjer uzmimo ETH. Trezor nas vodi na stranicu [MyEtherWallet][https://www.myetherwallet.com] na kojoj moramo odabrati da se spajamo s Trezorom {img: 11.png} te nakon toga moramo potvrditi spajanje na samom Trezoru i gotovi smo. Sve je spremno za slanje i primanje ETH. U kartici "send" {img: 12.png} radimo proceduru koja je nešto ranije opisana za BTC te transakciju potvrđujemo na samom Trezoru.
+S Trezorom možete koristiti nekoliko kripto valuta a njihovo korištenje vrlo je jednostavno samo u padajućem izborniku s lijeve strane odaberite kripto valutu koju želite i trezor će sve odraditi za Vas. A sada za primjer uzmimo ETH. Trezor nas vodi na stranicu [MyEtherWallet][https://www.myetherwallet.com] na kojoj moramo odabrati da se spajamo s Trezorom {img: 11.png} te nakon toga moramo potvrditi spajanje na samom Trezoru i gotovi smo. Sve je spremno za slanje i primanje ETH. U kartici "send" {img: 12.png} radimo proceduru koja je nešto ranije opisana za BTC te transakciju potvrđujemo na samom Trezoru. Također važno je za napomenuti da na MyEtherWallet možete koristiti različite tokene veliki dio njih je podržan no ako nisu možete ih ručno dodati.{img: 14.png} Neka vas ne obeshrabri pomalo čudno korisničko sučelje MyEtherWallet nudi jako puno mogućnosti koje tek trebate otkriti. A za sva što ne znate ili niste sigurni možete se obratiti njihovoj službi za korisnike koja odgovara u roku od 24 sata. 
 
 ### Spajanje s Dropboxom
  
@@ -48,4 +48,4 @@ Prvo ne očajavajte panika je vaš glavni neprijatelj. Prebaci te vaše kripto v
 
 ## Zaključak
 
-Budite pravi gusari i štitite svoje blago i nemojte previše otkrivati da ga imate. Trezor je najstariji novčanik, za razliku od Keep Key ili Ladger Nano S koji su nešto novijeg datuma. Jedan je od skupljih novčanika i sa zavidnom količinom korisnika. Za sada su nas dobro služili nadamo se da će tako i dalje. Rade i na novom novčaniku a to je [Trezor 2][https://blog.trezor.io/trezor-security-beyond-bitcoin-c99f27b18b6b] o njemu a i o svim ostalim novostima vezano uz Trezor možete pratiti na njihovom [blogu.][https://blog.trezor.io]
+Budite pravi gusari i štitite svoje blago i nemojte previše otkrivati da ga imate. Trezor je najstariji novčanik, za razliku od Keep Key ili Ledger Nano S koji su nešto novijeg datuma. Jedan je od skupljih novčanika i sa zavidnom količinom korisnika. Za sada su nas dobro služili nadamo se da će tako i dalje. Rade i na novom novčaniku a to je [Trezor 2][https://blog.trezor.io/trezor-security-beyond-bitcoin-c99f27b18b6b] o njemu a i o svim ostalim novostima vezano uz Trezor možete pratiti na njihovom [blogu.][https://blog.trezor.io]
