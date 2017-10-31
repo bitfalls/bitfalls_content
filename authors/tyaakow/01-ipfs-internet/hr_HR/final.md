@@ -113,7 +113,7 @@ Prema [IPFS često postavljanim pitanjma](https://github.com/ipfs/faq/issues/47)
 
 ### IPFS otvara put do pravog cloud-computinga
 
-To znači otporan, lako dostupan sadržaj sa redundantnom arhitekturom, koja obećaje visoku dostupnost i nisku latenciju. 
+To znači otporan, lako dostupan sadržaj sa redundantnom arhitekturom, koja obećava visoku dostupnost i nisku latenciju. 
 
 Jedan od open-source "plodova" IPFS-a je [libp2p](https://libp2p.io/) - MIT-licenciran skup biblioteka za swarm, p2p sustave. IPFS je projekt koji je u izradi i mnogo toga obećava - ali nije tek puko teoretiziranje.
 
@@ -138,7 +138,7 @@ Orbit - distribuirana, peer-to-peer chat applikacija sagrađena povrh IPFS-a - p
 
 Lista se nastavlja, neke od projekata možete naći [ovdje](https://github.com/ipfs/awesome-ipfs).
 
-Prije koju godinu, [netko je kopirao](https://discuss.ipfs.io/t/ipfs-vs-webtorrent-what-the-value-of-using-ipfs-instead-of-torrent-files/64/6) čitav [cdnjs](https://cdnjs.com/) na IPFS, i pri tome uspio smanjiti cjelokupnu pohranu sa 70+ Gb na 30-ak - zahvaljujući atomiziranoj de-duplikaciji koju pruža IPFS. Ima i projekata poput [implementacije Hadoopa](http://www.cse.unsw.edu.au/~hpaik/thesis/showcases/16s2/scott_brisbane.pdf) povrh IPFS-a, koji obećaje konkretna ubrzanja. Niču i mnogi drugi projekti koji kombiniraju Ethereum blockchain kao računalni sloj i IPFS kao sloj za pohranu.
+Prije koju godinu, [netko je kopirao](https://discuss.ipfs.io/t/ipfs-vs-webtorrent-what-the-value-of-using-ipfs-instead-of-torrent-files/64/6) čitav [cdnjs](https://cdnjs.com/) na IPFS, i pri tome uspio smanjiti cjelokupnu pohranu sa 70+ Gb na 30-ak - zahvaljujući atomiziranoj de-duplikaciji koju pruža IPFS. Ima i projekata poput [implementacije Hadoopa](http://www.cse.unsw.edu.au/~hpaik/thesis/showcases/16s2/scott_brisbane.pdf) povrh IPFS-a, koji obećava konkretna ubrzanja. Niču i mnogi drugi projekti koji kombiniraju Ethereum blockchain kao računalni sloj i IPFS kao sloj za pohranu.
 
 ## Zaključak
 
