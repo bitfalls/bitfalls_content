@@ -24,7 +24,7 @@ U tom slučaju pošiljatelj poruke primjenjuje dogovorenu funkciju na skup podat
 ### Ivica i Marica
 
 Ako vam baš nije potpuno jasno kakve su to funkcije o kojima je riječ i možda vam zvuči previše matematički, idemo pogledati jedan primjer. Uzmimo da Ivica želi Marici poslati poruku putem sms-a sadržaja "I LOVE YOU", ali na način da to ne može razumjeti nitko tko slučajno vidi tu poruku na Maričinom mobitelu. Za potrebe kriptiranog dopisivanja, Ivica i Marica se prethodno moraju dogovoriti na koji način će kriptirati i dekriptirati poruke. Pretpostavimo da su oni dogovorili slijedeće pravilo:
-Prilikom kriptiranja, svako slovo u izvornom tekstu će zamijeniti dvoznamenkastim brojem koji označava redni broj slova u engleskoj abecedi. Tako će slovo 'A' zamijeniti s '01', slovo 'B' s '02', slovo 'C' s '03' i tako dalje, uz dodatak da će prazno mjesto (razmak) biti '00'. To će biti njihova funkcija kriptiranja. Kod kriptiranja će u donjoj tablici za svako slovo pronaći pridruženi broj i prepisati ga.
+Prilikom kriptiranja, svako slovo u izvornom tekstu će zamijeniti dvoznamenkastim brojem koji označava redni broj slova u engleskoj abecedi. Tako će slovo "A" zamijeniti s "01", slovo "B" s "02", slovo "C" s "03" i tako dalje, uz dodatak da će prazno mjesto (razmak) biti "00". To će biti njihova funkcija kriptiranja. Kod kriptiranja će u donjoj tablici za svako slovo pronaći pridruženi broj i prepisati ga.
 
 | kod: znak  | kod: znak | kod: znak |
 |------------|-----------|-----------|
@@ -89,7 +89,7 @@ Postoji više algoritama za izračunavanje takvih funkcija. U ovom članku prika
 
 Slijede koraci algoritma kroz primjer, čiji je rezultat privatni (tajni) ključ i javni ključ:
 
-1. Izaberemo dva različita prosta broja. [Prosti (ili prim) brojevi][prosti] su brojevi koji su djeljivi bez ostatka samo s 1 i sa samim sobom. Na primjer, izaberimo slijedeće brojeve:  
+1. Izaberemo dva različita prosta broja. [Prosti (ili prim) brojevi][prosti] su brojevi koji su djeljivi bez ostatka samo s jedan i sa samim sobom. Na primjer, izaberimo slijedeće brojeve:  
    *p = 61*  
    *q = 53*   
 2. Izračunamo njihov umnožak *n = p x q*:  
