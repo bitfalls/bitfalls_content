@@ -112,6 +112,7 @@ Privatni ključ je *(n=3233, d=413)*. On služi za dekripciju kriptirane poruke 
 *m(c)=c<sup>413</sup> mod 3233*
 
 Sada kad imamo funkcije za kriptiranje i dekriptiranje, možemo se vratiti Ivici i pomoći mu da pošalje svoju poruku. Obzirom da ove funkcije mogu direktno kriptirati samo brojeve, a ne i slova, moramo prvo slova pretvoriti u brojeve. To je najbolje učiniti na način da slova zamijenimo njihovim ASCII kodovima koje računala koriste prilikom rada sa slovima. Proširena ASCII tablica dostupna je na [www.asciitable.com][ascii], a mi ćemo ovdje prikazati kodove za velika slova engleske abecede: 
+
 | kod: znak  | kod: znak | kod: znak |
 |------------|-----------|-----------|
 | 32: razmak | 73: I     | 82: R     |
