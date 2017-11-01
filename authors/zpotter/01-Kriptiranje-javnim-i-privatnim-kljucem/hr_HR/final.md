@@ -12,6 +12,7 @@ Evo osnovnih značajki ovih termina:
 |Sigurnosno kodiranje                                                                                   |Zaštitno kodiranje                                                                            |
 |:-----------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------:|
 |nastojanje da isporučena poruka bude identična poslanoj poruci, tj. da greška bude što je moguće manja |nastojanje da poruka bude sasvim nerazumljiva bilo kome drugome osim onome kome je namijenjena|
+
 Nas u ovom članku zanima zaštitno kodiranje, odnosno kriptografija.
 
 ### Prepoznavanje problema
