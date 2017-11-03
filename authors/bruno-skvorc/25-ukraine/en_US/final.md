@@ -1,0 +1,1 @@
+This post's original English version is available at [Bitcoin News](https://news.bitcoin.com/ukraine-drafts-law-exempt-cryptocurrency-income-profits-taxation/).
