@@ -1,13 +1,13 @@
-Segwit? Segwit2x? Fork? NYA agreement? Pojmovi koje ste možda čuli u proteklih nekoliko mjeseci, a ne znate što znače? U ovom članku ćemo vam pojasniti spomenute pojmove i što se krije iza njih.
+Segwit? Segwit2x? Fork? NYA? Pojmovi koje ste možda čuli u proteklih nekoliko mjeseci, a ne znate što znače? U ovom članku ćemo vam pojasniti spomenute pojmove i što se krije iza njih.
 
 *Ako ste novak u kriptovalutama, da biste razumjeli terminologiju iz teksta dolje preporučujemo da pročitate [uvod u blockchain][blockchain].*
 
 
 ## Problematika
 
-Svaki blockchain ima istu slabost, a to je skalabilnost. Kad blockchain dođe do točke zasićenja gdje ima više transakcija nego mreža može procesirati, brzina kojom se transakcije izvršavaju se smanjuje. Time se naknada za transakcije povećava jer rudari u blockchain prvo uključuju transakcije s većom naknadom, a tek onda idu ostale.
+Svaki blockchain ima istu slabost, a to je skalabilnost. Kad blockchain dođe do točke zasićenja gdje ima više transakcija nego mreža može procesirati, brzina kojom se transakcije izvršavaju se smanjuje. Time se naknada za transakcije povećava jer [rudari][powpos] u blockchain prvo uključuju transakcije s većom naknadom, a tek onda idu ostale.
 
-Drugi problem je način optimizacije rudara po imenu [ASICBoost]. ASICBoost omogućava veću efektivnost rudarenja smanjivši potrošnju električne energije u omjeru na broj [hasheva u sekundi][hashrate]. Kineski proizvođač opreme za rudarenje Bitmain imao je ugrađen ASICBoost u svoje rudarske uređaje i time [zarađuje ~30% Bitcoina više][ABOOSTGregMax] od ostalih.
+Drugi problem je način optimizacije rudara po imenu [ASICBoost]. ASICBoost omogućava veću efektivnost rudarenja smanjivši potrošnju električne energije u omjeru na broj [hasheva u sekundi][hashrate]. Kineski proizvođač opreme ([ASIC](https://bitfalls.com/hr/glossary/#asic)-a) za rudarenje Bitmain imao je ugrađen ASICBoost u svoje rudarske uređaje i time [zarađuje ~30% Bitcoina više][ABOOSTGregMax] od ostalih.
 
 U nalaženju rješenja za problem ASICBoosta i skalabilnosti imamo dvije suprotstavljene strane: 
 
@@ -20,16 +20,13 @@ U nalaženju rješenja za problem ASICBoosta i skalabilnosti imamo dvije suprots
 
 Tehnologija Lightning Networka je slična i ima istu namjenu kao [Raiden mreža][Raiden] na [Ethereumu][eth].
 
-Ukratko, Lightning mreža pomoću pametnih ugovora i platnih kanala omogućuje masovni skok u transakcijama koje su prvotno off chain (nisu na blockchainu). Time su omogućene i mikrotransakcije jer su transakcijske naknade nepostojeće - na kraju se sve pošalje na blockchain u jednoj velikoj transakciji za koju se plati naknada. Nedostatak je potencijalno formiranje bitbanaka i centraliziranih servisa kroz koje se te transakcije vrše prije nego budu poslane na glavni blockchain, što znači novo formiranje bankovnog sektora u svijetu kriptovaluta. Također, LN oduzima transakcijske naknade od rudara u velikom dijelu i daje ih tim centraliziranim entitetima što, kada uzmemo u obzir ["konačnost"][finite] Bitcoina, ne zvuči dobro.
+Ukratko, Lightning mreža pomoću pametnih ugovora i platnih kanala omogućuje masovni skok u transakcijama koje su prvotno off chain (nisu na blockchainu). Time su omogućene i mikrotransakcije jer su transakcijske naknade nepostojeće - na kraju se sve pošalje na blockchain u jednoj velikoj transakciji za koju se plati naknada. Nedostatak je potencijalno formiranje bitbanaka i centraliziranih servisa kroz koje se te transakcije vrše prije nego budu poslane na glavni blockchain, što znači novo formiranje bankovnog sektora u svijetu kriptovaluta. Također, LN oduzima [transakcijske naknade](https://bitfalls.com/hr/glossary/#block-reward) od rudara u velikom dijelu i daje ih tim centraliziranim entitetima što, kada uzmemo u obzir ["konačnost"][finite] Bitcoina, ne zvuči dobro.
 
 Za napredne korisnike koje zanima više, [ovaj video će biti koristan][LightningNetwork] (na engleskom).
 
 #### Što je SegWit
 
-SegWit je tehnologija koja omogućava blockchainu povećavanje broja transakcija.
-No, kako SegWit funkcionira?  
-
-Bitcoin transakcija se sastoji od informacija kao što su veličina transakcije, koliko ulaza i izlaza transakcija sadrži, kolika je naknada za rudare, kada je transakcija uključena u blok itd.
+Kao što smo to objasnili u članku o [čitanju podataka iz Bitcoin transkacija][blockex], jedna transakcija se sastoji od informacija kao što su veličina transakcije, koliko ulaza i izlaza transakcija sadrži, kolika je naknada za rudare, kada je transakcija uključena u blok itd.
 
 Ovdje je najbitniji dio da **svaka** transakcija mora biti **potpisana [privatnim ključem][privatekey]**. Upravo taj potpis zauzima većinu mjesta u transakciji, no bez tog potpisa ne znamo je li transakcija valjana.
 
@@ -52,7 +49,7 @@ Kao što smo opisali u članku o [konačnosti Bitcoina][finite], ako dođe do ce
 *Zbog toga što je Bitcoin protokol zasnovan na principu nepovjerenja, potiče se da sami provjerimo istinitost transakcija na mreži tako da imamo vlastiti čvor.*
 
 
-### Treće rješenje (kompromis):
+### Treće rješenje: Segwit2x (kompromis):
 
 Prvo aktivirati SegWit, a kasnije povećati blokove.
 
@@ -62,7 +59,7 @@ Unatoč gore navedenim razlozima zašto nijedna metoda nije optimalna, više je 
 
 #### NYA dogovor i SegWit2x
 
-[New York Agreement][NYA] je dogovor između nekih od najvećih kompanija u Bitcoin prostoru i velikih rudara. Dogovoreno je da će se prvo aktivirati SegWit, a 90 dana kasnije SegWit2x koji će još podići veličinu bloka na 2mb, što bi u kombinaciji s SegWitom uzrokovalo teoretsko povećanje kapaciteta na cca 8mb. 
+[New York Agreement][NYA] je dogovor između nekih od najvećih kompanija u Bitcoin prostoru i velikih rudara. Dogovoreno je da će se prvo aktivirati SegWit (to se već desilo), a 90 dana kasnije SegWit2x koji će još podići veličinu bloka na 2mb, što bi u kombinaciji s SegWitom uzrokovalo teoretsko povećanje kapaciteta na cca 8mb. 
 
 Cijeli razvoj Segwit2x je nadgledan od strane Jeff Garzik-a, jednog od originalnih autora Bitcoin blockchain softvera. Tom dogovoru - koliko iz principa (dogovori iza zatvorenih vrata nisu u duhu Bitcoina) toliko iz činjenice da ih većina nije bila pozvana - nisu prisustvovali Bitcoin Core developeri.
 
@@ -137,7 +134,7 @@ Nakon samog forka, coin jednog forka će se prodati za coin drugog forka, ili za
 
 Ono što možete učiniti da se okoristite prilikom:
 
-1. Prodaja Bitcoina uoči forka dok se sve ne smiri
+1. Prodaja Bitcoina uoči forka sad kad je skup, čekanje dok se sve ne smiri
 2. Pokušaj tempiranja tržišta i swing trading (ne preporučuje se - visok rizik, ali potencijalna visoka isplata)
 3. [HODL], sigurno rješenje ako čvrsto vjerujete u projekt ili ako jednostavno želite zadržati oba coina
 
@@ -179,8 +176,6 @@ Ako iz nekog razloga niste sigurni da možete čuvati privatne ključeve na sigu
 [manageportfolio]: https://bitfalls.com/hr/portfolio-management/
 [finite]: https://bitfalls.com/hr/2017/09/17/bitcoin-finite-just-myth/
 [whycare]: https://www.reddit.com/r/btc/comments/75u35x/bitcoin_cash_vs_b2x/
-<<<<<<< HEAD
 [eth]: https://bitfalls.com/hr/2017/09/19/what-ethereum-compare-to-bitcoin/
-=======
-[eth]: https://bitfalls.com/hr/2017/09/19/what-ethereum-compare-to-bitcoin/
->>>>>>> e794de227ed29541cbd42ae77d9f3d72028f6656
+[blockex]: https://bitfalls.com/hr/2017/10/03/read-bitcoin-blockchain-data-blockexplorer/
+[powpos]: https://bitfalls.com/hr/2017/10/23/whats-the-difference-between-proof-of-work-pow-proof-of-stake-pos-and-delegated-pos/
