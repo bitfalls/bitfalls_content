@@ -30,6 +30,8 @@ Kao što smo to objasnili u članku o [čitanju podataka iz Bitcoin transkacija]
 
 Ovdje je najbitniji dio da **svaka** transakcija mora biti **potpisana [privatnim ključem][privatekey]**. Upravo taj potpis zauzima većinu mjesta u transakciji, no bez tog potpisa ne znamo je li transakcija valjana.
 
+![Veličina potpisa](https://bitfalls.com/wp-content/uploads/2017/11/03.png)
+
 Core developeri su SegWitom (Segregated Witness = _odvojeni svjedok_) odlučili "prepoloviti transakciju" i odvojiti potpis od ostatka transakcije. Time smanjivši veličinu transakcije, efektivno su povećali kapacitet bloka.
 
 Čvorovi koji žele provjeriti legitimitet transakcija mogu zatražiti i potpise za svaku transakciju tako da imaju instaliran čvor koji podržava SegWit npr. Bitcoin Core. To ujedno znači da cijeli sustav funkcionira na povjerenju do kad se legitimnost transakcija manualno ne provjeri dodatnih zahtjevom za potpisima.
@@ -41,6 +43,8 @@ Kineski rudari, s vlasnikom Bitmaina Jihanom Wu na čelu, zagovarali su povećan
 Dodatni veliki razlog zašto su se kineski rudari bunili je taj što SegWit **onemogućava ASICBoost**, a time ostaju bez velike prednosti.
 
 Nadalje, ako se veličina blokova poveća na 8mb, tako drastično povećanje kapaciteta blokova bi negativno utjecalo na čvorove u mreži jer sada moraju pohraniti i obraditi osam puta više podataka u istom vremenskom razdoblju. Inicijalna sinkronizacija čvora će također trajati puno duže (proces preuzimanja i validiranja cijelog blockchaina nakon instalacije Bitcoin softvera).  Trebat će više resursa da se čvor održi, u smislu diskovnog prostora i internetske propusnosti.
+
+![Bitcoin čvorovi diljem svijeta](https://bitfalls.com/wp-content/uploads/2017/11/04.png)
 
 S vremenom postoji mogućnost da si zbog veličine blockchaina obični ljudi neće moći priuštiti svoj čvor, nego će si to moći priuštiti samo veliki podatkovni centri i tvrtke, što će dovesti do centralizacije i pretvoriti Bitcoin u korporativnog talca, slično situaciji s bitbankama iz Lightning Network situacije opisane gore. Onaj tko kontrolira čvorove, kontrolira i Bitcoin, zato je bitno da mogućnost pogonjenja vlastitog Bitcoin čvora ostane pristupačna svima.
 
@@ -63,6 +67,8 @@ Unatoč gore navedenim razlozima zašto nijedna metoda nije optimalna, više je 
 
 Cijeli razvoj Segwit2x je nadgledan od strane Jeff Garzik-a, jednog od originalnih autora Bitcoin blockchain softvera. Tom dogovoru - koliko iz principa (dogovori iza zatvorenih vrata nisu u duhu Bitcoina) toliko iz činjenice da ih većina nije bila pozvana - nisu prisustvovali Bitcoin Core developeri.
 
+![Iza zatvorenih vrata](https://bitfalls.com/wp-content/uploads/2017/11/05.jpg)
+
 Od početnog broja od 56 kompanija u NYA dogovoru, 10 kompanija je odustalo od dogovora, dok je 8 kompanija prešlo na Bitcoin Cash. Ostaje nam 38 kompanija koje još podržavaju SegWit2x nadogradnju (u trenutku pisanja ovog teksta).
 
 [Ovdje možete pratiti popis kompanija][segwitstatus] koje su za ili protiv.
@@ -73,9 +79,9 @@ Nakon inicijalnog dogovora o kompromisu i implementaciji navedenog rješenja, pr
 
 Na slikama dolje možemo vidjeti neke od ključnih zagovornika SegWit2x (Jihan Wu i Roger Ver) kako promoviraju Bitcoin Cash. Zašto bi još uvijek brinuli oko SegWit2x ako su dobili svoju željenu valutu u obliku Bitcoin Cash-a mnogima [nije jasno][whycare].
 
-![01](../Images/01.png)
+![01](https://bitfalls.com/wp-content/uploads/2017/11/01-1.png)
 
-![02](../Images/02.png)
+![02](https://bitfalls.com/wp-content/uploads/2017/11/02.png)
 
 
 ## Daljnji razvoj
@@ -97,6 +103,8 @@ Uzmimo za primjer [Ethereum] - nedavno je prošao kroz uspješan hard fork i imp
 ## Napad centralnih banaka
 
 Na Redditu je osvanuo [post][redditpost] koji povezuje [DCG] (Digital Currency Group), kompaniju koja predvodi, financira, i planira SegWit2x implementaciju, s bankarskim vezama kao što su MasterCard i slično (poznati neprijatelji kriptovaluta).
+
+![Nasmijani bankari](https://bitfalls.com/wp-content/uploads/2017/11/06.jpg)
 
 [Ovo][dcgleaders] su ljudi koji vode DCG. Troje članova su posebno zanimljivi:
 
@@ -127,6 +135,8 @@ No, kao i sve, ni ovo nije crno bijelo, [ovdje][blockstream] raspravljamo potenc
 *Napomena: Ovo nije nikakav investicijski savjet, već osobno mišljenje autora i treba ga se tumačiti kao takvo.*
 
 Pretpostavljamo da će se cijena kretati isto kao i uoči prošlih forkova.
+
+![Nagli pad cijene nakon naglog rasta](https://bitfalls.com/wp-content/uploads/2017/11/07.png)
 
 Nedugo prije forka će cijena Bitcoina porasti zbog [FOMO], a [altcoini][altcoins] će najvjerojatnije pasti (ovo je zadnjih par tjedana već u tijeku).
 

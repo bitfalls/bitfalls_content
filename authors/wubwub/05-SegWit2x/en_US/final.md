@@ -25,6 +25,8 @@ For advanced readers, [this video][LightningNetwork] might explain things a bit 
 
 Like we explained in a previous post on [how to read Bitcoin transaction data][blockex], a Bitcoin transaction contains information such as the transaction size, input and output addresses, amounts, fees, and more. The most important part of this is the fact that each transaction has to be signed with a [private key][privatekey]. This signature takes up most of the space in a transaction, but without it we have no idea if the transaction is valid.
 
+![Signature size](https://bitfalls.com/wp-content/uploads/2017/11/03.png)
+
 By _segregating_ this _witness_ data out of the transaction, the core developers effectively halved the transaction size. The nodes that want to make sure the transaction is valid need to request this data separately by having software which supports the SegWit approach installed, like Bitcoin Core. This also means that the whole system is now trust based, until manually checked for truth.
 
 ### Solution 2 (miners)
@@ -32,6 +34,8 @@ By _segregating_ this _witness_ data out of the transaction, the core developers
 Chinese miners with Jihan Wu at the forefront wanted to increase block size from 1mb to 8mb. This is not a long term solution because as Bitcoin gains more and more mainstream adoption, the same capacity problem would arise in the near future. An additional reason why the miners complained against the SegWit solution was the fact that the SegWit upgrade disabled ASICBoost, which makes them lose quite a big edge.
 
 Furthermore, if blocks increase in size the people running nodes voluntarily would have to upgrade their storage and possibly internet connections to accommodate for the new throughput. Initial node synchronization would also take much longer (that's the process of downloading and validating the entire blockchain after installing the Bitcoin software of choice). 
+
+![Bitcoin nodes](https://bitfalls.com/wp-content/uploads/2017/11/04.png)
 
 It would become a little more expensive to run nodes, and nodes are just validators - they don't get anything for their participation in the network. It's possible that this would cause a bit of a centralization in the Bitcoin space due to only big data centers and corporations being able to afford to run nodes. This can potentially lead to a "corporate hostage" situation, much like with the Lightning Network above. Those who control the nodes control the Bitcoin network, and thus it's important that the ability to run nodes remain accessible to all.
 
@@ -53,6 +57,8 @@ The [NYA (New York Agreement)][NYA] is an agreement among some of the biggest pl
 
 The development of SegWit2x is being spearheaded by Jeff Garzik, one of the original authors of the Bitcoin blockchain software. This agreement was not attended by Bitcoin Core developers - in part out of principle because closed door deals aren't in the spirit of Bitcoin, in part because most of them weren't invited.
 
+![Behind closed doors](https://bitfalls.com/wp-content/uploads/2017/11/05.jpg)
+
 Of the 56 initial companies from the NYA, 10 dropped out while 8 of them moved to Bitcoin Cash. This leaves us with 38 (at the time of writing) which still support the SegWit2x upgrade. You can keep an eye on the list of supporters [here][segwitstatus].
 
 #### UAHF and Bitcoin Cash
@@ -61,9 +67,9 @@ After the initial compromise agreement, the aforementioned Bitmain mining hardwa
 
 The images below show some of the key proponents of SegWit2x (Jihan Wu and Roger Ver) promoting Bitcoin Cash. Why they would still be concerned about SegWit2x if they got what they wanted in the form of Bitcoin Cash is [anyone's guess][whycare].
 
-![01](../Images/01.png)
+![01](https://bitfalls.com/wp-content/uploads/2017/11/01-1.png)
 
-![02](../Images/02.png)
+![02](https://bitfalls.com/wp-content/uploads/2017/11/02.png)
 
 ## The Future
 
@@ -83,13 +89,19 @@ Take [Ethereum][eth] for example - it recently had its hard fork for the Byzanti
 
 ## Central Banks Attacking Bitcoin from the Inside
 
-There's a [post on Reddit][redditpost] which lays out some evidence that the enemies of cryptocurrencies (the Digital Currency Group, MasterCard, and the world's most prominent bankers) are in fact taking over Bitcoin from the inside by means of this SegWit2x scandal. We highly recommend you give it a read - you'll no doubt be left wondering how much we can trust the parties behind the upgrades, and who those responsible are actually putting in place of the current developers. One this is certain - Bitcoin is under attack from [multiple sides][Bitcoin Gold].
+There's a [post on Reddit][redditpost] which lays out some evidence that the enemies of cryptocurrencies (the Digital Currency Group, MasterCard, and the world's most prominent bankers) are in fact taking over Bitcoin from the inside by means of this SegWit2x scandal. 
+
+![The ruling class laughing](https://bitfalls.com/wp-content/uploads/2017/11/06.jpg)
+
+We highly recommend you give it a read - you'll no doubt be left wondering how much we can trust the parties behind the upgrades, and who those responsible are actually putting in place of the current developers. One this is certain - Bitcoin is under attack from [multiple sides][Bitcoin Gold].
 
 ## What to Expect from Bitcoin's Price During SegWit2x?
 
 _Note: This is not investment advice. It is merely the author's subjective opinion._
 
 It's safe to assume the price will move similarly to how it did with previous forks.
+
+![A sharp drop in price after a meteoric rise](https://bitfalls.com/wp-content/uploads/2017/11/07.png)
 
 Shortly before the fork, the price will spike due to [FOMO] and the desire to get the "second coin for free", while [altcoins] will drop in value (this has been happening for a few weeks already).
 
