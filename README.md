@@ -4,9 +4,9 @@ This repository is the content repository of Bitfalls.com.
 
 If you'd like to contribute, please see [this page](https://bitfalls.com/write-for-us) first.
 
-A technical guide on how to contribute in English is available [here](/guides/contributing/en_EN/final.md).
+A technical guide on how to contribute in English is available [here](/guides/contributing/en_US/final.md).
 
-Please follow the writing tips as presented in [this document](/guides/writing-tips/en_EN/final.md).
+Please follow the writing tips as presented in [this document](/guides/writing-tips/en_US/final.md).
 
 Feel free to peer-review any content and send corrections and tips via [PRs](https://guides.github.com/introduction/flow/). For notes, bugs, tips, and other smaller issues, open an [issue](https://github.com/Swader/bitfalls_content), please. For everything else, there's [email](mailto:contact@bitfalls.com).
 
