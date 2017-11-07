@@ -85,7 +85,7 @@ Na slikama dolje možemo vidjeti neke od ključnih zagovornika SegWit2x (Jihan W
 
 Naposljetku, ni Core developeri ni rudari nisu toliko bitni kao što su bitni sami korisnici Bitcoina. Ljepota Bitcoina kao decentraliziranog protokola je baš u tome što je demokratski, svatko može glasati tako da kod kuće ima Bitcoin čvor koji primjenjuje stroga pravila po kojima neki blok smatra validnim. Ako rudari aktiviraju SegWit2x i rudare veće blokove, čvorovi ih neće prihvatiti jer po pravilima Bitcoina ti blokovi nisu validni. Rudari će se automatski forkati na drugi lanac, dok će rudari koji rudare po pravilima ostati na originalnom Bitcoin lancu. 
 
-S druge strane, ako čvorovi izmjene svoj softver na takav da prima transakcije s većim blokovima, tada taj lanac postaje glavni, i onaj s manjim blokovima odumire. Sve je u rukama korisnika, no nažalost lobiji dezinformacija i osobnih koristi su već sada u kripto svijetu vrlo jaki, te je do objektivnih informacija vrlo teško doći.
+S druge strane, ako čvorovi izmjene svoj softver na onaj koji može primati transakcije s većim blokovima, tada taj lanac postaje glavni, i onaj s manjim blokovima odumire. Sve je u rukama korisnika, no nažalost lobiji dezinformacija i osobnih koristi su već sada u kripto svijetu vrlo jaki, te je do objektivnih informacija vrlo teško doći.
 
 Kod trenutnog Bitcoina, situacija s visokim naknadama za transakcije se pomalo poboljšava, SegWit transakcije se polako [sve više i više koriste][SegwitTx] i naknade za transakcije padaju, ali i dalje postoji problem naknada koje su trenutno skuplje nego bi trebale biti. Unatoč problemima, ovakav hard fork ne treba olako shvaćati.
 
