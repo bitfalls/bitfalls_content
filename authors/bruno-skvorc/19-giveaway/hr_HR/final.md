@@ -15,6 +15,19 @@ Zatim, da uđete u izvlačenje pojedinog uređaja, učinite jedno (ili oboje) od
 
 Za 5 dana izvući ćemo pobjednike i da, moguće je da jedna osoba osvoji oba uređaja ako se prijavi u oba natječaja. Troškove slanja bilo kamo u svijetu snosimo mi.
 
+---
+
+Natječaj je završio! Nažalost, izgleda da mnogi nisu pročitali uvjete u potpunosti pa su preskočili korak s prijavom na naš newsletter 😱
+
+Od preostalih važećih natjecatelja izvukli smo obećana dva pobjednika:
+
+- Facebook natječaj: [Sanja Moćan](https://www.facebook.com/sanja.mocan)
+- Twitter natječaj: [wgrizzlyx](https://twitter.com/wgrizzlyx)
+
+Čestitamo! Nadamo se da ćete uživati u svojim Ledgerima!
+
+_Pobjednike smo kontaktirali i njihovi Ledgeri biti će im poslani u najkraćem mogućem roku._
+
 [ledger]: https://bitfalls.com/hr/2017/09/08/hardware-wallets-like-ledger-nano-s-work/
 [fb]: https://facebook.com/bitfalls
 [fbpost]: https://www.facebook.com/bitfalls/posts/928843890599007
