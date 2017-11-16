@@ -44,7 +44,7 @@ Ukoliko Ivica ovaj sadržaj pošalje sms-om Marici i netko treći vidi poruku, n
 
 Prethodno opisani način kriptiranja nazivamo kriptiranje s tajnim ključem ili simetrično kriptiranje. Ovo *simetrično* u nazivu je zbog toga što je isti ključ poznat objema stranama komunikacije i pomoću istog ključa je moguće poruku kriptirati i dekriptirati. Tajni ključ je upravo ona funkcija koja služi za kriptiranje, a njen inverz za dekriptiranje. Način rada sustava kriptiranja s tajnim ključem (simetrično kriptiranje) možemo grafički prikazati ovako:
 
-![Simetrično kriptiranje](../images/01.png)
+![Simetrično kriptiranje](https://bitfalls.com/wp-content/uploads/2017/11/01-2.png)
 
 Ovakav sustav nam se na prvi pogled čini savršen. Naravno, umjesto jednostavne funkcije u obliku opisane tablice, treba koristiti neku kompleksniju bijektivnu funkciju. Ovaj sustav zaista jest sasvim dobar sve dok je tajni ključ moguće razmijeniti na siguran način. Ivica i Marica su se mogli fizički susresti, zajedno generirati tablicu i od tog trenutka imaju tajni ključ i mogu slati i primati kriptirane poruke koje samo oni razumiju. Ako je moguća takva situacija da se dvije osobe fizički sretnu i na taj način razmijene tajni ključ, onda ovaj sustav gotovo da i nema nedostataka.
 Međutim, u najvećem broju slučajeva gdje je potrebno kriptiranje podataka, komunikacija se odvija elektronskim putem, a osobe koje komuniciraju se nalaze na velikim udaljenostima. Često se nikada nisu niti sreli. U toj situaciji se nameće problem oko načina razmjene tajnog ključa. Ako tajni ključ dvije osobe razmjenjuju nesigurnim kanalom, onda treba pretpostaviti da je taj kanal kompromitiran i da se netko treći mogao domoći tajnog ključa. Dakle, ne dolazi u obzir razmjena tajnog ključa pismom, razgovorom putem telefona ili mobitela, razmjena putem poruka na društvenim mrežama niti bilo što slično što nije potpuno sigurno.
@@ -65,7 +65,7 @@ Drugi ključ služi samo za dekriptiranje i ne postoji potreba da se taj ključ 
 
  
  
-![Simetrično kriptiranje](../images/02.png)
+![Simetrično kriptiranje](https://bitfalls.com/wp-content/uploads/2017/11/02-1.png)
 
 Ako razmotrimo gornju sliku koja prikazuje sustav kriptiranja s javnim ključem, odnosno asimetrično kriptiranje i usporedimo ga sa sustavom kriptiranja s tajnim ključem, uočit ćemo odmah da kod sustava s javnim ključem nema potrebe za sigurnim kanalom, a upravo to je bio najveći nedostatak sustava s tajnim ključem. Osim toga, asimetrija ovog sustava se ogleda u tome što istim ključem nije moguće kriptirati i dekriptirati poruku, za razliku od simetričnog kriptiranja, već se za svaki od ta dva posla koristi zaseban ključ.
 
@@ -182,7 +182,7 @@ Privatni ključ nikome ne šaljemo, čuvamo ga u tajnosti i koristimo ga za dekr
 
 Promatrajući algoritam asimetričnog kriptiranja te odnos javnog i tajnog ključa, nameće se pitanje u vezi mogućnosti izračunavanja tajnog ključa iz poznatog javnog ključa.
 
-![Ključ](../images/03.png)
+![Ključ](https://bitfalls.com/wp-content/uploads/2017/11/03-1.png)
 
 ### Zašto je tajni ključ teško doznati?
 

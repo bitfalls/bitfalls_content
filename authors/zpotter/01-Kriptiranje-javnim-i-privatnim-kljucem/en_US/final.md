@@ -42,7 +42,7 @@ Should someone intercept this message, it won't make much sense to them. Their l
 
 The above outlined approach is called symmetric private key encryption. "Symmetric" indicates that the message can be encrypted and decrypted using the same key (secret). The key (secret) is actually the letter-to-number-to-letter replacement function we described. It looks a little like this:
 
-![Symmetric encryption](../images/01-en_US.PNG)
+![Symmetric encryption](https://bitfalls.com/wp-content/uploads/2017/11/01-en_US.png)
 
 A system like this might seem perfect at first glance. Of course, a more complex bijective function is required to make this communication truly secure. The system as such is perfectly safe for as long as Alice and Bob can meet and arrange a method of encryption / decryption beforehand - but what if, like in most cases today, the people communicating aren't actually in close physical proximity, or maybe don't even know each other? How can they safely exchange a secret key without risk of it falling into the wrong hands?
 
@@ -60,7 +60,7 @@ The other key is used only for decrypting and shouldn't be sent to anyone. Only 
 
 ## Asymmetric encryption (with a public key)
 
-![Asymmetric encryption](../images/02-en_US.PNG)
+![Asymmetric encryption](https://bitfalls.com/wp-content/uploads/2017/11/02-en_US.png)
 
 Looking at the image above, we can see that there's no need for a secure channel to exchange keys through. The asymmetry is in the fact that it's impossible to encrypt and decrypt the message with the same key - a separate one is needed for each action.
 
@@ -172,7 +172,7 @@ Let's re-iterate why asymmetric encryption is better than symmetric encryption. 
 
 But would it be possible to calculate the private key from the public key?
 
-![A key](../images/03.png)
+![A key](https://bitfalls.com/wp-content/uploads/2017/11/03-1.png)
 
 ### Guessing the private RSA key
 
