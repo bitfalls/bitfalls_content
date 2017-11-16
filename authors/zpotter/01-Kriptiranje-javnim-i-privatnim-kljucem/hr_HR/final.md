@@ -1,24 +1,14 @@
-Mediji su puni članaka o [kriptovalutama][kriptovalute] i svi bruje o važnosti [privatnih][privatni] i [javnih ključeva][javni]. Svi ste čuli za kriptiranje, ali znate li zaista što je to i kako funkcionira?
+Mediji su puni članaka o [kriptovalutama][kriptovalute] i svi bruje o važnosti [privatnih][privatni] i [javnih ključeva][javni]. Čuli ste za kriptiranje, ali znate li zaista što je to i kako funkcionira?
 
-Ovim člankom vratit ćemo se na početak priče i pokušati objasniti [osnove kriptiranja][osnove], vidjeti koje vrste kriptiranja postoje, i objasniti osnovne algoritme kroz primjere. 
+Ovim člankom vratit ćemo se na početak priče i pokušati objasniti [osnove kriptiranja][osnove], vidjeti koje vrste kriptiranja postoje, i objasniti osnovne algoritme kroz primjere. Ako ste ikada htjeli saznati što je to i kako funkcionira ali vam se sadržaj činio prekompliciran, ovaj je uvod idealna prilika.
 
-## Zaštitno kodiranje
+## Kriptografija
 
-Kriptografija je znanstvena disciplina koja se bavi proučavanjem metoda za slanje poruka u takvom obliku da ih samo onaj kome su namijenjene može pročitati. Taj proces pretvaranja izvorne poruke u poruku koja je čitljiva samo primatelju zovemo šifriranje, kriptiranje ili zaštitno kodiranje. Zaštitno kodiranje nikako ne treba miješati s pojmom sigurnosnog kodiranja. Pod sigurnosnim kodiranjem podrazumijevamo nastojanje projektanta da poruka isporučena primatelju bude jednaka izvornoj, poslanoj poruci, odnosno da se greške pri isporuci svedu na minimum.
+Kriptografija je, ukratko, proces pretvaranja neke poruke u takav format da ta poruka ima smisla samo primatelju, a ne i nekome na putu do primatelja tko bi je mogao presresti.
 
-Za razliku od sigurnosnog kodiranja, zaštitnim se kodiranjem nastoji da poruka koja je poslana nekom primatelju bude čitljiva i razumljiva samo za njega te da bilo tko drugi tko slučajno ili namjerno dođe do takve poruke, ne može pročitati njen sadržaj, odnosno ne može ga razumjeti.
+Čime se, u stvari, ovdje bavimo? Koji problem želimo riješiti? 
 
-Evo osnovnih značajki ovih termina:
-
-|Sigurnosno kodiranje                                                                                   |Zaštitno kodiranje                                                                            |
-|:-----------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------:|
-|nastojanje da isporučena poruka bude identična poslanoj poruci, tj. da greška bude što je moguće manja |nastojanje da poruka bude sasvim nerazumljiva bilo kome drugome osim onome kome je namijenjena|
-
-Nas u ovom članku zanima zaštitno kodiranje, odnosno kriptografija.
-
-### Prepoznavanje problema
-
-Čime se, u stvari, ovdje bavimo? Koji problem želimo riješiti? Pretpostavimo da postoji dvoje ljudi koji žele razmjenjivati kriptirane poruke, bez obzira na kanal koji pri tome koriste (pismo na papiru, sms, e-mail, ..). Prva stvar koju moraju napraviti je dogovoriti nekakva pravila koja će primjenjivati prilikom kriptiranja, odnosno dekriptiranja svojih poruka. Ta pravila se svode na funkcije, jednu ili više njih. Ako se takvom funkcijom izvrši kriptiranje podataka, onda mora postojati i druga funkcija koja podatke može dekriptirati, odnosno vratiti ih u izvorni oblik. Matematičkim jezikom rekli bismo da funkcija kriptiranja mora biti bijektivna, tj. mora postojati inverzna funkcija kojom bi se poslužili za dekripciju, odnosno dešifriranje.
+Pretpostavimo da postoji dvoje ljudi koji žele razmjenjivati kriptirane poruke, bez obzira na kanal koji pri tome koriste (pismo na papiru, sms, e-mail, ..). Prva stvar koju moraju napraviti je dogovoriti nekakva pravila koja će primjenjivati prilikom kriptiranja, odnosno dekriptiranja svojih poruka. Ta pravila se svode na funkcije, jednu ili više njih. Ako se takvom funkcijom izvrši kriptiranje podataka, onda mora postojati i druga funkcija koja podatke može dekriptirati, odnosno vratiti ih u izvorni oblik. Matematičkim jezikom rekli bismo da funkcija kriptiranja mora biti bijektivna, tj. mora postojati inverzna funkcija kojom bi se poslužili za dekripciju, odnosno dešifriranje.
 
 U tom slučaju pošiljatelj poruke primjenjuje dogovorenu funkciju na skup podataka i dobiva kriptirane podatke koje šalje primatelju. S druge strane, primatelj na dobiveni kriptirani tekst primjenjuje inverz dogovorene funkcije što rezultira početnim, originalnim skupom podataka. Ukoliko se neka treća osoba domogne kriptirane poruke, ta poruka će za nju biti sasvim nerazumljiva ako ne posjeduje inverznu funkciju kojom bi se poruka mogla dekriptirati.
 
@@ -44,7 +34,9 @@ Ova funkcija je, na prvi pogled možemo zaključiti, bijekcija, dakle za nju pos
 
 Vratimo se Ivici koji Marici želi poslati poruku sadržaja "I LOVE YOU" primjenjujući dogovoreno kriptiranje. Pomoću zadane funkcije (tablice), poruka će glasiti ovako:
 
-`09001215220500251521`
+```
+09001215220500251521
+```
 
 Ukoliko Ivica ovaj sadržaj pošalje sms-om Marici i netko treći vidi poruku, neće znati da je Ivica Marici izjavio ljubav. A Marica, znajući za tajni dogovor i tablicu, lako će dekriptirati poruku i zarumeniti se.
 
@@ -86,6 +78,8 @@ Ako bi sada Marica htjela Ivici odgovoriti porukom koja je također kriptirana, 
 Da bi ovakvo zaštitno kodiranje bilo održivo i imalo smisla, nužan uvjet je da onaj tko je u posjedu javnog ključa ne može pomoću njega izračunati i kreirati tajni ključ, barem ne u nekom razumnom vremenu.
 
 ### Kako to radi?
+
+_Ako ne razumijete pojmove iz donjeg teksta u potpunosti, pročitajte ih nabrzinu i krenite dalje - biti će objašnjeni na primjeru._
 
 Da bi se izbjegla mogućnost da se pomoću javnog ključa može dekriptirati poruka, a isto tako da se pomoću javnog ključa ne može doći do tajnog ključa, koristi se matematička podloga jednosmjernih funkcija. Jednosmjerna funkcija je svaka ona funkcija u kojoj je lako izračunati `f(x)` za svaki `x`, ali s druge strane nije moguće računski odrediti `x` ako je poznata vrijednost funkcije za taj `x`, odnosno ako je poznato `y=f(x)`, za svaki `y`. Drugim riječima, ako znamo da je "zbroj" 950, ne možemo bez pogađanja odrediti _zbroj kojih brojeva_ jer je kombinacija za postići taj zbroj beskonačno mnogo.
 
@@ -188,7 +182,8 @@ Privatni ključ nikome ne šaljemo, čuvamo ga u tajnosti i koristimo ga za dekr
 
 Promatrajući algoritam asimetričnog kriptiranja te odnos javnog i tajnog ključa, nameće se pitanje u vezi mogućnosti izračunavanja tajnog ključa iz poznatog javnog ključa.
 
-![Simetrično kriptiranje](../images/03.png)
+![Ključ](../images/03.png)
+
 ### Zašto je tajni ključ teško doznati?
 
 Pogledajmo još jednom ove dvije funkcije:  
@@ -197,7 +192,7 @@ Pogledajmo još jednom ove dvije funkcije:
 
 Kriptirajuća funkcija, odnosno par *(p x q, e)* predstavlja javni ključ. Ako nam je taj par poznat i ako želimo saznati dekriptirajuću funkciju, odnosno tajni ključ, moramo pronaći brojeve *p* i *q*. To znači da moramo faktorizirati umnožak *(p x q)*.
 
-Ako pretpostavimo da su brojevi *p* i *q* 1024-bitni, tada je *(p x q)* 2048-bitni broj. Ako bi tako veliki broj htjeli faktorizirati, i najmoćnije računalo današnjice bi trebalo nezamislivo puno vremena za taj posao. Time je invertiranje kriptirajuće funkcije praktički onemogućeno, odnosno mogućnost invertiranja kriptirajuće funkcije je direktno ovisno o veličini prostih brojeva *p* i *q*.  
+Ako pretpostavimo da su brojevi *p* i *q* 1024-bitni, tada je *(p x q)* 2048-bitni broj - u decimalnom smislu taj broj ima 617 znamenki. Ako bi tako veliki broj htjeli faktorizirati, i najmoćnije računalo današnjice bi trebalo nezamislivo puno vremena za taj posao. Time je invertiranje kriptirajuće funkcije praktički onemogućeno, odnosno mogućnost invertiranja kriptirajuće funkcije je direktno ovisno o veličini prostih brojeva *p* i *q*.  
 
 Faktorizaciju velikog broja nije nemoguće napraviti. Postoje posebni algoritmi koji su razvijeni upravo zato da bi poboljšali i ubrzali faktorizaciju velikih brojeva.
 Trenutno najučinkovitiji algoritam za faktorizaciju je [GNFS (kratica od General Number Field Sieve)][gnfs]. Taj je algoritam posebno pogodan za faktorizaciju brojeva koji imaju više od 110 znamenaka.  
@@ -231,7 +226,7 @@ I još jedna zanimljivost u vezi prostih brojeva. The Electronic Frontier Founda
 
 A kakve ima veze sve ovo prethodno rečeno s kriptovalutama, osim što dijele zajednički korijen *kripto*?  
 
-Uzmimo primjer najpoznatije i najstarije kriptovalute Bitcoin. Kao i kod svih drugih kriptovaluta, i kod Bitcoina se koristi par ključeva, javni i privatni. Javni ključ, odnosno jedan njegov oblik, kod Bitcoina služi kao adresa na koju je moguće poslati neki iznos. Znamo od prije iz ovog članka da naš javni ključ služi da bi nam netko drugi mogao poslati kriptiranu poruku. Tako i kod Bitcoina, naš javni ključ, odnosno Bitcoin adresa, služi da bi nam netko drugi mogao poslati sredstva. S druge strane, privatnim ključem možemo odobriti, potpisati, obaviti transakciju kojom sredstva sa svog računa (adrese) šaljemo nekom drugom, na neku njegovu adresu.  
+Uzmimo primjer najpoznatije i najstarije kriptovalute Bitcoin. Kao i kod svih drugih kriptovaluta, i kod Bitcoina se koristi par ključeva, javni i privatni. Javni ključ, odnosno jedan njegov oblik, kod Bitcoina služi kao [adresa][address] na koju je moguće poslati neki iznos. Znamo od prije iz ovog članka da naš javni ključ služi da bi nam netko drugi mogao poslati kriptiranu poruku. Tako i kod Bitcoina, naš javni ključ, odnosno Bitcoin adresa, služi da bi nam netko drugi mogao poslati sredstva. S druge strane, privatnim ključem možemo odobriti, potpisati, obaviti transakciju kojom sredstva sa svog računa (adrese) šaljemo nekom drugom, na neku njegovu adresu.  
 
 Iako je ideja ista, kod Bitcoina se par ključeva izračunava na nešto drukčiji način nego je prethodno prikazano pomoću algoritma RSA. Privatni ključ Bitcoina je zapravo jedan 256-bitni broj. Naravno, obično se radi se o nekom velikom broju koji je odabran slučajnim odabirom iz skupa brojeva u kojem se nalazi 2<sup>256</sup> brojeva. To je nešto više od 10<sup>77</sup> brojeva. Možda se ne čini puno, ali ako znamo da je [u cijelom univerzumu oko 10<sup>80</sup> atoma][atomi], onda se ipak možemo zamisliti na veličini skupa brojeva. Samo da bi pobrojili sve te brojeve koji mogu biti privatni ključevi, kada bi svake sekunde pobrojili njih miljardu, za taj posao bi nam trebalo milijun puta više vremena od starosti svemira!
 
@@ -239,7 +234,7 @@ Dakle, imamo privatni ključ koji samo mi znamo i koji nitko (u razumnom vremenu
 
 Kod Bitcoina javni ključ nije ujedno i adresa, ali se relativno jednostavno od javnog ključa može izračunati adresa. Pojednostavljeno, postupak se svodi na slijedeći izračun:  
 
-*Adresa = RIPEMD160 (SHA256 (privatni ključ))*  
+*Adresa = RIPEMD160 (SHA256 (javni ključ))*  
 
 Dakle, nad javnim ključem treba provesti postupak SHA2 te nad rezultatom postupak RIPEMD160. Na [ovom linku][pub2addr] se nalaze detalji oko pretvaranju javnog ključa u Bitcoin adresu.
 
@@ -269,3 +264,4 @@ Prednosti asimetričnog kriptiranja koriste i kriptovalute kao što je Bitcoin. 
 [ecc1]:https://www.cryptocompare.com/wallets/guides/what-is-elliptic-curve-cryptography/
 [ecc2]:https://en.wikipedia.org/wiki/Elliptic-curve_cryptography
 [pub2addr]:https://en.bitcoin.it/wiki/Technical_background_of_version_1_Bitcoin_addresses
+[address]: https://bitfalls.com/hr/2017/08/31/what-cryptocurrency-wallet/
