@@ -85,7 +85,7 @@ Koristeći prednosti sigurnosti i nepromjenjivosti blockchaina, kao i univerzaln
 
 Predviđeno je pohranjivanje većine vrijednosti u offline novčanike, dok će tek manji dio biti iskorišten za trgovanja na burzi. Za razliku od slovenskog konkurenta Iconomija koji naglasak stavlja na kreiranje vlastitih skupina (baskets) kriptovaluta, Indicium se pouzdaje u moćne algoritme i automatizaciju kreiranja skupina. Dobra vijest je da je Indicum uspješno okončao prvu fazu investiranja, te će se rad na njemu sigurno nastaviti.
 
-![5.png](..images/5.png)
+![5.png](../images/5.png)
 
 ## Zaključak
 
