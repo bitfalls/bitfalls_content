@@ -8,6 +8,8 @@ Kod svakog objavljivanja neke vijesti vezane za kriptovalute(najčešće je to b
 ## KAKO NOVAC DOBIVA NA VRIJEDNOSTI?
 
 
+U jednom od naših [članaka][članak] razjasnili smo povijest novca i kako je novac nastao, ali kako novac dobija na vrijednosti je, ako želimo razmjeti vrijednost kriptovaluta - još važnije.
+
 
 Mnogi od onih koji nikada nisu koristili Bitcoin na njega zbunjeno gledaju – zašto ovaj „čarobni internet novac“ uopće ima vrijednost? Kako to da se Bitcoin uopće smatra novcem? Oni koji su navikli na „opipljivi novac“, ideja da možemo imati novac „iz ničega“, tj. izračunanog koda može biti vrlo teška za shvaćanje.
 
@@ -91,3 +93,4 @@ Bilo je potrebno 10 mjeseci kako bi se izgradilo povjerenje prema mreži, a zati
 Bitcoin se pojavio kao svaka druga valuta, od soli do zlata. Ljudi smatraju da je bitcoin platni sustav koristan. Bitcoin je prijenosan, djeljiv, zamjenjiv, trajan i rijedak. Bitcoin kao novac ima sva najbolja svojstva novca i njegova platna mreža dodaje nedostatak ikakve težine i bezprostornost koja omogućuje da cjeli svijet trguje bez da se oslanja na treću stranu i to je to. Nema nikakve "kvake". Uostalom, bitcoin je software otvorenog koda, svatko može vidjeti njegov kod i predlagati promjene - i tu bi uglavnom sve priče o njegovim lošim svojstvima ili da je stvoren u cilju nečijeg bogaćenja trebale stati. Oni koji su kupili bitcoin, tj. "ušli" ranije danas uživaju u velikom profitu, ali isto tako bi imali gubitke da ostali nisu prepoznali njegogovu vrijednost i da mu je pala cijena, to je svojstvo svakog tržišta - oni koji prepoznaju neku vrijednost ranije i ranije nešto kupe imaju pravo na sve dobitke koje kasnije imaju, ništa oko čega bi se trebalo zabrinjavati.
 
 [blockchain]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
+[članak]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/

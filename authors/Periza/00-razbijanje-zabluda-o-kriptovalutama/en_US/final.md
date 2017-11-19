@@ -6,6 +6,7 @@ With every news about cryptocurrencies (most often it’s bitcoin) often there a
 
 ## HOW MONEY GET'S IT'S VALUE?
 
+In one of our [articles][articles] we already discussed the history of money and how money came about, but how does money get's its value is, from the point of trying to understand cryptocurrencies - even more important.
 
 
 Many of those who never used Bitcoin look at it with confusion. Why this "magic internet money" even has value? How is that Bitcoin is even considered money? Those who got used to "hard money", the idea of us having money "from nothing", i.e. some computer code is very hard to comprehend.
@@ -85,3 +86,4 @@ It took ten months to build trust in the network, and then another eighteen mont
 Bitcoin appeared as any other currency - from salt to gold. People consider that bitcoin payment system is useful. Bitcoin is transferable, divisible, exchangeable, durable and scarce. Bitcoin as money has all the best properties of money as his payment network adds weightlessness and spacelessness that enables the whole world to trade without relying on some third party and that's pretty much it.  There no any "catch". After all, bitcoin is an open source software, everyone can see it's code and propose improvements to it - and that's where all the stories about his bad properties or that it's created for the sake of someone becoming rich should stop. Those who bought bitcoin, i.e. those who where "early in the game" today enjoy a great profit, but it would be the same if they lost money in case others did not recognize it's valued and it's price dropped, that's a property of every market - those who can recognize value in something earlier and they buy something earlier have a right on all the gains that they later have, nothing to be worried about.
 
 [blockchain]: https://bitfalls.com/2017/08/20/blockchain-explained-blockchain-works/
+[articles]: https://bitfalls.com/2017/08/20/cryptocurrency/
