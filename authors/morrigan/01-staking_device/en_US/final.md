@@ -153,7 +153,7 @@ Also, don't forget to keep your wallet version updated. The process of updating 
 
 The money benefits of staking are not big (though the investment isn't either) so don't expect a big profit. However, it's still better than bank savings and you still support the coin network. To predict rewards from staking Stratis tokens you can use the [STRAT calculator](https://stratispool.com/). 
 
-There are other coins which you can stake like QTUM, PIVX, Signatum, Navcoin and so on - they can be found on the [Crypto compare list](https://www.cryptocompare.com/coins/#/btc) when selecting PoS as proof type. Other coins which have delegated PoS consensus like ARK or LISK can also be staked, but you gain a reward from delegates for which you vote and that's why the pools of voters have been created.
+There are other coins which you can stake like QTUM, PIVX, Signatum, Navcoin and so on - they can be found on the [Crypto compare list](https://www.cryptocompare.com/coins/#/btc) when selecting PoS as proof type. Some new coins like Aerium give bigger rewards in their early phases for early users and developers as an incentive to hold. Other coins which have delegated PoS consensus like ARK or LISK can also be staked, but you gain a reward from delegates for which you vote and that's why the pools of voters have been created.
 
 More coins are converting to PoS like [Ethereum](https://bitfalls.com/2017/10/02/ethereums-development-roadmap-metropolis/) so it will be interesting to see what will happen. Don't forget that you shouldn't really start staking a coin in which you don't believe because you could end up holding worthless coins. But if you plan to [hodl](https://bitfalls.com/glossary/#hodl) something then why not? 
 
