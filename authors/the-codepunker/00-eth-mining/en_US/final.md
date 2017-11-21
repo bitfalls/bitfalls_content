@@ -35,7 +35,14 @@ One other aspect is that all these machines will make some significant noise so 
 To recap the initial setup cost for one x 12 GPUs mining rig.
 
 - Metal shelf to assemble the rig on ( ~ EUR 100 )
-- Electrical wiring and assembly by a specialist ( ~ EUR 100)
+- Electrical wiring and power meter and assembly by a specialist ( ~ EUR 100)
+	* specialised circuit breaker (one for each rig)
+	* fan to blow out the hot air
+	* wall socket(s) and a cheap power meter
+
+![Circuit breaker](../images/20171121_084318.jpg "Circuit Breaker")
+![Fan that blows hot air out of the room](../images/20171121_084407.jpg "Fan")
+![Sockets and meter](../images/20171121_084421.jpg "Sockets and meter")
 - Cheap Air Conditioning and assembly ( ~ EUR 400 )
 
 ##Hardware considerations
@@ -50,12 +57,17 @@ During my trials, considering every piece of equipment I've tested and taking in
 - 1 x ASRock H110 Pro BTC+ and an Intel Core i3 Kaby-Lake CPU (~ EUR 300) * I have tested this motherboard myself and as long as you give it enough juice it will run stable with the 12 GPUs
 
 - 1 x 8 GB of DDR4 RAM + 1 x 128GB SSD drive + 2 x 1000W PSU units with at least 6 x PCI Express connectors each + One synchronous PSU starter + 12 PCI-E risers ( ~EUR 600 )
+	* I chose to buy 8GB of RAM instead of four because with 4GB the memory is almost full at all times and the system takes a hard hit when loading the DAG on miner start... Even so if you are ok with this, you can go with 4GB of DDR 4 RAM
+	![HTOP](../images/htop.png "htop")
+	* One other thing to take into account is to consider using PSUs that are a bit more expensive 1200+ Watts... otherwise you risk this:
+	![Melted psu cable](../images/melted_psu_cable.jpg "melted psu cable")
 
 Here's a [link](https://drive.google.com/file/d/1uLYAuTzthcMYtxmntPM5zmdkDszUWUpN/view?usp=drivesdk) of my last order... it is in Romanian currency, but translated, it was ~ EUR. 5500
 
 ### Build gotchas
 
 - When you assemble the rig be careful with the riser connectors on the motherboard, they are very close to eachother and if the connectors touch only a little bit the rig won't work. One solution I found is to place small pieces of anti-static bags that come with the board between them.
+	![PCI slots to close to eachother](../images/20171121_084431.jpg "melted psu cable")
 
 - Make sure to enable the onboard GPU in BIOS and power up your monitor from there instead of the mining GPUs
 
@@ -67,13 +79,15 @@ Here's a [link](https://drive.google.com/file/d/1uLYAuTzthcMYtxmntPM5zmdkDszUWUp
 
 ###Windows is a no go
 
-Buying a retail license for Windows 10 will cost you an extra EUR 100 and even if you do choose to buy one, [Windows DOESN'T WORK with more than 8 GPUs of the same](https://bitcointalk.org/index.php?topic=1939165.160) type on one machine. I've tested this myself and once you add the 9th GPU, windows simply stops working. One option would potentially be to have 8 Nvidia GPUs and 5 AMD GPUs but that would end up giving you more headaches than profit because you would need to run 2 miners in paralel, overclock the GPUs independently instead of globally, etc...
+Buying a retail license for Windows 10 will cost you an extra EUR 100 and even if you do choose to buy one, [Windows DOESN'T WORK with more than 8 GPUs of the same](https://bitcointalk.org/index.php?topic=1939165.160) type on one machine and [You can only mine hybrid AMD + NVIDIA with this rig on windows](https://www.asrock.com/microsite/H110ProBTC+/). I've tested this myself and once you add the 9th GPU, windows simply stops working. One option would potentially be to have 8 Nvidia GPUs and 5 AMD GPUs but that would end up giving you more headaches than profit because you would need to run 2 miners in paralel, overclock the GPUs independently instead of globally, etc...
 
 ###Don't use closed source miners
 
-There are options out there (Claymore's dual miner and even specialised ubuntu builds) that promise to get you up and running with your mining rig in no time at all. I have never used those because they are closed source and because they require one to pay a 2%-3% fee for using their software.
+There are options out there (Claymore's dual miner and even specialised ubuntu builds) that promise to get you up and running with your mining rig in no time at all. I have never used those (in production mode) because they are closed source and because they require one to pay a 2%-3% fee for using their software. In terms of performance they are exactly the same - Here's a comparison screen between the open source miner I use and Claymore:
+![Claymore miner](../images/claymore.png "claymore")
+![Ethminer](../images/ethminer.png "ethminer")
 
-Plus there's no way for me to know what other things those miners might be doing and since they exist on my  
+Plus there's no way for me to know what other things those miners might be doing while running on my home network. I would never take the risk to run a software I know nothing about on a network where I have everything.
 
 ###The setup
 
