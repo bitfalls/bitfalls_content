@@ -149,6 +149,19 @@ Remember to make a backup if this is your new wallet or you can import the exist
 
 Also, don't forget to keep your wallet version updated. The process of updating is similar to installing but you need to pull the new version. You can follow the official [guide to updating](https://olcko.gitbooks.io/staking-stratis-on-a-raspberry-pi/content/updating-stratis.html).
 
+## Additional tip to earn more
+
+To maximize your staking profits, you should combine all your transactions into one block. This can be done,  without loosing your staking weight in the network, using wallet feature called Coin control.
+ 
+ To do so, follow the next steps:
+ 
+ 1. In wallet, open `Settings -> Options -> Display` and select `Display coin control features`.
+ 2. Copy your address (from `Receive` tab).
+ 3. Go to `Send coins`, click `Inputs` and select all of your coins.
+ 4. Send 1 coin (or any amount) to your address.
+ 
+ To see that your coins are really combined, open `Inputs` tab again. After you receive your staking rewards, make these steps again.
+
 ## Conclusion
 
 The money benefits of staking are not big (though the investment isn't either) so don't expect a big profit. However, it's still better than bank savings and you still support the coin network. To predict rewards from staking Stratis tokens you can use the [STRAT calculator](https://stratispool.com/). 

@@ -149,6 +149,19 @@ Ne zaboravite napraviti sigurnosnu kopiju ako ste stvorili novi novčanik ili mo
 
 Također, nemojte zaboraviti nadograđivati verzije novčanika. Proces nadogradnje je sličan instalaciji, ali morate povući novu verziju. Možete jednostavno pratiti službeni [vodič za nadogradnju](https://olcko.gitbooks.io/staking-stratis-on-a-raspberry-pi/content/updating-stratis.html).
 
+## Dodatan savjet za veću zaradu
+
+Kako bi maksimizirali svoju zaradu potrebno je spojiti sve transakcije u jedan blok. To je moguće napraviti, bez gubljenja težine u mreži, koristeći značajku novčanika *Coin control*.
+
+Da biste to učinili, slijedite sljedeće korake:
+
+1. U novčaniku, otvorite `Settings -> Options -> Display` i označite `Display coin control features`.
+2. Kopirajte svoju adresu (iz `Receive` kartice).
+3. Kliknite na `Send coins`, zatim `Inputs` i odaberite sve coine.
+4. Pošaljite 1 coin (ili bilo koji iznos) na svoju adresu.
+
+Otvorite ponovno karticu `Inputs` kako bi se uvjerili da je sve stvarno spojeno. Nakon što primite svoje nagrade, ponovite ove korake.
+
 ## Zaključak
 
 Nagrade za dokazivanje uloga nisu velike (a nisu ni investicije ako već želite posjedovati kriptovalutu) tako da ne očekujete velike zarade. 
