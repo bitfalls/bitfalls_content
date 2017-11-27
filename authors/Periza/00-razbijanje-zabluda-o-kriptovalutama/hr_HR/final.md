@@ -8,7 +8,7 @@ Kod svakog objavljivanja neke vijesti vezane za kriptovalute(najčešće je to b
 ## KAKO NOVAC DOBIVA NA VRIJEDNOSTI?
 
 
-U jednom od naših [članaka][članak] razjasnili smo povijest novca i kako je novac nastao, ali kako novac dobija na vrijednosti je, ako želimo razmjeti vrijednost kriptovaluta - još važnije.
+U jednom od naših [članaka][članak] razjasnili smo povijest novca i kako je novac nastao, ali kako novac dobiva na vrijednosti je, ako želimo razumjeti vrijednost kriptovaluta - još važnije.
 
 
 Mnogi od onih koji nikada nisu koristili Bitcoin na njega zbunjeno gledaju – zašto ovaj „čarobni internet novac“ uopće ima vrijednost? Kako to da se Bitcoin uopće smatra novcem? Oni koji su navikli na „opipljivi novac“, ideja da možemo imati novac „iz ničega“, tj. izračunanog koda može biti vrlo teška za shvaćanje.
@@ -21,6 +21,7 @@ Misesov učitelj, Carl Menger, demonstrira da sam novac potiče iz tržišta –
 
 
 *„Teorija o vrijednosti novca kao takva može pratiti natrag u vremenu objektivnu razmjenjivu vrijednost novca samo do točke gdje ona prestaje biti vrijednost novca i postaje samo vrijednost dobra... ako na ovaj način nastavimo kontinuirano ići unatrag eventualno moramo doći do točke gdje više ne nalazimo komponentu u objektivnoj razmjenjivoj vrijednosti novca koja proizlazi iz vrednovanja vrijednosti novca koja proizlazi iz vrednovanja temeljenih na funkciji novca kao učestalog medija razmjene; gdje je vrijednost novca ništa drugo od vrijednosti objekta koji je na neki način koristan, osim kao novac... prije nego je bilo uobičajeno stjecanje dobara na tržištu, ne za osobnu potrebu, nego jednostavno za daljnju razmjenu za dobra koja su stvarno potrebna svako pojedinačno dobro je vrednovano na temelju danih subjektivnih procjena njegove izravne koristi.“*
+
 
 
 ![Ludwig_von_Mises](../images/Ludwig_von_Mises.jpg)
@@ -67,22 +68,22 @@ Pogledajmo što Satoshi Nakamoto (pseudonim izvornog tvorca ili tvoraca bitcoin 
 Ono što je upečatljivo je to što nema niti jednog spominjanja same valute. Spominje se samo problem “dvostrukog trošenja”, novac ovdje, čak i po riječima njegovog kreatora, je platna mreža, ne sam Bitcoin. Bitcoin ili digitalna jedinica izražava vrijednost mreže. To je računovodstveni alat koji apsorbira i nosi vrijednost mreže kroz  vrijeme i prostor.
 
 
-Ova mreža je blockchain. To je vrsta popisa transakcija koja “živi” u digitalnom oblaku, distribuiranoj mreži i njen se radi može pratiti od strane bilo koga u bilo koje vrijeme. Pažljivo se prati od strane svih korisnika. Ona omogućava transfer sigurnih i neponovljivih birova informacije od jedne do bilo koje druge osobe bilo gdje u svijetu, i ti informacijski bitovi su osigurani u digitalnom obliku vlasništva. To su ono što Nakamoto naziva “digitalni potpisi”. Njegov izum popisa transakcija “u oblaku” omogućuje da se takva vlasnička prava mogu verificirati bez ovisnosti o nekoj trećoj strani.
+Ova mreža je blockchain. To je vrsta popisa transakcija koja “živi” u digitalnom oblaku, distribuiranoj mreži i njen se radi može pratiti od strane bilo koga u bilo koje vrijeme. Pažljivo se prati od strane svih korisnika. Ona omogućava transfer sigurnih i neponovljivih bitova informacije od jedne do bilo koje druge osobe bilo gdje u svijetu, i ti informacijski bitovi su osigurani u digitalnom obliku vlasništva. To su ono što Nakamoto naziva “digitalni potpisi”. Njegov izum popisa transakcija “u oblaku” omogućuje da se takva vlasnička prava mogu verificirati bez ovisnosti o nekoj trećoj strani.
 
 
 Bitcoin protokol rješava problem Bizantskih generala - problem koordiniranja vojske za sljedeću akciju na velikom geografskom području  u prisutnosti potencijalno aktera koji potencijalno namjerno žele nanijeti štetu. Zbog toga što su generali geografski udaljeni, niti jedan ne može biti siguran da je drugi primio poruku, a još manje njenu točnost.
 
 
-Stavljanje popisa transakcija, kojemu svi imaju pristati, na Internet nadilazi ovaj problem. Popis transakcija sprema količine, vrijeme i javne adrese svake transakcije. Informacija koja se dijeli diljem planete se uvijek ažurira. Taj popis transakcija garantira integritet sistema i omogućuje da valuta postane oblik digitalnog vlasništva.
+Stavljanje popisa transakcija, oko kojeg su svi suglasni, na Internet nadilazi ovaj problem. Popis transakcija sprema količine, vrijeme i javne adrese svake transakcije. Informacija koja se dijeli diljem planete se uvijek ažurira. Taj popis transakcija garantira integritet sistema i omogućuje da valuta postane oblik digitalnog vlasništva.
 
 
 Jednom kada ovo razumijemo, možemo vidjeti da Misesova teorija regresije i dalje vrijedi i za ovaj slučaj. Vrijednost bitcoina povezana je s platnom mrežom. Vrijednost nije ugrađena u samu jedinicu valute nego u briljantom i inovativnom sustavu za plaćanje na kojem bitcoin “živi”. Kada bi se našao način da se [blockchain][blockchain] odvoji od bitcoina (što, u stvarnosti, nije moguće), vrijednost valute bi trenutno pala na nulu.
 
 
-Prva cijena Bitcoina se pojavila 9. listopada 2009. i tada ste za jedan američki dolar mogli dobiti 1,309.03 bitcoina (što su mnogi smatrali preskupim u to vrijeme), tj. prva vrijednost bitcoina je tek nešto više od pola jedne lipe. Mogli bi si postaviti pitanje: “Što se dogodilo između 9. siječnja i 5. listopada 2009. godine da bitcoin dobije tržišnu vrijednost? Odgovor leži u tome što su trgovci, entuzijasti, poduzetnici i drugi isprobavali blockchain. Željeli su znati funkcionira li. Je li transferirao vrijednosti bez dvostrukog trošenja? Je li sustav koji je zavisio o proizvoljnom dijeljenju procesorske snage kako bi potvrdio transakcije? Jesu li bitcoin koji se dodjeljivao kao nagrada došao do prave adrese kao naknada za usluge verifikacije? I na kraju, omogućuje li ovaj sustav ono što je na prvu nemoguće - a to je prijenos vlasništva kroz geografski prost, ne koristeći neku treću stranu nego samo peer-to-peer mrežu?
+Prva cijena Bitcoina se pojavila 9. listopada 2009. i tada ste za jedan američki dolar mogli dobiti 1,309.03 bitcoina (što su mnogi smatrali preskupim u to vrijeme), tj. prva vrijednost bitcoina je tek nešto više od pola jedne lipe. Mogli bi si postaviti pitanje: “Što se dogodilo između 9. siječnja i 5. listopada 2009. godine da bitcoin dobije tržišnu vrijednost? Odgovor leži u tome što su trgovci, entuzijasti, poduzetnici i drugi isprobavali blockchain. Željeli su znati funkcionira li. Je li transferirao vrijednosti bez dvostrukog trošenja? Je li sustav koji je zavisio o proizvoljnom dijeljenju procesorske snage kako bi potvrdio transakcije? Jesu li bitcoin koji se dodjeljivao kao nagrada došao do prave adrese kao naknada za usluge verifikacije? I na kraju, omogućuje li ovaj sustav ono što je na prvu nemoguće - a to je prijenos vlasništva kroz geografski prostor, ne koristeći neku treću stranu nego samo peer-to-peer mrežu?
 
 
-Bilo je potrebno 10 mjeseci kako bi se izgradilo povjerenje prema mreži, a zatim još 18 mjeseci da bitcoin po vrijednosti bude izjednačen s američkim dolarem. Ove povijesne činjenice je vrlo važno razumjeti, posebno kako se oslanjamo na teoriju koja špekulira o pre-povijesti novca, kao što to radi Misesov teorem regresije. Bitcoin nije uvije bio novac s vrijednosti. Jedno vrijeme je bio isključivo računovodstvena jedinica povezana s popisom transakcija ili ledger-om. Ledger je dobio ono što Mises naziva “uporabljiva vrijednost”. Svi uvjeti ovog teorema su time zadovoljeni.
+Bilo je potrebno 10 mjeseci kako bi se izgradilo povjerenje prema mreži, a zatim još 18 mjeseci da bitcoin po vrijednosti bude izjednačen s američkim dolarem. Ove povijesne činjenice je vrlo važno razumjeti, posebno kako se oslanjamo na teoriju koja špekulira o pra-povijesti novca, kao što to radi Misesov teorem regresije. Bitcoin nije uvije bio novac s vrijednosti. Jedno vrijeme je bio isključivo računovodstvena jedinica povezana s popisom transakcija ili ledger-om. Ledger je dobio ono što Mises naziva “uporabljiva vrijednost”. Svi uvjeti ovog teorema su time zadovoljeni.
 
 
 
@@ -90,7 +91,7 @@ Bilo je potrebno 10 mjeseci kako bi se izgradilo povjerenje prema mreži, a zati
 
 
 
-Bitcoin se pojavio kao svaka druga valuta, od soli do zlata. Ljudi smatraju da je bitcoin platni sustav koristan. Bitcoin je prijenosan, djeljiv, zamjenjiv, trajan i rijedak. Bitcoin kao novac ima sva najbolja svojstva novca i njegova platna mreža dodaje nedostatak ikakve težine i bezprostornost koja omogućuje da cjeli svijet trguje bez da se oslanja na treću stranu i to je to. Nema nikakve "kvake". Uostalom, bitcoin je software otvorenog koda, svatko može vidjeti njegov kod i predlagati promjene - i tu bi uglavnom sve priče o njegovim lošim svojstvima ili da je stvoren u cilju nečijeg bogaćenja trebale stati. Oni koji su kupili bitcoin, tj. "ušli" ranije danas uživaju u velikom profitu, ali isto tako bi imali gubitke da ostali nisu prepoznali njegogovu vrijednost i da mu je pala cijena, to je svojstvo svakog tržišta - oni koji prepoznaju neku vrijednost ranije i ranije nešto kupe imaju pravo na sve dobitke koje kasnije imaju, ništa oko čega bi se trebalo zabrinjavati.
+Bitcoin se pojavio kao svaka druga valuta, od soli do zlata. Ljudi smatraju da je bitcoin platni sustav koristan. Bitcoin je prijenosan, djeljiv, zamjenjiv, trajan i rijedak. Bitcoin kao novac ima sva najbolja svojstva novca i njegova platna mreža dodaje nedostatak ikakve težine i besprostornost koja omogućuje da cijeli svijet trguje bez da se oslanja na treću stranu i to je to. Nema nikakve "kvake". Uostalom, bitcoin je software otvorenog koda, svatko može vidjeti njegov kod i predlagati promjene - i tu bi uglavnom sve priče o njegovim lošim svojstvima ili da je stvoren u cilju nečijeg bogaćenja trebale stati. Oni koji su kupili bitcoin, tj. "ušli" ranije danas uživaju u velikom profitu, ali isto tako bi imali gubitke da ostali nisu prepoznali njegovu vrijednost i da mu je pala cijena, to je svojstvo svakog tržišta - oni koji prepoznaju neku vrijednost ranije i ranije nešto kupe imaju pravo na sve dobitke koje kasnije imaju, ništa oko čega bi se trebalo zabrinjavati.
 
 [blockchain]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
 [članak]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/
