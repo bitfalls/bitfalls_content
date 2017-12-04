@@ -1,0 +1,1 @@
+The English version of this article is available [here](https://medium.com/@bitfinexed/are-fraudulent-tethers-being-used-for-margin-lending-on-bitfinex-5de9dd80f330).
