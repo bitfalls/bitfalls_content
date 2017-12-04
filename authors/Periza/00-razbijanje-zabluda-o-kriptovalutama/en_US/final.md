@@ -6,7 +6,7 @@ With every news about cryptocurrencies (most often it’s bitcoin) often there a
 
 ## HOW MONEY GET'S IT'S VALUE?
 
-In one of our [articles][articles] we already discussed the history of money and how money came about, but how does money get's its value is, from the point of trying to understand cryptocurrencies - even more important.
+I one of our previous [articles][articles] we discussed the history of money. This article will address the point of how  money gets it's market valuation - what is very important from the standpoint of cryptocurrencies and their valuation.
 
 
 Many of those who never used Bitcoin look at it with confusion. Why this "magic internet money" even has value? How is that Bitcoin is even considered money? Those who got used to "hard money", the idea of us having money "from nothing", i.e. some computer code is very hard to comprehend.
@@ -38,7 +38,7 @@ But, what about "theory of regression"? Is Mises wrong? Maybe we have to dismiss
 
 
 
-We are used to thinking about currencies as being split from systems of payment. This kind of thinking is a direct consequence of limitations that were present in history. There is a dollar and they are credit cards, there are euros and there is PayPal. In every case, transfer of money relies on trust that you have towards institutions that facilitate the transfer i.e. institution that facilitates the transfer has to believe that you will pay.
+We are used to thinking about currencies as being split from systems of payment. This kind of thinking is a direct consequence of limitations that were present in history. There is dollar and there are credit cards, there are euros and there is PayPal. In every case, transfer of money relies on trust that you have towards institutions that facilitate the transfer i.e. institution that facilitates the transfer has to believe that you will pay.
 
 
 ![5578950475_50d972dfc6](../images/5578950475_50d972dfc6.jpg)
