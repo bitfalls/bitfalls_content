@@ -7,9 +7,7 @@ Kod svakog objavljivanja neke vijesti vezane za kriptovalute(najčešće je to b
 
 ## KAKO NOVAC DOBIVA NA VRIJEDNOSTI?
 
-
-U jednom od naših [članaka][članak] razjasnili smo povijest novca i kako je novac nastao, ali kako novac dobiva na vrijednosti je, ako želimo razumjeti vrijednost kriptovaluta - još važnije.
-
+U jednom od naših prethodnih [članaka][članak] raspravili smo povijest novca. Ovaj članak će pokazati kako novac dobiva svoju tržišnu vrijednost - što je jako važno sa stajališta kriptovaluta i njihovog vrednovanja.
 
 Mnogi od onih koji nikada nisu koristili Bitcoin na njega zbunjeno gledaju – zašto ovaj „čarobni internet novac“ uopće ima vrijednost? Kako to da se Bitcoin uopće smatra novcem? Oni koji su navikli na „opipljivi novac“, ideja da možemo imati novac „iz ničega“, tj. izračunanog koda može biti vrlo teška za shvaćanje.
 
@@ -25,6 +23,7 @@ Misesov učitelj, Carl Menger, demonstrira da sam novac potiče iz tržišta –
 
 
 ![Ludwig_von_Mises](../images/Ludwig_von_Mises.jpg)
+
 
 
 Misesovo objašnjenje rješava veliki problem koji je dugo mučio ekonomiste. Zapitajte se: „Bi li sol ikada postala novac da je inače potpuno beskorisna?“, „Bi li dabrovo krzno ikada imalo monetarnu vrijednost da isprava nije imalo vrijednost kao komoditet?“, „Bi li zlato i srebro imali monetarnu vrijednost da isprva nisu imali vrijednost kao dobra?“ Odgovor u svim slučajevima monetarne povijesti je očito ne.
