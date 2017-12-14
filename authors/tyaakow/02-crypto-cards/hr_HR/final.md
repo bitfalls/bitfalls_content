@@ -189,9 +189,9 @@ XAPO nije imao ICO, niti su objavili ikakve ambicije za pružanjem bankarskih us
 
 ### Drugi igrači
 
-Drugi proiyvodi i kompanije u ovom prostoru koje vrijedi spomenuti su  [AdvCash](https://advcash.com/en/), [TENX](https://www.tenx.tech/) i [Wirex](https://wirexapp.com/) - ali odnedavno je do[lo do eksplozije ovakvih proizvoda i startupa, tako da ih ima još.
+Drugi proizvodi i kompanije u ovom prostoru koje vrijedi spomenuti su [AdvCash](https://advcash.com/en/), [TENX](https://www.tenx.tech/) i [Wirex](https://wirexapp.com/) - ali odnedavno je došlo do eksplozije ovakvih proizvoda i startupa, tako da ih ima još.
 
-[TokenPay](https://www.tokenpay.com/) je projekat [koji je najavljen](https://www.tokenpay.com/) koji će biti fokusiran na privatnost, koji tek treba izbaciti kripto karticu na tržište. [ShakePay](https://shakepay.co/#/) je Kanadski pružatelj Visa kripto kartica sa podrškom za BTC, ETH i Dash, a Roger Ver - de facto glasnogovornik za Bitcoin Cash - [je također najavio][ver] proizvod za ovo tržište.
+[TokenPay](https://www.tokenpay.com/) je [nedavno najavljen projekt](https://www.tokenpay.com/) koji će biti fokusiran na privatnost, i koji tek treba izbaciti kripto karticu na tržište. [ShakePay](https://shakepay.co/#/) je kanadski pružatelj Visa kripto kartica sa podrškom za BTC, ETH i Dash, a Roger Ver - de facto glasnogovornik Bitcoin Cash-a - [je također najavio][ver] proizvod za ovo tržište.
 
 
 
@@ -209,8 +209,8 @@ Drugi proiyvodi i kompanije u ovom prostoru koje vrijedi spomenuti su  [AdvCash]
 | Naplatni alati za firme |      -      |     Da      |    Da    |     Da      |      -      |
 
 
-[cc]: https://bitfalls.com/2017/08/20/cryptocurrency/
-[bc]: https://bitfalls.com/2017/08/20/blockchain-explained-blockchain-works/
-[fiat]: https://bitfalls.com/glossary/#fiat
-[segwit]: https://bitfalls.com/2017/11/07/segwit2x-fork-can-expect-whos-behind/
+[cc]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/
+[bc]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
+[fiat]: https://bitfalls.com/hr/glossary/#fiat
+[segwit]: https://bitfalls.com/hr/2017/11/07/segwit2x-fork-can-expect-whos-behind/
 [ver]: https://twitter.com/rogerkver/status/940253050731679744
