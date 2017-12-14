@@ -54,7 +54,7 @@ Big, if not the only, purpose of bitcoin is to solve this problem.
 The protocol set out to wave together the currency feature with a payment system. The two are utterly interlinked in the structure of the code itself. This connection is what makes bitcoin different from any existing national currency, and, really, any currency in the history of mankind.
 
 
-Let's look at what Satoshi Nakamoto(pseudonym of the original creator or creators of bitcoin protocol ) says in an introduction to his whitepaper. Observe how central the payment system is to the monetary system he created:
+Let's look at what Satoshi Nakamoto(pseudonym of the original creator or creators of bitcoin protocol ) says in an introduction to his *whitepaper*. Observe how central the payment system is to the monetary system he created:
 
 
 *A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. We propose a solution to the double-spending problem using a peer-to-peer network. The network timestamps transactions by hashing them into an ongoing chain of hash-based proof-of-work, forming a record that cannot be changed without redoing the proof-of-work. The longest chain not only serves as proof of the sequence of events witnessed but proof that it came from the largest pool of CPU power. As long as a majority of CPU power is controlled by nodes that are not cooperating to attack the network, they'll generate the longest chain and outpace attackers. The network itself requires minimal structure. Messages are broadcast on a best effort basis, and nodes can leave and rejoin the network at will, accepting the longest proof-of-work chain as proof of what happened while they were gone."*
@@ -76,6 +76,14 @@ The first price of Bitcoin appeared on 9. September 2009. and that's when you co
 
 
 It took ten months to build trust in the network, and then another eighteen months for bitcoin to reach parity with the US dollar. It is very important to understand these historical facts, especially when we rely on the theory that speculates about pre-history of money, as Mises' regression theorem does. Bitcoin was not always a money with value. It was once a pure accounting unit attached to a ledger. This ledger obtained what Mises called "use value". All conditions of the theorem are thereby satisfied.
+
+
+When somebody says to you that bitcoin is a *pig in a poke*, it does not matter if he is a layman who "studied" bitcoin for whole 3 minutes in some newspapers or if he is a trained economist, you need to bring up two central points:
+
+
+* Bitcoin is not a stand-alone currency but a unit of accounting attached to a payment network.
+* that network, and therefore bitcoin only obtained its market value through real-time testing
+in a market environment.
 
 
 

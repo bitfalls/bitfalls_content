@@ -55,7 +55,7 @@ Problem je što današnji sustavi za plaćanje nisu dostupni svima. Zapravo, vel
 Velika, ako ne i glavna, svrha bitcoina je rješavanje ovog problema. Protokol je dizajniran tako da zajedno „utka“ svojstvo valute i sustava ta plaćanje. To dvoje je potpuno povezano u strukturi samog koda. Ova povezanost je ono što čini bitcoin drugačijim od bilo koje druge nacionalne valute, i, u stvari, bilo koje druge valute u povijesti čovječanstva.
 
 
-Pogledajmo što Satoshi Nakamoto (pseudonim izvornog tvorca ili tvoraca bitcoin protokola) kaže u uvodu svoga \*whitepapera\*. Uočimo kako je sustav plaćanja važan monetarnom sustavu kojega je stvorio:
+Pogledajmo što Satoshi Nakamoto (pseudonim izvornog tvorca ili tvoraca bitcoin protokola) kaže u uvodu svoga *whitepapera*. Uočimo kako je sustav plaćanja važan monetarnom sustavu kojega je stvorio:
 
 
 *“Čista peer-to-peer inačica elektroničkog novca ne bi dopuštala izravno plaćanje jedne stranke drugoj bez prolaska kroz financijsku instituciju. Digitalni potpisi pružaju dio rješenja, ali glavne prednosti su izgubljene ako je treća strana još uvijek potrebna kako bi se izbjegla dvostruka potrošnja. Mi predlažemo rješenje problema dvostruke potrošnje korištenjem peer-to-peer mreže. Mreža vremenski označuje tako da ih hashira u neprekidan lanac hash-baziranog dokaza o radu, tako oblikujući zapis koji se ne može mijenjati bez dokaza o radu. Najduži lanac ne koristi samo kao dokaz slijeda osvjedočenih događaja, nego i dokaz da je došao iz najvećeg “bazena” CPU snage. Dok god je većina snage CPU-a u kontrolirana od strane čvorova koji ne surađuju kako bi napali mrežu, oni će generirati najduži “lanac” i nadmašiti napadače. Mreža sama po sebi zahtjeva minimalnu strukturu. Poruke se odašilju bez ikakve garancije da će uspjeti, a čvorovi se mogu proizvoljno pridružiti ili napustiti mrežu, prihvaćajući najduži lanac dokaza o radu kao dokaz onoga što se dogodilo dok nisu bili na mreži.”*
@@ -84,6 +84,11 @@ Prva cijena Bitcoina se pojavila 9. listopada 2009. i tada ste za jedan američk
 
 Bilo je potrebno 10 mjeseci kako bi se izgradilo povjerenje prema mreži, a zatim još 18 mjeseci da bitcoin po vrijednosti bude izjednačen s američkim dolarem. Ove povijesne činjenice je vrlo važno razumjeti, posebno kako se oslanjamo na teoriju koja špekulira o pra-povijesti novca, kao što to radi Misesov teorem regresije. Bitcoin nije uvije bio novac s vrijednosti. Jedno vrijeme je bio isključivo računovodstvena jedinica povezana s popisom transakcija ili ledger-om. Ledger je dobio ono što Mises naziva “uporabljiva vrijednost”. Svi uvjeti ovog teorema su time zadovoljeni.
 
+Kada Vam bilo tko kaže da je bitcoin mačak u vreći, bio on laik koji je "proučavanju" bitcoina posvetio cijele 3 minute čitajući nešto u novinama ili školovani ekonomist podsjetite ih na dvije važne činjenice:
+
+
+* Bitcoin nije samostalna valuta nego obračunska jedinica povezana s platnom mrežom
+* ta mreža, i posljedično bitcoin je svoju tržišnu vrijednost dobiva testiranjem u stvarnom vremenu u tržišnim uvjetima.
 
 
 ## ZAKLJUČAK
