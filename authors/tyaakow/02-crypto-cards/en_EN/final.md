@@ -66,7 +66,7 @@ They have advisors and support from some ex bankers from prominent banks, lawyer
 
 ![Cryptopay card](https://bitfalls.com/wp-content/uploads/2017/12/cp.png)
 
-Cryptopay ltd. is a company [established in 2013 in the UK](https://beta.companieshouse.gov.uk/company/08730592), as a
+[Cryptopay](http://cryptopay.me/join/5f764873) ltd. is a company [established in 2013 in the UK](https://beta.companieshouse.gov.uk/company/08730592), as a
 
 > ***wallet and payment platform where merchants and consumers can make transactions with each other while also being backed by the new bitcoin payment protocol.***
 
@@ -100,7 +100,7 @@ The current item on their roadmap is Bitcoin stock brokerage:
 > *Our focus is to provide traditional financial services to the digital currencies community in a secure and compliant way. Users of Cryptopay brokerage services will be able to move holdings from bitcoin, to say, Apple stocks within a single account and without any additional effort.*
 > *As a regulated entity with payments and prepaid cards we are in the best position to combine a high level of service that our users love with regulatory requirements.*
 
-Further down the line they have full fledged banking for their users planned, IBAN accounts, and later an ICO and p2p marketplace / platform.
+Further down the line they have full fledged banking for their users planned, IBAN accounts, and later an ICO and p2p marketplace / platform. They also have a [pretty good referral program](http://cryptopay.me/join/5f764873).
 
 ### Bitpay
 
@@ -134,7 +134,7 @@ Perhaps due to former SEC chairman and a former Goldman Sachs banker in their ra
 
 ![Spectrocoin logo](https://bitfalls.com/wp-content/uploads/2017/12/spc.png)
 
-[Spectrocoin](https://spectrocoin.com) is n [UK - Lithuanian company](https://spectrofinance.lt/) founded in 2013 in the United Kingdom. Their Crunchbase profile is [here](https://www.crunchbase.com/organization/spectrocoin). They have been founded [by Vytautas Karalevičius, Mantas Mockevičius, Justas Dobiliauskas](https://en.bitcoin.it/wiki/SpectroCoin) , and they claim to be an *"All in one solution for virtual currencies in Europe."* 
+[Spectrocoin](https://spectrocoin.com/en/signup.html?referralId=982737804) is n [UK - Lithuanian company](https://spectrofinance.lt/) founded in 2013 in the United Kingdom. Their Crunchbase profile is [here](https://www.crunchbase.com/organization/spectrocoin). They have been founded [by Vytautas Karalevičius, Mantas Mockevičius, Justas Dobiliauskas](https://en.bitcoin.it/wiki/SpectroCoin) , and they claim to be an *"All in one solution for virtual currencies in Europe."* 
 
 What appears to be unique among the providers we have covered here, is their [recent announcement](https://blog.spectrocoin.com/en/2017/11/claim-an-international-bank-account-number-at-spectrocoin/) that their users can claim a personal IBAN number - in their own name, not Spectrocoin's - and this is valid for all except for US residents. It has recently been featured [in The Merkle](https://themerkle.com/spectrocoin-introduces-a-cryptocurrency-linked-iban-account/). This is a possibility for both individuals and businesses. Those of us who have stumbled on obstacles trying to bridge the blockchain world and banking know all too well how much this detail is welcome.
 
