@@ -69,7 +69,7 @@ Bitwala ima savjetnika i podršku nekih bivših bankara iz istaknutih banaka, te
 
 ![Cryptopay card](https://bitfalls.com/wp-content/uploads/2017/12/cp.png)
 
-Cryptopay ltd. je kompanija [osnovana 2013-te u Ujedinjenom Kraljevstvu](https://beta.companieshouse.gov.uk/company/08730592), kao
+[Cryptopay](http://cryptopay.me/join/5f764873) ltd. je kompanija [osnovana 2013-te u Ujedinjenom Kraljevstvu](https://beta.companieshouse.gov.uk/company/08730592), kao
 
 > ***wallet i payment platforma gdje firme i potrošači mogu izvršavati transakcije međusobno, uz istodobnu podršku Bitcoin protokola.***
 
@@ -104,7 +104,7 @@ Trenutna stavka na njihovom roadmapu je Bitcoin burza vrijednosnica:
 >
 > *Kao regulirani entitet, sa plaćanjima i prepaid karticama u najboljem smo položaju da kombiniramo visoki stupanj usluge koji cijene naši korisnici sa regulatornim potrebama.*
 
-U daljim planovima imaju puni spektar bankarskih usluga za klijente, IBAN račune, a kasnije ICO i p2p burzu / platformu.
+U daljim planovima imaju puni spektar bankarskih usluga za klijente, IBAN račune, a kasnije ICO i p2p burzu / platformu. Imaju i vrlo dobar [referral program](http://cryptopay.me/join/5f764873).
 
 ### Bitpay
 
@@ -138,7 +138,7 @@ Možda zbog bivšeg predsjednika SEC-a i bivšeg Goldman Sachs bankara u svojim 
 
 ![Spectrocoin logo](https://bitfalls.com/wp-content/uploads/2017/12/spc.png)
 
-[Spectrocoin](https://spectrocoin.com) je [UK / Litvanska kompanija](https://spectrofinance.lt/) osnovana 2013. u the Ujedinjenom Kraljevstvu. Njihov Crunchbase profil je [ovdje](https://www.crunchbase.com/organization/spectrocoin). Osnivači su [Vytautas Karalevičius, Mantas Mockevičius i Justas Dobiliauskas](https://en.bitcoin.it/wiki/SpectroCoin), i za sebe tvrde da su *"sve-u-jednom rješenje za kriptovalute u Europi"* .
+[Spectrocoin](https://spectrocoin.com/en/signup.html?referralId=982737804) je [UK / Litvanska kompanija](https://spectrofinance.lt/) osnovana 2013. u the Ujedinjenom Kraljevstvu. Njihov Crunchbase profil je [ovdje](https://www.crunchbase.com/organization/spectrocoin). Osnivači su [Vytautas Karalevičius, Mantas Mockevičius i Justas Dobiliauskas](https://en.bitcoin.it/wiki/SpectroCoin), i za sebe tvrde da su *"sve-u-jednom rješenje za kriptovalute u Europi"* .
 
 Ono po čemu izgleda da su jedinstveni među ovdje spomenutim rješenjima je njihovo nedavno [priopćenje](https://blog.spectrocoin.com/en/2017/11/claim-an-international-bank-account-number-at-spectrocoin/) da njihovi korisnici mogu dobiti IBAN račun na vlastito ime (ne Spectrocoin-ov) - i da je ovo dostupno svima osim stanovnicima SAD. Ovu je vijest nedavno prenio i [The Merkle](https://themerkle.com/spectrocoin-introduces-a-cryptocurrency-linked-iban-account/). Mogućnost je dostupna i za privatne korisnike i za tvrtke. Oni od nas koji smo naišli na prepreke pokušavajući premostiti blockchain i bankovne račune znamo jako dobro koliko je ovaj detalj dobrodošao.
 
