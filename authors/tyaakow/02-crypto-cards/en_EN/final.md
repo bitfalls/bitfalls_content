@@ -19,7 +19,7 @@ Up until August of 2017, availability of the debit cards issued by [WaveCrest Ho
 
 > *how long will wave crest remain with us? because they're the bank of the underworld if they continue issuing unverified cards for everyone without verification. any criminal would think its the best solution, order a card, load it up with dirty coins and withdraw the funds from any ATM around him.*
 
-![Wavecrest](../images/wwc.jpg)
+![Wavecrest](https://bitfalls.com/wp-content/uploads/2017/12/wwc.jpg)
 
 This is the company which [issued the most crypto ATM cards on the market](https://steemit.com/bitcoin/@bitcoinshirtz/a-full-list-of-bitcoin-debit-cards-for-2017).
 In August, however, non-European crypto-cards users started getting emails that their Maestro and Visa cards will be functional only until October 2017.
@@ -30,7 +30,7 @@ Without analyzing how much this is due to legacy fintech monopolies trying to ob
 
 ### Bitwala
 
-![bitwala logo](../images/Bitwala_logo_primary.png)
+![bitwala logo](https://bitfalls.com/wp-content/uploads/2017/12/Bitwala_logo_primary.png)
 
 Bitwala GmbH is a German startup that has been in the crypto-card space for [around two years](https://cointelegraph.com/news/bitwala-adds-debit-card-to-its-service-portfolio). They are based in Berlin, and CEO Jörg von Minckwitz is also a cofounder of *[Bitcoins Berlin](https://all4btc.com/)*, "Europe's Bitcoin Startup Incubator". 
 
@@ -64,7 +64,7 @@ They have advisors and support from some ex bankers from prominent banks, lawyer
 
 ### Cryptopay
 
-![Cryptopay card](../images/cp.png)
+![Cryptopay card](https://bitfalls.com/wp-content/uploads/2017/12/cp.png)
 
 Cryptopay ltd. is a company [established in 2013 in the UK](https://beta.companieshouse.gov.uk/company/08730592), as a
 
@@ -104,7 +104,7 @@ Further down the line they have full fledged banking for their users planned, IB
 
 ### Bitpay
 
-![bitpay logo](../images/bitpay-logo-inverse.png)
+![bitpay logo](https://bitfalls.com/wp-content/uploads/2017/12/bitpay-logo-inverse.png)
 
 Established in 2011 in the US, Bitpay is one of the older Bitcoin players, well established, both in the United States and Europe. In 2013, it attracted attention from some well-known investors, including Li Ka-Shing, [richest man in Asia](https://www.forbes.com/profile/li-ka-shing/) at the time, Founders Fund - run by PayPal founders & early employees, Richard Branson, Roger Ver and others. The company received funding of over $30,000,000.
 
@@ -116,7 +116,7 @@ One of its advisors is Arthur Levitt, former Chairman of Securities and Exchange
 
 Bitpay looks credible, as far as costumer trust is concerned. They released their Visa card in 2016, so crypto-card is just one part of their business. Their merchant payment-gateway includes POS applications, many integrations with existing software, and API libraries.
 
-![Bitpay Services](../images/bitwala-services.jpg)
+![Bitpay Services](https://bitfalls.com/wp-content/uploads/2017/12/bitwala-services.jpg)
 
 Bitpay offers among its products an [open-source wallet](https://bitpay.com/wallet) across all platforms, where the customer keeps control of their bitcoin. They also developed *[Bitcore](https://bitcore.io/)* - *"a full stack for bitcoin and blockchain-based applications"* - wrapper libraries for interfacing with a bitcoin node, that should enable developers to communicate with it via node.js / javascript.
 
@@ -132,7 +132,7 @@ Perhaps due to former SEC chairman and a former Goldman Sachs banker in their ra
 
 ### Spectrocoin 
 
-![Spectrocoin logo](../images/spc.png)
+![Spectrocoin logo](https://bitfalls.com/wp-content/uploads/2017/12/spc.png)
 
 [Spectrocoin](https://spectrocoin.com) is n [UK - Lithuanian company](https://spectrofinance.lt/) founded in 2013 in the United Kingdom. Their Crunchbase profile is [here](https://www.crunchbase.com/organization/spectrocoin). They have been founded [by Vytautas Karalevičius, Mantas Mockevičius, Justas Dobiliauskas](https://en.bitcoin.it/wiki/SpectroCoin) , and they claim to be an *"All in one solution for virtual currencies in Europe."* 
 
@@ -140,7 +140,7 @@ What appears to be unique among the providers we have covered here, is their [re
 
 There are [some complaints](https://bitcointalk.org/index.php?topic=1515839.0). Spectrocoin's team seems to have had some hiccups in the customer support area - even sporadic accusations of frauds. Having advised caution, we must also say that these reports on forums like the link above to the bitcointalk discussion are far from conclusive, and the voices accusing Spectrocoin have some credibility issues as well. All we will say is that this is a very competitive niche, so [DYOR](https://www.internetslang.com/DYOR-meaning-definition.asp).
 
-![Complaints](../images/sp-btctalk.jpg)
+![Complaints](https://bitfalls.com/wp-content/uploads/2017/12/sp-btctalk.jpg)
 
 The project is ambitious, and Spectrocoin plans to bridge the blockchain, the crypto-world and traditional banking with their [Bankera](https://bankera.com/Bankera_whitepaper.pdf) project - which has its ICO going on at the time of writing of this article.
 So far, in the pre-ICO and ICO, 31 million Euros have been raised. They have a team of [bright minds](https://bankera.com/#team) there, and advisors from both banker circles and EU Parliament MEPs.
@@ -159,11 +159,11 @@ There is also a [host](https://spectrocoin.com/en/bitcoin-exchange.html) of depo
 
 ### XAPO
 
-![Xapo logo](../images/xp-log.png)
+![Xapo logo](https://bitfalls.com/wp-content/uploads/2017/12/xp-log.png)
 
 Xapo was established in 2014 by Argentinian entrepreneur [Wences Casares](https://en.wikipedia.org/wiki/Wences_Casares), with a number of ventures under his belt. [He sits on the Board of Directors of PayPal](https://investor.paypal-corp.com/directors.cfm). [Investors in his previous ventures were George Soros, Microsoft, and Intel](https://techcrunch.com/2009/12/20/the-difference-between-1-billion-plus-in-exits-and-%E2%80%9Csuccess%E2%80%9D/).
 
-![Xapo - archive](../images/xapo-archive.jpg)
+![Xapo - archive](https://bitfalls.com/wp-content/uploads/2017/12/xapo-archive.jpg)
 
 Among its advisors are Lawrence H. Summers, the former Secretary of the Treasury under Bill Clinton, Dee Hock, the founder of VISA and John Reed, former chairman and CEO of Citibank.
 

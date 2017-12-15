@@ -19,7 +19,7 @@ Sve do kolovoza 2017, dostupnost debitnih kartica izdanih od strane [WaveCrest H
 
 > *kako dugo će Wave Crest biti s nama? jer oni su bankari podzemlja ako nastave izdavati  kartice bez verifikacije bilo kome. Bilo koji kriminalac bi mogao pomisliti da mu je to najbolje rješenje, naručiti karticu, napuniti je prljavim kripto novcem, i podići novac sa bilo kojeg ATM-a u blizini.*
 
-![Wavecrest](../images/wwc.jpg)
+![Wavecrest](https://bitfalls.com/wp-content/uploads/2017/12/wwc.jpg)
 
 Ova je kompanija [izdavač većine kripto kartica na tržištu](https://steemit.com/bitcoin/@bitcoinshirtz/a-full-list-of-bitcoin-debit-cards-for-2017).
 
@@ -31,7 +31,7 @@ Bez da ulazimo u analizu koliko za ovo možemo zahvaliti pokušajima etabliranih
 
 ### Bitwala
 
-![bitwala logo](../images/Bitwala_logo_primary.png)
+![bitwala logo](https://bitfalls.com/wp-content/uploads/2017/12/Bitwala_logo_primary.png)
 
 Bitwala GmbH  je Njemački startup koji je u ovoj branši [otprilike dvije godine](https://cointelegraph.com/news/bitwala-adds-debit-card-to-its-service-portfolio). Imaju sjedište u Berlinu, a CEO Jörg von Minckwitz je i suosnivač *[Bitcoins Berlin](https://all4btc.com/)*, "Europskog Bitcoin Startup Inkubatora". 
 
@@ -67,7 +67,7 @@ Bitwala ima savjetnika i podršku nekih bivših bankara iz istaknutih banaka, te
 
 ### Cryptopay
 
-![Cryptopay card](../images/cp.png)
+![Cryptopay card](https://bitfalls.com/wp-content/uploads/2017/12/cp.png)
 
 Cryptopay ltd. je kompanija [osnovana 2013-te u Ujedinjenom Kraljevstvu](https://beta.companieshouse.gov.uk/company/08730592), kao
 
@@ -108,7 +108,7 @@ U daljim planovima imaju puni spektar bankarskih usluga za klijente, IBAN račun
 
 ### Bitpay
 
-![bitpay logo](../images/bitpay-logo-inverse.png)
+![bitpay logo](https://bitfalls.com/wp-content/uploads/2017/12/bitpay-logo-inverse.png)
 
 Osnovani 2011. u Sjedinjenim Državama, Bitpay je jedan od starijih Bitcoin igrača, etabliran i u SAD i u Europi. 2013. su privukli pažnju nekih poznatih investitora, poput Li Ka-Shinga, [tada najbogatijeg čovjeka u Aziji](https://www.forbes.com/profile/li-ka-shing/), zatim Founders Funda - kojim upravljaju osnivači i prvi zaposlenici PayPala, pa Richarda Bransona, Rogera Vera i drugih. Kompanija je prikupila više od $30,000,000 investicijskog kapitala.
 
@@ -120,7 +120,7 @@ Jedan od savjetnika je Arthur Levitt, bivši predsjednik [SEC-a](https://en.wiki
 
 Bitpay izgleda kredibilno što se tiče povjerenja korisnika. Visa karticu su izdali 2016., i kripto-kartica je samo jedan dio njihovog poslovanja. Njihov trgovački payment-gateway uključuje POS aplikacije, mnoge integracije sa postojećim softverom, i API softverske biblioteke.
 
-![Bitpay Services](../images/bitwala-services.jpg)
+![Bitpay Services](https://bitfalls.com/wp-content/uploads/2017/12/bitwala-services.jpg)
 
 Bitpay među svojim proizvodima nudi [open-source wallet](https://bitpay.com/wallet) za sve platforme, gdje korisnik zadržava potpunu kontrolu nad svojim bitcoinima. Također su razvili *[Bitcore](https://bitcore.io/)* - *"full stack za bitcoin i blockchain-bazirane aplikacije"* - skup softverskih biblioteka koje služe kao sučelje za komunikaciju sa bitcoin [nodeom][node], i koje omogućuju developerima da komuniciraju sa BTC nodeom koristeći JavaScript.
 
@@ -136,7 +136,7 @@ Možda zbog bivšeg predsjednika SEC-a i bivšeg Goldman Sachs bankara u svojim 
 
 ### Spectrocoin 
 
-![Spectrocoin logo](../images/spc.png)
+![Spectrocoin logo](https://bitfalls.com/wp-content/uploads/2017/12/spc.png)
 
 [Spectrocoin](https://spectrocoin.com) je [UK / Litvanska kompanija](https://spectrofinance.lt/) osnovana 2013. u the Ujedinjenom Kraljevstvu. Njihov Crunchbase profil je [ovdje](https://www.crunchbase.com/organization/spectrocoin). Osnivači su [Vytautas Karalevičius, Mantas Mockevičius i Justas Dobiliauskas](https://en.bitcoin.it/wiki/SpectroCoin), i za sebe tvrde da su *"sve-u-jednom rješenje za kriptovalute u Europi"* .
 
@@ -144,7 +144,7 @@ Ono po čemu izgleda da su jedinstveni među ovdje spomenutim rješenjima je nji
 
 [Ima i prigovora na Spectrocoin](https://bitcointalk.org/index.php?topic=1515839.0). Njihov tim je, čini se, imao nekih problema s korisničkom podrškom. Čak su ih tu i tamo optuživali da su prevaranti. Savjetujemo čitateljima oprez, ali moramo reći i da su ovakve optužbe na forumima, poput navedenog linka na bitcointalk raspravu, daleko od pouzdanih, i da su oni koji optužuju Spectrocoin ekipu i sami upitne vjerodostojnosti. Dodati ćemo samo da je ovo prilično kompetitivno tržište, tako da istražite temeljito sami - [DYOR](https://www.internetslang.com/DYOR-meaning-definition.asp).
 
-![Complaints](../images/sp-btctalk.jpg)
+![Complaints](https://bitfalls.com/wp-content/uploads/2017/12/sp-btctalk.jpg)
 
 Projekat je ambiciozan i Spectrocoin planira premostiti blockchain, kripto svijet i tradicionalno bankarstvo svojim [Bankera](https://bankera.com/Bankera_whitepaper.pdf) projektom čiji je ICO u tijeku u vrijeme pisanja ovog članka.
 
@@ -164,11 +164,11 @@ Spectrocoin podržava i [niz drugih metoda](https://spectrocoin.com/en/bitcoin-e
 
 ### XAPO
 
-![Xapo logo](../images/xp-log.png)
+![Xapo logo](https://bitfalls.com/wp-content/uploads/2017/12/xp-log.png)
 
 Xapo je osnovao 2014. godine argentinski poduzetnik [Wences Casares](https://en.wikipedia.org/wiki/Wences_Casares), koji je prije toga imao iza sebe niz poslovnih pothvata. [Casares inače sjedi u upravnom odboru Paypala](https://investor.paypal-corp.com/directors.cfm). [Među ulagačima u njegove prethodne poduhvate su George Soros, Microsoft, i Intel](https://techcrunch.com/2009/12/20/the-difference-between-1-billion-plus-in-exits-and-%E2%80%9Csuccess%E2%80%9D/).
 
-![Xapo - archive](../images/xapo-archive.jpg)
+![Xapo - archive](https://bitfalls.com/wp-content/uploads/2017/12/xapo-archive.jpg)
 
 Među savjetnicima Xapo-a su Lawrence H. Summers, bivši tajnik državne riznice pod Billom Clintonom, Dee Hock, osnivač VISA-e i John Reed, bivši predsjednik i CEO Citibank-a.
 
