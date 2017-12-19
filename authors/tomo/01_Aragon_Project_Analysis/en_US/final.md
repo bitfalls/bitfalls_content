@@ -36,11 +36,3 @@ It is expected that the first release on the mainnet will be deployed in Februar
 
 ## How to invest in Aragon?
 Total supply is 39,609,523.80952380954 ANT which is around $129M at the time this article is written. ANT are available for purchase and trade [in following exchanges](https://coinmarketcap.com/currencies/aragon/#markets): Bittrex, Liqui, HitBTC, EtherDelta and Decentrex. You can also purchase them on ShapeShift. Average daily trading volume on these exchanges was around $1,5M, which makes it pretty liquid. If you are a long term investor and trading isn't your cup of tea, you can hold your ANT in your Ethereum address, since it's a [ERC20 token](https://etherscan.io/token/Aragon). Other than investing your money, you can invest your time and knowledge. The best ways are by pulling a request on one of [official Github repositories](https://github.com/aragon) or by contributing to discussion in [Aragon chat](chat.aragon.one).
-
-
-
-
-
-
-
-
