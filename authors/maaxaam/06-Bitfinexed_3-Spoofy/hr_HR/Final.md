@@ -61,13 +61,13 @@ S ovime na umu, *Spoofy* može komotno operirati pod pokroviteljstvom Bitfinexa.
 
 Primjeri:
 
-![Primjer 1](https://cdn-images-1.medium.com/max/1600/1*K4k85gEmvKh2adwn4LLfxA.png)*Spoofy pokušava obraniti prag od $2000. Njegovi orderi su između 1000, 2000, 4000 BTC-a. Ukoliko itko uleti u njegov order, svi nestanu u isto vrijeme.*
+![Primjer 1](images/01.png)*Spoofy pokušava obraniti prag od $2000. Njegovi orderi su između 1000, 2000, 4000 BTC-a. Ukoliko itko uleti u njegov order, svi nestanu u isto vrijeme.*
 
-![Primjer 2](https://cdn-images-1.medium.com/max/1600/1*UtAggdnwIlOlauesygQ0Qg.png)*Spoofy spašava dan*
+![Primjer 2](images/02.png)*Spoofy spašava dan*
 
 23.07.2017, *Spoofy* postavlja preko $14 mil USD vrijedne lažne *ordere*
 
-![Primjer 3](https://cdn-images-1.medium.com/max/1600/1*PALMSFKym_Q2NLmVmyU7sA.png)*23.07.2017 u 00:59*
+![Primjer 3](images/03.png)*23.07.2017 u 00:59*
 
 Ovi *bidovi* su neobični za njega, zato jer su predugo bili aktivni. Držali su trenutnu vrijednost i nije postojala potreba da se kupuje mnogo Bticoina sa njima. 
 
@@ -75,11 +75,11 @@ Ali jedan sat kasnije, u vrlo neobičnoj situaciji, neko je uspio uletiti u njeg
 
 Kako je izgledalo, *trader* sa mnogo *long* pozicija mu je prodao svoj BTC, jer je ukupna suma *long* pozicija pala odmah nakon tog događa. 
 
-![Primjer 4](https://cdn-images-1.medium.com/max/1600/1*tRM1viSShSepO9-HjmXbZw.png)*Spoofy pwned?*
+![Primjer 4](images/04.png)*Spoofy pwned?*
 
 Iako i tu postoji jedno pitanje. Kako znamo da je ovaj potez legitiman? Kako možemo znati da nije prodao sam sebi ovu količinu kako bi pokrenuo lažni silazni trend?
 
-![Primjer 5](https://cdn-images-1.medium.com/max/1600/1*CpIuUNUPb5TyWIHLqWym4w.png)*Spoofy kaže - dolje!*
+![Primjer 5](images/05.png)*Spoofy kaže - dolje!*
 
 Postoje dokazi o postojanju *wash tradinga* - stoga ukoliko *Spoofy* može na isti način pomaknuti cijenu na više, isto tako može spustiti cijenu kako bi na drugim *exchangevima* poboljšao svoju poziciju.
 
@@ -97,7 +97,7 @@ Ali Bitfinex nam je nehotično omogućio da dokažemo ovu teoriju.
 
 Kao direktan rezultat ovoga, ljudi su mogli dobiti 'besplatan' BCH ukoliko su *wash trade-ali* vlastite short pozicije, i naravno, točno to se je i dogodilo.
 
-![Situacija na forku](https://cdn-images-1.medium.com/max/1600/1*V84j-qL8N6IMPZk2B4aAnQ.png)*Spoofy  zauzima svoju poziciju malo prije početka distribucije BCH, Short pozicije su odskočile preko [ATH](https://bitfalls.com/hr/glossary/#ath) pozicija, a zatim naglo pale na razinu od 24.000 BTC. **Primijetite kako cijena nije dramatičnije pala unatoč naglom rastu short pozicija.***
+![Situacija na forku](images/06.png)*Spoofy  zauzima svoju poziciju malo prije početka distribucije BCH, Short pozicije su odskočile preko [ATH](https://bitfalls.com/hr/glossary/#ath) pozicija, a zatim naglo pale na razinu od 24.000 BTC. **Primijetite kako cijena nije dramatičnije pala unatoč naglom rastu short pozicija.***
 
 Jedan entitet (može biti jedan *trader* ili grupa istih), samostalno su *wash tradeali* 24.000 BTC-a u *short* pozicijama. Da bi se to moglo dogoditi potrebno je na Bitfinexu imati toliko BTC-a kao i dovoljnu količinu USD da se to odigra. 
 
@@ -114,17 +114,17 @@ Povrh toga, kao rezultat ovih lažnih signala, drugi su *traderi* mogli donesti 
 
 Sama činjenica kako je 24,000 BTC nestalo sa *short* pozicija, je dokaz kako je cijela situacija orkestrirana iz jednog izvora. 
 
-![Ali to nije sve...](https://cdn-images-1.medium.com/max/1600/1*WvABH4V1zGU7Ea3LppteqA.png)
+![Ali to nije sve...](images/07.png)
 
 *Spoofy* nije samo ograničen na Bitcoin. Kratko nakon što je ovaj *trader* "kažnjen", dogodila se još jedna interesantna stvar...
 
-![Hmm...](https://cdn-images-1.medium.com/max/1600/1*6N8ZnSBxzevqHaIAI5RtAQ.png)*Nestaju su i ETC/BTC short pozicije*
+![Hmm...](images/08.png)*Nestaju su i ETC/BTC short pozicije*
 
 Tu vidimo kako su ETCBTC *short* pozicije nestale sa 60,000 ETC na 93 ETC.
 
 Pogledajmo i ETCUSD...
 
-![ETCUSD](https://cdn-images-1.medium.com/max/1600/1*lb5jDbu7w82FRtHjQeSU_A.png)*Veliki srednjak. Primijetite ogroman porast i pad u **long** pozicijama bez utjecaja na cijenu.**
+![ETCUSD](images/09.png)*Veliki srednjak. Primijetite ogroman porast i pad u **long** pozicijama bez utjecaja na cijenu.**
 
 Nisam potpuno siguran kako točno rezimirati ove grafove, ali ova situacija ostavlja više otvorenih pitanja nego što daje odgovora, a posebno je upitna legitimnost podataka. 
 ETCBTC *Shorts* = Čisti dokazi manipulacije
@@ -132,19 +132,19 @@ ETCUSD *Longs* =Čisti dokazi manipulacije
 BTCUSD *Shorts* = Čisti dokazi manipulacije (uz priznanje Bitfinex-a)
 BTCUSD *Longs* = BTCUSD Long pozicije u volumenu USD-a, nikada nisu bile više u povijesti Bitfinexa. Pogledajte zelenu liniju.
 
-![History](https://cdn-images-1.medium.com/max/1600/1*EVVNUic6er4FzrU_F6IYUA.png)*Imali smo preko $60 mil USD lažnih short pozicija. Pitanje je koliko ih je ukupno lažnih. Zelena linija ima dio odgovora. [(Source)](https://www.bfxdata.com/swaphistory/usd) *
+![History](images/11.png)*Imali smo preko $60 mil USD lažnih short pozicija. Pitanje je koliko ih je ukupno lažnih. Zelena linija ima dio odgovora. [(Source)](https://www.bfxdata.com/swaphistory/usd) *
 
 A da niti ne pričamo o drugim parovima kao ETHBTC, što je zapravo smiješno...
 
-![ETHBTC](https://cdn-images-1.medium.com/max/1600/1*5VXc4w5EZhxb7G7UJ-vuUw.png)*$200 mil USD ETHBTC long pozicija?*
+![ETHBTC](images/12.png)*$200 mil USD ETHBTC long pozicija?*
 
 **Ali ovo je samo Bitfinex, postoje i drugi exchangevi... STOP THE FUD.**
 
 *Spoofy* je viđen i na GDAX-u. Doduše u mnogo manjem omjeru nego na Bitfinexu. *Orderi* su mu reda veličine 400-500 BTC-a. [(Moj Twitter)](https://twitter.com/Bitfinexed/)
 
-![Spoof bids...](https://cdn-images-1.medium.com/max/1600/1*Xvn0nzO0q7y3TrTdre-9xQ.png)*Spoof bids*
+![Spoof bids...](images/13.png)*Spoof bids*
 
-![Spoof asks...](https://cdn-images-1.medium.com/max/1600/1*bEJfPzLCkgii-3YRJQX2hw.png)*Spoof Asks*
+![Spoof asks...](images/14.png)*Spoof Asks*
 
 Ljudi podcjenjuju koliko *exchangevi* zapravo prate jedni druge (pogledajte [BPI](https://bitfalls.com/hr/glossary/#bpi) - op.a). Manipulacija cijenom na jednom *exchangeu* direktno utječe na cijene drugdje. Postoje *traderi* koji simultano prate razvoj situacija na različitim exchangevima. Ukoliko se jedno mjesto počinje odvajati sa cijenom, kupuju na onom mjestu gdje je cijena niža. Tu nisu samo ljudi, već i [botovi](https://bitfalls.com/hr/glossary/#bot-trading) stoga reakcija na promjenu cijena može biti trenutačna.
 
@@ -180,7 +180,7 @@ Od 23.03.-13.04.2017, nitko nije znao za problem sa bankama - osim managementa B
 
 Je li *Spoofy* kupovao?
 
-![Graph](https://cdn-images-1.medium.com/max/1600/0*Lyjj3u8HEOy6ULyX.)*Nije slučajnost da je najveći bullrun započeo na isti dan kada je Bitfinex izgubio suradnju sa bankama. [(Link)](https://www.reddit.com/r/bitfinex/comments/63y1xa/cant_withdraw_usd_from_bitfinex/) [(Arhiva)](http://archive.is/6szkb)*
+![Graph](images/19.jpg)*Nije slučajnost da je najveći bullrun započeo na isti dan kada je Bitfinex izgubio suradnju sa bankama. [(Link)](https://www.reddit.com/r/bitfinex/comments/63y1xa/cant_withdraw_usd_from_bitfinex/) [(Arhiva)](http://archive.is/6szkb)*
 
 Pažljivo trgujte.
 
