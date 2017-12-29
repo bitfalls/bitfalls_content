@@ -28,7 +28,7 @@ I **znali** su cijelo vrijeme što čine.
 
 ## PSA: Bitfinexov *trade engine* dozvoljava *Wash Trade*
 
-Znači, na Bitfinexu možete komotno kupovati i prodavati vlastite *ordere*, a procedura je kako slijedi... (što će najvjerojatnije biti "popravljeno" ili pokrpano nakon ovog posta)
+Znači, na Bitfinexu možete komotno kupovati i prodavati vlastite *ordere*, a procedura je kako slijedi... (imajte na umu da bi ovo moglo najvjerojatnije biti "popravljeno" ili pokrpano nakon ovog posta)
 1. Postavite *buy* ili *sell* nalog. Za BTC ili bilo koji drugi coin ili *trade* par kojim se može trgovati na Bitfinex-u.
 2. Postavite suprotan nalog onome kojeg ste napravili u *Koraku 1*. 
 3. *Trade engine* će izvršiti oba naloga. 
