@@ -1,18 +1,19 @@
 With every news about cryptocurrencies (most often it’s bitcoin) often there are people with comments like: “bitcoin has no value”, “bitcoin has no backing”, “nobody is behind bitcoin”, “value of bitcoin is arbitrary”, “bitcoin has no use-value”, “it’s used only for speculations”, “bitcoin is a bubble ready to pop”, “bitcoin is a pyramidal Ponzi-scheme”, “bitcoin is a magic internet money that someone just made up”. The purpose of this article is to explain closely bitcoin like the most well-known cryptocurrency, and all other cryptocurrencies.
 
+
 ![bitcoin-2007769_960_720](../images/bitcoin-2007769_960_720.jpg)
 
 
 
-## HOW MONEY GET'S IT'S VALUE?
+## HOW MONEY GET'S ITS VALUE?
 
-I one of our previous [articles][articles] we discussed the history of money. This article will address the point of how  money gets it's market valuation - what is very important from the standpoint of cryptocurrencies and their valuation.
+I one of our previous [articles][articles] we discussed the history of money. This article will address the point of how money gets its market valuation - what is very important from the standpoint of cryptocurrencies and their valuation.
 
 
 Many of those who never used Bitcoin look at it with confusion. Why this "magic internet money" even has value? How is that Bitcoin is even considered money? Those who got used to "hard money", the idea of us having money "from nothing", i.e. some computer code is very hard to comprehend.
 
 
-In trying to understand why bitcoin and other cryptocurrencies have value one economist can help us - Ludwig von Mises, in 1912. he publishes his "Theory of money and credit" - a book that was a hit in Europe and was published in German and after that was translated into English. Although there he explains every aspect of money his main contribution is following the value and price of money and not just money, to its origins i.e. Mises explains how money get's it's price in form of goods and services that can be bought with it. Later he named that process "theory of regression" and as you will understand - bitcoin, and other cryptocurrencies, satisfy every condition of this theorem.
+In trying to understand why bitcoin and other cryptocurrencies have value one economist can help us - Ludwig von Mises, in 1912. he publishes his "Theory of money and credit" - a book that was a hit in Europe and was published in German and after that was translated into English. Although there he explains every aspect of money his main contribution is following the value and price of money and not just money, to its origins i.e. Mises explains how money get's its price in form of goods and services that can be bought with it. Later he named that process "theory of regression" and as you will understand - bitcoin, and other cryptocurrencies, satisfy every condition of this theorem.
 
 
 Mises teacher, Carl Menger, demonstrates that money originates for the market - not form the states or "social contract". It appears gradually, in a procedure of searching for an ideal form of indirect exchange, instead of barter - people gain a certain good, not for consuming it, but because of further trade. That good becomes money, good that is exchanged most often on the market and that is most suitable for exchange. Mises adds that the value of money traces backward in time to its value as a bartered commodity. Mises said that this is the only way money can have value.
@@ -91,7 +92,7 @@ in a market environment.
 
 
 
-Bitcoin appeared as any other currency - from salt to gold. People consider that bitcoin payment system is useful. Bitcoin is transferable, divisible, exchangeable, durable and scarce. Bitcoin as money has all the best properties of money as his payment network adds weightlessness and spacelessness that enables the whole world to trade without relying on some third party and that's pretty much it.  There no any "catch". After all, bitcoin is an open source software, everyone can see it's code and propose improvements to it - and that's where all the stories about his bad properties or that it's created for the sake of someone becoming rich should stop. Those who bought bitcoin, i.e. those who where "early in the game" today enjoy a great profit, but it would be the same if they lost money in case others did not recognize it's valued and it's price dropped, that's a property of every market - those who can recognize value in something earlier and they buy something earlier have a right on all the gains that they later have, nothing to be worried about.
+Bitcoin appeared as any other currency - from salt to gold. People consider that bitcoin payment system is useful. Bitcoin is transferable, divisible, exchangeable, durable and scarce. Bitcoin as money has all the best properties of money as his payment network adds weightlessness and spacelessness that enables the whole world to trade without relying on some third party and that's pretty much it.  There no any "catch". After all, bitcoin is an open source software, everyone can see its code and propose improvements to it - and that's where all the stories about his bad properties or that it's created for the sake of someone becoming rich should stop. Those who bought bitcoin, i.e. those who where "early in the game" today enjoy a great profit, but it would be the same if they lost money in case others did not recognize its value and its price dropped, that's a property of every market - those who can recognize value in something earlier and they buy something earlier have a right on all the gains that they later have, nothing to be worried about.
 
 [blockchain]: https://bitfalls.com/2017/08/20/blockchain-explained-blockchain-works/
 [articles]: https://bitfalls.com/2017/08/20/cryptocurrency/
