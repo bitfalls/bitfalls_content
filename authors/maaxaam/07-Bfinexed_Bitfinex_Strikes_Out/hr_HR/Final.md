@@ -1,37 +1,37 @@
 # [Wash Trade](https://bitfalls.com/hr/glossary/#wash-trading) Bitcoinom ili kako Bitfinex ostvaruje korist od lažnog trgovanja...
 
-*Wash trading* je epidemija na Bitcoin tržištima. Za one koji još nisu svjesni značenja pojma - to je kada osoba prodaje i kupuje vlastite naloge na tržištu kapitala tj. trguje sama sa sobom.
+*Wash trading* je epidemija na Bitcoin tržištu. Za one koji još nisu svjesni značenja pojma - to je kada osoba ili entitet prodaje i kupuje vlastite naloge na tržištu kapitala.
 
 Za detaljnije objašnjenje pogledajte [ovdje](http://www.investopedia.com/terms/w/washtrading.asp) ili kraće [tu](https://bitfalls.com/hr/glossary/#wash-trading).
 
-Od mog prvog posta nadalje, upozoravam ljude na *[WT](https://bitfalls.com/hr/glossary/#wash-trading)*. [(Link)](https://medium.com/@bitfinexed/meet-spoofy-how-a-single-entity-dominates-the-price-of-bitcoin-39c711d28eb4)
+Od mojeg prvog posta nadalje, upozoravam ljude na *[WT](https://bitfalls.com/hr/glossary/#wash-trading)*. [(Link)](https://medium.com/@bitfinexed/meet-spoofy-how-a-single-entity-dominates-the-price-of-bitcoin-39c711d28eb4)
 
-Izvorno sam mislio da se sve to odvija preko dva odvojena računa koja kontrolira isti entitet. Naime, kako sam saznao iz pouzdanih izvora, ovo je čak i jednostavnije nego što sam mislio na početku. Nove informacije koje sam sakupio od raznih *tradera* ukazuju da je ovo vrlo vjerojatno kriminalna operacija. Originalno sam mislio da se radi o dva odvojena računa - jer kako bi [Bitfinex](www.bitfinex.com) dopustio konkurentne naloge prodaje i kupnje sa istog korisničkog računa? To bi bila epska glupost, nije je li tako?
+Izvorno sam mislio da se sve to odvija preko dva odvojena računa koja kontrolira isti entitet. Naime, kako sam saznao iz pouzdanih izvora, ovo je čak i jednostavnije od moje početne pretpostavke. Nove informacije koje sam sakupio od raznih *tradera* ukazuju da je ovo vrlo vjerojatno kriminalna operacija. Naime mislio sam da se radi o dva odvojena računa - jer kako bi [Bitfinex](www.bitfinex.com) dopustio konkurentne naloge prodaje i kupnje sa **ISTOG** korisničkog računa? To bi stvarno bilo izrazito glupo, nije je li tako?
 
-> **BIO SAM U KRIVU**
+> **E PA BIO SAM U KRIVU**
 
 ## Prljava tajna Bitfinex-ovog *trade* enginea...
 
-Želim da zamislite kompaniju koja izrađuje avion. 
+Želim da zamislite kompaniju koja izrađuje avione. 
 
 Znači da bi došli do konačnog proizvoda moramo sakupiti sve resurse potrebne da dobijemo konačan proizvod. Moramo izgraditi krila, pilotsku kabinu, trup, rep, motore, prozore i vrata, sustave za održavanje života, itd...
 
-Znači želim da pomislite kako Bitfinex gradi svoj avion. Njihov avion ima sve što izvana izgledom djeluje kao pravi avion. Laiku sve izgleda normalno. Je li to Avion? Jest.
+Znači želim da pomislite kako Bitfinex gradi svoj avion. Njihov avion ima sve što izvana izgledom djeluje kao pravi avion. Laiku sve djeluje normalno na prvi pogled. Jer smo naučeni da ako izgleda kao patka, ako se glasa kao patka i ako hoda kao patka - da je to onda zasigurno patka. Ali...
 
-Sada zamislite kako taj avion zapravo nema spremnik za gorivo. I Bitfinex je prodao taj avion nekome, znajući da nema spremnik za gorivo. 
+Sada zamislite kako taj avion zapravo nema spremnik za gorivo. I Bitfinex prodaje taj avion nekome, znajući da nema spremnik za gorivo. 
 
-Niti jedan proizvođač aviona na svijetu ne bi si dopustio grešku tog obima, jer je toliko velika da biste se morali zapitati je li to zbilja namjerno napravljeno.
+Niti jedan proizvođač aviona na svijetu ne bi si dopustio grešku tog obima, jer je toliko velika da biste se morali zapitati je li to namjerno napravljeno.
 
 Sada imamo dovoljno dobar opis Bitfinexa. Izgradili su avion i namjerno nisu stavili spremnike za gorivo unutra. Niti jedna razumna osoba ne bi očekivala da će takav proizvod ispravno raditi posao za koji je kupljen, no oni su unatoč svemu napravili takav avion i prodali ga svojim investitorima. 
 
-I **znali** su cijelim putem što čine. 
+I **znali** su cijelo vrijeme što čine. 
 
 ## PSA: Bitfinexov *trade engine* dozvoljava *Wash Trade*
 
 Znači, na Bitfinexu možete komotno kupovati i prodavati vlastite *ordere*, a procedura je kako slijedi... (što će najvjerojatnije biti "popravljeno" ili pokrpano nakon ovog posta)
-1. Postavite *buy ili sell* nalog. Za BTC ili bilo koji drugi coin ili trade par kojim se može trgovati na Bitfinex-u.
+1. Postavite *buy ili sell* nalog. Za BTC ili bilo koji drugi coin ili *trade* par kojim se može trgovati na Bitfinex-u.
 2. Postavite suprotan nalog onome kojeg ste napravili u koraku 1. 
-3. *Trade engine* će izvršiti Vaša oba naloga. 
+3. *Trade engine* će izvršiti oba naloga. 
 
 Ovako to izgleda vanjskom promatraču:
 
@@ -39,7 +39,7 @@ Ovako to izgleda vanjskom promatraču:
 
 *Ovo je najočitiji primjer WT-a. Ispravno odrađen WT je neuočljiv vanjskom promatraču.*
 
-Developer koji piše kod za *exchange engine*, na nekom regularnom *exchangeu*, za prvi zadatak si postavi napisati kod koji ne dopušta izvršenje oprečnih naloga sa istog korisničkog računa.
+Developer koji piše kod za *exchange engine*, na nekom regularnom *exchangeu*, kao prvi zadatak uzima napisati kod koji ne dopušta izvršenje oprečnih naloga sa istog korisničkog računa.
 
 Ne postoji niti jedan legitiman razlog zašto bi se trebao moći izvršiti *WT*, osim kako bi se manipuliralo tržištem. No najveći razlog zašto bi neki *exchange* želio zabraniti *WT* je zato jer je **TO ILEGALNA AKTIVNOST**.
 
