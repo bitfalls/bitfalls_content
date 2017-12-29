@@ -1,34 +1,34 @@
 # [Wash Tradeing](https://bitfalls.com/hr/glossary/#wash-trading) Bitcoinom ili kako Bitfinex ostvaruje korist od fiktivnog trgovanja...
 
-*Wash trading* je epidemija na Bitcoin tržištu. Za one koji još nisu svjesni značenja pojma - to je kada osoba ili entitet prodaje i kupuje vlastite naloge na tržištu kapitala.
+*Wash trading* je **epidemija** Bitcoin tržišta. Za one koji još nisu svjesni značenja pojma - to je kada osoba ili entitet prodaje i kupuje vlastite naloge na tržištu kapitala.
 
 Za detaljnije objašnjenje pogledajte [ovdje](http://www.investopedia.com/terms/w/washtrading.asp) ili kraće [tu](https://bitfalls.com/hr/glossary/#wash-trading).
 
 Od mojeg prvog posta nadalje, upozoravam ljude na *[WT](https://bitfalls.com/hr/glossary/#wash-trading)*. [(Link)](https://medium.com/@bitfinexed/meet-spoofy-how-a-single-entity-dominates-the-price-of-bitcoin-39c711d28eb4)
 
-Izvorno sam mislio da se sve to odvija preko dva odvojena računa koja kontrolira isti entitet. Naime, kako sam saznao iz pouzdanih izvora, ovo je čak i jednostavnije od moje početne pretpostavke. Nove informacije koje sam sakupio od raznih *tradera* ukazuju da je ovo djelovanje vrlo vjerojatno u rangu kriminalne operacije. Naime mislio sam da se radi o dva odvojena računa - jer kako bi [Bitfinex](www.bitfinex.com) dopustio konkurentne naloge prodaje i kupnje sa **ISTOG** korisničkog računa? To bi stvarno bilo izrazito glupo, nije je li tako?
+Izvorno sam mislio da se sve to odvija preko dva odvojena korisnička računa koja kontrolira isti entitet. Naime, kako sam saznao iz pouzdanih izvora, ovo je čak i jednostavnije od moje početne pretpostavke. Nove informacije koje sam sakupio od raznih *tradera* ukazuju da je ovo djelovanje vrlo vjerojatno u rangu kriminalne operacije. Krenuo sam od pretpostavke da se radi o dva odvojena računa - jer kako bi [Bitfinex](www.bitfinex.com) dopustio konkurentne naloge prodaje i kupnje sa **ISTOG** korisničkog računa? To bi stvarno bilo izrazito glupo, nije je li tako?
 
 > **E PA BIO SAM U KRIVU**
 
-## Prljava tajna Bitfinex-ovog *trade* enginea...
+## Prljava mračna tajna Bitfinex-ovog *trade* enginea...
 
 Želim da zamislite kompaniju koja izrađuje avione. 
 
-Kako bi kompanija bila u mogućnosti sastaviti avion potrebno je sakupiti sve resurse potrebne da dobijemo konačan proizvod. Naime, trebamo izgraditi krila, pilotsku kabinu, trup, rep, motore, prozore i vrata te sustave za održavanje života - kao i sve ostale druge dijelove koji sačinjavaju sam avion.
+Kako bi kompanija bila u mogućnosti sastaviti avion potrebno je sakupiti sve resurse potrebne da dobijemo konačan proizvod. Naime, trebamo izgraditi krila, pilotsku kabinu, trup, rep, motore, prozore, vrata te sustave za održavanje života - kao i sve ostale druge dijelove koji sačinjavaju sam avion.
 
 Sada želim da pomislite kako Bitfinex gradi svoj avion. Njihov avion ima sve što izvana izgledom djeluje kao pravi avion. Laiku sve djeluje normalno na prvi pogled. Jer smo naučeni da ako izgleda kao patka, ako se glasa kao patka i ako hoda kao patka - da je to onda zasigurno patka. Ali...
 
-Potrebno je da zamislite kako taj avion zapravo nema spremnik za gorivo. I Bitfinex prodaje taj avion, znajući da nema spremnik za gorivo. 
+Potrebno je sada zamisliti sljedeći detalj - taj avion zapravo nema spremnik za gorivo. I Bitfinex prodaje taj avion, znajući da nema spremnik za gorivo. 
 
-Vrlo je izgledno kako niti jedan odgovoran proizvođač aviona na svijetu ne bi sebi dopustio pogrešku tog reda veličine - jer je toliko velika da biste se morali zapitati je li to namjerno napravljeno.
+Vrlo je izgledno kako niti jedan odgovoran proizvođač aviona na svijetu ne bi sebi dopustio pogrešku tog reda veličine - jer je toliko nevjerovatna da biste se morali zapitati je li to možda namjerno napravljeno.
 
-Sada imamo predodžbu Bitfinex-a kao kompanije - koja je izgradila avion i koja je s namjerom izostavila uključiti i spremnike za gorivo. Nitko razuman neće očekivati da će takav proizvod ispravno funkcionirati, no oni su unatoč svemu napravili takav avion i prodali ga svojim investitorima. 
+Sada imamo predodžbu Bitfinex-a kao kompanije - koja je izgradila avion i koja je s namjerom izostavila uključiti i spremnike za gorivo. Nitko razuman neće očekivati da će takav proizvod ispravno funkcionirati, no oni su unatoč svemu napravili takav proizvod i prodali (čit. podvalili, op.a) ga svojim investitorima. 
 
-I **znali** su cijelo vrijeme što čine. 
+I vrlo je vjerovatno kako su cijelo vrijeme **svjesni** što zapravo čine. 
 
 ## PSA: Bitfinexov *trade engine* dozvoljava *Wash Trade*
 
-Znači, na Bitfinexu možete komotno kupovati i prodavati vlastite *ordere*, a procedura je kako slijedi... (imajte na umu da bi ovo moglo najvjerojatnije biti "popravljeno" ili pokrpano nakon ovog posta)
+Znači, na Bitfinexu možete komotno kupovati i prodavati vlastite *ordere*, a procedura je kako slijedi... (imajte na umu da bi ovo moglo biti "popravljeno" ili pokrpano nakon ovog posta)
 1. Postavite *buy* ili *sell* nalog. Za BTC ili bilo koji drugi coin ili *trade* par kojim se može trgovati na Bitfinex-u.
 2. Postavite suprotan nalog onome kojeg ste napravili u *Koraku 1*. 
 3. *Trade engine* će izvršiti oba naloga. 
@@ -41,19 +41,19 @@ Ovako to izgleda vanjskom promatraču:
 
 Developer koji piše kod za *exchange engine*, na nekom regularnom *exchangeu*, kao prvi zadatak isplanira programirati kod koji ne dopušta izvršenje oprečnih naloga sa istog korisničkog računa.
 
-Ne postoji niti jedna legitimna isprika niti valjan razlog zašto bi se trebalo moći trgovati sam sa sobom tj. moći izvršiti *WT* - osim kako bi se manipuliralo tržištem. No najveći razlog zašto bi neki *exchange* želio zabraniti *WT* je zato jer je **TO ILEGALNA AKTIVNOST**.
+Ne postoji iole jedna legitimna isprika ili valjan razlog zašto bi se trebalo moći trgovati sam sa sobom tj. moći izvršiti *WT* - osim kako bi se manipuliralo tržištem. No najveći razlog zašto bi neki *exchange* želio zabraniti *WT* je zato jer je **TO ILEGALNA AKTIVNOST**.
 
 ![Ilegala](images/01.png)*[(Izvor)](http://www.cftc.gov/ConsumerProtection/EducationCenter/CFTCGlossary/glossary_wxyz)*
 
-Ukoliko mi ne vjerujete i mislite da samo širim [FUD](https://bitfalls.com/hr/glossary/#fud) o *WT-u* i da ga koristim "za sve stvari koje nisu crypto" - tu je primjer iz stvarnog svijeta. 
+Ukoliko mi ne vjerujete i mislite da samo širim [FUD](https://bitfalls.com/hr/glossary/#fud) o *WT-u* i da ga koristim "za sve stvari koje nisu crypto" - imamo i primjer iz stvarnog svijeta. 
 
-LedgerX je novo lice na tržištu i mjesto je za razmjenu BTC-a. Potpuno je reguliran od strane CFTC-a. Primijetiti ćete u dokumentaciji njihovog API-a da će bez problema odbiti svaki nalog koji bude detektiran kao *WT*.
+LedgerX je novo lice na tržištu i mjesto je za razmjenu BTC-a. Činjenica je kako je potpuno reguliran od strane CFTC-a. Primijetiti ćete u dokumentaciji njihovog API-a da će bez problema odbiti svaki nalog koji bude detektiran kao *WT*.
 
 ![Denied](images/02.jpg)*http://docs.ledgerx.com/*
 
 Kod Bitfinexa ne postoji takva mehanika koja bi priječila izvršenja sličnih naloga. 
 
-Kao rezultat svega navedenoga, možemo svjedočiti događajima gdje su ljudi uspješno *WT-ali* desetke milijuna dolara u Bitcoinu. To je pomoglo umjetno napuhati volumen trgovanja na Bitfinexu.
+Kao rezultat svega navedenoga, možemo svjedočiti događajima gdje su ljudi uspješno *WT-ali* desetke milijuna dolara u Bitcoinu. To je pomoglo fiktivno povećati volumen trgovanja na Bitfinexu.
 
 ![Short trade](images/03.png)*WT short pozicija na Bitfinexu*
 
@@ -65,32 +65,30 @@ Ironija u svemu ovome jest:
 
 1. Tvrde kako je *WT* direktno kršenje njihovog T.O.S.-a.
 2. Njihov vlastiti engine dopušta izvršenje konkurentskih naloga istog računa. Nešto što je trivijalno za spriječiti.
-3. Nisu popravili *trade engine* nakon 01.08.2017, gdje su imali desetke milijuna dolara u *WT-u*.
+3. Nisu popravili *trade engine* nakon 01.08.2017, gdje su već imali desetke milijuna dolara u *WT-u*.
 
-Kako smo mogli vidjeti u drugim člancima, *traderi* na Bitfinexu su dobro iskoristili priliku prilikom BCH distribucije i načina na koji je sprovedena. Misliti kako neće *WT-ati* cijenama i uzrokovati rast ili pad istih je daleko od stvarnosti. 
+Kako smo mogli vidjeti u drugim člancima, *traderi* na Bitfinexu su dobro iskoristili priliku prilikom BCH distribucije i načina na koji je sprovedena. Slijepo vjerovati kako neće *WT-ati* cijenama i uzrokovati rast ili pad istih je daleko od onoga što se je dogodilo na tržištu. 
 
-Isti su izvršili 10 milijuna dolara u lažnim transakcijama kako bi "ukrali" BCH. Bez razmišljanja su iskoristili *WT* kako bi izbrisali pozicije regularnih ljudi u bilo kojoj situaciji. Garantiram kako je vrlo vjerojatno da Bitfinex nije zabranio djelovanje iti jednom takvom *traderu*. 
+Isti su izvršili 10 milijuna dolara u lažnim transakcijama kako bi "ukrali" BCH. Bez razmišljanja su iskoristili *WT* kako bi izbrisali pozicije regularnih ljudi u bilo kojoj situaciji. Garantiram kako je vrlo vjerojatno da Bitfinex nije kaznio niti jednog takvog *tradera* - kao što nisu spriječili djelovanje *spoofera*, što je podjednako legalno kao i *W.T.*.
 
-Kao što ne zabranjuju djelovanje *spoofera*, što je isto tako nelegalna aktivnost.
-
-**Gle, očito ovo mora biti neki Bug...**
+**Gle, očito ovo mora biti neki bugić...**
 
 Pa i ne baš. Phil Potter koji je Chief strategy officer, u jednom od intervjua je upitan sljedeće pitanje:
 >"Da razjasnimo, da li još uvijek dopuštate praksu samo-financiranja i izvršavanja onoga što zovemo *1x hedge shorts*? Da li je ovo još generalno dopušteno?
 
 **OPASKA: Ovo je vrlo KREATIVAN način da se opiše Wash Trade!**
 
->Phil Potter, CSO - Ovisi o svrsi takvog naloga.
+>Phil Potter, CSO: "Ovisi o svrsi takvog naloga."
 
-Kasnije Phil Potter spominje: "Mnogo ljudi je izvršavalo WT naloge sami prema sebi."
+>Kasnije Phil Potter spominje: "Mnogo ljudi je samostalno izvršavalo WT naloge."
 
-Ovo je samo moguće ukoliko *trade engine* to omogućuje - što na koncu konca i jest omogućno. 
+Ovo je samo moguće ukoliko *trade engine* to omogućuje - a pokazali smo da to i čini. 
 
 Pitanja idu dalje...
 
->"Znači, što se pravilnika o djelovanju tiče, izgleda da Bitfinex još uvijek dozvoljava ovakvo trgovanje, ali situaciju sagledava od slučaja do slučaja. Da li to znači kako je bilo određenih slučajeva gdje su te manipulacije iziskivale sankcije za uključene *tradere*?
+>"Znači, što se pravilnika o djelovanju tiče, izgleda da Bitfinex još uvijek dozvoljava ovakvo trgovanje, ali situaciju sagledava od slučaja do slučaja. Da li to znači kako je bilo određenih situacija gdje su te manipulacije iziskivale sankcije za uključene *tradere*?
 
-Phil Potter, nažalost, daje krivi odgovor. 
+Phil Potter, nažalost, daje krivi odgovor: 
 
 >Nisam u mogućnosti potvrditi da je način na koji ste to izrazili točan...
 
@@ -98,7 +96,7 @@ Phil Potter, nažalost, daje krivi odgovor.
 
 On nije glup čovjek.
 
-Uzgred budi rečeno, velik broj ljudi u kripto svijetu čvrsto vjeruje u "KOD JE ZAKON" mantru, a kako je Bitfinex-ov *trade engine* programiran da dozvoljava izvršenje *WT-a*, sve je jasno. Njihov **KOD** za ključan dio trgovanja je u direktnom kršenju njihovog Term-s of Service-a.
+Činjenica je kako velik broj ljudi u kripto svijetu čvrsto vjeruje u mantru - "KOD JE ZAKON". Kako je Bitfinex-ov *trade engine* programiran na način da dozvoljava izvršenje *WT-a*, sve je jasno. Njihov **KOD** za ključan dio trgovanja je u direktnom kršenju njihovog Terms of Service-a.
 
 I tako je to bilo od dana kada je Bitfinex započeo sa radom.
 
