@@ -1,4 +1,4 @@
-# [Wash Trade](https://bitfalls.com/hr/glossary/#wash-trading) Bitcoinom ili kako Bitfinex ostvaruje korist od lažnog trgovanja...
+# [Wash Tradeing](https://bitfalls.com/hr/glossary/#wash-trading) Bitcoinom ili kako Bitfinex ostvaruje korist od fiktivnog trgovanja...
 
 *Wash trading* je epidemija na Bitcoin tržištu. Za one koji još nisu svjesni značenja pojma - to je kada osoba ili entitet prodaje i kupuje vlastite naloge na tržištu kapitala.
 
@@ -6,7 +6,7 @@ Za detaljnije objašnjenje pogledajte [ovdje](http://www.investopedia.com/terms/
 
 Od mojeg prvog posta nadalje, upozoravam ljude na *[WT](https://bitfalls.com/hr/glossary/#wash-trading)*. [(Link)](https://medium.com/@bitfinexed/meet-spoofy-how-a-single-entity-dominates-the-price-of-bitcoin-39c711d28eb4)
 
-Izvorno sam mislio da se sve to odvija preko dva odvojena računa koja kontrolira isti entitet. Naime, kako sam saznao iz pouzdanih izvora, ovo je čak i jednostavnije od moje početne pretpostavke. Nove informacije koje sam sakupio od raznih *tradera* ukazuju da je ovo vrlo vjerojatno kriminalna operacija. Naime mislio sam da se radi o dva odvojena računa - jer kako bi [Bitfinex](www.bitfinex.com) dopustio konkurentne naloge prodaje i kupnje sa **ISTOG** korisničkog računa? To bi stvarno bilo izrazito glupo, nije je li tako?
+Izvorno sam mislio da se sve to odvija preko dva odvojena računa koja kontrolira isti entitet. Naime, kako sam saznao iz pouzdanih izvora, ovo je čak i jednostavnije od moje početne pretpostavke. Nove informacije koje sam sakupio od raznih *tradera* ukazuju da je ovo djelovanje vrlo vjerojatno u rangu kriminalne operacije. Naime mislio sam da se radi o dva odvojena računa - jer kako bi [Bitfinex](www.bitfinex.com) dopustio konkurentne naloge prodaje i kupnje sa **ISTOG** korisničkog računa? To bi stvarno bilo izrazito glupo, nije je li tako?
 
 > **E PA BIO SAM U KRIVU**
 
@@ -14,15 +14,15 @@ Izvorno sam mislio da se sve to odvija preko dva odvojena računa koja kontrolir
 
 Želim da zamislite kompaniju koja izrađuje avione. 
 
-Znači da bi došli do konačnog proizvoda moramo sakupiti sve resurse potrebne da dobijemo konačan proizvod. Moramo izgraditi krila, pilotsku kabinu, trup, rep, motore, prozore i vrata, sustave za održavanje života, itd...
+Kako bi kompanija bila u mogućnosti sastaviti avion potrebno je sakupiti sve resurse potrebne da dobijemo konačan proizvod. Naime, trebamo izgraditi krila, pilotsku kabinu, trup, rep, motore, prozore i vrata te sustave za održavanje života - kao i sve ostale druge dijelove koji sačinjavaju sam avion.
 
-Znači želim da pomislite kako Bitfinex gradi svoj avion. Njihov avion ima sve što izvana izgledom djeluje kao pravi avion. Laiku sve djeluje normalno na prvi pogled. Jer smo naučeni da ako izgleda kao patka, ako se glasa kao patka i ako hoda kao patka - da je to onda zasigurno patka. Ali...
+Sada želim da pomislite kako Bitfinex gradi svoj avion. Njihov avion ima sve što izvana izgledom djeluje kao pravi avion. Laiku sve djeluje normalno na prvi pogled. Jer smo naučeni da ako izgleda kao patka, ako se glasa kao patka i ako hoda kao patka - da je to onda zasigurno patka. Ali...
 
-Sada zamislite kako taj avion zapravo nema spremnik za gorivo. I Bitfinex prodaje taj avion nekome, znajući da nema spremnik za gorivo. 
+Potrebno je da zamislite kako taj avion zapravo nema spremnik za gorivo. I Bitfinex prodaje taj avion, znajući da nema spremnik za gorivo. 
 
-Niti jedan proizvođač aviona na svijetu ne bi si dopustio grešku tog obima, jer je toliko velika da biste se morali zapitati je li to namjerno napravljeno.
+Vrlo je izgledno kako niti jedan odgovoran proizvođač aviona na svijetu ne bi sebi dopustio pogrešku tog reda veličine - jer je toliko velika da biste se morali zapitati je li to namjerno napravljeno.
 
-Sada imamo dovoljno dobar opis Bitfinexa. Izgradili su avion i namjerno nisu stavili spremnike za gorivo unutra. Niti jedna razumna osoba ne bi očekivala da će takav proizvod ispravno raditi posao za koji je kupljen, no oni su unatoč svemu napravili takav avion i prodali ga svojim investitorima. 
+Sada imamo predodžbu Bitfinex-a kao kompanije - koja je izgradila avion i koja je s namjerom izostavila uključiti i spremnike za gorivo. Nitko razuman neće očekivati da će takav proizvod ispravno funkcionirati, no oni su unatoč svemu napravili takav avion i prodali ga svojim investitorima. 
 
 I **znali** su cijelo vrijeme što čine. 
 
