@@ -73,7 +73,9 @@ Isti su izvršili 10 milijuna dolara u lažnim transakcijama kako bi "ukrali" BC
 
 **Gle, očito ovo mora biti neki bugić...**
 
-Pa i ne baš. Phil Potter koji je Chief strategy officer, u jednom od intervjua je upitan sljedeće pitanje:
+Pa sada...zaključite sami iz sljedećeg:
+
+Phil Potter koji je Chief strategy officer, u jednom od intervjua je upitan sljedeće pitanje:
 >"Da razjasnimo, da li još uvijek dopuštate praksu samo-financiranja i izvršavanja onoga što zovemo *1x hedge shorts*? Da li je ovo još generalno dopušteno?
 
 **OPASKA: Ovo je vrlo KREATIVAN način da se opiše Wash Trade!**
@@ -92,25 +94,25 @@ Phil Potter, nažalost, daje krivi odgovor:
 
 >Nisam u mogućnosti potvrditi da je način na koji ste to izrazili točan...
 
-*[Wash Trade](https://bitfalls.com/hr/glossary/#wash-trading)* je ilegalna aktivnost, čak i gora od *spoofinga*, jer volumen trgovanja direktno utječe na vrijednost njihove kompanije. Phil Potter **zna** da će njihov *trade engine* izvršiti *WT* naloge. 
+*[Wash Trade](https://bitfalls.com/hr/glossary/#wash-trading)* je ilegalna aktivnost, čak i gora od *spoofinga*, jer volumen trgovanja direktno utječe na vrijednost njihove kompanije. Phil Potter **zna** da njihov *trade engine* spremno izvršava *WT* naloge. 
 
-On nije glup čovjek.
+On nije (toliko) glup čovjek.
 
-Činjenica je kako velik broj ljudi u kripto svijetu čvrsto vjeruje u mantru - "KOD JE ZAKON". Kako je Bitfinex-ov *trade engine* programiran na način da dozvoljava izvršenje *WT-a*, sve je jasno. Njihov **KOD** za ključan dio trgovanja je u direktnom kršenju njihovog Terms of Service-a.
+Činjenica je kako velik broj ljudi u kripto svijetu čvrsto vjeruje u mantru - "KOD JE ZAKON". Kako je Bitfinex-ov *trade engine* programiran na način da dozvoljava izvršenje *WT-a*, mnogo toga postaje jasnije. **Njihov *KOD* za ključan dio trgovanja je u direktnom kršenju njihovog Terms of Service-a.** (Sukob interesa - anyone!?)
 
-I tako je to bilo od dana kada je Bitfinex započeo sa radom.
+I čini se da je to tako bilo od dana kada je Bitfinex započeo sa radom.
 
 <iframe width="700" height="393" src="https://www.youtube.com/embed/_xiXP8HsRUw" frameborder="0" allowfullscreen></iframe>
 
 *Bitfinex dopušta WT...*
 
-**Bitfinex je prevario svoje investitore**
+**Bitfinex je prevario svoje investitore?**
 
-Bitfinex jer vrlo vjerojatno provodio *WT* od početka svojeg rada. Pitanje koje nam sada ostaje jest - koji postotak ukupnog volumena otpada na *WT*? Ne znamo.
+Bitfinex je vrlo vjerojatno provodio *WT* od početka svojeg djelovanja - no ključno je pitanje, na koje nemamo odgovor - **koji postotak ukupnog volumena trgovanja otpada na *WT*?**
 
 Ako se sjećate, Bitfinex je izdao temeljni kapital i prodao ga ljudima u obliku BFX tokena. A kako su odredili vrijednost kompanije? **Volumenom trgovanja i očekivanim naplatama naknada za trgovanje**.
 
-Bitfinex je znajući kako je njihova vrijednost virtualno napuhana samim *trade engineom* koji dopušta *WT* svejedno prodao ljudima patku. 
+Bitfinex je svjestan svoje virtualno napuhane vrijednosti kroz propust u *trade engineu* svejedno prodao ljudima Patka Token aka BFX. 
 
 U ožujku 2017, Bitfinex povećava vlastitu valuaciju sa $200 na $250 milijuna dolara. Phil Potter priznaje kako je ovaj potez ponukao investitore da ulože u temeljni kapital društva. 
 
@@ -118,35 +120,35 @@ U ožujku 2017, Bitfinex povećava vlastitu valuaciju sa $200 na $250 milijuna d
 
 *3. travnja, intervju s temom povećanja valuacije*
 
-Bitfinex se je našao u škripcu. Tvrdili su kako im njihov vlastiti "BFX" token uzrokuje probleme u reviziji poslovanja kao i priječi uspostavljanju odnosa sa bankama, te su brzo pokušali umiroviti tokene i uvjeriti vlasnike istih da ulože novac u kompaniju.
+Bitfinex se je našao u škripcu. Tvrdili su kako im njihov vlastiti "BFX" token uzrokuje probleme u reviziji poslovanja kao i da priječi uspostavljanju odnosa sa bankama, te su brzo pokušali umiroviti tokene i uvjeriti vlasnike istih da ulože novac u kompaniju.
 
-Iako je prošlo 6 mjeseci nakon što su umirovili BFX token, još uvijek nema banaka sa kojima posluju. 
+Iako je prošlo (+)6 mjeseci od umirovljenja BFX tokena, još uvijek nema banaka sa kojima posluju. 
 
 **Vrednovanje kompanije**
 
-Interesantno je vidjeti kako se vrednovanje vrijednosti kompanije mijenja gubljenjem potpore banaka. 
+Interesantno je vidjeti iduću relaciju - čini se kako je gubitak potpore bankarskog sektora = porast vrijednosti kompanije.
 
-Originalno njihova valuacija je bila $120 milijuna dolara (temeljena na 6x zaradi koja se je pak temeljila na volumenu trgovanja...), i planirali su tražiti dodatnih $80 milijuna dolara financiranja što možemo vidjeti iz informacija za *shareholdere*.
+Originalna valuacija je bila $120 milijuna dolara (temelj koje je - **porast zarade od 6x** *koja se pak temelji na* **volumenu trgovanja**). Također su planirali tražiti dodatnih $80 milijuna dolara financiranja što možemo vidjeti iz informacija za *shareholdere*.
 
 ![Shareholderi](images/05.png)*Shareholder info*
 
-Ono što je zanimljivo je da su uspjeli prikupiti novac izdajući BFX tokene koji su bili I.O.U. prema investitorima. Ukoliko su se i investitori složili zamijeniti ovo dugovanje za udio u temeljnom kapitalu to zapravo nije stavilo novac na račun koji bi Bitfinex mogao koristiti. To je vrlo vjerojatno razlog zbog kojeg su dodatno povećali valuaciju za $50 milijuna USD. 
+Zanimljivo je da su uspjeli prikupiti novac izdajući BFX tokene koji su bili I.O.U. prema investitorima. Problem leži u činjenici da iako su se investitori odlučili zamijeniti BFX token za udjel u temeljnom kaitalu - to nije direktno stavilo novac na račun Bitfinexa kojim bi oni mogli raspolagati. Postoji mogućnost kako je to razlog zbog kojeg su dodatno povećali valuaciju za nemalih $50 milijuna USD.
 
-Ali kako se čini, kada izgubiš potporu banaka, to ti poveća vrijednost za $50 milijuna. Tko bi rekao? 
+Tko bi rekao da to tako funkcionira?
 
 ![Čuda](images/06.png)*Gdje smo ovo već mogli vidjeti? [(Točno tu)](http://archive.is/Zl3SD).*
 
-Siguran sam kako su svi koji su imali BFX token, a koji su izgubili novac u *hacku* i koji su bili pitani da zamjene svoj I.O.U. za udio u vlasničkoj strukturi bili informirani o svemu ovome prije nego je ta zamjena izvršena?
+Pitam se jesu li svi oni koji su imali BFX token, a izgubili su novac u *hacku*, kao i oni koji su bili pitani da zamjene svoj I.O.U. za udio u vlasničkoj strukturi bili informirani o trenutno navedenim činjenicama prije nego su izvršili zamjenu?
 
-Ukoliko to nije slučaj, ovo djeluje kao kriminalni akt sa ciljem utaje ključnih informacija. 
+Ukoliko nisu, ovo postaje kriminalni akt sa ciljem utaje ključnih informacija. 
 
-Bitfinex je bio svjestan svojih bankovnih problema već 23. ožujka, dok je službena obavijest koju su primili od Wells Farga stigla 31. ožujka. 
+Bitfinex je već 23. ožujka bio svjestan svojih potencijalnih bankovnih problema - a službena obavijest od Wells Farga zaprimljena je 31. ožujka. 
 
-Pitanje je samo koliko su BFX tokena pretvorili između 23.03 i 03.04. bez da su informirali ljude o situaciji u kojoj se nalaze.
+Upitna je količina BFX tokena koja je bila pretvorena između 23.03 i 03.04. bez da su informirali ljude o situaciji u kojoj se nalaze.
 
-![Upsie](images/07.png)*Bitfinex priznaje kako je njihova tužba prema Wells Fargu - njesra, čak i prije nego su je predali sudu.*
+![Upsie](images/07.png)*Bitfinex priznaje kako je njihova tužba prema Wells Fargu - sra***, čak i prije nego su je predali sudu.*
 
-Ne znam za Vas, ali ja bih rekao kako bi javna objava Bitfinexa da imaju probleme sa bankama definitivno imala negativan utjecaj na konverziju BFX tokena u vlasničke udjele... pa su pričekali dok se sve ne završi prije nego su ljudima javili loše vijesti.
+Osobno smatram da bi javna objava Bitfinexa kako imaju probleme sa bankama imala zasigurno negativan utjecaj na konverziju BFX tokena u vlasničke udjele... pa djeluje kako su pričekali dok se sve ne završi prije nego su ljudima javili loše vijesti.
 
 **Bitfinex je iskoristio takozvane rezerve kako bi isplatili preostale tokene koji nisu bili pretvoreni u vlasničke udjele u temeljnom kapitalu.**
 
@@ -155,16 +157,16 @@ Ne znam za Vas, ali ja bih rekao kako bi javna objava Bitfinexa da imaju problem
 *Isplata novcem korisnika*
 
 1. Ove rezerve su došle od sredstava koja su pasivno zaplijenili od svojih korisnika sa depozitima. 
-2. Nemojmo zaboraviti da nakon sto su se našli u blokadi od banaka, korisnici nisu bili u mogućnosti isplatiti dolare na svoje račune. Jedini način na koji su ljudi mogli doći do svojih sredstva je bilo kupiti Bitcoin od Bitfinexa. To je uzrokovalo vrtoglav porast cijene. 
-3. Svi ovi intervjui su od 03. travnja. Nigdje se ne spominje situacija sa bankama. Ključna informacija. Pitanja nisu bila postavljana oko ove teme. Jedan od sugovornika u intervjuu djeluje kao da je svoje tokene zamijenio za udio i uopće ne spominje ovu ključnu informaciju što daje naslutiti da tu informaciju u tom trenu nisu niti dali trenutnim vlasnicima udjela kao niti potencijalnim ulagačima. 
+2. Nemojmo zaboraviti da nakon što su se našli u blokadi od banaka, korisnici nisu bili u mogućnosti isplatiti dolare na svoje račune. Jedini način na koji su ljudi mogli doći do svojih sredstva je bilo kupiti Bitcoin od Bitfinexa. To je uzrokovalo vrtoglav porast cijene. 
+3. Svi navedeni intervjui su datirani 03. travnja. Nigdje se ne spominje situacija sa bankama koja je ključna informacija. Naime  pitanja nisu bila postavljana oko ove teme. Jedan od sugovornika u intervjuu djeluje kao da je svoje tokene zamijenio za udio ali se uopće ne da naslutiti kako postoji svjesnost oko situacije sa bankarskim sustavom. Da li je moguće kako su tu informaciju uskratili i trenutnim vlasnicima udjela kao i potencijalnim ulagačima? 
 
-## Pregledajmo informacije:
+## Recap ili dedukcija informacija koje smo izložili kroz tekst:
 
-Bitfinex vrednuje vlastitu kompaniju temeljem ostvarene zarade koja se bazira na volumenu trgovanja, statističkom podatku, za kojeg su znali da kako ga je moguće umjetno napuhati kroz *wash trade*.
+Bitfinex vrednuje vlastitu kompaniju temeljem ostvarene zarade koja se bazira na volumenu trgovanja. To je statistički podatak, za kojeg su znali da ga je moguće umjetno napuhati kroz *wash trade*.
 
-Bitfinex je vrlo vjerojatno ispustio izvjestiti trenutne BFX token investitore o svojim problemima sa bankarskim sektorom. Što je indirektna prevara. 
+Bitfinex vrlo vjerojatno propušta pravovremeno izvjestiti trenutne BFX token investitore o svojim problemima sa bankarskim sektorom. Što je indirektna prevara. 
 
-Da ste Vi u poziciji BFX token holdera, i da su Vas pitali da na brzinu zamijenite BFX za udjele u kompaniji, a da ste u isto vrijeme bili svjesni problema - biste li to učinili?
+Da ste Vi u poziciji BFX token holdera i da Vas pitaju da na zamijenite BFX tokene za udjele u kompaniji - a da ste svjesni situacije sa bankama - biste li to učinili?
 
 Da ste znali da je njihov *exchange* mjesto gdje se odobrava *WT* i da je vrijednost njihovih udjela temeljena na volumenu trgovanja, biste li prihvatili udjele u toj kompaniji?
 
@@ -174,35 +176,35 @@ Predložak novog loga Bitfinexa.
 
 ![New Logo](images/08.png)
 
-*Prijedlog Novog Logotipa za Bitfinex - samo su zaboravili napomenuti da je kiseli okus dio trgovanja kod nas...*
+*Prijedlog Novog Logotipa za Bitfinex - samo su zaboravili napomenuti da je kiseli aftertaste ključan dio poslovanja sa nama...*
 
 ## Zaključak:
 
-Istina jest, da nikada nećemo saznati koji je točan udio u ukupnom volumenu trgovanja otpada na *Wash Trade*. A šanse su, da ako su svjesno dopustili *WT*, nisu ostavili mnogo dokaza kroz logove koji su vjerojatno "tanki" ili možda čak i lažni. 
+Činjenica je da nikada nećemo saznati koji je udio u ukupnom volumenu trgovanja otpao na *Wash Trade*. Šanse su, da ako su svjesno dopustili *WT*, nisu ostavili mnogo traga kroz logove čija je ispravnost upitna. 
 
-Vjerojatno nisu imali namjeru da im transakcijski logovi procure i da svi shvate što se događa, kako su i transakcijski logovi Mt. Goxa procurili i gdje su svi mogli vidjeti detalje o Marcusu i WillyBot-u.
+Pretpostavka je kako nisu imali namjeru da im transakcijski logovi procure te da kroz informacije sadržane u njima svi dobiju uvid u interno funkcioniranje. Tu se možemo prisjetiti kako su transakcijski logovi Mt. Goxa procurili i gdje su svi mogli vidjeti detalje o Marcusu i WillyBot-u.
 
 Bez tih logova, do danas ne bismo znali što se je dogodilo sa Mt. Gox-om.
 
-Vrlo je izgledno da se je *WT* odvijao na Bitfinexu od prvog dana. Činjenica je kako je osoba koja je osnovala Bitfinex isto tako bila dio kruga koji je promovirao Ponzi shemu, a i pokušao zavrtiti vlastiti spinoff istoga. 
+Vrlo je izgledno da se je *WT* odvijao na Bitfinexu od prvog dana. A ako sagledavamo čovjeka prema društvu ljudi u kojemu se nalazi - činjenica je kako je osnivač Bitfinex-a isto tako bio dio kruga ljudi koji su promovirali Ponzi shemu, a i sam je pokušao zavrtiti vlastiti spinoff istoga. 
 
 ![Ponzi](images/09.png)
 
-A i trenutni ključni ljudi Bitfinexa ne zaziru od korištenja manje etičkih pristupa poslovanju... kao što je insider trgovanje i slično.
+Osim osnivača, čini se kako niti ostatak ključnih ljudi Bitfinexa ne zazire od korištenja manje etičkih pristupa poslovanju (kao što je insajdersko trgovanje i sl).
 
 <iframe width="700" height="393" src="https://www.youtube.com/embed/DcIed4A8NIM" frameborder="0" allowfullscreen></iframe>
 
 *Phil Potter ne trguje Bitcoinom. Prodaje ga kada raste i kupuje kada pada. Suprotno uvriježenom mišljenju - ovo zaista nije bilo samo trgovanje.*
 
-Bitfinex će vrlo vjerojatno odbaciti sve ove optužbe, ili će tvrditi kako će popraviti svoj *trade engine* - moguće čak i na način da Vi ili ja nećemo moći izvršiti *WT*, ali možda [Whale]( https://bitfalls.com/hr/glossary/#whale) bude mogao. 
+Bitfinex će vrlo vjerojatno spremno odbaciti sve ove optužbe. Možda će i popraviti svoj *trade engine*. A nije nemoguće da funkcionalnost *WT-a* bude uskraćena malim investitorima ali možda [Whale]( https://bitfalls.com/hr/glossary/#whale) zadrži tu opciju. 
 
-Njihov *engine* koji dopušta *WT* je namjerno programiran sa tim *feature-om* na umu, a ne nešto što je slučajno bilo zaboravljeno uvrstiti u kod. 
+Izgledno je kako je Bitfinex-ov *engine* - koji ne sprečava *WT* - ciljno programiran sa tim *feature-om* na umu, a ne trivijalni propust programera. 
 
-Dodatna potvrda te namjere je činjenica da to nisu ispravili nakon 01.08.2017.
+Dodatna potvrda te namjere je činjenica da to nisu ispravili nakon 01.08.2017. kada je situacija sa BCH došla na vidjelo.
 
-Sve njihove tvrdnje treba uzeti sa dozom skepse, jer se možete sjetiti kako je Phil Potter iz Bitfinexa prvo nijekao *spoofing*, a ja sam prikazao video sa dokazom $14 milijuna USD teške *spoof* aktivnosti. 
+Moj je savjet kako sve tvrdnje od strane Bitfinexa treba uzeti sa dozom skepse, jer smo mogli vidjeti kako je Phil Potter iz Bitfinexa prvo nijekao *spoofing*, a ja sam prikazao video sa dokazom $14 milijuna USD teške *spoof* aktivnosti. 
 
-Zato i snimam sve trade aktivnosti, jer grafovi i povijest kretanja cijena rijetko daju pravu sliku onoga što se je odvijalo.
+Jedan od razloga zašto i snimam sve trade aktivnosti je činjenica kako grafovi i povijest kretanja cijena rijetko daju pravu sliku onoga što se je odvijalo u dnevnim aktivnostima trgovanja.
 
 Trgujte pažljivo...
 
