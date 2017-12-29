@@ -29,8 +29,8 @@ I **znali** su cijelo vrijeme što čine.
 ## PSA: Bitfinexov *trade engine* dozvoljava *Wash Trade*
 
 Znači, na Bitfinexu možete komotno kupovati i prodavati vlastite *ordere*, a procedura je kako slijedi... (što će najvjerojatnije biti "popravljeno" ili pokrpano nakon ovog posta)
-1. Postavite *buy ili sell* nalog. Za BTC ili bilo koji drugi coin ili *trade* par kojim se može trgovati na Bitfinex-u.
-2. Postavite suprotan nalog onome kojeg ste napravili u koraku 1. 
+1. Postavite *buy* ili *sell* nalog. Za BTC ili bilo koji drugi coin ili *trade* par kojim se može trgovati na Bitfinex-u.
+2. Postavite suprotan nalog onome kojeg ste napravili u *Koraku 1*. 
 3. *Trade engine* će izvršiti oba naloga. 
 
 Ovako to izgleda vanjskom promatraču:
@@ -39,9 +39,9 @@ Ovako to izgleda vanjskom promatraču:
 
 *Ovo je najočitiji primjer WT-a. Ispravno odrađen WT je neuočljiv vanjskom promatraču.*
 
-Developer koji piše kod za *exchange engine*, na nekom regularnom *exchangeu*, kao prvi zadatak uzima napisati kod koji ne dopušta izvršenje oprečnih naloga sa istog korisničkog računa.
+Developer koji piše kod za *exchange engine*, na nekom regularnom *exchangeu*, kao prvi zadatak isplanira programirati kod koji ne dopušta izvršenje oprečnih naloga sa istog korisničkog računa.
 
-Ne postoji niti jedan legitiman razlog zašto bi se trebao moći izvršiti *WT*, osim kako bi se manipuliralo tržištem. No najveći razlog zašto bi neki *exchange* želio zabraniti *WT* je zato jer je **TO ILEGALNA AKTIVNOST**.
+Ne postoji niti jedna legitimna isprika niti valjan razlog zašto bi se trebalo moći trgovati sam sa sobom tj. moći izvršiti *WT* - osim kako bi se manipuliralo tržištem. No najveći razlog zašto bi neki *exchange* želio zabraniti *WT* je zato jer je **TO ILEGALNA AKTIVNOST**.
 
 ![Ilegala](images/01.png)*[(Izvor)](http://www.cftc.gov/ConsumerProtection/EducationCenter/CFTCGlossary/glossary_wxyz)*
 
