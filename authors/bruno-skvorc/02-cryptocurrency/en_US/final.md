@@ -96,9 +96,10 @@ Now that you have a general idea of what cryptocurrencies are, why not learn how
 - [What is the blockchain?][blockchain] - to learn *how* they work
 - [What are cryptocurrency wallets and how do they work?][wallet] - to get your first wallet, and learn how to secure it
 - [How anonymous are cryptocurrencies?][anon] - learn all about transactions and how public or private they are or aren't
-- What is Ethereum? - learn about the most powerful cryptocurrency and about its similarities and differences to Bitcoin (article coming soon)
+- [What is Ethereum?][eth] - learn about the most powerful cryptocurrency and about its similarities and differences to Bitcoin
 
 [blockchain]: https://bitfalls.com/2017/08/20/blockchain-explained-blockchain-works/
 [wallet]: https://bitfalls.com/2017/08/31/what-cryptocurrency-wallet/
 [finite]: https://bitfalls.com/2017/09/17/bitcoin-finite-just-myth/
 [anon]: https://bitfalls.com/2017/09/18/anonymous-cryptocurrencies-like-bitcoin/
+[eth]: https://bitfalls.com/2017/09/19/what-ethereum-compare-to-bitcoin/
