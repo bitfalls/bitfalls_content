@@ -60,7 +60,7 @@ PoS has its own problems, of course. In this system, a user of Ethereum trying t
 
 To sum up, Ethereum differs from Bitcoin in the following ways:
 
-- it'll soon transition to Proof of Stake instead of Proof of Work (detailed comparison coming soon)
+- it'll soon transition to [Proof of Stake][pos] instead of [Proof of Work][pow]
 - it'll soon be quantum-proof (we're working on a post about this)
 - it supports the creation of sub-tokens on the network (instructions on making your own coming up in an article soon!)
 - it supports custom logic in the blockchain for full financial automation (smart contracts)
@@ -80,3 +80,5 @@ If you'd like to buy or sell Ethereum, be sure to [let us know][mail]. We welcom
 [wallet1]: https://bitfalls.com/2017/08/31/what-cryptocurrency-wallet/
 [mail]: mailto:contact@bitfalls.com
 [erc20]: https://github.com/ethereum/EIPs/pull/610
+[pos]: https://bitfalls.com/2017/10/23/whats-the-difference-between-proof-of-work-pow-proof-of-stake-pos-and-delegated-pos/
+[pow]: https://bitfalls.com/2017/10/23/whats-the-difference-between-proof-of-work-pow-proof-of-stake-pos-and-delegated-pos/
