@@ -94,9 +94,10 @@ Sada kada imate generalnu ideju o tome što su kriptovalute, naučite kako funkc
 - [Što je blockchain][blockchain] - da biste saznali *kako* kriptovalute funkcioniraju
 - [Što su i kako funkcioniraju novčanici za kriptovalute][wallet] - saznajte kako do svog prvog novčanika, te kako ih osigurati
 - [Koliko su kriptovalute anonimne?][anon] - saznajte sve o transakcijama i njihovoj anonimnosti
-- Što je Ethereum? - saznajte osnove o najmoćnijoj kriptovaluti i po čemu se razlikuje od Bitcoina (članak uskoro)
+- [Što je Ethereum?][eth] - saznajte osnove o najmoćnijoj kriptovaluti i po čemu se razlikuje od Bitcoina
 
 [blockchain]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
 [wallet]: https://bitfalls.com/hr/2017/08/31/what-cryptocurrency-wallet/
 [finite]: https://bitfalls.com/hr/2017/09/17/bitcoin-finite-just-myth/
 [anon]: https://bitfalls.com/hr/2017/09/18/anonymous-cryptocurrencies-like-bitcoin/
+[eth]: https://bitfalls.com/hr/2017/09/19/what-ethereum-compare-to-bitcoin/
