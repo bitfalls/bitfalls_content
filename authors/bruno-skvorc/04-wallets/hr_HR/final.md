@@ -14,8 +14,9 @@ Transakcije, tj. te potvrde prijenosa vrijednosti, potpisuju se privatnim ključ
 
 Otvaranje računa na mjenjačnici je daleko najjednostavnije, ali jer mjenjačnice čuvaju vaš privatni ključ za vas, bilo kakvo dugotrajno držanje sredstava na takvim servisima je opasno. Neka mjenjačnica može bilo kojeg momenta nestati ili biti hakirana i vaša sredstva biti će izgubljena, kao što je to bilo s Mt. Gox i Bitfinex servisom. Ako i imate neki račun na mjenjačnici, preporučljivo je nakon što ste gotovi s mijenjanjem prebaciti sredstva na adresu koja je u potpunosti pod vašom kontrolom.
 
-Kako do svoje prve adrese za željenu kriptovalutu, te kako primati i slati kriptovalute, pročitajte u nadolazećem članku.
+Kako do svoje prve adrese za željenu kriptovalutu, te kako primati i slati kriptovalute pročitajte [ovdje][wallet].
 
-[cc]: https://bitfalls.com/2017/08/20/cryptocurrency/
-[blockchain]: https://bitfalls.com/2017/08/20/blockchain-explained-blockchain-works/
-[ledger]: https://bitfalls.com/shop/ledger-nano-s-bitfalls/
+[cc]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/
+[blockchain]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
+[ledger]: https://bitfalls.com/hr/shop/ledger-nano-s-bitfalls-3/
+[wallet]: https://bitfalls.com/hr/2017/09/01/send-receive-bitcoin/
