@@ -125,9 +125,10 @@ Blockchain technology allows for distributed control over the financial system o
 - [Bitcoin is not unstoppable][unstoppable] to find out how easy it is to actually stop and destroy a cryptocurrency
 - [Bitcoin is not finite][finite] - to learn why the theoretical limit of 21 million Bitcoin ever produced simply isn't true, practically speaking
 - [Bitcoin is not anonymous][anon] - to learn why people often (incorrectly) say that Bitcoin is anonymous and useful for the black market and criminal funding
-- What is Ethereum - to learn about the most powerful cryptocurrency today (article coming soon)
+- [What is Ethereum?][eth]- to learn about the most powerful cryptocurrency today 
 
 [cryptocurrencies]: https://bitfalls.com/2017/08/20/cryptocurrency/
 [unstoppable]: https://bitfalls.com/2017/08/21/is-bitcoin-unstoppable/
 [finite]: https://bitfalls.com/2017/09/17/bitcoin-finite-just-myth/
 [anon]: https://bitfalls.com/2017/09/18/anonymous-cryptocurrencies-like-bitcoin/
+[eth]: https://bitfalls.com/2017/09/19/what-ethereum-compare-to-bitcoin/
