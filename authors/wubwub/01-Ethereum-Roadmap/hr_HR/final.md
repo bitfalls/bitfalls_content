@@ -148,7 +148,7 @@ Ethereum ima još puno toga ispred sebe i trebat će još godine rada da se dođ
 
 [hash]: https://bitfalls.com/hr/glossary/#hash
 [Status]: https://status.im
-[defl]: https://bitfalls.com/glossary/#deflation
+[defl]: https://bitfalls.com/hr/glossary/#deflation
 [eips]: https://github.com/ethereum/EIPs#deferred-eips-adoption-postponed
 
 [ERC20 tokena]: https://bitfalls.com/hr/2017/09/19/what-ethereum-compare-to-bitcoin/
