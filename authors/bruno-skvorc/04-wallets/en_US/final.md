@@ -14,8 +14,9 @@ These transactions of value are signed with the private key which only the owner
 
 Opening an account at an exchange is by far the easiest method, but due to the fact that these exchanges mostly keep the private key of the generated wallet to themselves, you're never really in control of the wallet. If the exchange disappears or gets hacked, so do your funds - like it happened with Mt.Gox and Bitfinex. It's highly recommended you move your tokens off of an exchange and into a privately controlled wallet as soon as possible after obtaining them. 
 
-To find out how to get started with each individual cryptocurrency and how to receive and send tokens, see tomorrow's post.
+To find out how to get started with each individual cryptocurrency and how to receive and send tokens, see [here][wallet].
 
 [cc]: https://bitfalls.com/en/2017/08/20/cryptocurrency/
 [blockchain]: https://bitfalls.com/en/2017/08/20/blockchain-explained-blockchain-works/
 [ledger]: https://bitfalls.com/en/shop/ledger-nano-s-bitfalls/
+[wallet]: https://bitfalls.com/en/2017/09/01/send-receive-bitcoin/
