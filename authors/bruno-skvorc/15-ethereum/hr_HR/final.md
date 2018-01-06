@@ -60,7 +60,7 @@ PoS, naravno, nije bez svojih problema. U tom sustavu, korisnik Ethereum blockch
 
 Da rezimiramo, Ethereum je različit od bitcoina na sljedeće načine:
 
-- uskoro prelazi na Proof of Stake umjesto Proof of Work (detaljni članak o razlici uskoro)
+- uskoro prelazi na [Proof of Stake][pos] umjesto [Proof of Work][pow] 
 - uskoro će biti otporan na kvantna računala (članak o tome uskoro)
 - podržava kreiranje drugih proizvoljnih tokena u Ethereum mreži (upute kako napraviti svoj token u skorom članku!)
 - podržava kreiranje logike koja se pod određenim uvjetima sama izvršava (smart contracts)
@@ -80,3 +80,5 @@ Ako želite kupiti Ethereum, slobodno nam se [obratite][mail], a sva pitanja slo
 [wallet1]: https://bitfalls.com/hr/2017/08/31/what-cryptocurrency-wallet/
 [mail]: mailto:contact@bitfalls.com
 [erc20]: https://github.com/ethereum/EIPs/pull/610
+[pos]: https://bitfalls.com/hr/2017/10/23/whats-the-difference-between-proof-of-work-pow-proof-of-stake-pos-and-delegated-pos/
+[pow]: https://bitfalls.com/hr/2017/10/23/whats-the-difference-between-proof-of-work-pow-proof-of-stake-pos-and-delegated-pos/
