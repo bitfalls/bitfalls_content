@@ -25,7 +25,7 @@ No, kada ovisimo o nekom centralnom autoritetu, dovoljno je da taj autoritert bu
 
 Jedan način osiguranja od takvih situacija je da preskočimo banku i imamo sustav gdje sami upravljamo svojim financijama. 
 
-Zamislite komad papira na kojem bilježimo stanje računa. No, ako se radi o sustavu koji koriste samo Mario i Luigi tako da ručno označe jedan +$100 a drugi -$100 svaki na svom papiru, teško će doći do dogovora ako jedan postane pohlepan. Zato je za takvu *distribuiranu* (moglo bi se reći ne-*centraliziranu*) metodu potrebno imati *dovoljno ljudi koji su zainteresirani za takav sustav* (minimalno troje).
+Zamislite komad papira na kojem bilježimo stanje računa. No, ako se radi o sustavu koji koriste samo Mario i Luigi tako da ručno označe jedan +$100, a drugi -$100 svaki na svom papiru, teško će doći do dogovora ako jedan postane pohlepan. Zato je za takvu *distribuiranu* (moglo bi se reći ne-*centraliziranu*) metodu potrebno imati *dovoljno ljudi koji su zainteresirani za takav sustav* (minimalno troje).
 
 ## Papiri
 
@@ -129,9 +129,10 @@ Blockchain omogućava distrubuiranu kontrolu nad financijama i izbjegavanje posr
 - [Bitcoin nije nezaustavljiv][unstoppable] da biste saznali koliko je zapravo lako zaustaviti kriptovalute
 - [Bitcoin nije konačan][finite] - da biste saznali zašto 21 miljun Bitcoina nije maksimum vrijednosti koju će ikada postići
 - [Bitcoin nije anoniman][anon] - da biste saznali zašto se točno toliko često (netočno) govori da je Bitcoin anoniman i pogodan za "crno tržište"
-- Što je Ethereum - da biste naučili osnovne stvari o najmoćnijoj kriptovaluti i sličnostima s Bitcoinom (članak uskoro)
+- [Što je Ethereum?][eth] - da biste naučili osnovne stvari o najmoćnijoj kriptovaluti i sličnostima s Bitcoinom 
 
 [cryptocurrencies]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/
 [unstoppable]: https://bitfalls.com/hr/2017/08/21/is-bitcoin-unstoppable/
 [finite]: https://bitfalls.com/hr/2017/09/17/bitcoin-finite-just-myth/
 [anon]: https://bitfalls.com/hr/2017/09/18/anonymous-cryptocurrencies-like-bitcoin/
+[eth]: https://bitfalls.com/hr/2017/09/19/what-ethereum-compare-to-bitcoin/
