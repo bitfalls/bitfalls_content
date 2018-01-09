@@ -1,18 +1,14 @@
-# CEO pornografske kriptovalute nestao sa investitorskim novcem
+Ispada da je [kriptovaluta][cc] stvorena za gledanje pornografskih sadržaja uživo, veliko razočaranje (iznenađenje :) op. ur.).
 
-Ispostavlja se da je [kriptovaluta][cc] stvorena za gledanje pornografskih sadržaja uživo, veliko razočaranje.
-
-Četiri investitora u digitalnu valutu pod nazivom Fantasy Market, tvrde kako je tajnoviti CEO dotične valute prošli tjedan nestao s njihovim novcem te usprkos stalnim zahtjevima za povrat ne vraća njihove investicije.
+Četiri investitora u digitalnu valutu pod nazivom Fantasy Market tvrde kako je tajnoviti CEO dotične valute prošli tjedan nestao s njihovim novcem te usprkos stalnim zahtjevima za povrat ne vraća njihove investicije.
 
 Navodna nemogućnost investitora da unovče Fantasy Market tokene (FM tokens) može se gledati kao upozorenje svim investitorima na užarenom tržištu [kriptovaluta][cc].
 
-Jonathan Lucas, mozak iza FM tokena, imao je za cilj podići čak 25 milijuna dolara prošle godine, sudeći po Lucasovom [whitepaperu][wp]- investicijskom planu koji je kružio među investitorima.
+Jonathan Lucas, mozak iza FM tokena, namjeravao je podići čak 25 milijuna dolara prošle godine, sudeći po Lucasovom [whitepaperu][wp]- investicijskom planu koji je kružio među investitorima.
 
 U whitepaperu piše kako bi se FM tokeni koristili za plaćanje gledanja pornografije uživo.
 
-Kriptovalute poput [bitcoina][btc], ethera i ripplea, s njihovim visokim vrijednostima spadaju pod najrazvikanije investicije na Wall Streetu.
-
-FM tokeni, kao i druge inicijalne ponude tokena ([ICO][ico]), obično imaju ograničenu uporabu, za razliku od kriptovaluta, i često se baziraju na tehnologiji [Ethereuma] [eth].
+Kriptovalute poput [bitcoina][btc], ethera i ripplea, s njihovim visokim vrijednostima spadaju pod najrazvikanije investicije. FM tokeni, kao i druge inicijalne ponude tokena ([ICO][ico]), obično imaju ograničenu uporabu, za razliku od kriptovaluta, i često se baziraju na tehnologiji [Ethereuma][eth].
 
 Kriptovalute su isto tako široko poznata investicijska imovina. Slabo su regulirane i podložne su naglim promjenama u procjeni (volatilnost).
 
@@ -36,7 +32,7 @@ Jedan od investitora koji je dobio povrat novca i dalje je nezadovoljan.
 
 Investitori su morali kupiti FM tokene etherom, čija je vrijednost u posljednjem mjesecu porasla za 160 posto.
 
-Treći investitor rekao je kako se Lucas čini kao aktivan trgovac na [mjenjačnicama] [exc] kriptovaluta.
+Treći investitor rekao je kako se Lucas čini kao aktivan trgovac na [mjenjačnicama][exc] kriptovaluta.
 
 "Nisam baš u poslovima koji se bave varanjem ljudi, ali ja osobno ne bih koristio vlastito ime za takav projekt", napisao je Lucas u razgovoru 14. studenog.
 
