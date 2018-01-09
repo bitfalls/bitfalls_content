@@ -1,0 +1,1 @@
+The English version of this post is available [here](https://nypost.com/2018/01/08/ceo-of-porn-cryptocurrency-disappears-with-investor-money/).
