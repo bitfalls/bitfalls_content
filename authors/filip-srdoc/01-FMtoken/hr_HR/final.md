@@ -16,7 +16,7 @@ Zbog svoje volatilnosti i nedostatka regulacije, predsjednik Komisije za vrijedn
 
 Nažalost, Claytonova izjava stigla je prekasno za bijesne investitore u FM tokene.
 
-Pothvat je podbacio u studenom nakon što je The Post sati vremena ispitivao Lucasa o tome kako bi njegov ICO zapravo funkcionirao te o izjavama koje je napisao u svom whitepaperu.
+Pothvat je podbacio u studenom nakon što je The Post sat vremena ispitivao Lucasa o tome kako bi njegov ICO zapravo funkcionirao te o izjavama koje je napisao u svom whitepaperu.
 
 "Jonathan Lucas (najvjerojatnije pseudonim) prevario nas je  i pobjegao sa kriptovalutom",  jedan je bijesni investitor rekao za The Post, nakon više od dva mjeseca istraživanja Fantasy Marketa. 
 
