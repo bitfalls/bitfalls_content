@@ -1,0 +1,1 @@
+The English version of this post is available [here](https://www.coindesk.com/pboc-official-calls-for-wider-ban-on-chinese-crypto-trading-report/).
