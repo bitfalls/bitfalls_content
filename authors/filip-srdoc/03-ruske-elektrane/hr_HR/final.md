@@ -1,4 +1,4 @@
-Dvije Ruske elektrane nedavno su prodane rudarima kriptovaluta (link!) koji žele proširiti svoje poslovanje. To je još jedan znak da je pritisak države, podržan od Ruske vlade, da Rusija postane središte [rudarenja][mining] kriptovaluta urodio plodom.
+Dvije Ruske elektrane nedavno su prodane rudarima [kriptovaluta][cc] koji žele proširiti svoje poslovanje. To je još jedan znak da je pritisak države, podržan od Ruske vlade, da Rusija postane središte [rudarenja][mining] kriptovaluta urodio plodom.
 
 Dvije elektrane smještene su u regiji Perm na zapadnim obroncima planine Ural te u susjednoj Republici Udmurtiji. Ti će objekti biti korišteni kao podatkovni centri, prostori za rudarsku opremu, te kao centri rudarenja kriptovaluta. Cijena ovih dviju elektrana? Oko 160 milijuna rubalja (oko 3 milijuna dolara), piše [RT][rt].
 
@@ -19,7 +19,7 @@ Nadalje, ruska vlada i državne energetske tvrtke navodno razmatraju pokretanje 
 Državna kriptovaluta pod nazivom CryptoRuble navodno će biti lansirana sredinom iduće godine iako su ministar financija i guverner ruske narodne banke izjavili kako misle da nije potrebno da država izdaje vlastitu kriptovalutu. Više o svemu znati ćemo u srpnju ove godine kada će ova kriptovaluta biti predstavljena svijetu. Putin kaže kako se jedina ruska kriptovaluta neće rudariti i kako će osnažiti državnu ekonomiju privlačeći mnoge strane investitore. Osim Rusije, spomenuta Venezuela i Senegal su također nadomak izdavanju vlastitih državnih kriptovaluta.
 
 
-
+[cc]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/
 [rt]: https://www.rt.com/business/415811-russia-power-station-cryptocurrenct-mining/
 [mining]: https://bitfalls.com/hr/glossary/#mining
 [ico]: https://bitfalls.com/hr/glossary/#ico
