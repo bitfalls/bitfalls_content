@@ -6,7 +6,7 @@ Rice je dodao:
 
 > "Kada cijena imovine brzo poraste, rizik se može akumulirati, pogotovo ako sudionici na tržištu posuđuju novac potreban za kupnju. Važno je da ljudi budu svjesni rizika i da procijene rizik."
 
-Glasnogovornik je također naglasio da kriptovalute investitorima predstavljaju opasnost veću od samog financijskog gubitaka, a potencijalno se mogu koristiti i za pranje novca, financiranje terorizma, utaju poreza i prijevare.
+Glasnogovornik je također naglasio da kriptovalute investitorima predstavljaju opasnost veću od samog financijskog gubitka, a potencijalno se mogu koristiti i za pranje novca, financiranje terorizma, utaju poreza i prijevare.
 
 Prethodno, MMF se zalagao za uravnoteženi pristup regulaciji kriptovaluta. U rujnu 2017. godine Christine Lagarde, izvršna direktorica organizacije, izjavila je da kriptovalute mogu uzrokovati masovno povlačenje [fiat][fiat] valuta pa ih stoga nije pametno ignorirati. 
 
