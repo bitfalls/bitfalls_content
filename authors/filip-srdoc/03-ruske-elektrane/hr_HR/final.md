@@ -1,4 +1,4 @@
-Dvije Ruske elektrane nedavno su prodane rudarima kriptovaluta koji žele proširiti svoje poslovanje. To je još jedan znak da je pritisak države, podržan od Ruske vlade, da Rusija postane središte [rudarenja][mining] kriptovaluta urodio plodom.
+Dvije Ruske elektrane nedavno su prodane rudarima kriptovaluta (link!) koji žele proširiti svoje poslovanje. To je još jedan znak da je pritisak države, podržan od Ruske vlade, da Rusija postane središte [rudarenja][mining] kriptovaluta urodio plodom.
 
 Dvije elektrane smještene su u regiji Perm na zapadnim obroncima planine Ural te u susjednoj Republici Udmurtiji. Ti će objekti biti korišteni kao podatkovni centri, prostori za rudarsku opremu, te kao centri rudarenja kriptovaluta. Cijena ovih dviju elektrana? Oko 160 milijuna rubalja (oko 3 milijuna dolara), piše [RT][rt].
 
@@ -16,7 +16,7 @@ Novi vlasnik elektrana, poduzetnik Aleksey Kolesnik, indirektno je potvrdio akvi
 
 Nadalje, ruska vlada i državne energetske tvrtke navodno razmatraju pokretanje digitalne valute koja bi se mogla koristiti u partnerstvu s Venezuelom, Iranom te u zaobilaženju američkih sankcija u prihvaćanju plaćanja za izvoz nafte, slično Venezuelinom Petru, kriptovaluti koja ima pokriće u nafti, a koja se razvija u omiljenom socijalističkom raju Latinske Amerike. 
 
-Državna kriptovaluta pod nazivom CryptoRuble navodno će biti lansirana sredinom iduće godine iako su ministar financija i guverner ruske narodne banke izjavili kako misle da nije potrebno da država izdaje vlastitu kriptovalutu. Više o svemu znat ćemo u srpnju ove godine kada će ova kriptovaluta biti predstavljena svijetu. Putin kaže kako se jedina ruska kriptovaluta neće rudariti i kako će osnažiti državnu ekonomiju privlačeći mnoge strane investitore. Osim Rusije, spomenuta Venezuela i Senegal je također nadomak izdavanju vlastitih državnih kriptovaluta.
+Državna kriptovaluta pod nazivom CryptoRuble navodno će biti lansirana sredinom iduće godine iako su ministar financija i guverner ruske narodne banke izjavili kako misle da nije potrebno da država izdaje vlastitu kriptovalutu. Više o svemu znati ćemo u srpnju ove godine kada će ova kriptovaluta biti predstavljena svijetu. Putin kaže kako se jedina ruska kriptovaluta neće rudariti i kako će osnažiti državnu ekonomiju privlačeći mnoge strane investitore. Osim Rusije, spomenuta Venezuela i Senegal su također nadomak izdavanju vlastitih državnih kriptovaluta.
 
 
 
