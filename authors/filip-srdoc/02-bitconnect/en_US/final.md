@@ -2,7 +2,7 @@ After months and months of warnings about Ponzi schemes and frauds such as OneCo
 
 On their [blog][link] titled "Changes coming for the Bitconnect system - Halt of lending and exchange platform" - published on the main Bitconnect website, the company said that they are shutting down their landing and trading platform. After that, the website crashed.
 
-The famous Bitconnect website will from now on operate only as a wallet service, and for news and educational purposes. People who want to continue investing in it can store their BBC coins, which are still available on other markets, on the Bitconnet wallet. After this statement, however, investors are few and far in between which consequently led to the tremendous decline in price of $10 per coin, which is more than a 95%+ value drop from last week's price.
+The famous Bitconnect website will from now on operate only as a [wallet][wallet] service, and for news and educational purposes. People who want to continue investing in it can store their BBC coins, which are still available on other markets, on the Bitconnet wallet. After this statement, however, investors are few and far in between which consequently led to the tremendous decline in price of $10 per coin, which is more than a 95%+ value drop from last week's price.
 
 The lending operations shut down immediately after the statement with the release of all outstanding loans, while the exchange platform will be closed 5 days from the announcement. Bitconnect says that they will transfer investor's lending wallet balance to the Bitconnect wallets balance at 363.62 USD per coin - a calculation based on the average of the past 15 days of the closing price on CoinMarketCap.
 
@@ -13,6 +13,6 @@ Bitconnect said this isn't the end of the community, merely the shuttering of so
 We certainly recommend that you do your own research. Explore, read and ask. Although we do not provide investment advice, we'll be happy to point out what we consider to be frauds and why.
 
 [link]: https://bitconnect.co/system-news/94/changes-coming-for-the-bitconnect-system-halt-of-lending-and-exchange-platform
-
+[wallet]: https://bitfalls.com/2017/08/31/what-cryptocurrency-wallet/
 
 
