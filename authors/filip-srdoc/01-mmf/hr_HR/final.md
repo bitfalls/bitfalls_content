@@ -1,6 +1,6 @@
 Međunarodni monetarni fond (MMF), organizacija kojoj je u cilju poticanje globalne monetarne suradnje te uspostavljanje financijske stabilnosti, pozvala je na globalnu suradnju u sferi [kriptovaluta][cc], upozoravajući na rizike povećanja cijena kriptovaluta.
 
-Prema izvještaju Bloomberga, prošli je tjedan glasnogovornik MMF-a Gerry Rice izjavio da postoji potreba za "većim internacionalnim diskusijama i suradnjom među regulatorima."
+Prema izvještaju Bloomberga, prošli je tjedan glasnogovornik MMF-a Gerry Rice izjavio da postoji potreba za "većim međunarodnim raspravama i suradnjom među regulatorima."
 
 Rice je dodao:
 
