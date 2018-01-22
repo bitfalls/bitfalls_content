@@ -13,3 +13,4 @@ Kažu da ovo nije kraj zajednice, već samo gase neke od svojih trenutnih usluga
 Naravno, "dok je ovaca neće falit vune", ali svakako preporučamo da dobro proučite u što ulažete svoj novac. Istražujte, čitajte i pitajte. Iako ne dajemo investicijske savjete, rado ćemo vam obrazložiti što i zašto smatramo prevarom.
 
 [link]: https://bitconnect.co/system-news/94/changes-coming-for-the-bitconnect-system-halt-of-lending-and-exchange-platform
+[wallet]: https://bitfalls.com/hr/2017/08/31/what-cryptocurrency-wallet/
