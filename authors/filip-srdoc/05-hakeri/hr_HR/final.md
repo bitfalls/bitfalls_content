@@ -3,7 +3,7 @@ Novo izvješće tvrtke [Ernst & Young][ey] detaljno prikazuje koliko je velik pr
 
 Kriptovalute poput Bitcoina postale su nevjerojatno popularne i svatko od Ghostface Killaha do KFC-a na neki način ulazi u njih. No digitalne valute od kad postoje, uglavnom funkcioniraju bez regulacije i bez sigurnosnih mreža. To u kombinaciji s nedostatkom odgovarajućih sigurnosnih mjera povećava mogućnost hakiranja mjenjačnica i velike krađe kriptovaluta . 
 
-Ernst & Young kaže kako je krađa identiteta najpopularniji alat koji koriste hakeri. "Hakeri su privučeni navalom, odsutnosti centraliziranog autoriteta, nepovratnim transakcijama na blockchainu i informacijskim kaosom", pišu u izvještaju. Kažu i da se učestalost napada povećava.
+Ernst & Young kaže kako je phishing najpopularniji pristup koji koriste hakeri. "Hakeri su privučeni navalom, odsutnosti centraliziranog autoriteta, nepovratnim transakcijama na blockchainu i informacijskim kaosom", pišu u izvještaju. Kažu i da se učestalost napada povećava.
 
 Izvješće Ernst & Young također ističe da uz lošu sigurnost svijet kriptovaluta također pogađaju i problemi poput nedostatka regulacije te loši standardi za procjenu ICO-a. Istraživači su rekli da se ICO tokeni umjesto važnim aspektima, poput predviđanja razvoja projekta i njihove prirode, vrednuju temeljem razvikanosti i [FOMO][fomo] - straha od propuštene prilike.
 
