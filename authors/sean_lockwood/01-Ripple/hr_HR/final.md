@@ -6,7 +6,7 @@ Povećanje vrijednosti je u najmanju ruku bilo impresivno u 2017., a taj rast po
 
 Bitcoin je popločio put mnogim altcoinovima koji ulaze u veliku igru ​​i normalno je da ljudi uspoređuju XRP s vodećima. Naime, jasno je da Rippleova tržišna kapitalizacija (koja je dostigla vrhunac na 148 milijardi dolara) pokušava dostići Bitcoin. Međutim, stavljati ih u istu košaru može biti pogrešno.
 
-Da, oboje su prošli val i predstavljaju goruće kriptovalute, ali nisu toliko slični. U stvari, XRP se razlikuje od bitcoina na nekoliko bitnih načina. Prije svega, za razliku od velikog brata, nije stvoren u skladu s određenom vremenskom linijom, kroz proces [rudarenja][mining].
+Da, oboje su prošli val i predstavljaju goruće kriptovalute, ali nisu toliko slični. U stvari, XRP se razlikuje od bitcoina na nekoliko bitnih načina. Prije svega, za razliku od velikog brata, nije stvoren u skladu s određenom vremenskom linijom, kroz proces [rudarenja][mine].
 
 Umjesto toga, oko 100 milijardi XRP-a već je u opticaju, od kojih su mnogi u vlasništvu samog Ripplea (oko 61 milijarde). Štoviše, uporaba XRP-a je fiksirana na Rippleov blockchain, sustav koji uključuje okvir poznat kao Unique Node List (UNL).
 
@@ -41,7 +41,7 @@ Na kraju, Ripple i XRP će dijeliti sudbinu industrije kriptovaluta kao jedno i 
 [node]: https://bitfalls.com/hr/2017/11/26/whats-bitcoin-node-mining-vs-validation/
 [dec]: https://bitfalls.com/hr/glossary/#decentralized
 [eth]: https://bitfalls.com/hr/2017/09/19/what-ethereum-compare-to-bitcoin/
-
+[mine]: https://bitfalls.com/hr/glossary/#mining
 
 
 
