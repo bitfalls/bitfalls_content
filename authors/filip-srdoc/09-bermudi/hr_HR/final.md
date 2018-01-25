@@ -1,4 +1,4 @@
-Premijer Bermudi, David Burt, danas je za [The Royal Gazzete][link] izjavio da Bermudska vlada želi biti što učinkovitija pa stoga namjerava svoj sustav vlasništva preseliti na decentralizirani [blockchain][bc]. Kazao je kako Bermudi imaju zastarjeli sustav vođenja vlasništva pa će stoga svoj registar vlasništva preseliti na blockchain jer on podržava tehnologiju koja pokreće [Bitcoin][btc].
+Bermudski premijer, David Burt, danas je za [The Royal Gazzete][link] izjavio da Bermudska vlada želi biti što učinkovitija pa stoga namjerava svoj sustav vlasništva preseliti na decentralizirani [blockchain][bc]. Kazao je kako Bermudi imaju zastarjeli sustav vođenja vlasništva pa će stoga svoj registar vlasništva preseliti na blockchain jer on podržava tehnologiju koja pokreće [Bitcoin][btc].
 Tako će se na blokchainu uskoro naći sva digitalna imovina poput vjenčanih listova, vlasništva nad imovinom, registracija vozila, ugovora o vlasništvu i slično.
 
 "Jasno je da sve treba biti transparentno kako bi ljudi znali što je tamo i bili sigurni, i da na taj način u bilo kojem trenutku znamo tko što posjeduje." - dodao je Burt.
