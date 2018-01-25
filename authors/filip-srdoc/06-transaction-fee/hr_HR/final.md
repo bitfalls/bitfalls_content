@@ -8,7 +8,7 @@ Ovu opciju plaćanja uveli su kao rješenje za korisnike kojima kreditne kartice
 
 Kada je prošlotjedna bitcoin konferencija pod nazivom "The North American Bitcoin Conference" izjavila kako iz istih razloga više ne prihvaća plaćanje ulaznica u bitcoinu, BitPay je odlučio promjeniti neke stvari. Organizator konferencije i europski direktor za razvoj poslovanja BitPaya, Moe Levin, kazao je za [Bitcoin.com][link] kako kompanija pokušava svim silama implementirati plaćanje Bitcoin Cashom u sustav prodaje ulaznica.
 
-Nakon što je počeo velikom brzinom gubiti klijente poput Steama, Microsofta, bitcoin konferencije i sličnih, BitPay je nedvanoizdao [podršku za Bitcoin Cash.][bitpay] Bitcoin Cash je [fork][fork] bitcoina koji posjeduje veće blokove (8 MB u odnosu na blokove Bitcoina od 1 MB) i ima puno niže transakcijske troškove. BitPay se nije odrekao Bitcoina, nego je samo dodao podršku za Bitcoin Cash.
+Nakon što je počeo velikom brzinom gubiti klijente poput Steama, Microsofta, bitcoin konferencije i sličnih, BitPay je nedvano izdao [podršku za Bitcoin Cash.][bitpay] Bitcoin Cash je [fork][fork] bitcoina koji posjeduje veće blokove (8 MB u odnosu na blokove Bitcoina od 1 MB) i ima puno niže transakcijske troškove. BitPay se nije odrekao Bitcoina, nego je samo dodao podršku za Bitcoin Cash.
 
 Dok se kompanije za procesuiranje plaćanja bitcoinom svim silama trude zadržati klijente uvodeći nova rješenja i podrške za ostale kriptovalute, realistična rješenja za ubrzavanje transakcija i smanjivanje transakcijskih troškova bitcoina još nisu na vidiku.
 
