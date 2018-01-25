@@ -3,15 +3,15 @@ Tako će se na blokchainu uskoro naći sva digitalna imovina poput vjenčanih li
 
 "Jasno je da sve treba biti transparentno kako bi ljudi znali što je tamo i bili sigurni, i da na taj način u bilo kojem trenutku znamo tko što posjeduje." - dodao je Burt.
 
-Rekao je da su Bermudi poznati po visoko stupnju regulacije, borbe protiv pranja novca (AML), KYC (know your customer) sistemu i usklađenosti pa bi prelaskom na ovu tehnologiju lako zauzeli vodstvo u tom području.
+Rekao je da su Bermudi poznati po visokom stupnju regulacije, borbi protiv pranja novca (AML), KYC (know your customer) sistemu i usklađenosti pa bi prelaskom na ovu tehnologiju lako zauzeli vodstvo u tom području.
 
 U studenome prošle godine, Bermudska vlada signalizirala je da namjerava povećati svoju prisutnost u svijetu [kripovaluta][cc] i blockchain tehnologije da bi privukla kompanije i pojedince iz tog područja organizirajući radne skupine.
 
-Jedna od njih je Ambika Group čiji je vlasnik, Aron Dutta kazao kako su oni zaduženi za izgradnju platformi koje će omogućiti prethodno spomenute usluge poput burze, trgovine, građanskih usluga itd., te kako njegova Ambika Group surađuje s Bermudima po tom pitanju. 
+Jedna od njih je Ambika Group čiji je vlasnik, Aron Dutta, kazao kako su oni zaduženi za izgradnju platformi koje će omogućiti prethodno spomenute usluge poput burze, trgovine, građanskih usluga itd., te kako njegova Ambika Group surađuje s Bermudima po tom pitanju. 
 
-"Banke su imale dovoljno vremena i upozorenja tokom godina. Da sam ja Western Union ili Swift ili neki drugi posrednik, bio bi prilično zabrinut osim ako stvarno ne planiram prihvatiti ove stvari.", rekao je.
+"Banke su imale dovoljno vremena i upozorenja tokom godina. Da sam ja Western Union ili SWIFT ili neki drugi posrednik, bio bih prilično zabrinut osim ako stvarno ne planiram implementirati ove stvari.", rekao je.
 
-Također je napomenuo da bi svi trebali početi čitati i učiti o blockchainu jer će on uskoro itekako počet utjecat na živote ljudi.
+Također je napomenuo da bi svi trebali početi čitati i učiti o blockchainu jer će on uskoro itekako početi utjecati na živote ljudi.
 Osim Ambika grupe, Bermudska vlada na implementaciji ove tehnologije surađuje i sa Bermuda Business Development Agency.
 
 [link]: http://www.royalgazette.com/business/article/20180124/bermudas-deeds-registry-to-go-on-blockchain
