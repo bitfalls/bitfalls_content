@@ -22,6 +22,11 @@ SWIFT je također izdao veliku nadogradnju sustava zvanu GPI ([Global Payment In
 
 Ripple je 11. siječnja 2018. godine najavio kako će MoneyGram početi s testiranjem njihovog XRP-a koji zbog svoje volatilnosti odbija i bankare i njihove klijente. Šef bankarstva u SWIFT-u, Henry Newman, kaže da takva volatilnost još više komplicira stvari i kako su ovakve solucije više problem nego rješenje. Garlinghouse brani XRP govoreći kako XRP neće implementirati banke nego velike kompanije koje žele slati novce u ne tako čestim valutama.
 
+---
+
+Ako vam je ovaj članak koristio, razmislite o tome da nas podržite u daljnjem radu [donacijom][donate].
+
+[donate]: https://bitfalls.com/hr/donate
 [bc]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
 [cc]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/
 [gpi]: https://www.swift.com/news-events/press-releases/major-global-transaction-banks-are-live-with-swift-gpi
