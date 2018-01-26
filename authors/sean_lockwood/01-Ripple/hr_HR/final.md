@@ -8,7 +8,7 @@ Bitcoin je popločio put mnogim altcoinovima koji ulaze u veliku igru i normalno
 
 Da, oboje su prošli val i predstavljaju goruće kriptovalute, no ipak nisu toliko slični. U stvari, XRP se razlikuje od bitcoina na nekoliko bitnih načina. Prije svega, za razliku od velikog brata, nije stvoren u skladu s određenom vremenskom linijom, kroz proces [rudarenja][mine].
 
-Umjesto toga, oko 100 milijardi XRP-a već je u opticaju, od kojih su mnogi u vlasništvu samoe kompanije Ripple (oko 61 milijarde). Štoviše, uporaba XRP-a je fiksirana na Rippleov blockchain, sustav koji uključuje okvir poznat pod nazivom Unique Node List (UNL).
+Umjesto toga, oko 100 milijardi XRP-a već je u opticaju, od kojih su mnogi u vlasništvu same kompanije Ripple (oko 61 milijarde). Štoviše, uporaba XRP-a je fiksirana na Rippleov blockchain, sustav koji uključuje okvir poznat pod nazivom Unique Node List (UNL).
 
 Trenutno ima pet glavnih validatora, a sve ih pokreće Ripple. Da bismo sve sagledali iz bolje perspektive, recimo da u usporedbi s ovom šačicom [čvorova][node], Bitcoin pokreće njih 10.000, a Ethereum 30.000. Zato postoji velika mogućnost da XRP stvori kategoriju za sebe, odvojenu od više [decentraliziranijih][dec] kriptovaluta.
 
