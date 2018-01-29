@@ -2,7 +2,7 @@ U posljednje vrijeme ljudi se počinju baviti [blockchain][bc] tehnologijom iskl
 
 Suosnivač Blockstacka, Muneeb Ali, gleda na blockchain kao na genijalan izum pomiješan sa neprestanim špekulacijama, [pumpovima][pump], prevarama i slično. Kaže kako je savršeno vrijeme da se developeri posvete izradi tehnologije koju vole, vrijeme kad su cijene [kriptovaluta][cc] niske jer čim cijene porastu, tržište počinje privlačiti pogrešne ljude zbog kojih kompletna tehnologija dolazi na loš glas.
 
-Blockstack briše točke povjerenja iz mreže i koristi blockchain kako bi osigurao kritično povezivanje podataka poput identiteta, nalaženja i spremanja podataka. Nastao je iz eksperimenata na blockchainu Bitcoina odnosno prvog Bitcoin forka, Namecoina, na kojem je izgrađena prva iteracija blockstacka. Zanimljivo je kako su svi developeri koji su gradili ovaj decentralizirani web koristeći blockchain bili prijatelji koji su zajedno pokušavali riješiti probleme koje su stvorile velike centralizirane institucije umjesto da su se međusobno natjecali. 
+Blockstack briše točke povjerenja iz mreže i koristi blockchain kako bi osigurao kritično povezivanje podataka poput identiteta, nalaženja i spremanja podataka. Nastao je iz eksperimenata na blockchainu Bitcoina odnosno prvog Bitcoin forka, Namecoina, na kojem je izgrađena prva iteracija Blockstacka. Zanimljivo je kako su svi developeri koji su gradili ovaj decentralizirani web koristeći blockchain bili prijatelji koji su zajedno pokušavali riješiti probleme koje su stvorile velike centralizirane institucije umjesto da su se međusobno natjecali. 
 
 Nakon što je Blockstack prošle godine izdao svoj vlastiti preglednik, Ali je rekao:
 
