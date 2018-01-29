@@ -12,11 +12,11 @@ Osim predviđanjem ekonomske krize i puknuća balona nekretnina 2007. godine, Ro
 
 Tether je nedavno prekinuo suradnju s revizorskom kućom Friedman što još više dovodi u pitanje stvarnu pokrivenost Tethera američkim dolarom. Friedman je bio zadužen za reviziju kompanije Tether, no sudeći po prošlotjednoj [objavi][objava] na Friedmanovoj službenoj stranici, Friedman više ne zastupa Bitfinex, mjenjačnicu za koju se sumnja da dijeli vlasničku strukturu s Tetherom. 
 
-Theter inače tvrdi kako je svaki izdani token podržan depozitima investitora pa tako kompanija Tether danas drži 2.25 milijarde dolara na svojim bankovnim računima. S obzirom, da je Theter [odsječen od bankarskog sustava][blog] i više nema vanjsku reviziju teško je povjerovati u te tvrdnje.
+Tether inače tvrdi kako je svaki izdani token podržan depozitima investitora pa tako kompanija Tether danas drži 2.25 milijarde dolara na svojim bankovnim računima. S obzirom da je Tether [odsječen od bankarskog sustava][blog] i više nema vanjsku reviziju teško je povjerovati u te tvrdnje.
 
-Anonimni bloger, [Bitfinex'ed][bitfinex], poznat po čestim optužbama Bitfinexa i Tethera o ilegalnim radnjama, [ponovo je upozorio][tweet4] investitore da povuku svoja sredstva što je prije moguće sumnjajući na konstantno printanje Tethera koji nema nikakvog pokrića. 
+Anonimni bloger [Bitfinex'ed][bitfinex], poznat po čestim optužbama Bitfinexa i Tethera za ilegalne radnje, [ponovo je upozorio][tweet4] investitore da povuku svoja sredstva što je prije moguće sumnjajući na konstantno printanje Tethera koji nema nikakvog pokrića. 
 
-Nakon što je priznao kako je prekinuo suradnju s Friedmanom, Theter angažirao je [Madoff and Associates][maa] da nadgleda sve revizijske operacije. Da bi stvar bila još bolja, Bernard Madoff, poznat kao najveći svjetski prevarant i vođa najveće Ponzi scheme ikada, trenutno služi 150 godina zatvorske kazne, pa da će reviziju voditi njegovi suradnici.
+Nakon što je priznao kako je prekinuo suradnju s Friedmanom, Tether je angažirao [Madoff and Associates][maa] da nadgleda sve revizijske operacije. Bernard Madoff, poznat kao najveći svjetski prevarant i vođa najveće Ponzi scheme ikada, trenutno služi 150 godina zatvorske kazne.Reviziju će voditi njegovi bivši suradnici.
 
 ---
 
