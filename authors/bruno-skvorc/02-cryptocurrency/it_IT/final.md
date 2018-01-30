@@ -98,8 +98,8 @@ Adesso che avete un'idea generale di cosa sono le criptovalute, perché non capir
 - [Quanto anonime sono le criptovalute?][anon] - per conoscere meglio come funzionano le transazioni e quanto sono - o non sono - pubbliche o private
 - [Cos'è Ethereum?][eth] - per familiarizzare con la più potente criptovaluta, le sue differenze e i punti in comune con Bitcoin
 
-[blockchain]: https://bitfalls.com/2017/08/20/blockchain-explained-blockchain-works/
-[wallet]: https://bitfalls.com/2017/08/31/what-cryptocurrency-wallet/
+[blockchain]: https://bitfalls.com/it/2017/08/20/blockchain-explained-blockchain-works/
+[wallet]: https://bitfalls.com/it/2017/08/31/what-cryptocurrency-wallet/
 [finite]: https://bitfalls.com/2017/09/17/bitcoin-finite-just-myth/
-[anon]: https://bitfalls.com/2017/09/18/anonymous-cryptocurrencies-like-bitcoin/
-[eth]: https://bitfalls.com/2017/09/19/what-ethereum-compare-to-bitcoin/
+[anon]: https://bitfalls.com/it/2017/09/18/anonymous-cryptocurrencies-like-bitcoin/
+[eth]: https://bitfalls.com/it/2017/09/19/what-ethereum-compare-to-bitcoin/

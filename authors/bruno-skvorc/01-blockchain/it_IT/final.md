@@ -127,8 +127,8 @@ La tecnologia blockchain permette un controllo distribuito nel sistema finanziar
 - [Bitcoin non significa anonimato][anon] per capire perché spesso la gente dice (sbagliando) che Bitcoin è sinonimo di anonimato ed è qualcosa di utile per il mercato nero e i finanziamenti criminali
 - [Cos'è Ethereum?][eth] per iniziare a conoscere la più potente criptovaluta di oggi 
 
-[cryptocurrencies]: https://bitfalls.com/2017/08/20/cryptocurrency/
-[unstoppable]: https://bitfalls.com/2017/08/21/is-bitcoin-unstoppable/
+[cryptocurrencies]: https://bitfalls.com/it/2017/08/20/cryptocurrency/
+[unstoppable]: https://bitfalls.com/it/2017/08/21/is-bitcoin-unstoppable/
 [finite]: https://bitfalls.com/2017/09/17/bitcoin-finite-just-myth/
-[anon]: https://bitfalls.com/2017/09/18/anonymous-cryptocurrencies-like-bitcoin/
-[eth]: https://bitfalls.com/2017/09/19/what-ethereum-compare-to-bitcoin/
+[anon]: https://bitfalls.com/it/2017/09/18/anonymous-cryptocurrencies-like-bitcoin/
+[eth]: https://bitfalls.com/it/2017/09/19/what-ethereum-compare-to-bitcoin/
