@@ -1,4 +1,4 @@
-Korisnici Redita razotkrili su lažnu humanitarnu organizaciju koja je na ovoj društvenoj mreži tvrdila da će prikupljene kriptovalute svojih članova donirati za pomoć gladnoj dijeci u Venezueli.
+Korisnici Reddita razotkrili su lažnu humanitarnu organizaciju koja je na ovoj društvenoj mreži tvrdila da će prikupljene kriptovalute svojih članova donirati za pomoć gladnoj dijeci u Venezueli.
 
 Lažna slikaLažna slika
 
