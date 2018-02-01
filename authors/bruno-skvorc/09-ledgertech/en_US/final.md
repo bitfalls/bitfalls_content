@@ -94,10 +94,10 @@ You can use our web shop to buy [the Bitfalls-branded Ledger][ledger] at a price
 
 For any and all questions, there's also [our email][mail]. Get in touch!
 
-[ledger]: https://bitfalls.com/hr/product/ledger-nano-s-bitfalls/
-[cc]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/
-[bc]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
-[wallet]: https://bitfalls.com/hr/2017/08/31/what-cryptocurrency-wallet/
-[startbtc]: https://bitfalls.com/hr/2017/09/01/send-receive-bitcoin/
+[ledger]: https://bitfalls.com/product/ledger-nano-s-bitfalls/
+[cc]: https://bitfalls.com/2017/08/20/cryptocurrency/
+[bc]: https://bitfalls.com/2017/08/20/blockchain-explained-blockchain-works/
+[wallet]: https://bitfalls.com/2017/08/31/what-cryptocurrency-wallet/
+[startbtc]: https://bitfalls.com/2017/09/01/send-receive-bitcoin/
 [mew]: https://myetherwallet.com
 [mail]: mailto:contact@bitfalls.com
