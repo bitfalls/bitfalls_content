@@ -14,6 +14,11 @@ Kriptovaluta koja se u ovom slučaju rudari je Monero. Monero ne zahtjeva skupu 
 
 Očekuje se sve više zaraženih računala, a na korisnicima je žele li platiti otkupninu ili ne. Sve dok ne plate WannaMine će rudariti kriptovalute na zaraženim računalima i ostvarivati profit.
 
+---
+
+Ako vam je ovaj članak koristio, razmislite o tome da nas podržite u daljnjem radu [donacijom][donate].
+
+[donate]: https://bitfalls.com/hr/donate
 [mine]: https://bitfalls.com/hr/glossary/#mining
 [cc]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/
 [btc]: https://bitfalls.com/hr/2017/09/01/send-receive-bitcoin/
