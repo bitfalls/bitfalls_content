@@ -7,6 +7,11 @@ In complete opposition to Zuckerberg, Jack Dorsey - the CEO of Twitter and Squar
 
 The general acceptance of cryptocurrencies in the world is growing day by day, but also meeting its resistance from the current establishment. In spite of this, the big Asian social and payment network Line [announced][link] that they're opening their own cryptocurrency exchange. Line Chat has around 200 million active users which, compared to CoinDesk with its 13 million is gigantic.
 
+---
+
+If you found this article useful or interesting, please [consider donating][donate] to keep our operation running.
+
+[donate]: https://bitfalls.com/donate
 [fb-ban]: https://www.coindesk.com/facebook-banning-advertisements-bitcoin-icos/
 [link]: https://twitter.com/joonian/status/958493233432186880
 [cc]: https://bitfalls.com/2017/08/20/cryptocurrency/
