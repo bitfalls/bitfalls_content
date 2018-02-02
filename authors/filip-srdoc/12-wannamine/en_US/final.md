@@ -14,6 +14,11 @@ The cryptocurrency being mined is Monero because it doesn't need expensive hardw
 
 More infections are expected before a good antidote is developed.
 
+---
+
+If you found this article useful or interesting, please [consider donating][donate] to keep our operation running.
+
+[donate]: https://bitfalls.com/donate
 [mine]: https://bitfalls.com/glossary/#mining
 [cc]: https://bitfalls.com/2017/08/20/cryptocurrency/
 [btc]: https://bitfalls.com/2017/09/01/send-receive-bitcoin/
