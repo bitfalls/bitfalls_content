@@ -6,6 +6,11 @@ Za razliku od Mark Zuckerberga koji je zasada protiv reklamiranja kriptovaluta, 
 
 Prihvaćenost kriptovaluta u svijetu raste pa je tako i poznata azijska društvena mreža za čavrljanje i plaćanje, Line, [obznanila][link] da otvara svoju burzu kriptovaluta. Line Chat broji 200 milijuna aktivnih korisnika, a samo za usporedbu Line Pay ima tri puta više korisnika od Coinbasea koji broji 13 milijuna korisnika.
 
+---
+
+Ako vam je ovaj članak koristio, razmislite o tome da nas podržite u daljnjem radu [donacijom][donate].
+
+[donate]: https://bitfalls.com/hr/donate
 [link]: https://twitter.com/joonian/status/958493233432186880
 [face]: http://www.bbc.com/news/technology-42881892
 [cc]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/
