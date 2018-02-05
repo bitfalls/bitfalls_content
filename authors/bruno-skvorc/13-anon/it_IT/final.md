@@ -44,7 +44,7 @@ Visto che lo stato dell'intera [blockchain][bc] è pubblico, fare una sbadataggin
 
 Quando un utente bitcoin genera e invia una transazione dal proprio computer, la transazione è inviata a tutti gli altri software bitcoin (miner) che fanno parte del protocollo bitcoin e devono confermare tale transazione.
 
-Visto che non tutti i computer sono uno vicino all'altro, il segnale richiede più tempo per raggiungere quelli più lontani. Ogni miner che riceve una transazione registra anche l'IP dalla quale questa transazione è arrivata. Un indirizzo IP è letteralmente un indirizzo nello "spazio di internet" che definisce dov'è un computer, così che tutti gli altri lo possano trovare. Ogni dispositivo connesso a internet ha un proprio indirizzo IP.
+Visto che non tutti i computer sono uno vicino all'altro, il segnale richiede più tempo per raggiungere quelli più lontani. Ogni miner che riceve una transazione registra anche l'IP dal quale questa transazione è arrivata. Un indirizzo IP è letteralmente un indirizzo nello "spazio di internet" che definisce dov'è un computer, così che tutti gli altri lo possano trovare. Ogni dispositivo connesso a internet ha un proprio indirizzo IP.
 
 Se un'autorità riesce a ottenere abbastanza registri relativi a un IP da diversi miner può confrontarli con i momenti in cui un segnale ha raggiunto una certa macchina e usarli per estrapolare la locazione geografica di chi ha inviato la transazione. Nel caso peggiore tutto questo può permettere di restringere la ricerca a un'area grande quanto un quartiere o una città, nel migliore dei casi può portare davanti alla porta della persona. [Qui][bitip] c'è un accurato documento di ricerca.
 

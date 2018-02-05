@@ -24,13 +24,13 @@ I programmi su Ethereum sono invece scritti utilizzando Solidity, un linguaggio 
 
 Lo stesso Vitalik descrive gli smart contract usando un'analogia con un distributore automatico:
 
-"_Un distributore automatico [...] di massima implementa le condizioni di un certo tipo di accordo. E le condizioni dell'accordo sono semplici. Tu inserisci $2, l'acqua esce. Tu non inserisci $2, l'acqua non esce. Se non metti i $2 ma l'acqua esce lo stesso, allora qualcosa non funziona. E un distributore automatico è di massima una codifica di queste regole, oltre a essere dotato di un meccanismo che garantisce un minimo di sicurezza. Sicuro sufficiente per bottiglie d'acqua da $2._"
+"_Un distributore automatico [...] di massima implementa le condizioni di un certo tipo di accordo. E le condizioni dell'accordo sono semplici. Tu inserisci $2, l'acqua esce. Tu non inserisci $2, l'acqua non esce. Se non metti i $2 ma l'acqua esce lo stesso, allora qualcosa non funziona. E un distributore automatico è di massima una codifica di queste regole, oltre a essere dotato di un meccanismo che lo rende sicuro. Sicuro a sufficienza per bottiglie d'acqua da $2._"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/r0S4qIMf4Pg" frameborder="0" allowfullscreen></iframe>
 
 Quando paghiamo una certa quantità di Ether per uno smart contract, quello smart contract può decidere cosa fare di questo Ether: inviarlo all'indirizzo A in base a una condizione, all'indirizzo B in base a un'altra, bloccarlo per un certo periodo di tempo, rimborsarlo, spostarlo in base a un input esterno, innescare un output esterno sulla base di questo Ether e via dicendo.
 
-Un esempio pratico sarebbe replicare Kickstarter. Kickstarter è un sito che permette di raccogliere fondi per dei progetti prima che questi vengano lanciati. La regola di base è che, se una certa quantità di soldi viene superata in un certo numero di giorni, il progetto è stato un successo e il denaro può essere inviato ai creatori dello stesso. In caso contrario, è soldi vengono restituiti. Questa semplice condizione è molto semplice da replicare con gli smart contract eliminando dall'equazione errori umani, avidità e intermediari, offrendo un modo completamente decentralizzato di raccogliere fondi.
+Un esempio pratico sarebbe replicare Kickstarter. Kickstarter è un sito che permette di raccogliere fondi per dei progetti prima che questi vengano lanciati. La regola di base è che, se una certa quantità di soldi viene superata in un certo numero di giorni, il progetto è stato un successo e il denaro può essere inviato ai creatori dello stesso. In caso contrario, i soldi vengono restituiti. Questa semplice condizione è molto semplice da replicare con gli smart contract eliminando dall'equazione errori umani, avidità e intermediari, offrendo un modo completamente decentralizzato di raccogliere fondi.
 
 Le applicazioni create con gli smart contract vengono chiamate app decentralizzate o _dapp_.
 
@@ -42,13 +42,13 @@ Un token può essere un biglietto per un concerto, punti fedeltà in un negozio, v
 
 ![Una carta fedeltà](https://bitfalls.com/wp-content/uploads/2017/09/02-3.jpg)
 
-Con la nascita di sempre più token, il loro formato è stato reso standard tramite [ERC20][erc20], un insieme di regole su come svilupparli in modo che siano gestibili da vari exchange e sistemi. Questo significa che tutti i token ERC20 hanno alcune caratteristiche comuni come un simbolo per gli exchange,un'icona, eccetera, che li rende semplici da elencare nei vari siti web riutilizzando lo stesso codice utilizzato per un precedente codice ERC20.
+Con la nascita di sempre più token, il loro formato è stato reso standard tramite [ERC20][erc20], un insieme di regole su come svilupparli in modo che siano gestibili da vari exchange e sistemi. Questo significa che tutti i token ERC20 hanno alcune caratteristiche comuni come un simbolo per gli exchange, un'icona, eccetera, che li rende semplici da elencare nei vari siti web riutilizzando lo stesso codice utilizzato per un precedente codice ERC20.
 
 Creare token ERC20 in combinazione con gli smart contract è la caratteristica rivoluzionaria di Ethereum, pronta a cambiare completamente il modo di fare business. I token danno la possibilità alle aziende di essere autonome, permettono acquisti parziali di beni digitali, permettono anche la creazione di macchine autonome in grado di guidarsi da sole, acquisire clienti, lasciarli o raccogliere pagamenti. Il numero di casi possibili è talmente grande che non abbiamo nemmeno scalfito la superficie.
 
 ## PoS
 
-La terza, grande differenza da bitcoin è che Ethereum passerà a una diversa, alternativa modalità di _mining_ chiamata PoS (Proof of Stake, prova di partecipazione) invece della PoW (Proof of Work, prova di lavoro).
+La terza, grande differenza da bitcoin è che Ethereum passerà a una modalità di _mining_ diversa e alternativa chiamata PoS (Proof of Stake, prova di partecipazione) invece della PoW (Proof of Work, prova di lavoro).
 
 Tramite [bitcoin][bc], un'unità di prova di lavoro è l'hash ottenuto tramite calcoli massicci. Faremo presto un post su PoS e PoW ma, per adesso, è sufficiente dire che con un sistema PoS non ci sono sprechi a livello di elettricità, caratteristica importante vista la [dominazione cinese sul mining][finite].
 

@@ -22,7 +22,7 @@ La BIP 39 definisce anche un modo per rendere sicure queste 24 parole con una pa
 
 _**Curiosità:** Questa passphrase è diversa dalle password che normalmente si usano perché non viene prodotto alcun messaggio di errore se viene utilizzata quella errata. Qualsiasi passphrase combinata con 24 parole produce un seed valido, utilizzato in scenari di negabilità plausibile - un meccanismo di protezione da estorsione che spiegheremo più tardi._
 
-Questo seed è utilizzato per generare una _root key_ - una combinazione non indovinabile di lettere e numeri - per ogni criptovaluta della quale siete interessati. Ogni [blockchain][bc] ha il proprio metodo di generazione della root key a partire dal seed, e nell'esempio dei bitcoin viene dalla [BIP 32] (https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) che porta ad avere chiavi come questa: `xprv9s21ZrQH143K3QTDL4LXw2F7HEK3wJUD2nW2nRk4stbPy6cq3jPPqjiChkVvvNKmPGJxWUtg6LnF5kejMRNNU3TGtRBeJgk33yuGBxrMPHi`. 
+Questo seed è utilizzato per generare una _root key_ - una combinazione non indovinabile di lettere e numeri - per ogni criptovaluta alla quale siete interessati. Ogni [blockchain][bc] ha il proprio metodo di generazione della root key a partire dal seed, e nell'esempio dei bitcoin viene dalla [BIP 32] (https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) che porta ad avere chiavi come questa: `xprv9s21ZrQH143K3QTDL4LXw2F7HEK3wJUD2nW2nRk4stbPy6cq3jPPqjiChkVvvNKmPGJxWUtg6LnF5kejMRNNU3TGtRBeJgk33yuGBxrMPHi`. 
 
 Questa chiave viene poi utilizzata per generare varie chiavi private che diventano [wallet di criptovalute][wallet] per una certa blockchain.
 
