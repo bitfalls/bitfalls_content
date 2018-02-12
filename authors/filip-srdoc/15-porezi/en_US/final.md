@@ -1,4 +1,6 @@
-The text below is our own interpretation of the official announcement and article on cryptocurrencies and taxes from [RRIF][rrif] by [dr. sc. Nevia Čičin-Šain][autor], plus some non-Croatian information on global tax status of cryptocurrencies sprinkled in for good measure. 
+_The text below is our own interpretation of the official announcement and article on cryptocurrencies and taxes from [RRIF][rrif] by [dr. sc. Nevia Čičin-Šain][autor], plus some non-Croatian information on global tax status of cryptocurrencies sprinkled in for good measure._
+
+---
 
 RRIF is a magazine and Croatia's authority on tax and accounting matters and is legally accepted as a means of dispute resolution in court. Ergo, the source material can be considered Croatia's newest official stance on cryptocurrencies.
 
@@ -69,7 +71,10 @@ For example, Croatia's tax office replied that people can accept cryptocurrency 
 
 Mining bitcoin is considered additional income - a production of sellable goods and is taxed as such in most countries.
 
-In Croatia in particular, the tax rate for this is 24% if the income for the person or company does not exceed 210000 HRK (around $32,000) per year, and the tax goes up to 36% above that. This means that when mining and selling cryptocurrency, you lose 36% of every mined bitcoin you earn. At $10000 per BTC, that's a whopping $3600 that just evaporates.
+In Croatia in particular, the tax rate for this is 24% if the income for the person or company does not exceed 210000 HRK (around $32,000) per year, and the tax goes up to 36% above that. This means that up to 210k will require you to pay 50.2k in tax while amounts earned past 210k will cost 36% on the difference. The 210k include all taxable income, including salary, authorship and freelance work contracts, etc. and tax expenses like supported familiy members also go into this amount, decreasing it, so having a lot of those can offset a high tax bill.
+
+
+This means that if you're mining and selling cryptocurrency, $2400 of it just evaporates until you reach about $32k, which is around 3 BTC. Once you're past that point, every following bitcoin will suddenly be worth not $2400 less, but a whopping $3600 less.
 
 ### Selling Cryptocurrency
 
