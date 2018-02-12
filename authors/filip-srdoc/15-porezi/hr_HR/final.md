@@ -1,4 +1,4 @@
-U tekstu dolje je naša interpretacija službene objave o oporezivanju kriptovaluta iz časopisa [RRIF][rrif], koji se smatra zakonskim standardom u računovodstvenim, pravnim, i poreznim pitanjima. Stoga, taj se izvorni tekst može smatrati službenom najnovijom izjavom RH o kriptovalutama.
+U tekstu dolje je naša interpretacija službene objave o oporezivanju kriptovaluta iz časopisa [RRIF][rrif] auorice [dr. sc. Nevie Čičin-Šain][autor] , koji se smatra zakonskim standardom u računovodstvenim, pravnim, i poreznim pitanjima. Stoga, taj se izvorni tekst može smatrati službenom najnovijom izjavom RH o kriptovalutama.
 
 Prema [FATF-u][fatf] (Financial Action Task Force) virtualni novac obilježavaju klasične funkcije novca: on je sredstvo razmjene te mjera i pohrana vrijednost. No, postoji razlika između klasičnog [fiat][fiat] novca i virtualnog novca. Naime, fiat novac je službeno sredstvo plaćanja u nekoj državi kojeg izdaje središnja banka te države, za razliku od virtualnog novca koji nigdje nije prihvaćen kao službeno sredstvo plaćanja i koji nastaje [rudarenjem][bc] odnosno [stake-anjem][stake].
 
@@ -10,7 +10,8 @@ Bitcoin, kao i većina drugih [kriptovaluta][cc], se može steći rudarenjem, ku
 
 [Što je kriptovaluta?][cc] To znamo manje-više svi, no što je kriptovaluta u očima države? Roba, novac, vrijednosni papir ili nešto treće? Kako bismo odredili izravne i neizravne poreze na kriptovalute, prvo ih moramo klasificirati. [Neke države][link] na kriptovalute gledaju kao na dobra odnosno _asset_, dok nekim drugima kriptovaluta predstavlja novac.
 
-Da bi, primjerice, bitcoin bio novac on mora zadovoljavati tri funkcije s početka članka. S obzirom da ga ljudi koriste u transakcijama  ([hipotetski][digi]), prva funkcija sredstva razmjene je zadovoljena. No, kad govorimo o drugoj, funkciji mjere vrijednosti, oko nje se neće svi složiti. Naime, da bi nešto moglo biti jedinica za mjeru vrijednosti ono samo mora imati neku lako odredljivu intrinzičnu vrijednost. Tu se postavlja pitanje: što određuje vrijednost kriptovalute? Vrijednost kriptovalute izražavamo drugim svjetski priznatim valutama što nas dovodi do zaključka da bez poznavanja tečaja neke kriptovalute u odnosu na neku svjetski priznatu valutu ne možemo odrediti njezinu vrijednost. Treća funkcija virtualnog novca odnosno valute govori da valuta treba biti pouzdana i stabilna kako bi služila za pohranu vrijednosti. Iako na bitcoin i ostale kriptovalute ne utječe politička situacija (barem tako tvrdi RRIF) niti [inflacija][inf] i slični problemi koji stvaraju probleme fiat valutama, postoji mogućnost da na vrijednost jedne kriptovalute utječe druga, jača kriptovaluta. Naravno, svi ovi uvjeti mogu, a i ne moraju biti ostvareni u budućnosti.
+Da bi, primjerice, bitcoin bio novac on mora zadovoljavati tri funkcije s početka članka. S obzirom da ga ljudi koriste u transakcijama  ([hipotetski][digi]), prva funkcija sredstva razmjene je zadovoljena. No, kad govorimo o drugoj, funkciji mjere vrijednosti, oko nje se neće svi složiti. Naime, da bi nešto moglo biti jedinica za mjeru vrijednosti ono samo mora imati neku lako odredljivu intrinzičnu vrijednost. Tu se postavlja pitanje: što određuje vrijednost kriptovalute? Vrijednost kriptovalute izražavamo drugim svjetski priznatim valutama što nas dovodi do zaključka da bez poznavanja tečaja neke kriptovalute u odnosu na neku svjetski priznatu valutu ne možemo odrediti njezinu vrijednost. Treća funkcija virtualnog novca odnosno valute govori da valuta treba biti pouzdana i stabilna kako bi služila za pohranu vrijednosti. Iako na bitcoin i ostale kriptovalute ne utječe politička situacija (barem tako tvrdi dr. sc. Nevia Čičin-Šain u članku 
+-a) niti [inflacija][inf] i slični problemi koji stvaraju probleme fiat valutama, postoji mogućnost da na vrijednost jedne kriptovalute utječe druga, jača kriptovaluta. Naravno, svi ovi uvjeti mogu, a i ne moraju biti ostvareni u budućnosti.
 
 Prema RRIF-u se osim ovih funkcija novca, kriptovalute ne mogu smatrati novcem iz sljedećih razloga:
 1. Novac u pravnom smislu označava dug koji stvara vlada
@@ -88,7 +89,9 @@ Isto tako mislimo da nije racionalno da zakonodavac dozvoli isplatu mirovina ili
 Govorili smo o nekim modelima zakonodavstva pod koje bi kriptovaluta mogla spadati poput igri na sreću, poreza na dohodak od imovine i imovinskih prava, poreza na dohodak od samostalne djelatnosti te poreza na dohodak od kapitala. Kriptovalute bi trebale biti ili gospodarska djelatnost ili zarada od kapitalne dobiti. Dohodak od kapitala po osnovi kapitalnih dobitaka trebao bi biti porezni režim ovog novog prenosivog financijskog instrumenta.
 S obzirom na to da malo tko piše i nagađa što bi se po ovim pitanjima moglo realizirati u Hrvatskoj ostavljamo prostor za daljnja istraživanja ovog područja.
 
-Ovaj je članak naša interpretacija službenog članka o oporezivanju kriptovaluta iz RRIF UDK657.1/336.2, kojeg u cijelosti možete pročitati [ovdje][rrif].
+Ovaj je članak naša interpretacija službenog članka o oporezivanju kriptovaluta autorice [dr. sc. Nevie Čičin-Šain][autor] objavljenom u časopisu RRIF UDK657.1/336.2, kojeg u cijelosti možete pročitati [ovdje][rrif].
+
+Ovaj članak je u momentu publikacije referencirao [RRIF][rrif] članak iz kojeg je izvučen sažetak, no nije spominjao ime [autorice][autor]. Bifalls se ispričava za propust, ime je sada uključeno kraj svake poveznice
 
 ---
 
@@ -122,3 +125,4 @@ Ako vam je ovaj članak koristio, razmislite o tome da nas podržite u daljnjem 
 [anon]: https://bitfalls.com/hr/2017/09/18/anonymous-cryptocurrencies-like-bitcoin/
 [blockex]: https://bitfalls.com/hr/2017/10/03/read-bitcoin-blockchain-data-blockexplorer/
 [rrif]: http://www.rrif.hr/brza_pretraga.html?trazi=oporezivanje%20bitcoina
+[autor]: https://hr.linkedin.com/in/nevia-cicin-sain-283b0092
