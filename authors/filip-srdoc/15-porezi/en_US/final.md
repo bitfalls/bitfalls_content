@@ -1,4 +1,4 @@
-The text below is our own interpretation of the official announcement and article on cryptocurrencies and taxes from [RRIF], plus some non-Croatian information on global tax status of cryptocurrencies sprinkled in for good measure. 
+The text below is our own interpretation of the official announcement and article on cryptocurrencies and taxes from [RRIF][rrif] by [dr. sc. Nevia Čičin-Šain][autor], plus some non-Croatian information on global tax status of cryptocurrencies sprinkled in for good measure. 
 
 RRIF is a magazine and Croatia's authority on tax and accounting matters and is legally accepted as a means of dispute resolution in court. Ergo, the source material can be considered Croatia's newest official stance on cryptocurrencies.
 
@@ -93,6 +93,8 @@ We also don't see it as rational to disallow salaries paid out in crypto - there
 
 We're leaving this space open to interpretation, and are inviting you to give us your opinions and your country's facts and decisions - bonus points if you can back them up by linking to official declarations we can link to in the text!
 
+At the moment of publication, this article failed to credit the original author of the post used as inspiration, rather linking only to the source. Bitfalls apologizes for this slip-up, which has now been rectified. Both links have been amended
+
 ---
 
 If you found this article useful or interesting, please [consider donating][donate] to keep our operation running.
@@ -124,3 +126,4 @@ If you found this article useful or interesting, please [consider donating][dona
 [anon]: https://bitfalls.com/2017/09/18/anonymous-cryptocurrencies-like-bitcoin/
 [blockex]: https://bitfalls.com/2017/10/03/read-bitcoin-blockchain-data-blockexplorer/
 [rrif]: http://www.rrif.hr/brza_pretraga.html?trazi=oporezivanje%20bitcoina
+[autor]: https://hr.linkedin.com/in/nevia-cicin-sain-283b0092
