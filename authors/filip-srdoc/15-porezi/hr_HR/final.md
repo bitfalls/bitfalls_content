@@ -93,7 +93,9 @@ S obzirom na to da malo tko piše i nagađa što bi se po ovim pitanjima moglo r
 
 Ovaj je članak naša interpretacija službenog članka o oporezivanju kriptovaluta autorice [dr. sc. Nevie Čičin-Šain][autor] objavljenom u časopisu RRIF UDK657.1/336.2, kojeg u cijelosti možete pročitati [ovdje][rrif].
 
-Ovaj članak je u momentu publikacije referencirao [RRIF][rrif] članak iz kojeg je izvučen sažetak, no nije spominjao ime [autorice][autor]. Bifalls se ispričava za propust, ime je sada uključeno kraj svake poveznice
+---
+ 
+_Ovaj članak je u momentu publikacije referencirao [RRIF][rrif] članak iz kojeg je izvučen sažetak, no nije spominjao ime [autorice][autor]. Bifalls se ispričava za propust, ime je sada uključeno kraj svake poveznice_
 
 ---
 
