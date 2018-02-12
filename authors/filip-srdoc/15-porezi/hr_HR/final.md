@@ -102,7 +102,6 @@ _Ovaj članak je u momentu publikacije referencirao [RRIF][rrif] članak iz koje
 Ako vam je ovaj članak koristio, razmislite o tome da nas podržite u daljnjem radu [donacijom][donate].
 
 [donate]: https://bitfalls.com/hr/donate
-
 [fatf]: http://www.fatf-gafi.org/media/fatf/documents/reports/Virtual-currency-key-definitions-and-potential-aml-cft-risks.pdf
 [fiat]: https://bitfalls.com/hr/glossary/#fiat
 [bc]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
