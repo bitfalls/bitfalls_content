@@ -98,7 +98,9 @@ We also don't see it as rational to disallow salaries paid out in crypto - there
 
 We're leaving this space open to interpretation, and are inviting you to give us your opinions and your country's facts and decisions - bonus points if you can back them up by linking to official declarations we can link to in the text!
 
-At the moment of publication, this article failed to credit the original author of the post used as inspiration, rather linking only to the source. Bitfalls apologizes for this slip-up, which has now been rectified. Both links have been amended
+---
+
+_At the moment of publication, this article failed to credit the original author of the post used as inspiration, rather linking only to the source. Bitfalls apologizes for this slip-up, which has now been rectified. Both links have been amended._
 
 ---
 
