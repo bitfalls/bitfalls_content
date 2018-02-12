@@ -1,4 +1,4 @@
-U tekstu dolje je naša interpretacija službene objave o oporezivanju kriptovaluta iz časopisa [RRIF][rrif] auorice [dr. sc. Nevie Čičin-Šain][autor] , koji se smatra zakonskim standardom u računovodstvenim, pravnim, i poreznim pitanjima. Stoga, taj se izvorni tekst može smatrati službenom najnovijom izjavom RH o kriptovalutama.
+U tekstu dolje je naša interpretacija službene objave o oporezivanju kriptovaluta iz časopisa [RRIF][rrif] autorice [dr. sc. Nevie Čičin-Šain][autor] , koji se smatra zakonskim standardom u računovodstvenim, pravnim, i poreznim pitanjima. Stoga, taj se izvorni tekst može smatrati službenom najnovijom izjavom RH o kriptovalutama.
 
 Prema [FATF-u][fatf] (Financial Action Task Force) virtualni novac obilježavaju klasične funkcije novca: on je sredstvo razmjene te mjera i pohrana vrijednost. No, postoji razlika između klasičnog [fiat][fiat] novca i virtualnog novca. Naime, fiat novac je službeno sredstvo plaćanja u nekoj državi kojeg izdaje središnja banka te države, za razliku od virtualnog novca koji nigdje nije prihvaćen kao službeno sredstvo plaćanja i koji nastaje [rudarenjem][bc] odnosno [stake-anjem][stake].
 
