@@ -1,4 +1,4 @@
-Američki CFTC (Commodity Futures Trading Commission) u svom je [priopćenju][link] upozorio investitore u [kriptovalute][cc] da izbjegavaju Pump&Dump sheme (P&D u nastavku) o kojima smo detaljno pisali [ovdje][ovdje]. P&D se najčešće odrađuju na [altcoinovima][alt] koji imaju mali udio na tržištu i malu količinu u optjecaju. CFTC kaže kako investitori ne bi trebali ulagati u kriptovalute vodeći se naglim rastom cijena ili promoviranjem istih na društvenim mrežama te kako bi trebali razlikovati stvarne činjenice od razvikanosti (_hype_).
+Američki CFTC ([Commodity Futures Trading Commission][cftc]) u svom je [priopćenju][link] upozorio investitore u [kriptovalute][cc] da izbjegavaju Pump&Dump sheme (P&D u nastavku) o kojima smo detaljno pisali [ovdje][ovdje]. P&D se najčešće odrađuju na [altcoinovima][alt] koji imaju mali udio na tržištu i malu količinu u optjecaju. CFTC kaže kako investitori ne bi trebali ulagati u kriptovalute vodeći se naglim rastom cijena ili promoviranjem istih na društvenim mrežama te kako bi trebali razlikovati stvarne činjenice od razvikanosti (_hype_).
 
 P&D shema je poznati stari način prijevare u kojoj se grupa velikih investitora dogovori da će kupiti određene dionice neke tvrtke u velikim količinama i tako cijenu tih dionica podići i do nekoliko puta. Kada to uoče mali investitori oni, vodeći se naglim porastom cijene i _hypom_, počinju kupovati tu dionicu dižući joj cijenu još više. Tada investitori koji su započeli P&D shemu svoje dionice rasprodaju po daleko većoj cijeni od one po kojoj su je prvobitno kupili, rušeći tako cijenu dionice koja potom postaje bezvrijedna. Organizatori P&D sheme tu ubiru veliku zaradu dok mali investitori najčešće gube sav ulog postajući tako [bagholderi][bag].
 
@@ -23,3 +23,4 @@ Ako vam je ovaj članak koristio, razmislite o tome da nas podržite u daljnjem 
 [shit]: https://bitfalls.com/hr/glossary/#ath
 [ovdje]: https://bitfalls.com/hr/2018/01/12/anatomy-pump-dump-group/
 [cc]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/
+[cftc]: http://www.cftc.gov/index.htm
