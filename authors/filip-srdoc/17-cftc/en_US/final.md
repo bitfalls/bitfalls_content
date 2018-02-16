@@ -1,4 +1,4 @@
-In its recent [announcement][link], the CFTC (Commodity Futures Trading Commission) warned investors about Pump & Dump schemes (P&D) which we've covered [here][ovdje] in detail. P&D schemes are generally done on altcoins which have a small market cap and small total supply. The CFTC says investors shouldn't buy cryptocurrency based on their price spikes or their promotions on social networks, but should rather educate themselves on how to recognize hype from fact.
+In its recent [announcement][link], the CFTC ([Commodity Futures Trading Commission][cftc]) warned investors about Pump & Dump schemes (P&D) which we've covered [here][ovdje] in detail. P&D schemes are generally done on altcoins which have a small market cap and small total supply. The CFTC says investors shouldn't buy cryptocurrency based on their price spikes or their promotions on social networks, but should rather educate themselves on how to recognize hype from fact.
 
 P&D schemes are well known criminal endeavors from the unregulated days of the stock market where several bigger investors agreed to buy a company's stock in large amounts, thereby inflating its price. Once small investors notice this price rise, they'll be drawn to the asset and will purchase based on hype and [FOMO], further pumping the price. The investors who started the scheme then sell their own pre-purchased assets to these new investors, netting a hefty profit on the difference, crashing the price (the dump phase). Small investors who fell for the scheme then become [bagholders][bag].
 
@@ -15,11 +15,10 @@ If you found this article useful or interesting, please [consider donating][dona
 [donate]: https://bitfalls.com/donate
 [report]: http://www.cftc.gov/ConsumerProtection/FileaTiporComplaint/index.htm
 [link]: http://www.cftc.gov/idc/groups/public/@customerprotection/documents/file/customeradvisory_pumpdump0218.pdf
-[alt]: https://bitfalls.com/hr/glossary/#alt-coins
-[bag]: https://bitfalls.com/hr/glossary/#bagholder
-[exc]: https://bitfalls.com/hr/glossary/#exchange
-[shit]: https://bitfalls.com/hr/glossary/#ath
-[ovdje]: https://bitfalls.com/hr/2018/01/12/anatomy-pump-dump-group/
-[cc]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/
-
-[FOMO]: https://bitfalls.com/hr/glossary/#fomo
+[alt]: https://bitfalls.com/glossary/#alt-coins
+[bag]: https://bitfalls.com/glossary/#bagholder
+[exc]: https://bitfalls.com/glossary/#exchange
+[ovdje]: https://bitfalls.com/2018/01/12/anatomy-pump-dump-group/
+[cc]: https://bitfalls.com/2017/08/20/cryptocurrency/
+[cftc]: http://www.cftc.gov/index.htm
+[FOMO]: https://bitfalls.com/glossary/#fomo
