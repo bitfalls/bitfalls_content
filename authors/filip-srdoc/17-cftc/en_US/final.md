@@ -15,11 +15,10 @@ If you found this article useful or interesting, please [consider donating][dona
 [donate]: https://bitfalls.com/donate
 [report]: http://www.cftc.gov/ConsumerProtection/FileaTiporComplaint/index.htm
 [link]: http://www.cftc.gov/idc/groups/public/@customerprotection/documents/file/customeradvisory_pumpdump0218.pdf
-[alt]: https://bitfalls.com/hr/glossary/#alt-coins
-[bag]: https://bitfalls.com/hr/glossary/#bagholder
-[exc]: https://bitfalls.com/hr/glossary/#exchange
-[shit]: https://bitfalls.com/hr/glossary/#ath
-[ovdje]: https://bitfalls.com/hr/2018/01/12/anatomy-pump-dump-group/
-[cc]: https://bitfalls.com/hr/2017/08/20/cryptocurrency/
+[alt]: https://bitfalls.com/glossary/#alt-coins
+[bag]: https://bitfalls.com/glossary/#bagholder
+[exc]: https://bitfalls.com/glossary/#exchange
+[ovdje]: https://bitfalls.com/2018/01/12/anatomy-pump-dump-group/
+[cc]: https://bitfalls.com/2017/08/20/cryptocurrency/
 [cftc]: http://www.cftc.gov/index.htm
-[FOMO]: https://bitfalls.com/hr/glossary/#fomo
+[FOMO]: https://bitfalls.com/glossary/#fomo
