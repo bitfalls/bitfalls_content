@@ -1,4 +1,4 @@
-As the profile of [cryptocurrencies][crypto] swell worldwide, much has been made of their potential to revolutionize various industries. Switching from Web 2.0 to Web 3.0 and from the traditional financial system to a new, [Ethereum][ethereum]- or Bitcoin-based one is often portrayed as a risk-free move, hampered only by fear of the future. Cryptocurrencies promise lower fees, more transparency for consumers, a greater degree of freedom with one’s money, and so on and so forth. However, over the last several months, anxiety over the ecological impact of cryptocurrency mining has begun to grow.
+As the profile of [cryptocurrencies][crypto] swells worldwide, much has been made of their potential to revolutionize various industries. Switching from Web 2.0 to Web 3.0 and from the traditional financial system to a new, [Ethereum][ethereum]- or Bitcoin-based one is often portrayed as a risk-free move, hampered only by fear of the future. Cryptocurrencies promise lower fees, more transparency for consumers, a greater degree of freedom with one’s money, and so on and so forth. However, over the last several months, anxiety over the ecological impact of cryptocurrency mining has begun to grow.
 
 What is cryptocurrency mining? Simply put, mining is the process of recording transactions to the blockchain in exchange for cryptocurrency. This process involves hugely intensive mathematical calculations, which both authenticate and confirm transactions, thereby allowing the blockchain to function. Due to the size and volume of these networks, this is a vastly energy-intensive process (although not for enterprising DIYers like [Ken Shirriff][shirriff], who reports energy savings of up to one quadrillion times less than a typical hardware mining rig!). [For a primer on cryptocurrency mining and blockchain technology, see here][mining].
 
@@ -33,6 +33,12 @@ Like The MoonLite Project, the team behind HydroMiner is quick to point out that
 Elsewhere, amidst rumors of China forcing large mining groups from the country, large minings groups are looking to Quebec for similar reasons that MoonLite is looking at Iceland: cheap, renewable energy, and a cold climate to keep costs down. Quebec is also eager to bring this new industry into the province, where the clients want on average one to two hundred times more daily power than the existing largest clients. 
 
 In this climate of ecological anxiety, many people think that anything that can be done to limit our impact on the environment is good, whatever the cost. More power to those who are finding practical and profitable ways to take us into an sustainable, green future.
+
+---
+
+If you found this article useful or interesting, please [consider donating][donate] to keep our operation running.
+
+[donate]: https://bitfalls.com/donate
 
 [crypto]:https://bitfalls.com/2017/08/20/cryptocurrency/
 [ethereum]: https://bitfalls.com/2017/09/19/what-ethereum-compare-to-bitcoin/
