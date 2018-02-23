@@ -18,6 +18,8 @@ Fear-inducing headlines abound:
 
 Bitcoin alone has been accused of consuming as much energy as [Serbia][serbia], [Denmark][denmark], and [Ireland][ireland], among other small countries. With all of this apocalyptic rhetoric, who’s actually looking towards a bright future?
 
+## Green Mining
+
 Enter [The MoonLite Project][moonlite] and [HydroMiner][hydrominer], two promising initiatives that aim to tackle the problem of non-sustainable cryptocurrency mining.
 
 The team behind The MoonLite Project is based in London, UK, and Pretoria, South Africa. Their entry into the sustainable cryptocurrency mining space will take place in August, 2018, when they begin operations at their data centre in Iceland. They plan to mine Bitcoin (BTC), Bitcoin Cash (BCH), Dash (DASH), Ethereum (ETH), and Litecoin (LTC), with an eye to expanding their pool in the future.
