@@ -8,7 +8,7 @@ Also known as PPCoin and PPC, **Peercoin is a cryptocurrency which introduced th
 
 The fact that the mining reward decreases over time can have a negative impact on the presence of extremely important miners in the ecosystem, thus enabling the concentration of mining power in one place. The person who controls over 50% of mining power can theoretically duplicate all transactions and send all tokens to his own address, thus seriously endangering the stability of the cryptocurrency. This is called a [51% attack][6]. Also, the amount of energy spent in order to power special mining devices is enormously high, making the PoW method questionably profitable, especially combining this with the aforementioned mining reward decrease. Compensating this with raising transaction fees in order to keep the miners reduces the practical usage of a given cryptocurrency. In general, the more profitable it is to mine a cryptocurrency, the more desirable and secure it will become.
 
-![1.png](../images/1.png)
+![1.png](https://bitfalls.com/wp-content/uploads/2018/03/01-1.jpg)
 
 The Proof-of-stake method generates coins based on the amount and age of those kept in a user's [wallet][7]. Peercoin suggests this method as the main basis for keeping the blockchain secure, while the mechanism of selecting the next block forger is based on the so-called *coin day*. This value is the product of the token amount and time they’ve been sitting in a user’s wallet. This concept required a slight modification of the core Bitcoin blockchain by adding the *timestamp* of each transaction, thus making the process of calculating coin days easy. 
 
@@ -20,7 +20,7 @@ Peercoin solved the potential monopoly problem of users owning high amounts of c
 
 The concept of coin age is an efficient solver of the problem of determining the main chain after separating the blockchain to 2 identical ones ([fork][9]), in cases when a part of the community disagrees with the coin’s future development plan. A good example for that can be found in the recent [Bitcoin Gold fork][10] that deeply divided the community, thus showing how a huge amount of cryptocurrency in wrong hands, combined with the fairly new market full of inexperienced traders can endanger the whole ecosystem. Peercoin determines the main chain based on the data of “spending” coin age for each transaction in each block. The main chain is the one that has a bigger total amount of spent coin age – this is the proof that this chain has existed longer.
 
-![2.png](../images/2.png)
+![2.png](https://bitfalls.com/wp-content/uploads/2018/03/02.jpeg)
 
 Also, due to the PoS system, Peercoin is much less susceptible to a potential 51% attack. Given the fact that by keeping Peercoin in an encrypted wallet unlocked only for minting the user makes the network more secure while also increasing his chances of generating a new block, the majority of coins is located in wallets instead on exchanges. A potential attacker would have to own over 51% of total coin age of all coins participating in the minting process, which is a considerable effort due to the fact that they are located in wallets. The investment for executing such an attack would quickly rise exponentially, because the price of a single Peercoin would grow significantly due to the high demand. Moreover, by purchasing an excessive amount of coins, the attacker would actually harm himself, because his actions would cause the price of Peercoin to drop if he decides to cash them out.
 
@@ -45,7 +45,7 @@ There are four main ways of getting your PPC tokens:
 
 For those willing to try out Peercoin mining we should note that since it is directly based on the core Bitcoin blockchain and its SHA-256 mining algorithm, Peercoin now requires powerful and specialized machines for creating blocks through the PoW method – the so-called [ASIC miners][14]. Naturally, the question of long-term profitability of initial investment is raised, which could reach several thousand dollars, especially due to the fact that Peercoin doesn’t prefer this method. Mining generates a block of 820 bytes roughly every 10 minutes, with the reward of approximately 90 USD per block making profitability, in accordance with the initial design, greatly reduced. For those who do want to try out mining or just get to know something more about the process, a good guide with the list of available mining pools can be found on the [official website][15]. Of course, before actually beginning with mining, we strongly advise you to do mining profitability calculation by using one of the [online calculators][16].
 
-![3.png](../images/3.png)
+![3.png](https://bitfalls.com/wp-content/uploads/2018/03/03-1.jpg)
 
 The concept of minting which makes you an owner and miner at the same time, thus contributing to the overall network security, is fantastically described on the official [blog][17] where you can find reasons to join in, how to enable minting on your wallet, how safe the procedure is, and so on. Minting usually gets you 1% annual income of coins that are participating in minting.
 
@@ -64,7 +64,7 @@ The greatest perks of PeerAssets are:
 - Direct advantages of running on the Peercoin blockchain – fixed transaction costs, relatively small blockchain size, security, and maintainability, 
 - The low price of custom code execution due to the blockchain structure and the volume of freed space.
 
-![4.png](../images/4.png)
+![4.png](https://bitfalls.com/wp-content/uploads/2018/03/04.png)
 
 There is also [Indicium][23], a decentralized autonomous company (DAC) based on the PeerAssets protocol, with the aim of creating and trading cryptocurrency indexes. Actively present in the world of finance since 1974, indexes represent a relative change of stock prices of several grouped companies, representing a specific portion of the market. As an example, a 2% index increase means that each underlying company saw an average of 2% stock price increase. 
 
@@ -72,7 +72,7 @@ By using the blockchain’s security and immutability as advantages, as well as 
 
 The design dictates that a majority of value will be stored in cold wallets, while the smaller portion will be used for trading on exchanges. Unlike its Slovenia-based competitor Iconomi that is more focused on cryptocurrency baskets created by users, Indicium relies on the powerful algorithms and automated basket creation. The good news is that Indicium successfully completed its first round of investments, so the work will surely be continued.
 
-![5.png](../images/5.png)
+![5.png](https://bitfalls.com/wp-content/uploads/2018/03/05.png)
 
 ## Conclusion
 
