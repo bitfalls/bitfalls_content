@@ -8,7 +8,7 @@ Poznat i kao PPCoin i PPC, **Peercoin je kriptovaluta koja prva uvodi upotrebu p
 
 U prvom redu, činjenica da se rudarska nagrada s vremenom smanjuje može negativno utjecati na prisutnost iznimno važnih rudara u ekosustavu, te omogućiti koncentraciju rudarske snage na jednom mjestu. Osoba koja kontrolira preko polovice rudarske moći teoretski može duplicirati sve transakcije i poslati sve tokene na svoju adresu te ozbiljno ugroziti stabilnost kriptovalute, nešto što se naziva [51% napad][6]. Također, količina utrošene električne energije na rad posebnih računala za rudarenje je enormno velika što čini PoW metodu upitno isplativom, posebice u kombinaciji s već navedenim postepenim smanjenjem nagrade rudarenja. Kompenziranje smanjenja nagrade s povećanjem troškova transakcije kako bi se zadržalo rudare, međutim, smanjuje praktičnost i upotrebljivost kriptovalute. Rudarima je bitnija isplativost njihovog posla nego sentimentalne veze prema određenoj kriptovaluti, pa će ona isplativija automatski biti poželjnija za rudarenje i, generalno, sigurnija.
 
-![1.png](../images/1.png)
+![1.png](https://bitfalls.com/wp-content/uploads/2018/03/01-1.jpg)
 
 Proof-of-stake metoda označava generiranje novčića na osnovu količine i starosti onih koje korisnik čuva u svom [novčaniku][7]. Peercoin je predlaže kao glavnu osnovu za očuvanje sigurnosti blockchain mreže, a mehanizam izbora idućeg tvorca bloka je baziran na tzv. starosti novčića ili tokena (*coin day*). Ova jedinica je u principu produkt količine tokena i vremena koje su tokeni proveli u korisnikovom novčaniku. Taj koncept je doveo do modifikacije izvornog Bitcoinovog blockchaina dodajući vrijeme (*time stamp*) svake transakcije, kako bi se lakše mogla izračunati starost novčića.
 
@@ -20,7 +20,7 @@ Peercoin je potencijalnom problemu monopola korisnika koji posjeduju jako velike
 
 Koncept starosti novčića efikasno rješava i problem određivanja glavnog lanca nakon grananja, odnosno razdvajanja blockchaina u 2 istovjetna lanca ([*fork*][9]) u slučajevima kada se dio zajednice ne slaže s planom razvoja valute. Dobar primjer za to je nedavni [Bitcoin Gold fork][10] koji je iznimno podijelio zajednicu te pokazao koliko velika količina kriptovalute u krivim rukama, u kombinaciji s mladim tržištem punim neiskusnih trgovaca može ugroziti čitav ekosustav. Kod Peercoina, glavni lanac se određuje na temelju podatka o „utrošenosti“ starosti novčića od svake transakcije u svakom bloku. Glavni lanac je tako onaj koji ima veći zbroj utrošenih starosti novčića – to je dokaz da taj lanac duže postoji.
 
-![2.png](../images/2.png)
+![2.png](https://bitfalls.com/wp-content/uploads/2018/03/02.jpeg)
 
 Također, zbog PoS sustava, Peercoin je neusporedivo sigurniji na potencijalni napad od 51%. S obzirom na to da držanjem Peercoina u novčaniku otključanom samo za „mintanje“ korisnik istodobno štiti mrežu i povećava sebi šanse za generiranje bloka i osvajanje nagrade, većina novčića se nalazi u novčanicima, a ne na burzama. Napadač bi morao posjedovati preko 51% ukupne starosti novčića koji sudjeluju u „mintanju“, što je poprilično teško s obzirom na to da se ne mogu kupiti na burzi u jednom potezu. Inicijalno planirana ulaganja za izvršavanje ovakvog napada bi brzo višestruko porasla, jer bi uslijed velike potražnje cijena jednog Peercoina astronomski porasla. Nadalje, prekomjernom kupovinom novčića bi napadač sam sebi naštetio, jer bi njegovi potezi u konačnici rezultirali smanjenjem tržišne cijene same valute kada bi je krenuo prodavati.
 
@@ -45,7 +45,7 @@ Postoje četiri osnovna načina kako steći svoje PPC tokene:
 
 Za one koji se žele okušati u rudarenju Peercoina treba napomenuti da, pošto je direktno baziran na Bitcoinovom blockchainu i njegovom SHA-256 algoritmu, Peercoin danas u praksi zahtjeva snažnije i specijalizirane strojeve za pronalazak blokova putem PoS metode, takozvane [ASIC rudare][14]. Ovdje se, naravno, postavlja pitanje dugoročne isplativosti investicije koja u startu iznosi i do nekoliko tisuća dolara, obzirom na to da se radi o valuti koja ne preferira takav način zaštite sustava i generiranja blokova. Rudarenjem se blokovi veličine 820 bajtova generiraju otprilike svakih 10 minuta, uz nagradu od otprilike 90 USD po bloku čime je profitabilnost, sukladno inicijalnom dizajnu, bitno smanjena. Za one koji se ipak odluče na rudarenje ili žele doznati nešto više o samom procesu, dobar vodič s popisom glavnih rudarskih grupacija (mining pools) se može pronaći na [službenim stranicama][15]. Naravno, prije upuštanja u samu proceduru, savjetujemo da sami napravite izračun profitabilnosti rudarenja putem nekog od [online kalkulatora][16].
 
-![3.png](../images/3.png)
+![3.png](https://bitfalls.com/wp-content/uploads/2018/03/03-1.jpg)
 
 Posljednji, već opisani način dolaska do novčića Peercoina je putem „mintanja“. Koncept kojim ujedno postajete vlasnik i rudar valute, te doprinosite općoj sigurnosti mreže, odlično je opisan na službenom [blogu][17], gdje možete pronaći i razloge zašto se uključiti, kako omogućiti „mintanje“ na svom novčaniku, koliko je proces siguran i slično. „Mintanje“ vam u praksi donosi zaradu od 1% količine novčića koju držite u novčaniku na godišnjoj bazi.
 
@@ -72,7 +72,7 @@ Najveće prednosti PeerAssets protokola su:
  - mala cijena izvršavanja traženih kodova zbog strukture blockchaina i
    veličine oslobođenog prostora.
 
-![4.png](../images/4.png)
+![4.png](https://bitfalls.com/wp-content/uploads/2018/03/04.png)
 
 Također, [Indicium][23] predstavlja decentraliziranu autonomnu tvrtku (DAC - Decentralized Autonomous Company) temeljenu na PeerAssets protokolu za kreiranje i trgovanje indeksima kriptovaluta. Indeksi, u financijskom svijetu prisutni od 1974. godine, predstavljaju relativnu promjenu vrijednosti dionica određene skupine tvrtki, koje predstavljaju određeni dio tržišta. Primjerice, porast vrijednosti indeksa od 2% označava prosječan porast svake dionice tvrtki unutar tog indeksa od 2%. 
 
@@ -80,7 +80,7 @@ Koristeći prednosti sigurnosti i nepromjenjivosti blockchaina, kao i univerzaln
 
 Predviđeno je pohranjivanje većine vrijednosti u offline novčanike, dok će tek manji dio biti iskorišten za trgovanja na burzi. Za razliku od slovenskog konkurenta Iconomija koji naglasak stavlja na kreiranje vlastitih skupina (baskets) kriptovaluta, Indicium se pouzdaje u moćne algoritme i automatizaciju kreiranja skupina. Dobra vijest je da je Indicum uspješno okončao prvu fazu investiranja, te će se rad na njemu sigurno nastaviti.
 
-![5.png](../images/5.png)
+![5.png](https://bitfalls.com/wp-content/uploads/2018/03/05.png)
 
 ## Zaključak
 
