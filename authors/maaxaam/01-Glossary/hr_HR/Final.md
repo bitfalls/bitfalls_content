@@ -297,7 +297,7 @@ Uzorak u obliku ramena i glave stvara se kada imamo dvije manje fluktuacije u vr
 
 ### HODL
 
-Ponekad vas nespretni post na popularnom [forumu](https://bitcointalk.org/index.php?topic=375643.0) može proslaviti. Engleska riječ HOLD jer bila trapavo napisana nakon jednog izlaska i proširila se među korisnicima. Postala je HODL - Hold on for dear life - drži za ime života. Po forumima i ostalim izvorima informacija vidjeti ćete ovaj pojam u vremenima korekcije tržišta - upozorenje da ne prodajete u gubitku. Samo nemojte HODLati [shitcoine](#shitcoins).
+Ponekad vas nespretni post na popularnom [forumu](https://bitcointalk.org/index.php?topic=375643.0) može proslaviti. Engleska riječ HOLD jer bila trapavo napisana nakon jednog izlaska i proširila se među korisnicima. Postala je HODL - Hold on for dear life - drži za ime života. Po forumima i ostalim izvorima informacija vidjeti ćete ovaj pojam u vremenima korekcije tržišta - upozorenje da ne prodajete u gubitku. Samo nemojte HODLati [shitcoine](#shitcoin).
 
 ### Hybrid Wallet
 
