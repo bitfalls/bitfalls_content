@@ -14,12 +14,16 @@ Prema navodima švicarskog [Handelszietunga][link] jedna od najvećih i najkontr
 
 Iz kompanije naglašavaju kako žele biti najtransparentnija [mjenjačnica][exc] na svijetu koja će poslovati po regulatornom okviru Švicarske što je vjerojatno mudar potez zbog njihove povezanosti s [Tetherom][usdt].
 
-Naime, prošli je tjedan [isprintano 300 milijuna][300] novih Tethera za koje kompanija i dalje tvrdi da su potkrijepljeni američkim dolarom iako revizija još uvijek nije napravljena. Novih 300 milijuna [Thetera][usdt] na tržištu umjetno je napumpalo cijenu bitcoina premašivši tako 9000 dolara.
+Naime, prošli je tjedan [isprintano 300 milijuna][300] novih Tethera za koje kompanija i dalje tvrdi da su potkrijepljeni američkim dolarom iako revizija još uvijek nije napravljena. Novih 300 milijuna [Thetera][usdt] na tržištu umjetno je napumpalo cijenu bitcoina premašivši tako 9000 dolara, no to i dalje nije bilo dovoljno da spriječe [kitove](https://bitfalls.com/hr/glossary/#whale) u rušenju cijena.
+
+Koliko će ova saga s Tetherom trajati još ćemo vidjeti, ali kritićari su kao i uvijek vrlo [skeptični](https://twitter.com/Bitfinexed/status/979473472819814400).
 
 ### Crveni tjedan
 [Nove optužbe][gox] stižu i na račun Nobuaki Kobayashia, čovjeka koji navodno posjeduje 200 tisuća bitcoina iz skandala s Mt. Goxom. Prošli tjedan odbačene su [optužbe][gox] na njegov račun u kojima se tvrdilo kako je on prodajom 18 tisuća bitcoina kroz nekoliko mjeseci uspio srušiti cijenu bitcoina i tako dovesti tržište u trenutno stanje.
 
 Optužbe su odbačene jer su za pad cijena na tržištu neki krive [ASIC minere][asic] za Ethereum, ranjivosti privatnosti u slučaju [Monera][monero], kao i [gašenje dviju japanskih mjenjačnica][japan] koje nisu htjela pristati na danu regulaciju.
+
+Čini se kako je utjecaj na pad tržište ipak imala velika rasprodaja ogromne količina kriptovaluta, a ne samo ovi nepovezani događaji.
 
 ### Cryptoshop, odmah!
 
@@ -34,7 +38,9 @@ Suosnivač [Ethereuma][eth], Vitalik Buterin, nedavno je predložio naplaćivanj
 
 Uvođenje ovakvih naknada u razmatranju je zbog velike količine podataka koja se svakodnevno sprema na [čvorove][node] Ethereum mreže prvenstveno zbog [ICO-eva][ico] koji se temelje na ovoj platformi. 
 
----
+Znači li to da će podaci na blockhainu isteći nakon nekog vremena i da blockchain više neće biti nepromjenjiv? ne baš, ali istražit ćemo sve ovo u narednim člancima - stay tuned!
+
+----
 
 Ako vam je ovaj članak koristio, razmislite o tome da nas podržite u daljnjem radu [donacijom][donate].
 
