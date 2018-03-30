@@ -36,6 +36,11 @@ Ethereum's co-founder, Vitalik Buterin, came up with a suggestion on charging fo
 
 Adding this type of fee into the blockchain is under consideration because of Ethereum's rapidly growing size and its storage needs, particularly from [ICOs][ico]. But does this mean data would expire after a while and the blockchain would no longer be immutable? Not really, we'll explore this issue in an upcoming post - stay tuned.
 
+---
+
+If you found this article useful or interesting, please [consider donating][donate] to keep our operation running.
+
+[donate]: https://bitfalls.com/donate
 [eth]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
 [bc]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
 [ico]: https://bitfalls.com/hr/glossary/#ico
