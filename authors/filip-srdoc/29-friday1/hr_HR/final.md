@@ -1,6 +1,14 @@
+Ovaj članak je pregled novosti iz proteklog tjedna u svijetu kriptovaluta u kojem ćemo kao i svakog petka spomenuti 5 najvažnijih vijesti i podijeliti s Vama poveznice ukoliko želite dublje zaroniti u određenu temu.
+
+---
+
+### Coinbase uvodi podršku za ERC20 tokene?
+
 Poznata američka mjenjačnica, [Coinbase][cb], u ponedjeljak je [objavila][objavila] kako namjerava uvesti podršku za ERC20 tokene temeljene na [Ethereum][eth] mreži. Danas je velika većina kriptovaluta odnosno tokena temeljena na ovom standardu, a sve veći dio kolača uzimaju velike kripto mjenjačnice pa nije ni čudo da Coinebase pokušava pratiti razvoj tržišta i povećati svoju tržišnu kapitalizaciju.
 
 Nije još točno poznato koji tokeni se namjeravaju uvrstiti na ovu mjenjačnicu, no iz Coinbasea kažu kako će tokeni prvo morati biti odobreni od strane Gdaxa koji trenutno traži dodatnu regulaciju kako bi osigurali što bolju transparentnost.
+
+### Tempirajuća bomba u Švicarskoj
 
 Prema navodima švicarskog [Handelszietunga][link] jedna od najvećih i najkontraverznijih mjenjačnica na svijetu, [Bitfinex][bf], svoje sjedište želi preseliti s Djevičanskih otoka u [Švicarsku][svic]. Razlog tomu navodno je odmicanje od "divljeg zapada" koji vlada u svijetu [kriptovaluta][cc] i korak prema svjetlijoj budućnosti koju omogućava poslovanje u Švicarskoj. 
 
@@ -8,17 +16,23 @@ Iz kompanije naglašavaju kako žele biti najtransparentnija [mjenjačnica][exc]
 
 Naime, prošli je tjedan [isprintano 300 milijuna][300] novih Tethera za koje kompanija i dalje tvrdi da su potkrijepljeni američkim dolarom iako revizija još uvijek nije napravljena. Novih 300 milijuna [Thetera][usdt] na tržištu umjetno je napumpalo cijenu bitcoina premašivši tako 9000 dolara.
 
+### Crveni tjedan
 [Nove optužbe][gox] stižu i na račun Nobuaki Kobayashia, čovjeka koji navodno posjeduje 200 tisuća bitcoina iz skandala s Mt. Goxom. Prošli tjedan odbačene su [optužbe][gox] na njegov račun u kojima se tvrdilo kako je on prodajom 18 tisuća bitcoina kroz nekoliko mjeseci uspio srušiti cijenu bitcoina i tako dovesti tržište u trenutno stanje.
 
 Optužbe su odbačene jer su za pad cijena na tržištu neki krive [ASIC minere][asic] za Ethereum, ranjivosti privatnosti u slučaju [Monera][monero], kao i [gašenje dviju japanskih mjenjačnica][japan] koje nisu htjela pristati na danu regulaciju.
+
+### Cryptoshop, odmah!
 
 Partnerstvo [Coingate][coingate] platforme koja omogućavam plaćanje i primanje isplata u [kriptovalutama][cc] i besplatnog online softwarea za samostalno stvaranje webshopa, [Prestashopa][shop], donosi mogućnost prihvaćanja kriptovaluta kao sredstva plaćanja za više od 80.000 tisuća trgovaca na području Europe.
 
 Cilj je proširiti krug prihvaćenosti kriptovaluta i educirati ljude koji nisu još u svijetu kriptovaluta kako da brže, jeftinije i sigurnije vrše svoja plaćanja. Za sad je u planu uz [fiat][fiat] valute uvesti 50-tak različitih kriptovaluta kojima će biti moguće plaćanje.
 
-Suosnivač [Ethereuma][eth], Vitalik Buterin, nedavno je predložio naplaćivanje provizija za spremanje podataka na [blockchainu][bc] Ethereuma. U [izjavi][link] je napisao kako će visina provizije ovisiti o vremenskom trajanju pohrane podataka na blockchainu.
 
-Uvođenje, ovakvih naknada u razmatranju je zbog velike količine podataka koja se svakodnevno sprema na [čvorove][node] Ethereum mreže prvenstveno zbog [ICO-eva][ico] koji se temelje na ovoj platformi. 
+### Najamnina blockchaina?
+
+Suosnivač [Ethereuma][eth], Vitalik Buterin, nedavno je predložio naplaćivanje provizija za spremanje podataka na [blockchainu][bc] Ethereuma. U [izjavi][izjava] je napisao kako će visina provizije ovisiti o vremenskom trajanju pohrane podataka na blockchainu.
+
+Uvođenje ovakvih naknada u razmatranju je zbog velike količine podataka koja se svakodnevno sprema na [čvorove][node] Ethereum mreže prvenstveno zbog [ICO-eva][ico] koji se temelje na ovoj platformi. 
 
 ---
 
@@ -28,7 +42,7 @@ Ako vam je ovaj članak koristio, razmislite o tome da nas podržite u daljnjem 
 [eth]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
 [bc]: https://bitfalls.com/hr/2017/08/20/blockchain-explained-blockchain-works/
 [ico]: https://bitfalls.com/hr/glossary/#ico
-[link]: https://ethresear.ch/t/a-simple-and-principled-way-to-compute-rent-fees/1455
+[izjava]: https://ethresear.ch/t/a-simple-and-principled-way-to-compute-rent-fees/1455
 [node]: https://bitfalls.com/hr/2017/11/26/whats-bitcoin-node-mining-vs-validation/
 [objavila]: https://blog.coinbase.com/adding-erc20-support-to-coinbase-fe9cba6782b
 [shop]: https://www.prestashop.com/en
