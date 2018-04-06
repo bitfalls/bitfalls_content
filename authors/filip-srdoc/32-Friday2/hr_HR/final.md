@@ -1,3 +1,7 @@
+Ovaj članak je pregled novosti iz proteklog tjedna u svijetu kriptovaluta u kojem ćemo kao i svakog petka spomenuti 5 najvažnijih vijesti i podijeliti s Vama poveznice ukoliko želite dublje zaroniti u određenu temu.
+
+---
+
 ### Ruska regulacija ICO-a potkovana rubljom?
 
 Ministarstvo ruskog telekoma i komunikacija (MinComSvyaz) pripremilo je [vodič][doc] za inicijalne ponude coinova ([ICO][ico]).  U njemu ističe kako bi organizatori ICO-a trebali biti akreditirani na razdoblje od 5 godina od strane MinComSvyaz-a te kako bi ICO morao biti registriran u [Rusiji][russia] s minimalnim kapitalom od 1,7 milijuna dolara. Također, morali bi biti licencirani za razvoj, proizvodnju i distribuciju [kriptovaluta][cc], a osim što bi za sredstva prikupljana putem ICO-a morali imati račun u ruskoj banci, sredstva bi se prikupljala isključivo u ruskim rubljima. 
