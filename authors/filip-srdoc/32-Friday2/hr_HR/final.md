@@ -8,13 +8,11 @@ Ministarstvo ruskog telekoma i komunikacija (MinComSvyaz) pripremilo je [vodič]
 
 U [dokumentu][doc] nema riječi o pre-ICO fazama kao ni o zaključavanju sredstava ranih investitora, a investitori se boje da će ovakve stroge regulacije preplašiti start-upe i otežati im održavanje ICO-eva u Rusiji. Iz ruske [udruge za kriptovalute i blockchain][ubik] [kazali][link] su kako se u dokumentu koristi pogrešna terminologija koja može rezultirati konfliktima te kako se dane regulacije ne slažu s trenutnima. 
 
-### Japanske smjernice za regulaciju ICO-a
+### Japanske smjernice za regulaciju ICO-a, 14% mladih investiralo u kriptovalute
 
 Osim potencijalnih regulacija u Rusiji, japanski je centar za strategije stvaranja zakona na sveučilištu Tama izdao [listu smjernica][guide] za regulaciju i legalizaciju ICO-a u Japanu. U njemu se nalaze pravila povezana s borbom protiv pranja novca (AML), identifikacijom investitora (KYC), praćenjem napretka projekta kao i zaštita imovine i dugova investitora. 
 
 U [izvještaju][guide] se ICO deklarira kao obveznica te kažu kako bi uz implementaciju odgovarajućih zakona i pravila tehnologija na kojoj se ICO temelji, mogla dobro postati novi način financiranja.
-
-### 14% mladih japanaca investiralo je u kriptvalute
 
 Nova [istraživanja][poll] pokazala su kako 14% mladih muškaraca u dobi između 25-30 godina u Japanu posjeduje kriptovalute. U istraživanju je sudjelovalo 4734 muškaraca od kojih je preko 25% kazalo kako je investiranje u kriptovalute njihova prva investicija od kojih je nešto više od 10% investiralo preko 10 milijuna yena (9360 dolara). 
 
@@ -24,15 +22,17 @@ Nova [istraživanja][poll] pokazala su kako 14% mladih muškaraca u dobi između
 
 U Tajlandu se osim 15% poreza na kapitalnu dobit od kriptovaluta očekuje i uvođenje stope PDV-a od 7% kako bi se spriječilo pranje novca i izbjegavanje poreza.  
 
-Prijedlog je još uvijek u razmatranju, a navodno će mali investitori biti oslobođeni PDV-a ukoliko trguju putem [mjenjačnica][exc], no ako će imati kapitalnu dobit morat će platiti i PDV objavio je [Bangkog Post][post].
+Prijedlog je još uvijek u razmatranju, a navodno će mali investitori biti oslobođeni PDV-a ukoliko trguju putem [mjenjačnica][exc], no ako će imati kapitalnu dobit morat će platiti i PDV objavio je [Bangkok Post][post].
 
-### Kazakhstan zabranjuje kriptovalute?
+### Kazakhstan i Indija zabranjuju kriptovalute?
 
  Narodna banka Kazakhstana odlučila je usprkos visokoj stopi korupcije, namještenih izbora i nepoštivanja ljudskih prava "zaštiti" svoj građane zabranom kriptovaluta. Guverner banke, Akishey, [rekao][rekao] je kako namjeravaju zabraniti rad [mjenjačnicama][exc] kriptovaluta koje rade s [fiat][fiat] valutama, kao i [rudarenje][mine] kriptovaluta u Kazakhstanu.
  
  Čini se kako se središnja banka korumpiranog Kazakhstana osjeća ugroženom novom tehnologijom pa je namjerava zabraniti izvlačeći se na zaštitu građana te sprječavanje pranja novca i financiranja terorizma.
  
- ### Švedska lansira nacionalnu kriptovalutu?
+ Slično je i u Indiji gdje je središnja banka kazala kako više ne želi imati posla s kriptovalutama ni u kojem obliku, bile one dio kompanija koje se njima bave ili pojedinaca. Kao i u Kazakhstanu Indija tvrdi kako je sve to za dobrobit građana i u svrhu sprječavanja pranja novca.
+ 
+### Švedska lansira nacionalnu kriptovalutu?
 
  Čini se kako će Švedska koja je sve bliže ostvarenju cilja bezgotovinskog društva postati prva država svijeta koja će svoju [nacionalnu kriptovalutu][dkuna], eKronu, izdati u suradnji s IOTA-om.
  
@@ -40,7 +40,7 @@ Prijedlog je još uvijek u razmatranju, a navodno će mali investitori biti oslo
  
  > Švedska bi mogla postati prva država koja će imlementirati nacionalnu kriptovalutu s IOTA-om. No, prije nego što Nordijske zemlje postanu potpuno bezgotovinske, Riskbank je istaknula nekoliko problema koje bi nacionalna kriptovaluta morala riješiti.
 
-Riskbank je inače Švedska nacionalna banka koja nema nikakvih konflikata s Europskom središnjom bankom (kao šo je to imala Estonija) kada je riječ o kriptovalutama pošto Švedska nije dio Europske Unije. Podsjetimo, Estoniji je prošle godine ECB zabranila izdavanje vlastite kriptovalute.
+Riskbank je inače Švedska nacionalna banka koja nema nikakvih konflikata s Europskom središnjom bankom (kao što je to imala Estonija) kada je riječ o kriptovalutama pošto Švedska nije dio Eurozone. Podsjetimo, Estoniji je prošle godine ECB zabranila izdavanje vlastite kriptovalute.
 
 Ove glasine su još uvijek neslužbene, no Riskbank zasad podržava ovu ideju u kojoj bi [eKrona][dkuna] trebala biti ekvivalentna [fiat][fiat] valuti Švedske, dok je IOTA izabrana zbog svog Tangle sistema koji postaje sve brži i bolji što ga više ljudi koristi.
 
