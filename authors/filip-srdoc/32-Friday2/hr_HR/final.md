@@ -30,7 +30,7 @@ Prijedlog je još uvijek u razmatranju, a navodno će mali investitori biti oslo
  
  Čini se kako se središnja banka korumpiranog Kazakhstana osjeća ugroženom novom tehnologijom pa je namjerava zabraniti izvlačeći se na zaštitu građana te sprječavanje pranja novca i financiranja terorizma.
  
- Slično je i u Indiji gdje je središnja banka kazala kako više ne želi imati posla s kriptovalutama ni u kojem obliku, bile one dio kompanija koje se njima bave ili pojedinaca. Kao i u Kazakhstanu Indija tvrdi kako je sve to za dobrobit građana i u svrhu sprječavanja pranja novca.
+ Slično je i u Indiji gdje je središnja banka [kazala][kazala] kako više ne želi imati posla s kriptovalutama ni u kojem obliku, bile one dio kompanija koje se njima bave ili pojedinaca. Kao i u Kazakhstanu Indija tvrdi kako je sve to za dobrobit građana i u svrhu sprječavanja pranja novca.
  
 ### Švedska lansira nacionalnu kriptovalutu?
 
@@ -65,3 +65,4 @@ Ako vam je ovaj članak koristio, razmislite o tome da nas podržite u daljnjem 
 [fiat]: https://bitfalls.com/hr/glossary/#fiat
 [mine]: https://bitfalls.com/hr/glossary/#mining
 [dkuna]: https://bitfalls.com/hr/2017/10/31/dkuna-use-case-government-cryptocurrency-option/
+[kazala]: https://rbidocs.rbi.org.in/rdocs/PressRelease/PDFs/PR264270719E5CB28249D7BCE07C5B3196C904.PDF
