@@ -18,7 +18,7 @@ Iz ove najveće svjetske američke banke [kažu][jp] kako su zbog prevelikog riz
 
 U utorak (10.04.2018) su se 22 europske zemlje ujedinile u [Europsko Blockchain Partnerstvo][ebp] koje će se baviti [blockchain][bc] regulacijom i edukacijom. Ovim se priprema lansiranje udruženja za razvoj blockchaina na području EU koji bi služio privatnom i javnom sektoru te zadržavanje vodeće pozicije europskih država u razvoju blockchain tehnolgije. 
 
-Osim 22 zemlje (među kojima nema Hrvatske), sve ostale članice EU pozvane su da im se pridruže i potpišu Deklaraciju o uspostavi europskog blockchain partnerstva. Međutim, kako doznaje [Jutarnji list][jutarnji], Hrvatska je jedna od 6 zemalja članica koje su odbile potpisivanje.
+Osim 22 zemlje (među kojima nema Hrvatske), sve ostale članice EU pozvane su da im se pridruže i potpišu Deklaraciju o uspostavi europskog blockchain partnerstva. Međutim, kako doznaje [Jutarnji list][jutarnji], Hrvatska je jedna od 6 zemalja članica koje su odbile potpisivanje. Hrvatsko samoregulatorno tijelo, [UBIK][ubik], aktivno radi na naknadnom pridruženju.
 
 ### Državne kriptovalute kao prijetnja gospodarstvu
 
@@ -55,3 +55,4 @@ Ako vam je ovaj članak koristio, razmislite o tome da nas podržite u daljnjem 
 [brit]: https://bitfalls.com/hr/2018/02/05/cryptocurrency-markets-stuck-limbo-good-bad-news-china-world/
 [ebp]: https://ec.europa.eu/digital-single-market/en/news/european-countries-join-blockchain-partnership
 [andrea]: https://de.cointelegraph.com/news/swiss-national-bank-cryptocurrencies-are-better-than-state-issued-digital-currencies
+[ubik]: https://bitfalls.com/hr/2018/02/17/cryptouk-croatia-japan-formalize-blockchain-associations/
