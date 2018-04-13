@@ -16,7 +16,7 @@ Iz ove najveće svjetske američke banke [kažu][jp] kako su zbog prevelikog riz
 
 ### Europsko Blockchain Partnerstvo (bez Hrvatske)
 
-U utorak su se 22 europske zemlje ujedinile u [Europsko Blockchain Partnerstvo][ebp] koje će se baviti [blockchain][bc] regulacijom i edukacijom. Ovim se priprema lansiranje blockchaina na području EU koji bi služio privatnom i javno sektoru te zadržavanje vodeće pozicije europskih država u razvoju blockchain tehnolgije. 
+U utorak (10.04.2018) su se 22 europske zemlje ujedinile u [Europsko Blockchain Partnerstvo][ebp] koje će se baviti [blockchain][bc] regulacijom i edukacijom. Ovim se priprema lansiranje udruženja za razvoj blockchaina na području EU koji bi služio privatnom i javnom sektoru te zadržavanje vodeće pozicije europskih država u razvoju blockchain tehnolgije. 
 
 Osim 22 zemlje (među kojima nema Hrvatske), sve ostale članice EU pozvane su da im se pridruže i potpišu Deklaraciju o uspostavi europskog blockchain partnerstva. Međutim, kako doznaje [Jutarnji list][jutarnji], Hrvatska je jedna od 6 zemalja članica koje su odbile potpisivanje.
 
@@ -25,6 +25,8 @@ Osim 22 zemlje (među kojima nema Hrvatske), sve ostale članice EU pozvane su d
 [Digitalne valute središnjih banaka][dkuna] (CBDC) imaju mnogo nedostataka naspram privatnih kriptovaluta, zaključio je ovaj tjedan jedan od članova upravnog odbora švicarske narodne banke.
 
 Andréa Maechler, [kazala][andrea] je kako su privatne kriptovalute manje riskantne jer bi [CBDC][cbdc] mogle izazvati "bank run" (masovno povlačenje novaca iz banaka) zbog zabrinutosti građana oko financijske stabilnosti i solventnosti banaka. Osim toga napominje kako [kriptovalute][cc] ne udovoljavaju [ključnim funkcijama novca][rrif] te iako blockchain tehnologija ima potencijal smanjenja troškova i povećanja transparentnosti, još uvijek ne zadovoljava zahtjeve RTGS (Real-Time-Gross-Settlement) platnog sistema.
+
+Mi se, kao tvrtka iza projekta [dKune][dKuna] s time ne slažemo. Kriptoizacija nacionalnih valuta može biti isključivo pozitivna ako se [odradi kako treba][dKuna].
 
 ### Vijetnam steže obruč oko kriptovaluta 
 
