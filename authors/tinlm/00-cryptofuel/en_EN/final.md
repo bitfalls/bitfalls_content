@@ -2,7 +2,7 @@
 
 In this article you will learn about the real potential behind cryptocurrencies and how will they influence our culture and economy. We will show you patterns of economy's behaviour that will allow you to see that cryptocurrencies are the next logical step in human evolution. This way of thinking about blockchain technology will give you an incredible advantage in your business life and give your career a push in the right direction. 
 
-![Cryptocurrencies are the future and the future is NOW](https://github.com/tinlm/bitfalls_content/blob/00-cryptofuel/authors/tinlm/00-cryptofuel//images/bitcoin.jpg)
+![Cryptocurrencies are the future and the future is NOW](https://github.com/tinlm/bitfalls_content/blob/00-cryptofuel/authors/tinlm/00-cryptofuel/images/bitcoin.jpg)
 
 ## The last great wealth distribution
 
@@ -19,7 +19,7 @@ History gives us the ability to predict and influence the future. Today's market
 
 [Blockchain technology][Blockchain] allows us to monetize open source technology. Imagine a road that anyone can use for a fee. This road will be used only for as long as it is useful. If someone builds a new road of the same value that is free to use, no one will keep on using the old road. 
 
-![Free roads for everyone](https://github.com/tinlm/bitfalls_content/blob/00-cryptofuel/authors/tinlm/00-cryptofuel//images/roads.jpg)
+![Free roads for everyone](https://github.com/tinlm/bitfalls_content/blob/00-cryptofuel/authors/tinlm/00-cryptofuel/images/roads.jpg)
 
 #### But how can you make money in this system?
 
@@ -29,6 +29,10 @@ It is simple: fuel. If you can sell an universal resource that can be used to tr
 
 [Blockchain technology][Blockchain] has already spread through the world and its influence and usage will only grow in the future. However the most important change caused by this technology will be the cultural change. The last wealth distribution rewarded centralization and the people that got the most of the money were monopolistic business man. Current wealth distribution is based on decentralization and the people that are most rewarded in this ecosystem are smart individuals that are driven by critical thinking instead of their ego, people that are more concerned by absolute wealth then relative wealth and this people will not reinvest their money into a new gas car. They will invest it into clean energy. 
 
-![Clean energy](https://github.com/tinlm/bitfalls_content/blob/00-cryptofuel/authors/tinlm/00-cryptofuel//images/energy.jpg)
+![Clean energy](https://github.com/tinlm/bitfalls_content/blob/00-cryptofuel/authors/tinlm/00-cryptofuel/images/energy.jpg)
 
 [Blockchain]: https://bitfalls.com/2017/08/20/blockchain-explained-blockchain-works/
+
+## Conclusion
+
+History is repeating itself and if you have the knowledge of the markets behaviour in the past you will be able to predict the future. Cryptocurrencies are the new type of fuel that is used for software systems like social media platforms instead of mechanical systems like cars. This makes them even more worth than oil since they are easier to buy and store. Decentralized systems are more practical than centralized systems because their main advantage is you.
