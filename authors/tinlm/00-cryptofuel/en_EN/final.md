@@ -2,7 +2,7 @@
 
 In this article you will learn about the real potential behind cryptocurrencies and how will they influence our culture and economy. We will show you patterns of economy's behaviour that will allow you to see that cryptocurrencies are the next logical step in human evolution. This way of thinking about blockchain technology will give you an incredible advantage in your business life and give your career a push in the right direction. 
 
-![Cryptocurrencies are the future and the future is NOW](authors/tinlm/00-cryptofuel/images/bitcoin.jpg)
+![Cryptocurrencies are the future and the future is NOW](/images/bitcoin.jpg)
 
 ## The last great wealth distribution
 
