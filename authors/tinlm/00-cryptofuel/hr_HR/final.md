@@ -31,3 +31,7 @@ Jednostavno: gorivo. Ako možete prodati univerzalni resurs koji se može korist
 ![Čista energija](https://github.com/tinlm/bitfalls_content/blob/00-cryptofuel/authors/tinlm/00-cryptofuel/images/energy.jpg)
 
 [Blockchain]: https://bitfalls.com/2017/08/20/blockchain-explained-blockchain-works/
+
+## Zaključak
+
+Povijest se ponavlja i ako imate znanje o ponašanju tržišta u prošlosti, moći ćete predvidjeti budućnost. Kriptovalute su nova vrsta goriva koje se koristi za softverske sustave kao što su platforme umjesto za mehaničke sustave kao što su auti. One su zbog toga puno vrijednije od normalnog goriva jer su lakše za kupiti i pohraniti. Decentralizirani sustavu su praktičniji od centraliziranih jer je njihova glavna prednost TI.
