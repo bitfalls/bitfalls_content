@@ -35,4 +35,4 @@ It is simple: fuel. If you can sell an universal resource that can be used to tr
 
 ## Conclusion
 
-History is repeating itself and if you have the knowledge of the markets behaviour in the past you will be able to predict the future. Cryptocurrencies are the new type of fuel that is used for software systems like social media platforms instead of mechanical systems like cars. This makes them even more worth than oil since they are easier to buy and store. Decentralized systems are more practical than centralized systems because their main advantage is you.
+History is repeating itself and if you have the knowledge of the markets behaviour in the past you will be able to predict the future. Cryptocurrencies are the new type of fuel that is used for software systems like social media platforms instead of mechanical systems like cars. This makes them even more worth than oil since they are easier to buy and store. Decentralized systems are more practical than centralized systems because their main advantage is YOU.
