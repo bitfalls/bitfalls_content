@@ -8,7 +8,7 @@ Granted, this is far from what modern day games offer with their multi-trillion 
 
 ## State Channels
 
-If you've been in Ethereum long enough, you probably remember the time [CryptoKitties](https://bitfalls.com/2018/02/18/15-alternatives-cryptokitties-no-idea-existed/) slowed the whole network down because of pending transactions. Around that time, the idea of payment channels started to take shape across the various blockchain projects. 
+If you've been in Ethereum long enough, you probably remember the time [CryptoKitties](https://bitfalls.com/2018/02/18/15-alternatives-cryptokitties-no-idea-existed/) slowed the whole network down because of pending transactions. Around that time, the idea of payment channels started to take more concrete shape across the various blockchain projects. 
 
 ### Payment Channels
 
@@ -59,7 +59,8 @@ Now if we apply this to a truly multi-player game with consequences and more int
 
 
 > To find out more about state channels, see:
-> 
+
+> - http://www.jeffcoleman.ca/state-channels/
 > - https://medium.com/l4-media/making-sense-of-ethereums-layer-2-scaling-solutions-state-channels-plasma-and-truebit-22cb40dcc2f4
 > - http://ledgerjournal.org/ojs/index.php/ledger/article/download/15/64
 > - https://gist.github.com/anonymous/ecda6a24d0f32522a691fd21d75c5e16
