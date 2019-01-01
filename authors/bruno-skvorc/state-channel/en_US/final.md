@@ -14,7 +14,7 @@ If you've been in Ethereum long enough, you probably remember the time [CryptoKi
 
 A payment channel works like this: two parties deposit a stake into a multi-signature wallet, and then exchange messages about the state of that wallet until they're ready to close the wallet and each withdraw their share. So Alice and Bob may start out with A:1eth / B:0eth, and end with A:0.3eth / B:0.7eth. Between those two states (the opening and closing state), there may have been a thousand transactions - but all of them were free and instant because they were only communicated between the two parties. Once Alice and Bob are ready to broadcast their wallet states to the world, they send a transaction to the blockchain which contains the closing state, and to the outside world it looks like Alice just straight up sent Bob 0.7 eth. This is a payment channel because it channels payments, and we explained it with an illustrated example [here](https://bitfalls.com/2018/04/15/lightning-network-work/) - highly recommended you read this.
 
-The most notable examples of payment channels are Bitcoin's Lightning Network (which [cannot work](https://www.youtube.com/watch?v=yGrUOLsC9cw) and is already [driving users away](https://twitter.com/abrkn/status/1078193601190989829)) and Ethereum's Raiden Network which is just Eth's version of Lightning (Raiden is the god of thunder and lightning in Mortal Kombat) and, in my opinion, just as questionably useful.
+The most notable examples of payment channels are Bitcoin's Lightning Network (which [cannot work](https://www.youtube.com/watch?v=yGrUOLsC9cw) and is already [driving users away](https://twitter.com/abrkn/status/1078193601190989829)) and Ethereum's Raiden Network which is just Eth's version of Lightning (Raiden is the god of lightning in Mortal Kombat).
 
 Personally, I'm a much bigger fan of state channels.
 
@@ -39,7 +39,7 @@ Example of a state channel:
 - Bob buys a crypto kitty "BloatyCat" on the open market for 0.2 eth (transaction outside state channel, on something like [Opensea](https://opensea.io/))
 - Alice opens a channel with CryptoKitties, committing her AngryCat as a deposit along with 1 eth (<- tx happens)
 - Bob opens a channel with CryptoKitties, committing his BloatyCat as a deposit along with 0.5 eth (<- tx happens)
-- Alice puts AngryCat to breed for the breed-buy price of 0.2 eth
+- Alice puts AngryCat to breed for the breed price of 0.2 eth
 - Bob notices a breedable kitty AngryCat, and decides to accept the offer
 - Bob sends 0.2 eth to CryptoKitties for breeding BloatyCat with AngryCat
 - CryptoKitties sends 0.2 eth to Alice and creates a new cat - AngryFartCat - assigning it to Bob. This turns out to be a rare cat because angry farts are special.
@@ -76,9 +76,9 @@ After watching [Bandersnatch](https://en.wikipedia.org/wiki/Black_Mirror:_Bander
 
 What's more next gen than blockchain?
 
-### GAME NAME
+### Valhello
 
-The world is of the Norse mythos, similar to that of Marvel's Thor universe - so a mixture of science fiction and medieval / Viking-age themes.
+The world of Valhello is of the Norse mythos, similar to that of Marvel's Thor universe - so a mixture of science fiction and medieval / Viking-age themes.
 
 The starting zone is Asgard, where the player starts out as a lowly Viking and desires to climb the ladder of awesomeness in order to gain a ticket to Valhalla. Valhalla can, of course, only be entered through death by combat of sufficient prowess. 
 
@@ -86,36 +86,45 @@ In a nutshell, you level up your character enough to fight epic monsters (in ord
 
 If you're killed by a low level creature or you transgress and murder a fellow Viking, your fame is forsaken and the spirits of all your predecessors are exiled from Valhalla and cast into Hellheim to be forgotten forever.
 
-Players transition between worlds through the Bifrost portal which triggers a transaction, and each zone is its own state channel. This means that entering and exiting a zone means sending a transaction, but keeps the game worlds isolated and small, allowing for addition of zones, tweaks to rules, user-contributed zones, and more.
-
 Naturally, you can collect items, upgrade your skills, or just idle around and talk to your co-Vikings.
 
-As long as players remain in the game, others can initiate combat with them, steal from them, interact with them. If the player remains inactive (no response given) for more than 24 hours, their state channel automatically closes. A player can close their channel manually, too, to exit the game and pause their character. In game, this is called "Summoning a Valkyrie" which takes the player back to Asgard. This has the added effect of withdrawing the player character to a user's wallet, which lets them trade the character on an NFT marketplace (the player characters are [NFTs](https://bitfalls.com/nft)).
+A player can exit a game (pause it for their character) by Summoning a Valkyrie which transports them to Asgard. While in Asgard, no harm can befall a Viking.
 
-### UX
+The zones players can travel to through the Bifrost portal are of two types:
 
-Before we proceed, a note on UX. All this talk about transactions makes for a poor user experience. The average user does not want to think about transactions, gas costs, confirmation times, etc. The way we get around this is as follows:
+- instanced zones (Midgard New York or Utgard's Dungeon Level 1, etc.)
+- common zones (Asgard)
 
-- the game uses [Nimbus](https://our.status.im/tag/nimbus) as a back end, which can handle peer to peer connections and key management. In effect, the game client is a wallet which can auto-sign transactions or, for the more paranoid, request a password for every transaction (depending on whether or not a keystore file was encrypted). This means that the user starts playing by downloading the game client (weird to call it that since there's no _server_, but okay), seeding it with a bit of eth, and the client takes over, occasionally asking for a password.
-- each interaction with a shard is a state channel, which makes it possible to interact with other players and the world through commands like `LOOK at @swader` or `PUNCH @swader` or `GIVE #mjolnir to @swader`. These interactions are signed messages aggregating on the clients running that particular _shard_ of the universe, of which there will always be at least 2: the software running over in [Bitfalls HQ](https://bitfalls.com), and the player's computer.
-
-Therefore, think of the game client like a stripped down version of [Mist](https://bitfalls.com/2018/02/12/explaining-ethereum-tools-geth-mist/) which has the ability to execute custom pre-defined transactions.
+In common zones, players enter and leave at will. In instanced ones, they party up and enter a zone together which is unique to them - another team entering the same zones gets a copy of that zone. This is to keep zones replayable. We'll weave it into the storyline as some kind of proving ground timeloop.
 
 ## Implementation
 
-And now for the hard part. First, let's define dispute resolution and deposits.
+The original implementation is being built with state channels, which is why I've spent such a long time describing them above. So, here's how it's going to work.
 
-### Economics
+### Account Creation
 
-To enter a shard, a player has to send 0.15 ether to the game. The game will create a character for them and lock up 0.1 ether for their deposit. The 0.05 ether creation fee goes towards financing further development. Better than an ICO `¯\_(ツ)_/¯`
+To create an account, a user interacts with the game's smart contract by sending in 0.15 eth. 0.05 eth used for funding further development (better than an ICO `¯\_(ツ)_/¯`), while 0.1 eth is locked up as that player's deposit. The created character thus enters Asgard (the lobby area), where everything begins.
 
-This deposit is a guarantee of good behavior, and is refunded once the player character exits ("Summon a Valkyrie") unless the exit was an ejection triggered by another player (i.e. an invalid transaction was detected and not rectified in a given time frame).
+### World Shards are State Channels
 
-To enter a shard, the deposit process is repeated only without the additional 0.05 ether - once a player has a character, that character's creation fee has been paid in perpetuity. 
+Each world zone is a state channel, including Asgard. So entering Asgard adds a player to the Asgard state channel. Whenever a player exits a shard, they get their deposit back. Whenever a player enters a shard, they need to put the deposit down again. The deposit is always 0.1 eth, and the initial 0.05 eth character creation fee is only paid once per character, but every time for a new character. This deposit is a guarantee of good behavior, and is refunded once the player character exits ("Summon a Valkyrie") unless the exit was an ejection triggered by another player (i.e. an invalid transaction was detected and not rectified in a given time frame).
 
-_Note that a new character of the same player will still need to pay the creation fee._
+During interaction in a shard, it is assumed all players are making only valid moves. If, however, a player makes invalid moves IRT the game state, others who detected these moves can trigger a reporting procedure which will send a transaction to the public blockchain for the initiation of the dispute resolution process. In other words, you can rat someone out and unless they start behaving they get kicked out of the universe and their deposit is split in half: half is burned, and half is given to the reporter and those confirming the report.
 
-During interaction in a shard, it is assumed all players are making only valid moves. If, however, a player makes invalid moves IRT the game state, others who detected these moves and trigger a reporting procedure which will send a transaction to the public blockchain for the initiation of the dispute resolution process. In other words, you can rat someone out and unless they start behaving they get kicked out of the universe and their deposit is split in half: half is burned, and half is given to the reporter.
+Players transition between worlds (zones) through the Bifrost portal by exiting a previous channel, if in any, and entering a new channel. Entering and exiting a zone means sending a transaction, but keeps the game worlds isolated and small, allowing for addition of zones, tweaks to rules, user-contributed zones, and more.
+
+### Rest and exit
+
+As long as players remain in the game, others can initiate combat with them, steal from them, interact with them. If the player remains inactive (no response given) for more than 24 hours, their state channel automatically closes. A player can close their channel manually, too, to exit the game and pause their character (the Summon a Valkyrie operation). This has the added effect of withdrawing the player character to a user's wallet, which lets them trade the character on an NFT marketplace (the player characters are [NFTs](https://bitfalls.com/nft)).
+
+### UX
+
+All this talk about transactions makes for a poor user experience. The average user does not want to think about transactions, gas costs, confirmation times, etc. The way we get around this is as follows:
+
+- the game will use [Nimbus](https://our.status.im/tag/nimbus) as a back end, which can handle peer to peer connections and key management. In effect, the game client is a wallet which can auto-sign transactions or, for the more paranoid, request a password for every transaction (depending on whether or not a keystore file was encrypted). This means that the user starts playing by downloading the game client (weird to call it that since there's no _server_, but okay), seeding it with a bit of eth, and the client takes over, occasionally asking for a password.
+- each interaction with a shard is happening on a state channel, which makes it possible to interact with other players and the world through commands like `LOOK at @swader` or `PUNCH @swader` or `GIVE #mjolnir to @swader`. These interactions are signed messages aggregating on the clients running that particular _shard_ of the universe, of which there will always be at least 2: the software running over in [Bitfalls HQ](https://bitfalls.com), and the player's computer.
+
+Therefore, think of the game client like a stripped down version of [Mist](https://bitfalls.com/2018/02/12/explaining-ethereum-tools-geth-mist/) which has the ability to execute custom pre-defined transactions. The client itself will contain all the game logic.
 
 ### State growth
 
@@ -125,9 +134,25 @@ Because it's in everyone's best interest to keep the game client light-weight, t
 
 ---
 
-## The Code
+## Alternative implementations
 
+While state channels are certainly one way to approach the development of this game (and the initial approach), there are other solutions out there that have yet to be tested for this. I intend to try developing a prototype on each to find the best solution, and then deploy the mainnet version based on the results of this comparison. Here are two alternative approaches, both of which currently chip away at the decentralization aspect somewhat (the ultimate goal is to allow players to keep playing forever, regardless of any publisher / game builder / admin): 
 
+### Substrate
+
+- https://www.parity.io/substrate-has-arrived/
+
+Substrate is a framework for building custom blockchains with custom logic. It's made by Parity, and theoretically uses Polkadot to communicate with other blockchains. In theory, Valhello should be able to run on a custom substrate blockchain with each node verifying game logic, and then communicate game state across to Ethereum for some NFT goodness. This would, however, require a proof-of-authority-style blockchain to exist which means we'd need some kind of incentive for players or third parties to run the nodes validating and building the blockchain. This makes the game far less decentralized as it requires a permissioned layer to accept new validators into the blockchain's consensus.
+
+### LoomX
+
+- https://loomx.io
+
+Loom is a company building plasma chains dedicated to specific dapps. One chain could be running Valhello and syncing to Ethereum through the Plasma bridge for NFT goodness. More information about Loom and their plasma chains can be found [here](https://bitfalls.com/2018/08/25/plasma-update-loom-now-has-3-sidechains-in-production/) and their SDK is [here](https://loomx.io). Because Loom also only supports DPoS, it's basically like a PoA chain so again loses out on some decentralization.
+
+---
+
+Please note that 100% of this game is still in concept phase, and I'm very eager to team up with interested parties in making this happen on as many platforms as possible - let's see which one works best and how to best make it accessible to the average semi-technical user (gamer). So if you prefer one of these alternatives, or you have another one in mind, please feel free to [email me](mailto:contact@bitfalls.com).
 
 ---
 
@@ -145,4 +170,4 @@ Decentralization. You can keep playing this even if the people who built it all 
 
 ### This sounds cool, how do we help you keep developing it and how do we fund you to build this into a reusable framework for other people to launch games on?
 
-Glad you asked, deus ex machina reader! You can send Eth to `bitfalls.eth` and ping me with the transaction if you'd like a mention on the game's splash screen and a shoutout on the framework's homepage.
+Glad you asked, deus ex machina reader! You can send Eth to `bitfalls.eth` and ping me with the transaction if you'd like a mention on the game's splash screen and a shoutout on the framework's homepage. If you'd like to join the effort and help out with developing PoCs, [get in touch](mailto:contact@bitfalls.com).
