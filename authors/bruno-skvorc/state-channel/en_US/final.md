@@ -171,3 +171,7 @@ Decentralization. You can keep playing this even if the people who built it all 
 ### This sounds cool, how do we help you keep developing it and how do we fund you to build this into a reusable framework for other people to launch games on?
 
 Glad you asked, deus ex machina reader! You can send Eth to `bitfalls.eth` and ping me with the transaction if you'd like a mention on the game's splash screen and a shoutout on the framework's homepage. If you'd like to join the effort and help out with developing PoCs, [get in touch](mailto:contact@bitfalls.com).
+
+### Where's the code?
+
+In the next few posts.
