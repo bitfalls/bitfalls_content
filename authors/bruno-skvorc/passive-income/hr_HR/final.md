@@ -32,11 +32,11 @@ Probajmo kreirati nešto DAIa da objasnimo stvar na primjeru.
 
 MakerDAOv CDP proces podržava [MetaMask](https://bitfalls.com/hr/2018/02/16/metamask-send-receive-ether/), [Ledger](https://bitfalls.com/hr/2017/09/08/hardware-wallets-like-ledger-nano-s-work/) i Trezor. Posjetite [cdp.makerdao.com](https://cdp.makerdao.com).
 
-![CDP home page](https://bitfalls.com/wp-content/uploads/2019/01/01.png)
+![CDP home page](https://bitfalls.com/wp-content/uploads/2019/01/01.jpg)
 
 Korsitit ćemo MetaMask. Otključajte vaš [kripto novčanik](https://bitfalls.com/hr/2017/08/31/what-cryptocurrency-wallet/) koji ima nešto ethera i pokazati će vam se sljedeći ekran:
 
-![No CDP open](https://bitfalls.com/wp-content/uploads/2019/01/02.png)
+![No CDP open](https://bitfalls.com/wp-content/uploads/2019/01/02.jpg)
 
 Ovaj će ekran ispisati koliko točno koje podržane valute imate u otključanom novčaniku.
 

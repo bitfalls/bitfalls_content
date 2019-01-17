@@ -30,11 +30,11 @@ Ok, let's try making some DAI.
 
 MakerDAO's CDP process supports [MetaMask](https://bitfalls.com/2018/02/16/metamask-send-receive-ether/), [Ledger](https://bitfalls.com/2017/09/08/hardware-wallets-like-ledger-nano-s-work/) and Trezor. Go to [cdp.makerdao.com](https://cdp.makerdao.com).
 
-![CDP home page](https://bitfalls.com/wp-content/uploads/2019/01/01.png)
+![CDP home page](https://bitfalls.com/wp-content/uploads/2019/01/01.jpg)
 
 We'll use MetaMask in this case. Unlock your [wallet](https://bitfalls.com/2017/08/31/what-cryptocurrency-wallet/) which has some ether in it, and you'll see the following screen:
 
-![No CDP open](https://bitfalls.com/wp-content/uploads/2019/01/02.png)
+![No CDP open](https://bitfalls.com/wp-content/uploads/2019/01/02.jpg)
 
 The screen will list how much ether you have in the unlocked wallet, and the other assets important to MakerDAO alongside that. Specifically, it will list your DAI balance, and your MKR balance. 
 
