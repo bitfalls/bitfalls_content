@@ -4,19 +4,19 @@ U ovom ćemo članku pogledati sustav zajmova i stablecoinova preko MakerDAO pro
 
 ## MakerDAO i CDP
 
-CDP je _collateralized debt position_ ili kolaterizirani zajam. Laički, to znači da možete uzeti zajam za polog (kolateral) u kriptovalutama koje posjedujete. Taj polog garantira da ćete vratiti zajam, a ako taj dogovor prekršite, vaš polog će biti automatski likvidiran da se pokrije dug. Smatrajte CDPove hipotekama na kriptovalute.
+CDP je _collateralized debt position_ ili kolaterizirani zajam. Laički, to znači da možete uzeti zajam za polog (kolateral) u kriptovalutama koje posjedujete. Taj polog garantira da ćete vratiti zajam, a ako taj dogovor prekršite, vaš polog će biti automatski likvidiran da se pokrije dug. Smatrajte CDPove hipotekama na [kriptovalute](https://bitfalls.com/hr/2017/08/20/cryptocurrency/).
 
 ### DAI i MKR
 
-[MakerDAO](https://makerdao.com) je organizacija koja je iza DAI stabilnog coina. DAI (koji ima odnos 1:1 s USD) za razliku od drugih _stablecoinova_ nema odgovarajući fiat polog u nekoj banci, već je u cijelosti generiran isključivo iz pologa ethera u MakerDAO CDP sustavu pametnih ugovora. Ti pametni ugovori tada dopuštaju zajmove u DAIu, a kako DAI vraćate (s kamatom od 0.5% godišnje), vraća vam se vaš polog. Polog se likvidira ukoliko cijena ethera previše padne, no ukoliko se počnete približavati granici likvidacije lako je platiti dio duga ili dodati još ethera u CDP kako biste omjer pomakli u svoju korist (primjer toga vidjeti ćemo u primjeru malo niže). Cijenu ethera sustavu javlja grupa _oraclea_, tj. vanjskih servisa koje pokreću strane kojima MakerDAO vjeruje, i čiji su identiteti poznati isključivo MakerDAO Oracle timu. To je ujedno najcentraliziraniji i najosjetljiviji dio MakerDAO konstrukcije.
+[MakerDAO](https://makerdao.com) je organizacija koja je iza DAI stabilnog coina. DAI (koji ima odnos 1:1 s USD) za razliku od drugih _stablecoinova_ nema odgovarajući fiat polog u nekoj banci, već je u cijelosti generiran isključivo iz pologa [ethera](https://bitfalls.com/hr/2017/09/19/what-ethereum-compare-to-bitcoin/) u MakerDAO CDP sustavu pametnih ugovora. Ti pametni ugovori tada dopuštaju zajmove u DAIu, a kako DAI vraćate (s kamatom od 0.5% godišnje), vraća vam se vaš polog. Polog se likvidira ukoliko cijena ethera previše padne, no ukoliko se počnete približavati granici likvidacije lako je platiti dio duga ili dodati još ethera u CDP kako biste omjer pomakli u svoju korist (primjer toga vidjeti ćemo u tekstu malo niže). Cijenu ethera sustavu javlja grupa _oraclea_, tj. vanjskih servisa koje pokreću strane kojima MakerDAO vjeruje, i čiji su identiteti poznati isključivo MakerDAO Oracle timu. To je ujedno najcentraliziraniji i najosjetljiviji dio MakerDAO konstrukcije.
 
-Osim toga, MakerDAO ima i MKR token koji ima ulogu "vlasničkih dionica" u MakerDAO sustavu. Taj token se koristi za dodatnu likvidnost u slučaju da svi polozi postanu nedovoljni da se pokriju svi dugovi - npr. kod velikog kraha tržišta. Da sada to nije bilo potrebno, čak ni kod prošlogodišnjeg pada ethera od 94%, što DAI čini najstabilnijim stablecoinom na tržištu.
+Osim toga, MakerDAO ima i MKR token koji ima ulogu "vlasničkih dionica" u MakerDAO sustavu. Taj token se koristi za dodatnu likvidnost u slučaju da svi polozi postanu nedovoljni da se pokriju svi dugovi - npr. kod velikog kraha tržišta. Do sada to nije bilo potrebno, čak ni kod prošlogodišnjeg pada ethera od 94%, što DAI čini najstabilnijim stablecoinom na tržištu.
 
 ### Svrha MakerDAO sustava
 
 Ukratko, cijeli je taj sustav osmišljen da vam omogući sljedeće:
 
-1. Kreiranje zajma u DAI (dolarima) baziranom na količini vaših kriptovaluta
+1. Kreiranje zajma u DAI (dolarima) baziranog na količini vaših kriptovaluta
 2. Korištenje DAIa na bilo koji način koji vam odgovara
 3. Vraćanje DAIa kada poželite izvaditi svoj polog
 
@@ -24,9 +24,9 @@ Ako vrijednost ethera naraste, vratite DAI i imate vrijedniji ether. Još bolje 
 
 Na primjer:
 
-Ako ste koristili 1 ether da generirate 60 DAI po cijeni od 120 USD po etheru, vaš omjer kolateralizacije je 200% (120/60). Ako cijena ethera padne na 90 USD, vaš je polog riskantan i može ga se likvidirati čim ode ispod 150%. Onaj tko pokrene likvidaciju (to može biti bilo koji korisnik) dobiva malu nagradu u postotku vašeg pologa, a ostatak se likvidira za pokrivanje minusa, penalizira s dodatnih 13%, i sve što ostaje vraća vam se.
+Ako ste koristili 1 ether da generirate 60 DAI po cijeni od 120 USD po etheru, vaš omjer kolateralizacije je 200% (120/60). Ako cijena ethera padne na 90 USD, vaš je polog riskantan i može ga se likvidirati čim ode ispod 150%. Onaj tko pokrene likvidaciju (to može biti bilo koji promatrač) dobiva malu nagradu u postotku vašeg pologa, a ostatak se likvidira za pokrivanje minusa, penalizira s dodatnih 13%, i sve što ostaje vraća vam se.
 
-Sve to zvuči jako komplicirano, pa probajmo kreirati nešto DAIa.
+Probajmo kreirati nešto DAIa da objasnimo stvar na primjeru.
 
 ### Kreiranje DAIa
 
@@ -40,7 +40,7 @@ Korsitit ćemo MetaMask. Otključajte vaš [kripto novčanik](https://bitfalls.c
 
 Ovaj će ekran ispisati koliko točno koje podržane valute imate u otključanom novčaniku.
 
-_Napomena: DAI i MKR su ERC20 tokeni, što znači da MakerDAO pametnom ugovoru treba dati dozvolu da njima upravljaju s vašeg novčanika. Za to služi "Unlock" stupac. Otključavanje svake od tih valuta pokrenuti će posebnu transakciju i to je potrebno učiniti samo jednom. Budući da će vam to ionako biti potrebno kasnije ukoliko namjeravate koristiti ovaj sustav, najbolje je otključati obje odmah._
+_Napomena: DAI i MKR su ERC20 tokeni, što znači da MakerDAO pametnom ugovoru treba dati dozvolu da njima upravlja s vašeg novčanika. Za to služi "Unlock" stupac. Otključavanje svake od tih valuta pokrenuti će posebnu transakciju i to je potrebno učiniti samo jednom. Budući da će vam to ionako biti potrebno kasnije ukoliko namjeravate koristiti ovaj sustav, najbolje je otključati obje odmah._
 
 Otvorimo sada CDP s 0.9 ethera. **Nikada ne kolateralizirajte sav ether koji imate! Trebati će vam nešto ethera za troškove transakcija!** Kliknite na "Open CDP".
 
@@ -50,7 +50,7 @@ Sljedeći ekran omogućava unos iznosa DAIa koji želimo generirati i unos iznos
 
 Sljedeći ekran obavijestiti će vas da je otvaranje CDPa proces od 7 uzastopnih transakcija koje će radi praktičnosti biti automatizirane. Ukoliko vas interesira koje su to transakcije i što koja od njih radi, kliknite na strelicu kraj te obavijesti za proširenje ekrana i dodatne detalje. Potvrdite kreiranje CDPa i malo pričekajte dok se sve transakcije ne izvrše.
 
-Čim su transakcije potvrđene na Ethereum blockchainu, njihova potvrda biti će vidljiva i na Etherscanu gdje možete vidjeti detalje prijenosa novca i izvršavanja potrebne logike.
+Čim su transakcije potvrđene na Ethereum blockchainu, njihova potvrda biti će vidljiva i na Etherscanu gdje možete proučiti detalje.
 
 ![Transaction inspection](../images/04.png)
 
@@ -75,7 +75,7 @@ _Napomena: u bliskoj budućnosti MakerDAO će omogućiti otvaranje CDPa i drugim
 
 ## Zatvaranje CDPa
 
-Da bismo zatvorili CDP i vratili svoj polog, potrebno je vratiti puni iznos u DAIu. Kliknimo Paybak i... opa! Što je sada ovo crveno upozorenje?
+Da bismo zatvorili CDP i vratili svoj polog, potrebno je vratiti puni iznos u DAIu. Kliknimo Payback i... opa! Što je sada ovo crveno upozorenje?
 
 ![CDP payback](../images/07.png)
 
