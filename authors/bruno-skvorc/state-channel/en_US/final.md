@@ -140,13 +140,13 @@ While state channels are certainly one way to approach the development of this g
 
 ### Substrate
 
-- https://www.parity.io/substrate-has-arrived/
+- [https://www.parity.io/substrate-has-arrived/](https://www.parity.io/substrate-has-arrived/)
 
 Substrate is a framework for building custom blockchains with custom logic. It's made by Parity, and theoretically uses Polkadot to communicate with other blockchains. In theory, Valhello should be able to run on a custom substrate blockchain with each node verifying game logic, and then communicate game state across to Ethereum for some NFT goodness. This would, however, require a proof-of-authority-style blockchain to exist which means we'd need some kind of incentive for players or third parties to run the nodes validating and building the blockchain. This makes the game far less decentralized as it requires a permissioned layer to accept new validators into the blockchain's consensus.
 
 ### LoomX
 
-- https://loomx.io
+- [https://loomx.io](https://loomx.io)
 
 Loom is a company building plasma chains dedicated to specific dapps. One chain could be running Valhello and syncing to Ethereum through the Plasma bridge for NFT goodness. More information about Loom and their plasma chains can be found [here](https://bitfalls.com/2018/08/25/plasma-update-loom-now-has-3-sidechains-in-production/) and their SDK is [here](https://loomx.io). Because Loom also only supports DPoS, it's basically like a PoA chain so again loses out on some decentralization.
 
