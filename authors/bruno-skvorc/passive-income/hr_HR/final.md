@@ -32,11 +32,11 @@ Probajmo kreirati nešto DAIa da objasnimo stvar na primjeru.
 
 MakerDAOv CDP proces podržava [MetaMask](https://bitfalls.com/hr/2018/02/16/metamask-send-receive-ether/), [Ledger](https://bitfalls.com/hr/2017/09/08/hardware-wallets-like-ledger-nano-s-work/) i Trezor. Posjetite [cdp.makerdao.com](https://cdp.makerdao.com).
 
-![CDP home page](../images/01.png)
+![CDP home page](https://bitfalls.com/wp-content/uploads/2019/01/01.png)
 
 Korsitit ćemo MetaMask. Otključajte vaš [kripto novčanik](https://bitfalls.com/hr/2017/08/31/what-cryptocurrency-wallet/) koji ima nešto ethera i pokazati će vam se sljedeći ekran:
 
-![No CDP open](../images/02.png)
+![No CDP open](https://bitfalls.com/wp-content/uploads/2019/01/02.png)
 
 Ovaj će ekran ispisati koliko točno koje podržane valute imate u otključanom novčaniku.
 
@@ -46,17 +46,17 @@ Otvorimo sada CDP s 0.9 ethera. **Nikada ne kolateralizirajte sav ether koji ima
 
 Sljedeći ekran omogućava unos iznosa DAIa koji želimo generirati i unos iznosa ethera kojim garantiramo da ćemo taj dug u DAIu vratiti. Ja ću odabrati siguran omjer od 217% - 50 DAI za 0.9 eth.
 
-![Setting CDP parameters](../images/03.png)
+![Setting CDP parameters](https://bitfalls.com/wp-content/uploads/2019/01/03.png)
 
 Sljedeći ekran obavijestiti će vas da je otvaranje CDPa proces od 7 uzastopnih transakcija koje će radi praktičnosti biti automatizirane. Ukoliko vas interesira koje su to transakcije i što koja od njih radi, kliknite na strelicu kraj te obavijesti za proširenje ekrana i dodatne detalje. Potvrdite kreiranje CDPa i malo pričekajte dok se sve transakcije ne izvrše.
 
 Čim su transakcije potvrđene na Ethereum blockchainu, njihova potvrda biti će vidljiva i na Etherscanu gdje možete proučiti detalje.
 
-![Transaction inspection](../images/04.png)
+![Transaction inspection](https://bitfalls.com/wp-content/uploads/2019/01/04.png)
 
 Naš je CDP sada otvoren.
 
-![CDP screen](../images/05.png)
+![CDP screen](https://bitfalls.com/wp-content/uploads/2019/01/05.png)
 
 Na ovom nam se ekranu nude 4 opcije.
 
@@ -67,7 +67,7 @@ Na ovom nam se ekranu nude 4 opcije.
 
 DAI je sada već u našeom novčaniku, kao što to možemo vidjeti iz podataka na desnoj strani ekrana. Lako je taj podatak provjeriti i izravnom provjerom samog novčanika:
 
-![Metamask has 50 DAI](../images/06.png)
+![Metamask has 50 DAI](https://bitfalls.com/wp-content/uploads/2019/01/06.png)
 
 Sada možemo koristiti DAI na burzama koje ga podržavaju, za špekulaciju s drugim kriptovalutama, [web kupnju](https://ava.do), itd.
 
@@ -77,32 +77,32 @@ _Napomena: u bliskoj budućnosti MakerDAO će omogućiti otvaranje CDPa i drugim
 
 Da bismo zatvorili CDP i vratili svoj polog, potrebno je vratiti puni iznos u DAIu. Kliknimo Payback i... opa! Što je sada ovo crveno upozorenje?
 
-![CDP payback](../images/07.png)
+![CDP payback](https://bitfalls.com/wp-content/uploads/2019/01/07.png)
 
-MakerDAO sustav opstaje pomoći dodatne globalne kolateralizacije u MKR tokenima. MKR tokeni daju sustavu dodatnu likvidnost, a ujedno služe kao i "članarina" za korištenje MakerDAO pametnih ugovora. Zbog toga payback naplaćuje kamatu kod vraćanja duga (0.5% godišnje) u MKR tokenima ili u DAIu. No, ako plaćate u DAIu jer nemate MKR tokena, tada nije moguće vratiti sav iznos osim ako niste nabavili dodatnu količinu DAIa koja bi pokrila tu proviziju. To je noćna mora iz perspektive korisnika, i predložio bih MakerDAO timu da je čim prije adresira.
+MakerDAO sustav opstaje pomoću dodatne globalne kolateralizacije u MKR tokenima. MKR tokeni daju sustavu dodatnu likvidnost, a ujedno služe kao i "članarina" za korištenje MakerDAO pametnih ugovora. Zbog toga payback naplaćuje kamatu kod vraćanja duga (0.5% godišnje) u MKR tokenima ili u DAIu. No, ako plaćate u DAIu jer nemate MKR tokena, tada nije moguće vratiti sav iznos osim ako niste nabavili dodatnu količinu DAIa koja bi pokrila tu proviziju. To je noćna mora iz perspektive korisnika, i predložio bih MakerDAO timu da je čim prije adresira.
 
 Srećom, ovaj je problem moguće zaobići u kritičnim momentima. Ako cijena ethera počne dramatično padati i vaš polog postaje rizičan sve bržim približavanjem omjeru od 150%, možete vratiti i samo dio DAIa i odabrati plaćanje provizije u DAIu. Time ćete si povećati omjer i smanjiti izloženost riziku. Pogledajmo kako izvršiti djelomični povrat zajma.
 
-![Partial payback](../images/08.png)
+![Partial payback](https://bitfalls.com/wp-content/uploads/2019/01/08.png)
 
-![New ratio](../images/09.png)
+![New ratio](https://bitfalls.com/wp-content/uploads/2019/01/09.png)
 
 Svakako vrlo privlačan omjer! Šanse za likvidaciju su dramatično umanjene jer je cijena ethera na kojoj dolazi do nesigurnog omjera od 150% sada postala 33 USD. Ako pogledamo naše stanje DAIa uočiti ćemo da nas je ova provizija koju smo platili u DAIu koštala _manje od sedam miljuntinki_ DAIa.
 
-![DAI dust cost](../images/10.png)
+![DAI dust cost](https://bitfalls.com/wp-content/uploads/2019/01/10.png)
 
 Ovakve iznose zovemo DAI prašinom. Ipak, dovoljno da se uzrokuju problemi pa je dobro uvijek imati malo DAI ili MKR prašine na računu za pokrivanje provizije.
 
-Nadoplatimo sada svoj račun s malo DAIa ili MKRa iz drugih izvora (decentralizirane burze popit Idex, OasisDex, Kyber itd su super i ne trebaju verifikaciju) da potpuno zatvorimo ovaj CDP. Koristiti ću DAI u primjeru da otplatim preostalih 20 DAIa.
+Nadoplatimo sada svoj račun s malo DAIa ili MKRa iz drugih izvora (decentralizirane burze poput Idex, OasisDex, Kyber itd su super i ne trebaju verifikaciju) da potpuno zatvorimo ovaj CDP. Koristiti ću DAI u primjeru da otplatim preostalih 20 DAIa.
 
 
-![Close the CDP](../images/11.png)
+![Close the CDP](https://bitfalls.com/wp-content/uploads/2019/01/11.png)
 
-![Empty CDP](../images/12.png)
+![Empty CDP](https://bitfalls.com/wp-content/uploads/2019/01/12.png)
 
-Nekoliko transakcijskih potvrda kasnije naš CDP biti će prazan. Neće nestati, već će ostati kao "platforma" na kojoj dalje možemo koristiti MakerDAO sustav po volji. Da potpuno zatvorimo i obrišemo CDP povezan s ovom MetaMask ethereum adresom možemo kliknuti na Close CDP gumb gore desno. Tada nas aplikacija upozorava da moramo otplatiti sav DAI (što smo već učinili) te nakon potvrde briše CDP iz sustava pametnih ugovora.
+Nekoliko transakcijskih potvrda kasnije naš CDP biti će prazan. Neće nestati, već će ostati kao "platforma" na kojoj dalje možemo koristiti MakerDAO sustav po volji. Da potpuno zatvorimo i obrišemo CDP povezan s ovom MetaMask Ethereum adresom možemo kliknuti na Close CDP gumb gore desno. Tada nas aplikacija upozorava da moramo otplatiti sav DAI (što smo već učinili) te nakon potvrde briše CDP iz sustava pametnih ugovora.
 
-![Pay back DAI](../images/13.png)
+![Pay back DAI](https://bitfalls.com/wp-content/uploads/2019/01/13.png)
 
 ## Likvidacija
 
