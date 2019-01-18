@@ -68,6 +68,8 @@ Once done, you will be able to inspect the transaction linked on the confirmatio
 
 We now have our CDP.
 
+#### CDP Actions
+
 ![CDP screen](https://bitfalls.com/wp-content/uploads/2019/01/05.png)
 
 The screen lets us perform one of four actions:
@@ -85,7 +87,7 @@ We can now use the DAI in exchanges that support it, purchase [goods online](htt
 
 _Note: some time in the near future, MakerDAO will enable collateral in multiple assets. You will no longer need to use ether exclusively._
 
-## Closing a CDP
+## Paying back the DAI
 
 To close a CDP and get your collateral back, you pay back the full amount. Click Payback but... whoops! What's this red warning??
 
@@ -105,13 +107,15 @@ Let's see how a partial payback would work.
 
 ![New ratio](https://bitfalls.com/wp-content/uploads/2019/01/09.png)
 
-Well, can't argue with that ratio! The chances of liquidation are extremely low. Ether would have to go down to 33 USD! 
+Well, can't argue with that ratio! The chances of liquidation are extremely low. Ether would have to go down to 33 USD!
 
 Inspecting the DAI balance, we also see that this stability fee cost us less than _seven millionths_ of a DAI.
 
 ![DAI dust cost](https://bitfalls.com/wp-content/uploads/2019/01/10.png)
 
 DAI dust, we call this. Still enough to create trouble - so always make sure you have either some MKR dust, or some DAI dust, in addition to what you're paying back.
+
+### Closing a CDP
 
 Okay, now let's top up our account from elsewhere with some MKR or DAI to cover this dust. Decentralized exchanges like Idex, OasisDex, Kyber and similar work pretty well and need no verification.
 
