@@ -70,6 +70,8 @@ Sljedeći ekran obavijestiti će vas da je otvaranje CDPa proces od 7 uzastopnih
 
 Naš je CDP sada otvoren.
 
+#### CDP Akcije
+
 ![CDP screen](https://bitfalls.com/wp-content/uploads/2019/01/05.png)
 
 Na ovom nam se ekranu nude 4 opcije.
@@ -87,7 +89,7 @@ Sada možemo koristiti DAI na burzama koje ga podržavaju, za špekulaciju s dru
 
 _Napomena: u bliskoj budućnosti MakerDAO će omogućiti otvaranje CDPa i drugim kriptovalutama, ne samo etherom._
 
-## Zatvaranje CDPa
+## Vraćanje DAIa
 
 Da bismo zatvorili CDP i vratili svoj polog, potrebno je vratiti puni iznos u DAIu. Kliknimo Payback i... Što je sada ovo crveno upozorenje?
 

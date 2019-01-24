@@ -81,7 +81,7 @@ The screen lets us perform one of four actions:
 
 At this point, the DAI is in our account. This is evident in the right hand side of the screen. It can also be easily verified by checking MetaMask.
 
-![Metamask has 50 DAI](https://bitfalls.com/wp-content/uploads/2019/01/06.png)
+![MetaMask has 50 DAI](https://bitfalls.com/wp-content/uploads/2019/01/06.png)
 
 We can now use the DAI in exchanges that support it, purchase [goods online](https://ava.do), speculate on other cryptos, or any number of things.
 
