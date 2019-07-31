@@ -1,35 +1,26 @@
-Decentralised finance (DeFi) through Ethereum applications is booming. As the ecosystem continues to mature and investors look to consolidate following 2018’s brutal bear market, some hugely innovative steps have been taken to give holders and investors new ways to manage their money. Traditional financial instruments let holders borrow, lend, hedge, and leverage in pursuit of a return, and such options are beginning to become a reality on the blockchain too.
-DeFi applications also target those around the world who are excluded from some aspects of the financial system. While many require some collateral from the user, the services we will discuss don’t require a credit check and there is no middleman involved. This is where smart contracts come into their own and demonstrate the real power of decentralized financial systems.In this article we’ll be focusing on lending and borrowing, and in particular why an institution or investor would want to delve into this complex area. There is over $500m USD locked up in financial smart contracts at the time of writing, with the vast majority in borrowing and lending applications. To understand the options available, we’ll also run through some of the big Ethereum DeFi applications- Maker, Compound, Dharma, and dYdX. It's worth understanding the differences in these protocols and applications, subtle as they are, as their differences offer varying possibilities for borrowers and lenders.
+Decentralized finance (DeFi) through Ethereum applications is [booming](https://defi.academy).
 
-<h2>Maker</h2>
+As the ecosystem continues to mature and investors look to consolidate following 2018’s brutal bear market, some hugely innovative steps have been taken to give holders and investors new ways to manage their money. Traditional financial instruments let holders borrow, lend, hedge, and leverage in pursuit of a return, and such options are beginning to become a reality on the blockchain too.
 
-  
+DeFi applications also target those around the world who are excluded from some aspects of the financial system. While many require some collateral from the user, the services we will discuss don’t require a credit check and there is no middleman involved. This is where smart contracts come into their own and demonstrate the real power of decentralized financial systems. In this article we’ll be focusing on lending and borrowing, and in particular why an institution or investor would want to delve into this complex area.
+
+There is over $500m USD locked up in financial smart contracts at the time of writing, with the vast majority in borrowing and lending applications. To understand the options available, we’ll also run through some of the big Ethereum DeFi applications - Maker, Compound, Dharma, and dYdX. It's worth understanding the differences in these protocols and applications, subtle as they are, as their differences offer varying possibilities for borrowers and lenders.
+
+## Maker
 
 We ran through [Maker](https://makerdao.com/en/), and its stablecoin Dai, in a [previous article](https://bitfalls.com/2019/04/30/ethereum-stablecoin-primer-whats-currently-out-there/), so this will be a quick recap. We can’t talk about DeFi without mentioning Maker, the most used DeFi application out there in terms of value locked in. Over 1.6m ether is currently parked in smart contracts as collateral for Dai loans, which is comfortably over 1% of the total Ether supply.
 
-  
-
 As mentioned, Dai is a stablecoin with a peg that targets a value of 1 US Dollar. Unlike other stablecoins like Tether that are (partially) backed by dollars in the bank, Dai is backed by ether deposited by users. You can borrow Dai by sending your ether to a smart contract called a collateralized debt position (CDP), a process explained in [this article](https://bitfalls.com/2019/01/18/make-your-crypto-work-for-you-how-to-create-dai/). The CDP smart contract keeps everything in balance by minting and burning Dai as it is borrowed and returned.
-
-  
 
 Dai loans are overcollateralized (i.e. you get less than the monetary value of your ether in Dai when you use a CDP, and the ratio of ether to Dai must be higher than 125% to avoid losing your collateral), which protects the value of Dai should ether decrease drastically in price. You deposit a fluctuating asset and borrow a stable one in return. In comparison to the other services discussed here, Dai is the only asset you can currently borrow through Maker, although a [multi-collateral platform is in the works](https://medium.com/makerdao/update-the-road-to-multi-collateral-dai-2d4c48092270).
 
-  
-
 So, why lock your ether up? If you think the value of ether is going to increase, borrowing Dai against it means you can still use some of the monetary value of that ether for other purposes, while the underlying asset remains yours. You have liquidity while still holding your ether, and can pay off the CDP and, in essence, buy ether back at a knockdown price.
-
-  
 
 While entering into a CDP is a great way to get some liquidity for other purposes while still holding, other options exist for simply generating interest on the cryptocurrency you hold. Earning interest is something that anybody with a savings account can understand, but to achieve this on the blockchain, some newer services uses short term loans which allows users to lend their cryptocurrency.
 
-  
+## Compound
 
-<h2>Compound</h2>
-
-  
-
-[Compound](compound.finance) is a collection of smart contracts, accessed through an interface, that acts as a decentralized money market. Traditionally, money markets are used by financial institutions to make short term loans on assets with high liquidity. Those participating can put capital they don’t need at that moment to work, adding it to a shared pool of resources which are then loaned out to those who require it, with an interest fee.
+[Compound](https://compound.finance) is a collection of smart contracts, accessed through an interface, that acts as a decentralized money market. Traditionally, money markets are used by financial institutions to make short term loans on assets with high liquidity. Those participating can put capital they don’t need at that moment to work, adding it to a shared pool of resources which are then loaned out to those who require it, with an interest fee.
 
   
 
