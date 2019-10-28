@@ -12,7 +12,7 @@ Ethereum 2.0 will probably consist of 1024 **shards** and one beacon chain to co
 
 Cross shard communication depends on shards reading this information and learning that the shard they're interested in has experienced a change. To load that change, they need to query that shard (i.e. connect to the nodes validating that shard). Communication across shards is thus not atomic and can be slow, depending on how many hops the execution of a stack of transactions requires. Composability of smart contracts [may or may not break](https://ethresear.ch/t/cross-shard-defi-composability/6268/6), further possibly stabilized by [yanking](https://ethresear.ch/t/cross-shard-contract-yanking/1450), but it's all in the air right now.
 
-A discussion on reducing shard count by x16 exists, which would drop the number to a mere 64 and approach the numbers that Polkadot is aiming for with parachains. This would improve composability (higher chance of contracts being on the same shard) and reduce the required number of validators for optimal security (128 * 64 is 8192, versus 131k before), but this is still under heavy [discussion](https://notes.ethereum.org/@vbuterin/HkiULaluS) and has other tradeoffs (notably - more bandwidth to run a validator, you'd need a stable 5Mbit+ connection).
+A discussion on reducing shard count by a factor of 16 exists, which would drop the number to a mere 64 and approach the numbers that Polkadot is aiming for with parachains. This would improve composability (higher chance of contracts being on the same shard) and reduce the required number of validators for optimal security (128 * 64 is 8192, versus 131k before), but this is still under heavy [discussion](https://notes.ethereum.org/@vbuterin/HkiULaluS) and has other tradeoffs (notably - more bandwidth to run a validator, you'd need a stable 5Mbit+ connection).
 
 ### Parachains
 
@@ -20,18 +20,16 @@ Polkadot's Relay Chain is similar in concept to the beacon chain in Ethereum 2.0
 
 A chain optimized for DeFi use might exist, while another optimized for anonymous transactions might exist alongside it. Both will produce their blocks independently based on their own rules, but every X seconds where X is the target block time of the relay chain (depending on network performance) the hash of those blocks along with proofs that validators need to verify a legit state transition will be included into the relay chain.
 
-In Ethereum, each shard's _logic_ is identical to that of the other - more on that below. Parachains are added to Polkadot through an [auction system](https://wiki.polkadot.network/docs/en/learn-auction) - candidates bid on 6-month intervals of parachain slot leases. There will be few parachain slots to lease, so it should be a competitive market but this also means not every application-specific chain can expect to be able to get in on this scarce resource. Polkadot supports parachains as relay chains, so a nested relay chain architecture where a chain is another relay chain with its own parachains is also a possibility (similar to shards having shards in Ethereum 2).
+In Ethereum, each shard's _logic_ is identical to that of the other - more on that below. Parachains are added to Polkadot through an [auction system](https://wiki.polkadot.network/docs/en/learn-auction) - candidates bid on up to four 6-month intervals of parachain slot leases. DOTs of the lease auction's winner are locked up for the lease duration and returned afterwards. There will be few parachain slots to lease, so it should be a competitive market but this also means not every application-specific chain can expect to be able to get in on this scarce resource. Polkadot supports parachains as relay chains, so a nested relay chain architecture where a chain is another relay chain with its own parachains is also a possibility (similar to shards having shards in Ethereum 2). This part of Polkadot is still in research phase.
 
 In other words:
 
 - Ethereum shards: identical (homogenous) chains with shared security, splitting the network's load by evenly distributing it
 - Parachains: different (heterogenous) chains with shared security, splitting the network's load by making sure each chain deals with its own specific context
 
-Of note is the fact that parachains will exist only as _slots_ starting out, and those slots will be leased in auctions. The DOTs paid for an auction are locked for the duration of the lease (between 1 and 4 6-month periods) and returned after the lease expires.
-
 ### Parathreads
 
-A special case are Polkadot's **parathreads**. Logically, these are almost identical (see ICMP section below) to parachains, but economically they differ in that they don't lease a parachain slot long term and thus don't need to put down a lot of DOTs into lockdown to enjoy the shared security of Polkadot. Instead, they bid for block production (in non-refundable DOTs) at desired intervals along with other parathreads in the same parachain slot. _Parathreads are users or a special, shared parachain slot._
+A special case are Polkadot's **parathreads**. Logically, these are almost identical (see ICMP section below) to parachains, but economically they differ in that they don't lease a parachain slot long term and thus don't need to put down a lot of DOTs into lockdown to enjoy the shared security of Polkadot. Instead, they bid for block production (in non-refundable DOTs) at desired intervals along with other parathreads in the same parachain slot. _Parathreads are users of a special, shared parachain slot._
 
 When it's time for this slot to produce a block to send to the relay chain, the parathreads enter an auction for that block slot on the parachain slot. The top bids get into the relay chain, up to a block limit - currently 50 for the entire relay chain. On the surface, this seems like it would slow down some parathreads (i.e. some app specific blockchains deployed as parathreads) if there are more than 50 in the system, but this is not so - parathreads are designed to be used as "read often, write as needed" blockchains.
 
@@ -39,7 +37,7 @@ For example, a copyright parathread which logs new copyright registrations every
 
 One thing that should be noted is that if a parathread is using a local currency to reward collators, the collator must be natively aware of a DOT->local conversion rate if they are to be able to submit appropriate bids for block production in DOTs. That's an economic problem for a parathread to solve on its own.
 
-Parathreads are also leased like parachain slots, but for a much smaller deposit and there's no auction for slots - the capacity is estimated to be enough for everyone interested to join.
+Parathreads also require deposits in DOTs but there's no auction for slots - the capacity is estimated to be enough for everyone interested to join.
 
 ## Governance
 
@@ -59,7 +57,7 @@ It should be noted that making proposals for spending the Treasury's funds (see 
 
 In Ethereum, most of the [gas](https://bitfalls.com/2017/12/05/ethereum-gas-and-transaction-fees-explained/) spent on transactions is going to be [burned](https://eips.ethereum.org/EIPS/eip-1559). This creates deflationary pressure on the native currency, ether. The transactions being issued can contain a "tip" amount which acts as incentive for validators to prioritize certain transactions. This way, those using the network directly benefit all stakeholders as burned ether adds value to all ether.
 
-In Polkadot, transaction fees are split between the validators and the treasury, 20% - 80%. There is no burning. This is so that the protocol can throttle its inflation and deflation more effectively - as slashing is inherently an unpredictable event, burning the stake during mass-outage events would cause sudden deflation to no fault of the validators - it was an infrastructure or protocol level failure. In those cases, it's better to have the funds ready to pay for fixing things than to burn the funds and discourage network participation. The ratio of Treasury / Validator distribution can be changed through governance (see previous section).
+In Polkadot, transaction fees are split between the validators and the treasury, 20% - 80%. There is no burning. This is so that the protocol can throttle its inflation and deflation more effectively. As slashing is inherently an unpredictable event, burning the stake during mass-outage events would cause sudden deflation to no fault of the validators - it was an infrastructure or protocol level failure. In those cases, it's better to have the funds ready to pay for fixing things than to burn the funds and discourage network participation. The ratio of Treasury / Validator distribution can be changed through governance (see previous section).
 
 In Polkadot, blocks have reserved space for crucial transactions - like those of fishermen reporting misbehaviors. This allows fishermen to do their job even if the blocks are full.
 
@@ -75,7 +73,7 @@ In Ethereum, every 64th block is taken into account for finalization, and if 2/3
 
 Polkadot is similar but the 64 slot gap isn't there. Instead, as soon as 2/3 of validators agree on a block produced by BABE according to GRANDPA rules, that block and all those before it in the same chain are immediately finalized. GRANDPA - GHOST-based Recursive ANcestor Deriving Prefix Agreement - looks at chain forks with the closest finalized block and decides which blocks to finalize based on that. A big advantage of GRANDPA is that it can finalize whole chains at once, not just block by block. This comes in handy if the validator count has been dramatically reduced (major outage perhaps). Under BABE, blocks will keep being produced, but won't be finalized because of a lack of validators. Once enough validators are back online, an entire history of blocks is finalized at once.
 
-BABE assigns a "Primary" block producer based on the VRF (normal BABE - see Randomness below) and a "Secondary" based on the following equation: `blake2_256(epoch_randomness ++ slot_number) % authorities_len`. When a block producer wins the VRF, it broadcasts a message to say that it's the primary. If no primary messages are received within some window, then the Secondary assignee produces the block.  With this backup in place, Polkadot slots are effectively never without blocks, with a caveat - when choosing forks, the chain with more _primary_ blocks is prioritized, so it might happen that this chain has empty slots from the VRF process.
+BABE assigns a "Primary" block producer based on the VRF (normal BABE - see Randomness below) and a "Secondary" based on the following equation: `blake2_256(epoch_randomness ++ slot_number) % authorities_len`. When a block producer wins the VRF, it broadcasts a message to say that it's the primary. If no primary messages are received within some window (>>WHAT WINDOW AND HOW TO IMMUNIZE AGAINST LATENCY?), then the Secondary assignee produces the block.  With this backup in place, Polkadot slots are effectively never without blocks, with a caveat - when choosing forks, the chain with more _primary_ blocks is prioritized, so it might happen that this chain has empty slots from the VRF process.
 
 ## Randomness
 
@@ -88,7 +86,7 @@ However, it too will probably be mitigated by using a VDF - verifiable delay fun
 In Polkadot, VRF is used. VRF stands for verifiable random function. It's much simpler than RANDAO and VDF in that the validators who are participating in the network have a secret "randomness roll key" which is regenerated for every slot. They use this randomness key along with some other inputs (the randomness of the previous epochs and the slot number) to generate a random number for themselves and only themselves. Then, they compare this number to a protocol-defined number (a so-called threshold) and if their number is less than that threshold, they are a viable candidate for producing the next block. If they rolled too high, they should skip this slot. The VRF function which they use to roll this number is deterministic, so they cannot reroll to try again - for the same input, the same output will be produced. This function also produces a _proof_ - some data that proves the randomly rolled number is legit, without actually showing the roll or the inputs that went into it (thereby keeping the roll key secret). If someone doubts a validator's candidacy as block proposer on a given slot, they can just check the proof and make sure. If it doesn't match, they can report the validator for wrongdoing and have them punished.
 
 RANDAO + VDF is secure by default, in that the number produced is guaranteed to be random.
-VRF is secure after the fact (suspected wrongdoing must be pointed out), but is incomparably less resource intensive.
+VRF is secure after the fact (suspected wrongdoing must be pointed out), but is significantly less resource intensive.
 
 ## ICMP vs Crosslinks
 
@@ -135,7 +133,7 @@ The assignment of a validator is periodically (>>HOW OFTEN?) reshuffled so that 
 
 The maximum annual reward for validators is estimated to be 20%, and that's with 50% of all DOTs in existence staked (currently 10 million DOTs as a target). It is likely to be much lower.
 
-A collator is a full node of a specific parachain. The collator passes on data which becomes a block candidate, along with proof of the state transition so that the validator can replay and verify it. The collator depends on the local economy of the parachain - likely a local token - and will have to come with built-in logic on conversion rates between DOTs and the local token.
+A collator is a full node of a specific parachain. The collator passes data which becomes a block candidate, along with proof of the state transition so that the validator can replay and verify it. The collator depends on the local economy of the parachain - likely a local token. A parachain can also use DOTs as a native token, and a local token purely for governance or similar.
 
 Fishermen earn money for each valid report they make on some wrongdoing - the slashing amount is in part burned, in part sent to treasury, and in part given to the fisherman who reported the issue. The amounts depend on the offence and on how many other validators are in the same predicament (e.g. the offline penalties are much bigger if many validators are offline at the same time).
 
@@ -143,7 +141,7 @@ There is no limit to the amount of stake a validator can commit, and the active 
 
 ### Ethereum
 
-In Ethereum 2.0 only the validators are incentivized. They are given information by beacon nodes which will probably be run by large providers and used remotely (beacon nodes with data for all shards will need above-average machines) and they build crosslinks (see above) and attest to other crosslinks from that data. 
+In Ethereum 2.0 only the validators are incentivized. They are given information by beacon nodes which will probably be run by large providers and used remotely (beacon nodes with data for all shards will need above-average machines) and they build crosslinks (see above) and attest to other crosslinks from that data. To become a validator in Ethereum, one needs 32 ether to stake - no more, no less.
 
 In Ethereum, the less Ether is staked the higher the return rate, to incentivize more people to join. For example, for 1 million ether, the annual return rate is predicted to be 18%. For 100 million ether, the return rate drops to 1.81%. This is not a cause of concern, however, because locked ether is taken out of circulation and given that it's "fuel" for the network, the price of the asset should rise proportionately as demand increases, in particular due to other [lock-ups in DeFi](https://defipulse.com/).
 
