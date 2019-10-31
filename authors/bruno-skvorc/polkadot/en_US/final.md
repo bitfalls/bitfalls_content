@@ -41,7 +41,7 @@ Parathreads also require deposits in DOTs, but as mentioned earlier they are _mu
 
 ## Governance
 
-Ethereum has **no on-chain governance** of Ether holders and will probably never have such a system. The decision-making is ultimately social and political, which [can be dangerous for the health of the network](https://decrypt.co/5219/progpow-kristy-leigh-minehan-ethereum-mining-asic-gpu/) due to effective lobbying.
+Ethereum has **no on-chain governance** of ether holders and will probably never have such a system. The decision-making is ultimately social and political, which [can be dangerous for the health of the network](https://decrypt.co/5219/progpow-kristy-leigh-minehan-ethereum-mining-asic-gpu/) due to effective lobbying.
 
 Polkadot comes with **governance built-in** from the start. Three layers of vote holders exist in Polkadot - technical committee, council, and stakeholder (any DOT holder). The Technical Committee can - with the agreement of 3/4 of the Council - propose fast-tracked referenda which have shorter voting and enactment times, mainly for emergency upgrades. Members of the TC are different developer teams of the Polkadot Runtime and Runtime Environment. The Council and Stakeholders can make proposals for referenda, and referenda can change almost any aspect of the chain - from number of parachain/validator slots available, to payout fees, treasury expenses, and more.
 
@@ -219,7 +219,7 @@ There is no limit to the amount of stake a validator can commit, and the active 
 
 In Ethereum 2.0 only the validators are incentivized. They are given information by beacon nodes which will probably be run by large providers and used remotely (beacon nodes with data for all shards will need above-average machines) and they build crosslinks (see above) and attest to other crosslinks from that data. To become a validator in Ethereum, one needs 32 ether to stake - no more, no less.
 
-In Ethereum, the less Ether is staked the higher the return rate, to incentivize more people to join. For example, for 1 million ether, the annual return rate is predicted to be 18%. For 100 million ether, the return rate drops to 1.81%. This is not a cause of concern, however, because locked ether is taken out of circulation and given that it's "fuel" for the network, the price of the asset should rise proportionately as demand increases, in particular due to other [lock-ups in DeFi](https://defipulse.com/).
+In Ethereum, the less ether is staked the higher the return rate, to incentivize more people to join. For example, for 1 million ether, the annual return rate is predicted to be 18%. For 100 million ether, the return rate drops to 1.81%. This is not a cause of concern, however, because locked ether is taken out of circulation and given that it's "fuel" for the network, the price of the asset should rise proportionately as demand increases, in particular due to other [lock-ups in DeFi](https://defipulse.com/).
 
 ### Slashing
 
@@ -235,7 +235,7 @@ In Polkadot any offence not only slashes, but also removes a validator from the 
 
 ## Smart Contracts, Execution Environments, Runtimes and SPREE
 
-Finally, let's talk bout the meat of the protocol - the execution layer.
+Finally, let's talk about the meat of the protocol - the execution layer.
 
 In Ethereum, there will be the concept of Execution Enivronments. These will be special runtimes built by special teams and funded by special interests to run and execute custom code. In other words, if someone wants to build the ability to process bitcoin-like transactions into Ethereum, they need to fund a UTXO-execution-environment and make sure all clients add it to their code as well (likely helping with funding those efforts, or contributing outright). Once done, the execution environment becomes available to everyone - it's considered a network upgrade.
 
