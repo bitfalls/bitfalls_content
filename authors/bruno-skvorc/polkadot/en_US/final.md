@@ -165,7 +165,7 @@ In Ethereum, there will be the concept of Execution Enivronments. These will be 
 
 The first and default execution environment will be ewasm, a neutered version of Wasm flavored for Ethereum. The second one may very well be an EVM EE which would allow Ethereum 1 to continue living and breathing inside of Ethereum 2, perhaps on a dedicated shard. Developing custom EEs will be expensive and hard, so we don't expect to see many of them.
 
-eWASM will support smart contracts through languages that can compile to WASM like [Nimplay](https://github.com/status-im/nimplay/). EVM EE will support smart contracts just like Ethereum does today.
+Ewasm will support smart contracts through languages that can compile to Wasm like [Nimplay](https://github.com/status-im/nimplay/). EVM EE will support smart contracts just like Ethereum does today.
 
 In Polkadot, the relay chain does not have smart contract support. Given that there are no parachains yet, there is effectively nowhere to go if you want to develop a smart contract of any kind on Polkadot. However, Substrate - the framework on which the relay chain is built, and the framework which others will likely use to deploy parachains, has support for modules - blobs of plug-and-play code used to enhance your chain's runtime with new functionality. One such module is the Smart Contracts module which, when plugged into a parachain, can support smart contract execution. There are two caveats to such a model:
 
