@@ -29,7 +29,7 @@ In other words:
 
 ### Parathreads
 
-A special case are Polkadot's **parathreads**. Logically, these are almost identical (see ICMP section below) to parachains, but economically they differ in that they don't lease a parachain slot long term and thus don't need to put down a lot of DOTs into lockdown to enjoy the shared security of Polkadot. Instead, they bid for block production (in non-refundable DOTs) at desired intervals along with other parathreads in the same parachain slot. _Parathreads are users of a special, shared parachain slot._
+A special case are Polkadot's **parathreads**. Logically, these are almost identical (see ICMP section below) to parachains, but economically they differ in that they don't lease a parachain slot long term. Because the number of DOTs required to register a parathread slot is far lower than the amount one would need to register a parachain through an auction, parathreads get to enjoy the shared security of the relay chain at a much lower cost. However, they have to bid for block production (in non-refundable DOTs) at desired intervals along with other parathreads in the same parachain slot. _Parathreads are users of a special, shared parachain slot._
 
 When it's time for this slot to produce a block to send to the relay chain, the parathreads enter an auction for that block slot on the parachain slot. The top bids get into the relay chain, up to a block limit - currently 50 for the entire relay chain. On the surface, this seems like it would slow down some parathreads (i.e. some app specific blockchains deployed as parathreads) if there are more than 50 in the system, but this is not so - parathreads are designed to be used as "read often, write as needed" blockchains.
 
@@ -37,7 +37,7 @@ For example, a copyright parathread which logs new copyright registrations every
 
 One thing that should be noted is that if a parathread is using a local currency to reward collators, the collator must be natively aware of a DOT->local conversion rate if they are to be able to submit appropriate bids for block production in DOTs. That's an economic problem for a parathread to solve on its own.
 
-Parathreads also require deposits in DOTs but there's no auction for slots - the capacity is estimated to be enough for everyone interested to join.
+Parathreads also require deposits in DOTs, but as mentioned earlier they are _much_ smaller than the deposits needed for parachain slots, and there's no auction for slots - the capacity is estimated to be enough for everyone interested to join.
 
 ## Governance
 
@@ -57,17 +57,19 @@ It should be noted that making proposals for spending the Treasury's funds (see 
 
 ## Transaction fees and treasuries
 
-In Ethereum, most of the [gas](https://bitfalls.com/2017/12/05/ethereum-gas-and-transaction-fees-explained/) spent on transactions is going to be [burned](https://eips.ethereum.org/EIPS/eip-1559). This creates deflationary pressure on the native currency, ether. The transactions being issued can contain a "tip" amount which acts as incentive for validators to prioritize certain transactions. This way, those using the network directly benefit all stakeholders as burned ether adds value to all ether.
+In Ethereum, most of the [gas](https://bitfalls.com/2017/12/05/ethereum-gas-and-transaction-fees-explained/) spent on transactions is going to be [burned](https://eips.ethereum.org/EIPS/eip-1559). This creates deflationary pressure on the native currency, ether. Those using the network directly benefit all stakeholders as burned ether adds value to all ether. The transactions being issued can contain a "tip" amount which acts as incentive for validators to prioritize certain transactions. The tip is given to the validator who includes the transaction in a block, so most validators would be interested in automatically grabbing the highest-tipped transactions first.
 
-In Polkadot, transaction fees are split between the validators and the treasury, 20% - 80%. There is no burning. This is so that the protocol can throttle its inflation and deflation more effectively. As slashing is inherently an unpredictable event, burning the stake during mass-outage events would cause sudden deflation to no fault of the validators - it was an infrastructure or protocol level failure. In those cases, it's better to have the funds ready to pay for fixing things than to burn the funds and discourage network participation. The ratio of Treasury / Validator distribution can be changed through governance (see previous section).
+In Polkadot, transaction fees are split between the validators and the treasury, 20% - 80%. There is no burning. This is so that the protocol can throttle its inflation and deflation more effectively. As slashing is inherently an unpredictable event, burning the stake during mass-outage events would cause sudden deflation through no fault of the validators - it was an infrastructure or protocol level failure. In those cases, it's better to have the funds ready to pay for fixing things than to burn the funds and discourage network participation. The ratio of Treasury / Validator distribution can be changed through governance (see previous section).
 
-In Polkadot, blocks have reserved space for crucial transactions - like those of fishermen reporting misbehaviors. This allows fishermen to do their job even if the blocks are full.
+In Polkadot, blocks have reserved space for crucial transactions - like those of fishermen reporting misbehavior. This allows fishermen to do their job even if the blocks are full.
 
 Like Ethereum, Polkadot also has tips on transactions for dealing with spikes in block space demand.
 
 ## Consensus
 
-Ethereum implements finalization through a system called [Gasper](https://our.status.im/two-point-oh-justification-and-finalization/), a blend of LMD GHOST (Last Message Driven Greediest Heaviest Observed SubTree) and Casper FFG (friendly finality gadget). Finalization is the concept of being so certain a block is correct and cannot be undone that being wrong about this claim would result in the punishment of a large part of the network (a large number of validators). Polkadot uses GRANDPA (GHOST-based Recursive ANcestor Deriving Prefix Agreement) to do the same thing.
+Ethereum implements finalization through a system called [Gasper](https://our.status.im/two-point-oh-justification-and-finalization/), a blend of LMD GHOST (Last Message Driven Greediest Heaviest Observed SubTree) and Casper FFG (friendly finality gadget). Polkadot uses GRANDPA (GHOST-based Recursive ANcestor Deriving Prefix Agreement) to do the same thing.
+
+_Note: Finalization means that a block is considered a permanent part of a blockchain's history, as verified by a 2/3 majority of all the validators._
 
 Both Ethereum and Polkadot separate block production from finalization. In Ethereum, block production doesn't have a special name. In Polkadot, it's called [BABE](https://research.web3.foundation/en/latest/polkadot/BABE/Babe/) - Blind Assignment for Blockchain Extension. This separation makes sure that block production can continue without finalization, theoretically supporting blockchain growth even with a severely reduced number of validators. Once enough are back online, the finalization process can finalize the blocks starting from the last finalized one.
 
@@ -83,7 +85,7 @@ Randomness is very important in blockchains using proof of stake. You need a way
 
 In Ethereum 2.0, randomness will come from a two-part system: the first is RANDAO, the second is VDF. RANDAO is what's called a commit-reveal scheme in which, to put it plainly, many validators secretly pick a number, and then the result is some mathematical operation performed on all those numbers, revealed one by one. Since it is not possible to predict which number all of the validators will chose, and the final output can vary wildly depending on just a single one of them, it's not possible to predict this random number. However, it is possible to influence it because the last revealer always has the option of not revealing his number, after he calculated that the current number is more in his favor than the one with his reveal. The chances of this happening are miniscule and the advantage to be gained by this bit-level influence would have to be immense - the network is plenty secure even without mitigating this risk. 
 
-However, it too will probably be mitigated by using a VDF - verifiable delay function. In layman's terms, a VDF is function which is mathematically proven to take a long time, and cannot be sped up by throwing more computers at it (it is non-parallelizable). This delayed function executes another mathematical operation on top of the RANDAO number in order to make the result come "late" - an hour and a half after the numbers have been revealed. These devices will be open source and distributed freely, and there is no incentive for running them. For more info on Ethereum 2 randomness, see [this post](https://our.status.im/two-point-oh-randomness/) and for more info on VDF, please see [the VDF research site](https://vdfresearch.org).
+However, it too will probably be mitigated by using a VDF - verifiable delay function. In layman's terms, a VDF is function which is mathematically proven to take a long time, and cannot be sped up by throwing more computers at it (it is non-parallelizable). This delayed function executes another mathematical operation on top of the RANDAO number in order to make the result come "late" - an hour and a half after the numbers have been revealed. Special devices called ASICs will be running these functions, and they will be open source and distributed freely. There is no incentive for running them. For more info on Ethereum 2 randomness, see [this post](https://our.status.im/two-point-oh-randomness/) and for more info on VDF, please see [the VDF research site](https://vdfresearch.org).
 
 In Polkadot, VRF is used. VRF stands for verifiable random function. It's much simpler than RANDAO and VDF in that the validators who are participating in the network have a secret "randomness roll key" which is regenerated for every slot. They use this randomness key along with some other inputs (the randomness of the previous epochs and the slot number) to generate a random number for themselves and only themselves. Then, they compare this number to a protocol-defined number (a so-called threshold) and if their number is less than that threshold, they are a viable candidate for producing the next block. If they rolled too high, they should skip this slot. The VRF function which they use to roll this number is deterministic, so they cannot reroll to try again - for the same input, the same output will be produced. This function also produces a _proof_ - some data that proves the randomly rolled number is legit, without actually showing the roll or the inputs that went into it (thereby keeping the roll key secret). If someone doubts a validator's candidacy as block proposer on a given slot, they can just check the proof and make sure. If it doesn't match, they can report the validator for wrongdoing and have them punished.
 
@@ -119,7 +121,7 @@ In Polkadot:
 |Nominator  |Nominates a validator through which to proxy-stake.         |Yes         |In theory|
 |Fishermen  |Monitor the network for misdeeds like equivocation or illegal randomness.|Yes|Yes|
 
-Validators can be fishermen, which makes fishermen optional. Nominators are _theoretically_ unnecessary, i.e. the network would work fine without them if the validators had enough self-stake to keep themselves in the validator pool.
+Validators can be fishermen, which makes fishermen optional. Nominators are _theoretically_ unnecessary, i.e. the network would work fine without them if the validators had enough self-stake to keep themselves in the validator pool, but the relay chain will almost certainly have them in practice..
 
 ## Inflation
 
@@ -129,7 +131,7 @@ In both Polkadot and Ethereum the inflation is dynamic and defined as "minimum n
 
 ### Polkadot
 
-In Polkadot a validator is a full client (>>FULL OR LIGHT?) of all chains and threads, thus very resource intensive on hard drive space and read/write ops, and on bandwidth.
+In Polkadot a validator is a light client of all chains and threads, which can get very resource intensive on hard drive space and read/write ops, and on bandwidth.
 
 The assignment of a validator is periodically (>>HOW OFTEN?) reshuffled so that a single validator isn't always responsible for a single parachain. A validator earns DOT from block production (inflation) and transaction fees in a 80/20 spread. 80% of the transaction fee goes to the Polkadot Treasury. The validator gets rewarded twice - they set a fixed number of DOT to get per reward period (epoch - roughly 6 hours), and the rest is then dividied among all the nominators who have nominated this validator, and the validator, based on their respective amounts of staked DOT. It's important to note that nominators can still lose their DOT if they backed an incompetent validator - this is not delegated proof of stake where you simply signal your trust in someone, you literally unlock your DOTs for "burning by malfeasance" when nominating.
 
