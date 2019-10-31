@@ -163,7 +163,7 @@ Finally, let's talk bout the meat of the protocol - the execution layer.
 
 In Ethereum, there will be the concept of Execution Enivronments. These will be special runtimes built by special teams and funded by special interests to run and execute custom code. In other words, if someone wants to build the ability to process Bitcoin-like transactions into Ethereum, they need to fund a UTXO-execution-environment and make sure all clients add it to their code as well (likely helping with funding those efforts, or contributing outright). Once done, the execution environment becomes available to everyone - it's considered a network upgrade.
 
-The first and default execution environment will be eWASM, a neutered version of WASM flavored for Ethereum. The second one may very well be an EVM EE which would allow Ethereum 1 to continue living and breathing inside of Ethereum 2, perhaps on a dedicated shard. Developing custom EEs will be expensive and hard, so we don't expect to see many of them.
+The first and default execution environment will be ewasm, a neutered version of Wasm flavored for Ethereum. The second one may very well be an EVM EE which would allow Ethereum 1 to continue living and breathing inside of Ethereum 2, perhaps on a dedicated shard. Developing custom EEs will be expensive and hard, so we don't expect to see many of them.
 
 eWASM will support smart contracts through languages that can compile to WASM like [Nimplay](https://github.com/status-im/nimplay/). EVM EE will support smart contracts just like Ethereum does today.
 
