@@ -125,7 +125,79 @@ Validators can be fishermen, which makes fishermen optional. Nominators are _the
 
 ## Inflation
 
-In both Polkadot and Ethereum the inflation is dynamic and defined as "minimum necessary inflation". The exact number will depend on the amount of staked coins.
+In both Polkadot and Ethereum the inflation is dynamic and defined as "minimum necessary inflation". The exact number will depend on the amount of staked coins. The following are only estimates.
+
+### Ethereum
+
+<table>
+<thead>
+<tr>
+<th align="left">ETH validating</th>
+<th align="left">Max annual issuance</th>
+<th align="left">Max annual network issuance %</th>
+<th align="left">Max annual return rate  (for validators)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">1,000,000</td>
+<td align="left">181,019</td>
+<td align="left">0.17%</td>
+<td align="left">18.10%</td>
+</tr>
+<tr>
+<td align="left">3,000,000</td>
+<td align="left">313,534</td>
+<td align="left">0.30%</td>
+<td align="left">10.45%</td>
+</tr>
+<tr>
+<td align="left">10,000,000</td>
+<td align="left">572,433</td>
+<td align="left">0.54%</td>
+<td align="left">5.72%</td>
+</tr>
+<tr>
+<td align="left">30,000,000</td>
+<td align="left">991,483</td>
+<td align="left">0.94%</td>
+<td align="left">3.30%</td>
+</tr>
+<tr>
+<td align="left">100,000,000</td>
+<td align="left">1,810,193</td>
+<td align="left">1.71%</td>
+<td align="left">1.81%</td>
+</tr>
+<tr>
+<td align="left">134,217,728</td>
+<td align="left">2,097,152</td>
+<td align="left">1.56%</td>
+<td align="left">1.56%</td>
+</tr>
+</tbody>
+</table>
+
+_Source: https://docs.ethhub.io/ethereum-basics/monetary-policy/_
+
+### Polkadot:
+
+Estimated 10-20% for the first year, designed to be closer to 10%.
+
+![Inflation curve](https://wiki.polkadot.network/docs/assets/NPoS/staking-participation-rate.png)
+
+x-axis: amount of DOTs staked
+
+y-axis: the annualized percentage
+
+Green line: return rate based on the staking participation
+
+Blue line: inflation rate
+
+The above chart shows the inflation model of the network. Depending on the staking participation, the inflation rate will change dynamically to incent / disincent token holders to participate in staking. For instance, inflation would be 10% if 50% of DOTs are staked in the network.
+
+_Source: https://research.web3.foundation/en/latest/polkadot/Token%20Economics/#inflation-model_
+
 
 ## Validators and staking economy
 
@@ -137,7 +209,7 @@ The assignment of a validator is periodically (>>HOW OFTEN?) reshuffled so that 
 
 The maximum annual reward for validators is estimated to be 20%, and that's with 50% of all DOTs in existence staked (currently 10 million DOTs as a target). It is likely to be much lower.
 
-A collator is a full node of a specific parachain. The collator passes data which becomes a block candidate, along with proof of the state transition so that the validator can replay and verify it. The collator depends on the local economy of the parachain - likely a local token. A parachain can also use DOTs as a native token, and a local token purely for governance or similar.
+A collator is a full node of a specific parachain. The collator passes data which becomes a block candidate, along with proof of the state transition so that the validator can replay and verify it. The collator most likely depends on the local economy of the parachain - probably a local token. A parachain can also use wrapped DOTs as a native token, and a local token purely for governance or similar, and there's the possibility of token-less collators too (in, for example, a PoA chain).
 
 Fishermen earn money for each valid report they make on some wrongdoing - the slashing amount is in part burned, in part sent to treasury, and in part given to the fisherman who reported the issue. The amounts depend on the offence and on how many other validators are in the same predicament (e.g. the offline penalties are much bigger if many validators are offline at the same time).
 
