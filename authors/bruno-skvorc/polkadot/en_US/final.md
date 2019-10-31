@@ -178,7 +178,7 @@ Think of SPREEs - Shared Protected Runtime Execution Enclaves - as part of a "st
 
 In summary:
 
-- Ethereum will continue to support smart contracts as it does today, but they will have to be written in a language which can compile to WASM. Several Solidity-to-WASM compilers are in progress and should be ready by then.
+- Ethereum will continue to support smart contracts as it does today, but they will have to be written in a language which can compile to ewasm. Several Solidity-to-Wasm compilers are in progress and should be ready by then.
 - Polkadot will support smart contracts on smart contract parachains. Not all parachains need smart contracts because smart contracts, especially the general kind available on Ethereum, need gas metering to prevent abuse. If you instead rigidly define the types of transactions that are possible on your application specific parachain, you're much more likely to get the economy of usage right, and to reduce various bugs possible due to bad metering implementations.
 
 ---
