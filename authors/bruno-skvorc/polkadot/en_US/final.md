@@ -256,6 +256,8 @@ Given that Polkadot's entire story arc is the interconnectivity of these paracha
 
 Think of SPREEs - Shared Protected Runtime Execution Enclaves - as part of a "standard library" for parachains. The standard library will contain many different SPREEs, and they all live on the relay chain as Wasm blobs of code that parachains can "opt in to". For example, say there is a SPREE which handles token transfers. If two parachains opt into this SPREE, they both get the built-in ability to transfer tokens. Thus, a message that says "transfer tokens" means the same thing to both chains, and they can reliably communicate. SPREEs have their own ICMP endpoints so they can receive messages and their own isolated storage.
 
+There is currently a semi-active [discussion](https://ethresear.ch/t/on-beacon-chain-saved-contracts/6295) in Ethereum 2.0 on storing code on the beacon chain, much like in SPREE.
+
 In summary:
 
 - Ethereum will continue to support smart contracts as it does today, but they will have to be written in a language which can compile to ewasm. Several Solidity-to-Wasm compilers are in progress and should be ready by then.
